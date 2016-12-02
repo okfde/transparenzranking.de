@@ -1,7 +1,7 @@
-<svg height="15px" width="{{Object.keys(indexInfo).length * 12}}">
+<svg height="15px">
     <rect ng-repeat="(key,val) in indexInfo track by $index"
           height="10px"
           width="10px"
-          x="{{$index * 12}}"
-          class="{{val['erreichte Punkte'] > val['Maximalpunkte'] / 2 ? 'index-valid' : 'index-invalid'}}"></rect>
+          ng-attr-x="{{$index * 12}}"
+          ng-attr-class="{{val['erreichte Punkte'] > val['Maximalpunkte'] / 2 ? 'index-valid' : 'index-invalid'}}"></rect>
 </svg>

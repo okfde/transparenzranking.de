@@ -1,34 +1,37 @@
 <html>
     <head>
-        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="main.css">
     </head>
     <body ng-app="IFG-index">
         <h1>IFG-INDEX</h1>
         <div class="index-main" ng-controller="MainCtrl">
-            <h2>{{test}}</h2>
             <div class="table-responsive table-bordered">
                 <table class="table table-hover table-striped table-header-rotated">
                     <thead>
                         <tr>
                             <th class="right-border"></th>
                             <th ng-repeat="cat in indexCategories" class="str rotate-45 verticalTableHeader">{{cat}}</th>
+                            <th class="str rotate-45 verticalTableHeader">Score</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr ng-repeat="(district, val) in indexData">
-                            <td class="right-border"><strong>{{district}}</strong></td>
+                            <td class="right-border"><strong>{{val.name}}</strong></td>
                             <td ng-repeat="cat in indexCategories">
-                                <index-vis data-info="val[cat]" identifier="{{district}}_{{cat.replace(' ', '_').replace('.','')}}"/>
+                                <index-vis data-info="val[cat]"/>
+                            </td>
+                            <td>
+                                {{val.score}}%
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        <script src="/bower_components/d3/d3.min.js"></script>
-        <script src="/bower_components/angular/angular.min.js"></script>
-        <script src="/bower_components/tabletop/src/tabletop.js"></script>
+        <script src="bower_components/d3/d3.min.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/tabletop/src/tabletop.js"></script>
         <script src="main.js"></script>
     </body>
 </html>

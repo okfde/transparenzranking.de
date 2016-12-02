@@ -1,12 +1,33 @@
 var app = angular.module('IFG-index', []);
 
 app.controller('MainCtrl', function (data,$scope) {
-    $scope.test = 'no';
     data.getIndexData( function(result) {
         $scope.indexData = result.data;
         $scope.indexCategories = result.names;
         $scope.test = 'yes';
         console.log(result);
+
+        $scope.indexData = Object.keys($scope.indexData).map(function(currentIndex) {
+            var currentSet = $scope.indexData[currentIndex];
+            var score = 0;
+            var scoreMax = 0;
+            for (var currentIndicatorIndex in currentSet) {
+                var currentIndicator = currentSet[currentIndicatorIndex];
+                for (currentOptionIndex in currentIndicator) {
+                    var currentOption = currentIndicator[currentOptionIndex];
+                    scoreMax += currentOption.Maximalpunkte;
+                    score += currentOption['erreichte Punkte'];
+                }
+            }
+            currentSet.score = score;
+            currentSet.maxScore = scoreMax;
+            currentSet.name = currentIndex;
+            return currentSet;
+        });
+        $scope.indexData = $scope.indexData.sort(function(a,b) {
+            return b.score - a.score;
+        })
+
         $scope.$apply();
     })
 });
