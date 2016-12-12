@@ -1,0 +1,221 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Cabin", "Georgia", Arial, sans-serif;
+$base-font-size:   21px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$shadow: 0 0 4px 0 rgba(128, 128, 128, 0.5);
+
+//colors
+$font-blue: #112233;
+$font-grey: #515b66;
+$darkblue: #232b3d;
+$white : #fff;
+$silver: #c3cad1;
+
+//categories
+$information-color: #ffcb64;
+$obligation-color: #ff7c7c;
+$exception-color: #ff639c;
+$proposal-color: #d3b4ff;
+$fee-color: #83eeff;
+$agent-color: #6ddecb;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/Cabin/cabin-regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/Cabin/cabin-italic.ttf);
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/Cabin/cabin-medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/Cabin/cabin-medium-italic.ttf);
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/Cabin/cabin-semi-bold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/Cabin/cabin-semi-bold-italic.ttf);
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/Cabin/cabin-bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/Cabin/cabin-bold-italic.ttf);
+  font-style: italic;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+header {
+  padding-bottom: 17px;
+  box-shadow: $shadow;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: $font-blue;
+  margin: 66px 0 29px 0;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 21px;
+  line-height: 1.57;
+  color: $font-grey;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: $darkblue;
+  color: $white;
+  height: 100%;
+  padding-bottom: 90px;
+}
+
+footer p {
+  color: $silver;
+  font-size: 15px;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+footer a, footer a:hover, footer a:visited {
+  color: $silver;
+}
+
+.dropdown-toggle {
+  font-weight: bold;
+  font-size: 15px;
+  color: $font-blue;
+  box-shadow: $shadow;
+  padding: 15px;
+}
+
+.dropdown-toggle .caret {
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.logo-description {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: $font-blue;
+}
+
+.site-header .left {
+  margin-top: 23px;
+}
+
+.site-header .right {
+  margin-top: 16px;
+}
+
+.vis-btn-cat {
+  height: 3em;
+  padding: 0 1em;
+  border: 0px solid black;
+  box-shadow: $shadow;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.vis-btn-information {
+  border-left: 3px solid $information-color;
+}
+
+.vis-btn-obligation {
+  border-left: 3px solid $obligation-color;
+}
+
+.vis-btn-exception {
+  border-left: 3px solid $exception-color;
+}
+
+.vis-btn-proposal {
+  border-left: 3px solid $proposal-color;
+}
+
+.vis-btn-fee {
+  border-left: 3px solid $fee-color;
+}
+
+.vis-btn-agent {
+  border-left: 3px solid $agent-color;
+}
+
+footer .logo {
+  max-width: 200px;
+  max-height: 100px;
+  margin-left: 30px;
+}
+
+
+
+
