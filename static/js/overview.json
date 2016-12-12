@@ -1,0 +1,326 @@
+{
+  "Informationsrechte": {
+    "Hamburg": {
+      "points": 18,
+      "max": 24
+    },
+    "Mecklenburg-Vorpommern": {
+      "points": 4,
+      "max": 24
+    },
+    "Schleswig-Holstein": {
+      "points": 8,
+      "max": 24
+    },
+    "Saarland": {
+      "points": 3,
+      "max": 24
+    },
+    "Bund": {
+      "points": 5,
+      "max": 24
+    },
+    "Berlin": {
+      "points": 9,
+      "max": 24
+    },
+    "Brandenburg": {
+      "points": 5,
+      "max": 24
+    },
+    "NRW": {
+      "points": 1,
+      "max": 24
+    },
+    "Bremen": {
+      "points": 13,
+      "max": 24
+    },
+    "Sachsen-Anhalt": {
+      "points": 4,
+      "max": 24
+    },
+    "Baden-Württemberg": {
+      "points": 5,
+      "max": 24
+    },
+    "Thüringen": {
+      "points": 4,
+      "max": 24
+    },
+    "Rheinland-Pfalz": {
+      "points": 14,
+      "max": 24
+    }
+  },
+  "Auskunftspflichten versch. Bereiche": {
+    "Hamburg": {
+      "points": 10,
+      "max": 20
+    },
+    "Mecklenburg-Vorpommern": {
+      "points": 14,
+      "max": 20
+    },
+    "Schleswig-Holstein": {
+      "points": 17,
+      "max": 20
+    },
+    "Saarland": {
+      "points": 14,
+      "max": 20
+    },
+    "Bund": {
+      "points": 11,
+      "max": 20
+    },
+    "Berlin": {
+      "points": 18,
+      "max": 20
+    },
+    "Brandenburg": {
+      "points": 16,
+      "max": 20
+    },
+    "NRW": {
+      "points": 15,
+      "max": 20
+    },
+    "Bremen": {
+      "points": 17,
+      "max": 20
+    },
+    "Sachsen-Anhalt": {
+      "points": 10,
+      "max": 20
+    },
+    "Baden-Württemberg": {
+      "points": 6,
+      "max": 18
+    },
+    "Thüringen": {
+      "points": 11,
+      "max": 20
+    },
+    "Rheinland-Pfalz": {
+      "points": 7,
+      "max": 20
+    }
+  },
+  "Ausnahmen": {
+    "Hamburg": {
+      "points": 19,
+      "max": 20
+    },
+    "Mecklenburg-Vorpommern": {
+      "points": 0,
+      "max": 20
+    },
+    "Schleswig-Holstein": {
+      "points": 15,
+      "max": 20
+    },
+    "Saarland": {
+      "points": 2,
+      "max": 20
+    },
+    "Bund": {
+      "points": 7,
+      "max": 20
+    },
+    "Berlin": {
+      "points": 16,
+      "max": 20
+    },
+    "Brandenburg": {
+      "points": 14,
+      "max": 20
+    },
+    "NRW": {
+      "points": 6,
+      "max": 20
+    },
+    "Bremen": {
+      "points": 15,
+      "max": 20
+    },
+    "Sachsen-Anhalt": {
+      "points": 4,
+      "max": 20
+    },
+    "Baden-Württemberg": {
+      "points": 6,
+      "max": 20
+    },
+    "Thüringen": {
+      "points": 2,
+      "max": 20
+    },
+    "Rheinland-Pfalz": {
+      "points": 12,
+      "max": 20
+    }
+  },
+  "Antragsstellung und Antwort": {
+    "Hamburg": {
+      "points": 12,
+      "max": 16
+    },
+    "Mecklenburg-Vorpommern": {
+      "points": 9,
+      "max": 16
+    },
+    "Schleswig-Holstein": {
+      "points": 12,
+      "max": 16
+    },
+    "Saarland": {
+      "points": 9,
+      "max": 16
+    },
+    "Bund": {
+      "points": 8,
+      "max": 16
+    },
+    "Berlin": {
+      "points": 12,
+      "max": 16
+    },
+    "Brandenburg": {
+      "points": 10,
+      "max": 16
+    },
+    "NRW": {
+      "points": 10,
+      "max": 16
+    },
+    "Bremen": {
+      "points": 8,
+      "max": 16
+    },
+    "Sachsen-Anhalt": {
+      "points": 7,
+      "max": 16
+    },
+    "Baden-Württemberg": {
+      "points": 7,
+      "max": 16
+    },
+    "Thüringen": {
+      "points": 8,
+      "max": 16
+    },
+    "Rheinland-Pfalz": {
+      "points": 8,
+      "max": 16
+    }
+  },
+  "Gebühren": {
+    "Hamburg": {
+      "points": 8,
+      "max": 10
+    },
+    "Mecklenburg-Vorpommern": {
+      "points": 8,
+      "max": 10
+    },
+    "Schleswig-Holstein": {
+      "points": 7,
+      "max": 10
+    },
+    "Saarland": {
+      "points": 7,
+      "max": 10
+    },
+    "Bund": {
+      "points": 8,
+      "max": 10
+    },
+    "Berlin": {
+      "points": 5,
+      "max": 10
+    },
+    "Brandenburg": {
+      "points": 5,
+      "max": 10
+    },
+    "NRW": {
+      "points": 6,
+      "max": 10
+    },
+    "Bremen": {
+      "points": 7,
+      "max": 10
+    },
+    "Sachsen-Anhalt": {
+      "points": 2,
+      "max": 10
+    },
+    "Baden-Württemberg": {
+      "points": 3,
+      "max": 10
+    },
+    "Thüringen": {
+      "points": 3,
+      "max": 10
+    },
+    "Rheinland-Pfalz": {
+      "points": 6,
+      "max": 10
+    }
+  },
+  "Datenschutzbeauftragter": {
+    "Hamburg": {
+      "points": 7,
+      "max": 10
+    },
+    "Mecklenburg-Vorpommern": {
+      "points": 7,
+      "max": 10
+    },
+    "Schleswig-Holstein": {
+      "points": 7,
+      "max": 10
+    },
+    "Saarland": {
+      "points": 7,
+      "max": 10
+    },
+    "Bund": {
+      "points": 7,
+      "max": 10
+    },
+    "Berlin": {
+      "points": 7,
+      "max": 10
+    },
+    "Brandenburg": {
+      "points": 6,
+      "max": 10
+    },
+    "NRW": {
+      "points": 7,
+      "max": 10
+    },
+    "Bremen": {
+      "points": 7,
+      "max": 10
+    },
+    "Sachsen-Anhalt": {
+      "points": 7,
+      "max": 10
+    },
+    "Baden-Württemberg": {
+      "points": 7,
+      "max": 10
+    },
+    "Thüringen": {
+      "points": 7,
+      "max": 10
+    },
+    "Rheinland-Pfalz": {
+      "points": 7,
+      "max": 10
+    }
+  }
+}
