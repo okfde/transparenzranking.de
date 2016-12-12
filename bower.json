@@ -15,8 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.8",
     "bootstrap": "^3.3.7",
-    "d3": "^4.2.3"
+    "jquery": "^3.1.1"
   }
 }
