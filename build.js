@@ -1,7 +1,17 @@
-var yaml = require('write-yaml');
+var yaml = require('js-yaml');
 var tabletop = require('tabletop');
 var jsonfile = require('jsonfile');
+var fs = require('fs');
+var urlify = require('urlify').create({
+    addEToUmlauts:true,
+    szToSs:true,
+    spaces:"_",
+    nonPrintable:"_",
+    trim:true
+});
+var colors = ['#ffcb64', '#ff7c7c', ' #ff639c', '#d3b4ff', '#83eeff', '#6ddecb'];
 
+var layput = "state";
 
 function loadData() {
     return new Promise(function(resolve, reject) {
@@ -33,45 +43,72 @@ function loadData() {
     })
 }
 
+function writeJekyllMarkdown(file, data) {
+    data.layout = layput;
+    var ymldata = yaml.dump(data);
+    var result = "---\n" + ymldata + "\n---\n";
+    fs.writeFile(file, result, function(err) {
+        if(err) {
+            return console.log(err);
+        }
+        console.log("The file was saved!");
+    });
+}
+
 loadData()
     .then(function(data) {
         var states = {};
         for (var state_name in data) {
-            var state = data[state_name];
-            state = state.elements.reduce((prev, elem) => {
-                if (elem.kategorie) {
-                    if (!prev[elem.kategorie])
-                        prev[elem.kategorie] = [];
-                    prev[elem.kategorie].push(elem);
-                }
-                else {
-                    console.log('error!!!');
-                    console.log(elem);
+            var state = {}
+            var indicatordata = data[state_name].elements;
+            //console.log(indicatordata);
+            var categories = indicatordata.reduce((prev,elem) => {
+                if (prev.indexOf(elem.kategorie) < 0) {
+                    prev.push(elem.kategorie)
                 }
                 return prev;
-            }, {});
+            }, []);
+            categories = categories.map((indicatorname, index) => {
+                var indicators = indicatordata.filter((item) => {
+                   return item.kategorie === indicatorname
+                });
+                var maxpoints = indicators.reduce((prev, indicator) => {
+                    return prev + indicator.maximalpunkte
+                }, 0);
+                var points = indicators.reduce((prev, indicator) => {
+                    return prev + indicator.erreichte_punkte
+                }, 0);
+                return {
+                    name: indicatorname,
+                    indicators: indicators,
+                    color: colors[index],
+                    punkte: points,
+                    maximalpunkte: maxpoints }
+            });
+
+            state.name = state_name;
+            state.link = urlify(state_name.toLowerCase());
+            state.categories = categories;
             states[state_name] = state;
-            yaml('_data/'+ state_name +'.yml', state, function(err) {
-                if (err) console.log(err);
-            }); console.log(states);
+            writeJekyllMarkdown('_states/'+ state.link +'.md', state);
         }
-        var overview = {};
+        var overview = [];
         for (var state_name in states) {
             var state = states[state_name];
-            for (var cat in state) {
-                var trimmed_cat = cat.trim();
-                if (!overview[trimmed_cat])
-                    overview[trimmed_cat] = {};
-                overview[trimmed_cat][state_name] = state[cat].reduce(function(prev, elem) {
-                    return {
-                        points: prev.points + parseInt(elem.erreichte_punkte),
-                        max: prev.max + parseInt(elem.maximalpunkte)
-                    };
-                }, {points: 0, max: 0})
-            }
-            //states[state_name] = state;
+            var categories = state.categories.map((category) => {
+                var sum_points = category.indicators.reduce((prev, indicator) => {
+                    return prev + indicator.erreichte_punkte;
+                }, 0);
+
+                var sum_max = category.indicators.reduce((prev, indicator) => {
+                    return prev + indicator.maximalpunkte;
+                }, 0);
+
+                return {name:category.name, points:sum_points, maxpoints:sum_max}
+            });
+            overview.push({name: state.name, scoring: categories})
         }
-        console.log(overview);
+        //console.log(overview);
         jsonfile.writeFile('static/js/overview.json', overview, function (err) {
             console.error(err)
         })

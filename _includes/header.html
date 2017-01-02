@@ -1,12 +1,13 @@
 <header class="site-header col-md-12">
   <div class="left col-md-3">
-    <div class="col-md-5 col-sm-3 col-xs-3">
-      <img src="{{ 'static/img/ifg-ranking-logo.png' | prepend: site.baseurl }}" alt="" />
-
-    </div>
-    <div class="col-md-7 col-xs-9 logo-description">
-      Das große <br />IFG Ranking
-    </div>
+    <a href="{{site.baseurl}}">
+      <div class="col-md-5 col-sm-3 col-xs-3">
+        <img src="{{ 'static/img/ifg-ranking-logo.png' | prepend: site.baseurl }}" alt="" />
+      </div>
+      <div class="col-md-7 col-xs-9 logo-description">
+        Das große <br />IFG Ranking
+      </div>
+    </a>
   </div>
   <div class="col-md-offset-6 col-md-3 right">
     <div class="dropdown">
@@ -15,25 +16,10 @@
         <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li><a href="#">Baden-Württemberg</a></li>
-        <li><a href="#">Bayern</a></li>
-        <li><a href="#">Berlin</a></li>
-        <li><a href="#">Brandenburg</a></li>
-        <li><a href="#">Bremen</a></li>
-        <li><a href="#">Hamburg</a></li>
-        <li><a href="#">Hessen</a></li>
-        <li><a href="#">Mecklenburg-Vorpommern</a></li>
-        <li><a href="#">Niedersachsen</a></li>
-        <li><a href="#">Nordrhein Westphalen</a></li>
-        <li><a href="#">Rheinland-Pfalz</a></li>
-        <li><a href="#">Saarland</a></li>
-        <li><a href="#">Sachsen</a></li>
-        <li><a href="#">Sachsen-Anhalt</a></li>
-        <li><a href="#">Schleswig-Holstein</a></li>
-        <li><a href="#">Thüringen</a></li>
+        {% for state in site.states %}
+          <li><a href="{{site.baseurl}}/laender/{{state.link}}">{{state.name}}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>
-
-
 </header>

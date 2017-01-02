@@ -19,3 +19,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+collections:
+  states:
+    output: true
+    permalink: /laender/:path/

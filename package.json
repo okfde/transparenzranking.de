@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/knutator2/ifg-index#readme",
   "dependencies": {
+    "js-yaml": "^3.7.0",
     "jsonfile": "^2.4.0",
     "tabletop": "^1.4.3",
-    "write-yaml": "^0.2.2"
+    "urlify": "^0.3.6",
+    "write-yaml": "^0.2.2",
+    "yamljs": "^0.2.8"
   }
 }

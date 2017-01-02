@@ -1,4 +1,4 @@
-d3.json("static/data/germany.json", function(error, topo) {
+d3.json("static/js/germany.json", function(error, topo) {
 
     var width = 950,
         height = 550;
@@ -14,37 +14,58 @@ d3.json("static/data/germany.json", function(error, topo) {
 
     var path = d3.geoPath().projection(projection);
 
-    svg.selectAll("path")
+    var stateLayer = svg.selectAll(".state")
         .data(states)
         .enter()
+        .append('g')
+        .on("mouseover", function() {
+            d3.select(this).select('.feature').style("fill", "#6dffd3");
+            d3.select(this).select('.state-label').style("text-decoration", "underline");
+        })
+        .on("mouseout", function() {
+            d3.select(this).select('.feature').style("fill", "#b5c1cd");
+            d3.select(this).select('.state-label').style("text-decoration", "none");
+        });
+
+    stateLayer
         .append("path")
         .attr("transform", "translate(-400,2100)")
         .attr("class", "feature")
         .style("fill", "#b5c1cd")
         .style("stroke", "#dbdee1")
         .attr("d", path)
-        .on("mouseover", function() {
-            d3.select(this).style("fill", "#6dffd3")
-        })
-        .on("mouseout", function() {
-            d3.select(this).style("fill", "#b5c1cd")
-        });
+        .style("pointer-events", "all");
 
-    svg.selectAll(".state-label")
-        .data(states)
-        .enter()
+
+    stateLayer
         .append("text")
         .attr("class", function(d) { return "state-label " + d.id; })
         .attr("transform", function(d) {
             var position = path.centroid(d)
             position[1] += 2100;
             position[0] -= 450;
-            if (d.properties.GEN === "Brandenburg")
-                position[1] -= 20;
+            if (d.properties.GEN === "Brandenburg") {
+                position[1] -= 30;
+                position[0] += 15;
+            }
+            if (d.properties.GEN === "Berlin") {
+                position[1] += 5;
+                position[0] += 15;
+            }
+            if (d.properties.GEN === "Saarland") {
+                //position[1] += 25;
+                position[0] += 5;
+            }
             if (d.properties.GEN === "Bayern")
                 position[0] += 40;
+            if (d.properties.GEN === "Hamburg")
+                position[1] += 5;
+            if (d.properties.GEN === "Baden-Württemberg")
+                position[0] -= 40;
+            if (d.properties.GEN === "Nordrhein-Westfalen")
+                position[0] -= 40;
             if (d.properties.GEN === "Sachsen")
-                position[0] += 20;
+                position[0] += 30;
             if (d.properties.GEN === "Hessen")
                 position[0] += 30;
             if (d.properties.GEN === "Thüringen")
