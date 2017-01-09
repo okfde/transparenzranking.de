@@ -28,6 +28,8 @@ d3.json("static/js/germany.json", function(error, topo) {
         });
 
     stateLayer
+        .append('a')
+        .attr('xlink:href', function(d){return 'laender/' + d.properties.GEN})
         .append("path")
         .attr("transform", "translate(-400,2100)")
         .attr("class", "feature")
@@ -38,10 +40,12 @@ d3.json("static/js/germany.json", function(error, topo) {
 
 
     stateLayer
+        .append('a')
+        .attr('xlink:href', function(d){return 'laender/' + d.properties.GEN})
         .append("text")
         .attr("class", function(d) { return "state-label " + d.id; })
         .attr("transform", function(d) {
-            var position = path.centroid(d)
+            var position = path.centroid(d);
             position[1] += 2100;
             position[0] -= 450;
             if (d.properties.GEN === "Brandenburg") {

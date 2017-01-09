@@ -1,6 +1,18 @@
 $(document).ready(function() {
     var categoryColor = '#6dffd4';
     var overview_data = {};
+    var color_dict = {
+        'Informationsrechte': '#ffcb64',
+        'Auskunftspflichten' : '#ff7c7c',
+        'Ausnahmen' : '#ff639c',
+        'Antragsstellung' : '#374053',
+        'Gebuehren' : '#83eeff',
+        'Datenschutzbeauftragte' : '#6ddecb'
+    }
+
+    $('.vis-btn-cat').click(function() {
+        categoryColor = color_dict[$(this).attr('data-cat')];
+    })
 
     d3.json('static/js/overview.json', function(data) {
         overview_data = data;
@@ -25,42 +37,61 @@ $(document).ready(function() {
         .domain([0,categories.length])
         .range(colors);
 
-    function updateBarchart(data) {
-        var canvas = d3.select('#wrapper')
-            .append('svg')
-            .attr('width', 900)
-            .attr('height',550);
+    var canvas = d3.select('#wrapper')
+        .append('svg')
+        .attr('width', 900)
+        .attr('height',550);
 
-        var chart_background = canvas.append('g')
-            .attr("transform", "translate(0,0)")
-            .attr('id','bars-background')
-            .selectAll('rect-background')
+    var chart_background_group = canvas.append('g')
+        .attr("transform", "translate(0,0)")
+        .attr('id','bars-background');
+
+    var chart_description = canvas.append('g')
+        .attr("transform", "translate(0,0)")
+        .attr('id','bars-description');
+
+    var chart_background_sep = canvas.append('g')
+        .attr("transform", "translate(0,0)")
+        .attr('id','bars-background-sep');
+
+    var chart_bars = canvas.append('g')
+        .attr("transform", "translate(0,0)")
+        .attr('id','bars')
+
+    function updateBarchart(data) {
+
+        var chart_background = chart_background_group
+            .selectAll('.rect-background')
             .data(data)
             .enter()
             .append('rect')
-            .attr('class', 'rect-background')
+            .attr('class', 'rect-background');
+
+        chart_background_group
+            .selectAll('.rect-background')
             .attr('height',26)
             .attr('x', 0)
             .attr('y', function(d,i){ return yscale(i); })
             .style('fill', '#e9eaee')
             .attr('width', xscale(100));
 
-        var chart_description = canvas.append('g')
-            .attr("transform", "translate(0,0)")
-            .attr('id','bars-background')
-            .selectAll('rect-background')
+        chart_description
+            .selectAll('.bar-text-description')
             .data(data)
             .enter()
             .append('text')
+            .attr('class', 'bar-text-description');
+
+        chart_description
+            .selectAll('.bar-text-description')
             .attr('x', xscale(100) + 10)
             .attr('y',function(d,i){ return yscale(i) + 19 })
-            .text(function(d){ return d.name; })
+            .text(function(d){
+                return d.name; })
             .style('fill', '#112233')
             .style('font-size','14px');
 
-        var chart_background_sep = canvas.append('g')
-            .attr("transform", "translate(0,0)")
-            .attr('id','bars-background')
+        chart_background_sep
             .selectAll('rect-background')
             .data(data)
             .enter()
@@ -70,12 +101,9 @@ $(document).ready(function() {
             .attr('x', xscale(100) - 2)
             .attr('y', function(d,i){ return yscale(i); })
             .style('fill', '#9aa9b8')
-            .attr('width', 2)
-            .text('test');
+            .attr('width', 2);
 
-        var chart = canvas.append('g')
-            .attr("transform", "translate(0,0)")
-            .attr('id','bars')
+        chart_bars
             .selectAll('.rect-val')
             .data(data)
             .enter()
@@ -86,24 +114,40 @@ $(document).ready(function() {
             .attr('y', function(d,i){ return yscale(i); })
             .style('fill', categoryColor)
             .attr('width',function(){ return 0; });
+        //
+        chart_bars
+            .selectAll('.bar-text')
+            .data(data)
+            .enter()
+            .append('text')
+            .attr('x',function(d) {return xscale(d.score) + 10.5})
+            .attr('y',function(d,i){ return yscale(i) + 19 })
+            .text(function(d){
+                return Math.floor(d.score) + "%"; })
+            .style('fill', '#000')
+            .style('font-size','14px')
+            .attr('class', 'bar-text');
 
 
         var transit = d3.select("svg").selectAll(".rect-value")
             .data(data)
             .transition()
             .duration(1000)
-            .attr("width", function(d) {return xscale(d.score); });
+            .attr("width", function(d) {return xscale(d.score); })
+            .style('fill', categoryColor);
 
-        var transitext = d3.select('#bars')
-            .selectAll('text')
+        var transitext = d3
+            .selectAll('.bar-text')
             .data(data)
-            .enter()
-            .append('text')
+            .transition()
+            .duration(1000)
             .attr('x',function(d) {return xscale(d.score) + 10.5})
             .attr('y',function(d,i){ return yscale(i) + 19 })
-            .text(function(d){ return d.score + "%"; })
+            .text(function(d){
+                return Math.floor(d.score) + "%"; })
             .style('fill', '#000')
-            .style('font-size','14px');
+            .style('font-size','14px')
+            .style('class', 'bar-text')
     }
 
     // Accordeon
