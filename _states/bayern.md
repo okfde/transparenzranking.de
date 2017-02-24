@@ -1,3 +1,5 @@
+---
+layout: state
 
 ---
 In Bayern blockiert seit Jahren die regierende CSU ein Informationsfreiheitsgesetz
