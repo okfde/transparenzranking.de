@@ -1,3 +1,5 @@
+---
+layout: state
 
 ---
 In Hessen gibt es weder ein Informationsfreiheitsgesetz noch
