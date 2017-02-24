@@ -410,3 +410,23 @@ categories:
 layout: state
 
 ---
+Das Land Thüringen hat den Zugang zu Informationen im
+„Thüringer Informationsfreiheitsgesetz“ (ThürIFG) von 2012
+geregelt. Die Linke , SPD und Bündnis 90/Die Grünen haben
+sich in ihrem Koalitionsvertrag (2014-2019) auf die Verabschiedung
+eines Transparenzgesetzes verständigt. Der Thüringer
+Beauftragte für Datenschutz und Informationsfreiheit, Lutz
+Hasse, stellte 2016 einen eigenen Entwurf für ein solches Gesetz
+vor. Der Thüringer Landtag hat beschlossen, bis Ende 2017
+einen Entwurf für ein Transparenzgesetz zu erarbeiten, der zumindest
+teilweise auf dem ambitionierten Entwurf des Informationsfreiheitsbeauftragten
+basiert. Denn anders als in
+Rheinland-Pfalz sollen in Thüringen auch die Kommunen verpflichtet
+werden, ihre Daten proaktiv und nicht nur auf Nachfragen
+zu veröffentlichen. Vorerst soll allerdings nur eine einzige
+Kommune in einem Modellprogramm ins zu schaffende
+Transparenzregister des Landes eingebunden werden.
+Bislang reicht es für Thüringen nur für Platz 10, was vor allem
+an den unzureichend geregelten Informationsrechten liegt.
+Damit hat Thüringen eines der schwächsten Informationsfreiheitsgesetze
+Deutschlands.
