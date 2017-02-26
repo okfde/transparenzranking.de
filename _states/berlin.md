@@ -79,7 +79,7 @@ categories:
     color: '#ffcb64'
     punkte: 9
     maximalpunkte: 24
-  - name: Auskunftspflichten versch. Bereiche
+  - name: Auskunftspflichten
     indicators:
       - hintergrund: >-
           Hochschulen sind Körperschaften des öffentlichen Rechts und werden
@@ -90,7 +90,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: >-
           Hier kann beispielsweise zum Sachstand eines Verfahrens oder zu
           Ermittlungsergebnissen ein überragendes Interesse der Presse und der
@@ -102,7 +102,7 @@ categories:
         erklaerung: >-
           keine Bereichsausnahme, insb. da Berliner VS Abteilung von SenInnSport
           ist
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: >-
           Immer wieder verweigern sich berufsständische Kammern den
           Transparenzanforderungen der jeweiligen Informationszugangsgesetze.
@@ -115,7 +115,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: >-
           Die Behörden sollen sich ihrer Auskunftspflicht nicht durch eine
           „Flucht ins Privatrecht“ entziehen können. Bei einer Beschränkung der
@@ -129,7 +129,7 @@ categories:
         erklaerung: >-
           teils, bei Daseinsfürsorge – alle Eigenbetriebe und Anstalten (also
           die großen)
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: >-
           Auch der öffentlich-rechtliche Rundfunk als meinungsbildendes Medium
           sollte zu Auskünften verpflichtet sein. Die Bürgerinnen und Bürger
@@ -138,7 +138,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: >-
           Die Landtage sollten einer umfassenden Informationspflicht
           unterliegen, die nicht auf Verwaltungstätigkeiten begrenzt ist.
@@ -146,7 +146,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: >-
           Für eine Informationspflicht des Rechnungshofes spricht, dass dieser
           im Rahmen seiner Prüfungstätigkeit Aufgaben der öffentlichen
@@ -155,7 +155,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: >-
           Auch Sparkassen, die in öffentlicher Hand liegen sowie Landesbanken
           sollten unter Berücksichtigung des Datenschutzes zur Herausgabe von
@@ -164,7 +164,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: >-
           Diese Stellen sollten neben den Auskunftspflichten aus
           prozessrechtlichen Vorschriften auch zur Herausgabe von Informationen
@@ -174,13 +174,13 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 1
         erklaerung: nur soweit diese Verwaltungsaufgaben wahrnehmen
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
       - hintergrund: ''
         bezeichnung: Staatl. Stiftungen und sonstige Anstalten öffentl. Rechts
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Auskunftspflichten versch. Bereiche
+        kategorie: Auskunftspflichten
     color: '#ff7c7c'
     punkte: 18
     maximalpunkte: 20
@@ -244,7 +244,7 @@ categories:
     color: ' #ff639c'
     punkte: 16
     maximalpunkte: 20
-  - name: Antragsstellung und Antwort
+  - name: Antragsstellung
     indicators:
       - hintergrund: >-
           Die Hemmschwelle, einen Antrag schriftlich oder persönlich bei der
@@ -254,7 +254,7 @@ categories:
         maximalpunkte: 3
         erreichte_punkte: 3
         erklaerung: ja
-        kategorie: Antragsstellung und Antwort
+        kategorie: Antragsstellung
       - hintergrund: >-
           Die Möglichkeit, auch anonym an Informationen zu gelangen, lässt auch
           Anfragen von Bürgerinnen und Bürgern zu, die bei Namensnennung zum
@@ -263,7 +263,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Antragsstellung und Antwort
+        kategorie: Antragsstellung
       - hintergrund: >-
           Die Verwaltung sollte den Bürgerinnen und Bürgern die Antragstellung
           mittels eines Tools im Internet erleichtern.
@@ -271,7 +271,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 0
         erklaerung: nein
-        kategorie: Antragsstellung und Antwort
+        kategorie: Antragsstellung
       - hintergrund: >-
           Um den Bürgerinnen und Bürgern eine schnelle Durchsetzung ihres
           Informationsanspruches zu sichern, ist eine gesetzliche Antwortfrist
@@ -280,7 +280,7 @@ categories:
         maximalpunkte: 4
         erreichte_punkte: 4
         erklaerung: 'ja, etwas strittig'
-        kategorie: Antragsstellung und Antwort
+        kategorie: Antragsstellung
       - hintergrund: >-
           Wenn das Gesetz zwar eine Frist für die Beantwortung der Anfrage
           setzt, das Verstreichenlassen derselben aber keine Konsequenzen für
@@ -290,7 +290,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 0
         erklaerung: ''
-        kategorie: Antragsstellung und Antwort
+        kategorie: Antragsstellung
       - hintergrund: >-
           Die Verwaltung sollte den Bürger informieren müssen, wenn die
           Bearbeitung eines Antrags längere Zeit in Anspruch nimmt.
@@ -298,7 +298,7 @@ categories:
         maximalpunkte: 1
         erreichte_punkte: 1
         erklaerung: ja
-        kategorie: Antragsstellung und Antwort
+        kategorie: Antragsstellung
       - hintergrund: >-
           Wenn eine Behörde einen Antrag ablehnt, sollte sie auch begründen
           müssen, warum sie die Information nicht herausgibt. Eine
@@ -309,11 +309,11 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Antragsstellung und Antwort
+        kategorie: Antragsstellung
     color: '#d3b4ff'
     punkte: 12
     maximalpunkte: 16
-  - name: Gebühren
+  - name: 'Gebuehren '
     indicators:
       - hintergrund: >-
           Die Gebührenfreiheit von Informationen sorgt dafür, dass der Zugang zu
@@ -327,7 +327,7 @@ categories:
         erklaerung: >-
           nein (in der Praxis häufig bei einfachen Auskünften – wobei das
           subjektiv geprägt sein kann)
-        kategorie: Gebühren
+        kategorie: 'Gebuehren '
       - hintergrund: >-
           Bei einfachen mündlichen oder schriftlichen Auskünften regeln einige
           Gesetze, dass diese gebührenfrei ergehen. Das ist zu begrüßen.
@@ -335,7 +335,7 @@ categories:
         maximalpunkte: 1
         erreichte_punkte: 1
         erklaerung: teils
-        kategorie: Gebühren
+        kategorie: 'Gebuehren '
       - hintergrund: >-
           Bürgerinnen und Bürger dürfen nicht mit unangemessen hohen Kosten
           davon abgeschreckt werden, ihr Recht auf Information in Anspruch zu
@@ -344,7 +344,7 @@ categories:
         maximalpunkte: 4
         erreichte_punkte: 2
         erklaerung: 'grundsätzlich mindestens fünf Euro Kosten, Kostendeckel 500 Euro'
-        kategorie: Gebühren
+        kategorie: 'Gebuehren '
       - hintergrund: >-
           Wäre ein ablehnender Bescheid auch noch kostenpflichtig, so würden die
           Antragsteller(innen) doppelt bestraft.
@@ -352,11 +352,11 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Gebühren
+        kategorie: 'Gebuehren '
     color: '#83eeff'
     punkte: 5
     maximalpunkte: 10
-  - name: Datenschutzbeauftragter
+  - name: Datenschutzbeauftragte
     indicators:
       - hintergrund: >-
           Bei Verweigerung der Herausgabe einer Information haben Bürginnen und
@@ -365,7 +365,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 2
         erklaerung: ja
-        kategorie: Datenschutzbeauftragter
+        kategorie: Datenschutzbeauftragte
       - hintergrund: >-
           Der oder die Datenschutzbeauftragte sollte Beanstandungsrechte und
           Sanktionsmöglichkeiten gegenüber den auskunftspflichtigen Stellen
@@ -376,7 +376,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 1
         erklaerung: Beanstandungsrechte
-        kategorie: Datenschutzbeauftragter
+        kategorie: Datenschutzbeauftragte
       - hintergrund: >-
           Die informationspflichtigen Stellen sollten dazu verpflichtet sein,
           den oder die Beauftragte(n) für Datenschutz zu unterstützen. Dazu
@@ -386,7 +386,7 @@ categories:
         maximalpunkte: 1
         erreichte_punkte: 1
         erklaerung: ja
-        kategorie: Datenschutzbeauftragter
+        kategorie: Datenschutzbeauftragte
       - hintergrund: >-
           Neben der betroffenen Antrag stellenden Person sollte auch der oder
           die Datenschutzbeauftragte selbst Klage auf Informationsherausgabe
@@ -395,7 +395,7 @@ categories:
         maximalpunkte: 2
         erreichte_punkte: 0
         erklaerung: nein
-        kategorie: Datenschutzbeauftragter
+        kategorie: Datenschutzbeauftragte
       - hintergrund: >-
           Der oder die Beauftragte für Datenschutz soll als unabhängige Instanz
           gewährleisten, dass den Informationspflichten aus den jeweiligen
@@ -409,13 +409,13 @@ categories:
         erklaerung: >-
           soweit möglich, Dienstaufsicht nur in nicht „fachlichen“
           Angelegenheiten, oberste Landesbehörde.
-        kategorie: Datenschutzbeauftragter
+        kategorie: Datenschutzbeauftragte
       - hintergrund: Datenschutzbeauftragte sollten selbst voll auskunftspflichtig sein
         bezeichnung: selbst auskunftspflichtig
         maximalpunkte: 1
         erreichte_punkte: 1
         erklaerung: ja
-        kategorie: Datenschutzbeauftragter
+        kategorie: Datenschutzbeauftragte
     color: '#6ddecb'
     punkte: 7
     maximalpunkte: 10
