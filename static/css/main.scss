@@ -149,6 +149,10 @@ footer a, footer a:hover, footer a:visited {
   color: $silver;
 }
 
+.container {
+  #max-width: "";
+}
+
 .dropdown-toggle {
   font-weight: bold;
   font-size: 15px;
@@ -186,6 +190,10 @@ footer a, footer a:hover, footer a:visited {
   display: block;
 }
 
+.vis-btn-cat:focus {
+    outline: none;
+}
+
 .vis-btn-information {
   border-left: 3px solid $information-color;
 }
@@ -217,6 +225,26 @@ footer .logo {
 }
 
 dd { display:none; }
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* aspect ratio */
+  vertical-align: top;
+  overflow: hidden;
+}
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.cat-wrapper {
+  margin: 7em 0;
+
+}
 
 
 
