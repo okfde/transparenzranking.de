@@ -104,7 +104,7 @@ loadData()
                     return prev + indicator.maximalpunkte;
                 }, 0);
 
-                return {name:category.name, points:sum_points, maxpoints:sum_max}
+                return {name:category.name.trim(), points:sum_points, maxpoints:sum_max}
             });
             overview.push({name: state.name, scoring: categories})
         }
