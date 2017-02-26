@@ -15,22 +15,22 @@ layout: default
     </p>
   </div>
 
-  <div class="vis col-md-12">
-    <div class="col-md-3">
-      <button class="btn-default vis-btn-cat vis-btn-information" data-cat="Informationsrechte">Informationsrecht</button>
-      <button class="btn-default vis-btn-cat vis-btn-obligation" data-cat="Auskunftspflichten">Auskunftspflichten</button>
-      <button class="btn-default vis-btn-cat vis-btn-exception" data-cat="Ausnahmen">Ausnahmen</button>
-      <button class="btn-default vis-btn-cat vis-btn-proposal" data-cat="Antragsstellung">Antragstellung</button>
-      <button class="btn-default vis-btn-cat vis-btn-fee" data-cat="Gebuehren">Gebühren</button>
-      <button class="btn-default vis-btn-cat vis-btn-fee" data-cat="Datenschutzbeauftragte">Daenschutzbeauftragte</button>
+  <div class="vis col-md-12" ng-controller="BarchartCtrl">
+  {% raw %}
+  <div class="col-md-3">
+        <div class="col-md-12" ng-repeat="category in categories track by $index">
+            <button class="btn-default vis-btn-cat vis-btn-information"
+                    ng-style="{'border-left-color': colors[$index % colors.length]}" ng-click="catClick(category, colors[$index])">{{category}}</button>
+        </div>
     </div>
     <div class="col-md-9">
-      <!--<canvas id="horizontal-bar" class="chart chart-horizontal-bar"-->
-              <!--chart-data="data" chart-labels="labels" chart-options="options" chart-series="series">-->
-      <!--</canvas>-->
-      <div id="wrapper"></div>
+
+      <div id="wrapper">
+          <barchart data="bardata" caption="barcat" colors="activeColor" max="100"></barchart>
+      </div>
     </div>
   </div>
+  {% endraw %}
   <div class="col-md-offset-1 col-md-10">
     <p>
       Transparenz erleichtert Korruptionsbekämpfung und Kontrolle und stärkt damit das Vertrauen der Bürger/innen in Politik und 
@@ -49,11 +49,12 @@ layout: default
     </p>
   </div>
 
-  <div class="map-container col-md-offset-1 col-md-10">
+  <div class="map-container col-md-offset-1 col-md-10" ng-controller="MapCtrl">
     <h2 class="text-center">Wählen Sie für Details ein Bundesland aus</h2>
-    <div class="map text-center">
-      <div id="map"></div>
-    </div>
+    {% include svg/map.svg %}
+    <!--<div class="map text-center">-->
+      <!--<div id="map"></div>-->
+    <!--</div>-->
     <p>
       Die Entwicklung der Infomationsfreiheitsgesetze in den Bundesländern lässt sich in drei Stufen unterteilen: 
     </p>
