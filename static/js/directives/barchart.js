@@ -12,7 +12,7 @@ app.directive('barchart', function() {
         replace: true,
         link: function (scope, element, attrs) {
             var width = 600;
-            var height = 500;
+            var height = 400;
             //var barheight = height /
 
             var grid = d3.range(25).map(function (i) {
@@ -25,7 +25,7 @@ app.directive('barchart', function() {
                 .append("svg")
                 //responsive SVG needs these 2 attributes and no width and height attr
                 .attr("preserveAspectRatio", "xMinYMin meet")
-                .attr("viewBox", "0 0 600 500")
+                .attr("viewBox", "0 0 600 400")
                 //class to make it responsive
                 .classed("svg-content-responsive", true);
 
@@ -80,7 +80,7 @@ app.directive('barchart', function() {
                     .range([0, barwidth - barpadding]);
 
                 var yscale = d3.scaleLinear()
-                    .domain([0, scope.caption.length])
+                    .domain([0, scope.data.length])
                     .range([0, height]);
 
                 var colorScale = d3.scaleQuantize()
@@ -109,13 +109,13 @@ app.directive('barchart', function() {
                     .attr('class', 'chart-description')
                     .attr('x', xscale(xmax) + 5)
                     .attr('y', function (d, i) {
-                        return yscale(i) + 19
+                        return yscale(i) + 15
                     })
                     .text(function (d, i) {
                         return scope.caption[i];
                     })
                     .style('fill', '#112233')
-                    .style('font-size', '14px');
+                    .style('font-size', '9pt');
 
                 chart_background_sep
                     .selectAll('rect-background')
