@@ -1,8 +1,8 @@
 <header class="site-header col-md-12">
   <div class="left col-md-3">
-    <a href="{{site.baseurl}}">
+    <a href="/">
       <div class="col-md-5 col-sm-3 col-xs-3">
-        <img src="{{ 'static/img/ifg-ranking-logo.png' | prepend: site.baseurl }}" alt="" />
+        <img src="/static/img/ifg-ranking-logo.png" alt="" />
       </div>
       <div class="col-md-7 col-xs-9 logo-description">
         Transparenzranking<br>
@@ -18,7 +18,7 @@
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
         {% for state in site.states %}
-          <li><a href="{{site.baseurl}}/laender/{{state.link}}">{{state.name}}</a></li>
+          <li><a href="/laender/{{state.link}}">{{state.name}}</a></li>
         {% endfor %}
       </ul>
     </div>
