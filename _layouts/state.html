@@ -20,51 +20,77 @@ layout: default
                 <div class="row" ng-repeat="cat in data_cat track by $index">
                     <div class="col-md-2 col-md-offset-4">
                         {{cat.name}}
+                        {{cat_names[cat.name]}}
                     </div>
                     <div class="col-md-3 text-center">
-                        <bar value="cat.points" max="cat.max" color="cat_color[$index]" label="cat.value + '%'"></bar>
+                        <bar value="cat.points" max="cat.max" color="cat_colors[cat.name]" label="cat.value + '%'"></bar>
                     </div>
                 </div>
             </div>
             {% endraw %}
             <div class="row">
                 <div class="col-md-12">
-                    <p>Schleswig-Holstein hat 2012 sein „Informationszugangsgesetz“ (IZG-SH) verabschiedet. Das Gesetz wird in der laufenden Legislaturperiode erweitert. Im rot-grünen Koalitionsvertrag (2012-2017) ist zu lesen: „Zu einem bürgerfreundlichen Land gehört, dass die Behörden die Grundlagen ihrer Entscheidungen und Handlungen offen legen und erklären. Unser Grundsatz lautet, dass der Zugang zu Informationen zur Regel und die Verweigerung der Veröffentlichung zur Ausnahme werden soll. Wir wollen Schleswig-Holstein gemeinsam mit dem Landesbeauftragten für den Datenschutz deutschlandweit zum Vorbild für eine aktive Informationsfreiheit entwickeln.“
-                        Schleswig-Holstein erreicht Platz 2 hinter Hamburg. Dies ist vor allem den umfassenden Auskunftspflichten und den gut geregelten Ausnahmen zu verdanken.</p>
+                    <p>{{ content }}</p>
                 </div>
             </div>
-            <div class="row">
+            {% raw %}
+            <div class="row" ng-repeat="(category, indicators) in stateData">
                 <div class="col-md-12">
-                    {% for category in page.categories %}
-                        {% if category.name %}
-                            <h1>{{category.name}}</h1>
-                            <p>{{category.punkte}} von {{category.maximalpunkte}} Punkten</p>
-                            {% for indicator in category.indicators %}
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <dt>{{indicator.bezeichnung}}<span class="acc-indicator fa fa-arrow-down"></span></dt>
-                                        <dd>{{indicator.hintergrund}}</dd>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <p>{{indicator.erreichte_punkte}} von {{indicator.maximalpunkte}}</p>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <svg height="20">
-                                            {% for i in (1..indicator.erreichte_punkte) %}
-                                                <rect width="20" height="20" x="{{i | times: 24 }}" fill="{{category.color}}"></rect>
-                                            {% endfor %}
 
-                                            {% assign maximalpunkte=indicator.maximalpunkte | minus: 1 %}
+                    <h1>{{cat_names[category]}}</h1>
+                    <p>{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
+                    <div class="row" ng-repeat="indicator in indicators">
+                        <div class="col-md-4">
+                            <dt>{{indicator.bezeichnung}}<span class="acc-indicator fa fa-arrow-down"></span></dt>
+                            <dd>{{indicator.hintergrund}}</dd>
+                            <dd>{{indicator.erklaerung}}</dd>
+                        </div>
+                        <div class="col-md-4">
+                            <p>{{indicator.erreichte_punkte}} von {{indicator.maximalpunkte}}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <svg height="20">
+                                <g>
+                                    <rect width="20" height="20" ng-attr-x="{{i * 24 }}" fill="{{cat_colors[category]}}" ng-repeat="i in _.range(1, indicator.erreichte_punkte + 1) track by $index"></rect>
+                                </g>
+                                <g ng-repeat="i in _.range(indicator.erreichte_punkte, indicator.maximalpunkte)">
+                                    <rect width="20" height="20" ng-attr-x="{{(i + 1) * 24 }}" fill="grey"></rect>
+                                </g>
 
-                                            {% for i in (indicator.erreichte_punkte..maximalpunkte) %}
-                                                <rect width="20" height="20" x="{{i |plus: 1 | times: 24 }}" fill="grey"></rect>
-                                            {% endfor %}
-                                        </svg>
-                                    </div>
-                                </div>
-                            {% endfor %}
-                        {% endif %}
-                        {% endfor %}
+                            </svg>
+                        </div>
+                    </div>
+                {% endraw %}
+                    <!--{% for category in page.categories %}-->
+                        <!--{% if category.name %}-->
+                            <!--<h1>{{category.name}}</h1>-->
+                            <!--<p>{{category.punkte}} von {{category.maximalpunkte}} Punkten</p>-->
+                            <!--{% for indicator in category.indicators %}-->
+                                <!--<div class="row">-->
+                                    <!--<div class="col-md-4">-->
+                                        <!--<dt>{{indicator.bezeichnung}}<span class="acc-indicator fa fa-arrow-down"></span></dt>-->
+                                        <!--<dd>{{indicator.hintergrund}}</dd>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-4">-->
+                                        <!--<p>{{indicator.erreichte_punkte}} von {{indicator.maximalpunkte}}</p>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-4">-->
+                                        <!--<svg height="20">-->
+                                            <!--{% for i in (1..indicator.erreichte_punkte) %}-->
+                                                <!--<rect width="20" height="20" x="{{i | times: 24 }}" fill="{{category.color}}"></rect>-->
+                                            <!--{% endfor %}-->
+
+                                            <!--{% assign maximalpunkte=indicator.maximalpunkte | minus: 1 %}-->
+
+                                            <!--{% for i in (indicator.erreichte_punkte..maximalpunkte) %}-->
+                                                <!--<rect width="20" height="20" x="{{i |plus: 1 | times: 24 }}" fill="grey"></rect>-->
+                                            <!--{% endfor %}-->
+                                        <!--</svg>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--{% endfor %}-->
+                        <!--{% endif %}-->
+                    <!--{% endfor %}-->
 
                 </div>
                 <div class="ende"></div>
