@@ -5,6 +5,7 @@ app.factory('ranking', function($http) {
     var states = {};
     var data = null;
     var categories = null;
+    var keys = null;
 
     function load(cb) {
         if (!data) {
@@ -24,57 +25,21 @@ app.factory('ranking', function($http) {
     return {
         getOverview: function (cb) {
             if (!overview) {
-                load(function(err, data) {
-                     var cat_state_elements = _.reduce(data, function(prev, state) {
-                        var categories = _.chain(state.elements)
-                            .groupBy('kategorie')
-                            .map(function (cat) {
-                                return {
-                                    category: _.first(cat)['kategorie'],
-                                    max: _.reduce(cat, function(prev, cat_elem) { return prev + cat_elem['maximalpunkte'] }, 0),
-                                    value: _.reduce(cat, function(prev, cat_elem) { return prev + cat_elem['erreichte_punkte']}, 0),
-                                    state: state.name
-                                }
-
-                            })
-                            .value();
-                        return prev.concat(categories)
-                    }, []);
-
-                    overview = _.chain(cat_state_elements)
-                        .groupBy('category')
-                        .map(function(category) {
-                            return {
-                                name: _.first(category)['category'],
-                                max: _.first(category)['max'],
-                                entries: _.reduce(category, function(prev, elem) {
-                                    prev[elem.state] = elem.value;
-                                    return prev;
-                                }, {})
-
-                            }
-                        })
-                        .value();
+                $http.get('/static/js/data/overview.json').then(function(response) {
+                    overview = response.data;
                     cb(null, overview);
-                })
-            }
-            else {
-                return cb(null, overview);
+                });
+            } else {
+                cb(null, overview);
             }
         },
         getState: function(state, cb) {
+            console.log('loading states');
             if (!states[state]) {
-                load(function(err, data) {
-                    if (data[state]) {
-                        var state_data = _.groupBy(data[state].elements, 'kategorie');
-                        states[state] = state_data;
-                        cb(null, state_data);
-                    } else {
-                        cb(new Error("unknown key for state"), null)
-                    }
-
-                })
-
+                $http.get('/static/js/data/states/' + state + '.json').then(function(response) {
+                    states[state] = response.data;
+                    cb(null, response.data)
+                });
             } else {
                 cb(null, states[state])
             }
@@ -85,7 +50,7 @@ app.factory('ranking', function($http) {
 
                     prev[key] = data[key].reduce(function(prev, elem) {
                         return {points: prev.points + elem.erreichte_punkte, max: prev.max + elem.maximalpunkte}
-                    }, {points: 0, max: 0})
+                    }, {points: 0, max: 0});
                     return prev;
                 }, {});
                 categories['Gesamt'] = Object.keys(categories).reduce(function(prev, elem) {
@@ -95,24 +60,25 @@ app.factory('ranking', function($http) {
             })
         },
         getKeysForStates: function(cb) {
-            load(function(err, data) {
-                cb(null, Object.keys(data));
-            })
+            if (!keys) {
+                $http.get('/static/js/data/keys.json').then(function(response) {
+                    keys = response.data;
+                    cb(null, keys);
+                });
+            } else {
+                cb(null, keys);
+            }
+
+            // load(function(err, data) {
+            //     cb(null, Object.keys(data));
+            // })
         },
         getCategoryNames: function(cb) {
             if (!categories) {
-                load(function (err, data) {
-                    var result = _.reduce(data, function (prev, state) {
-                         _.reduce(state.elements, function (prev_inner, indicator) {
-                            if (prev.indexOf(indicator.kategorie) < 0) {
-                                prev.push(indicator.kategorie)
-                            }
-                        });
-                        return prev;
-                    }, []);
-                    cb(null, result);
-                    categories = result;
-                })
+                $http.get('/static/js/data/categoryNames.json').then(function(response) {
+                    categories = response.data;
+                    cb(null, categories);
+                });
             } else {
                 cb(null, categories);
             }
