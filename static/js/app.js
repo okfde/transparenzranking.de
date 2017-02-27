@@ -176,7 +176,7 @@ app.controller('StateCtrl', function($scope, ranking) {
         "Auskunftspflichten":"Auskunftspflichten",
         "Ausnahmen": "Ausnahmen",
         "Antragsstellung":"Antragsstellung und Antwort",
-        "Gebuehren" : "test",
+        "Gebuehren" : "Gebühren",
         "Informationsfreiheitsbeauftragte": "Informationsfreiheitsbeauftragte"};
     $scope.data_cat = [];
     $scope._ = _;
