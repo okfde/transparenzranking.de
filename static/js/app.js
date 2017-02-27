@@ -99,40 +99,49 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
     $scope.overview_data = [];
     $scope.activeColor = "#f00";
 
-    ranking.getOverview(function(err, data) {
-        if (err) {
-            console.error(err);
-        } else {
-            $scope.overview_data = data;
-            $scope.activeColor = "#6dffd4";
-            ranking.getKeysForStates(function(err, keys) {
-                keys = keys.sort();
-                $scope.bardata = keys.map(function(elem, index) {
-                    return data.reduce(function(prev, cat) {
-                        return prev + cat.entries[elem];
-                    }, 0)
-                })
-            });
-            $scope.barcat = Object.keys(data[0].entries).sort();
-        }
-    });
+    $scope.loadOverview = function() {
+        ranking.getOverview(function(err, data) {
+            console.log('overview loaded');
+            if (err) {
+                console.error(err);
+            } else {
+                $scope.overview_data = data;
+                $scope.activeColor = "#6dffd4";
+                ranking.getKeysForStates(function(err, keys) {
+                    keys = keys.sort();
+                    $scope.bar = keys.map(function(elem, index) {
+                        var sum = data.reduce(function(prev, cat) {
+                            return prev + cat.entries[elem];
+                        }, 0);
+                        return {name: elem, sum: sum}
+                    })
+                    $scope.bar = _.sortBy($scope.bar, 'name');
+                    $scope.bardata = _.map($scope.bar, 'sum');
+                    $scope.barcat = _.map($scope.bar, 'name');
+                });
+                $scope.loading_finished = true;
+            }
+        });
+    };
 
     $scope.catClick = function(category, color) {
-        console.log("category: " + category);
-        console.log("color: " + color);
         var cat_data = _.find($scope.overview_data, function(elem) { return elem.name === category });
-        var maxValue = cat_data.max;
-        $scope.bardata = Object.values(cat_data.entries).map(function(elem) {
-            return parseInt(elem * 100 / maxValue)
-        });
-        $scope.barcat = Object.keys(cat_data.entries);
+        $scope.bar = _.chain(cat_data.entries)
+            .reduce(function(result, value, key) {
+                console.log(result);
+                result.push({ name:key, value:Math.floor(value * 100 / cat_data.max) });
+                return result;
+            }, [])
+            .sortBy('name')
+            .value();
+        $scope.bardata = _.map($scope.bar, 'value');
+        $scope.barcat = _.map($scope.bar, 'name');
         $scope.activeColor = color;
     };
 
     ranking.getCategoryNames(function(err, data) {
         if (!err) {
             $scope.categories = data;
-            $scope.$apply();
             console.log(data);
         } else {
             console.error(data);
@@ -142,6 +151,8 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
     $scope.changeBarData = function(property) {
         $scope.chart_data = getSeriesForCategory(property);
     };
+
+    $scope.loadOverview();
 });
 
 app.controller('MapCtrl', function($scope) {
@@ -153,8 +164,22 @@ app.controller('StateCtrl', function($scope, ranking) {
     $scope.overview_max = 100;
     $scope.overview_color = "#6dffd4";
     $scope.informationsrechte_color = "#ffcb64";
-    $scope.cat_color = ["#ffcb64", "#ff7c7c", "#ff639c", "#d3b4ff", "#83eeff", "#6ddecb"];
+    $scope.cat_colors = {
+        "Informationsrechte":"#ffcb64",
+        "Auskunftspflichten":"#ff7c7c",
+        "Ausnahmen": "#ff639c",
+        "Antragsstellung":"#d3b4ff",
+        "Gebuehren" : "#83eeff",
+        "Informationsfreiheitsbeauftragte": "#6ddecb"};
+    $scope.cat_names = {
+        "Informationsrechte":"Informationsrechte",
+        "Auskunftspflichten":"Auskunftspflichten",
+        "Ausnahmen": "Ausnahmen",
+        "Antragsstellung":"Antragsstellung und Antwort",
+        "Gebuehren" : "test",
+        "Informationsfreiheitsbeauftragte": "Informationsfreiheitsbeauftragte"};
     $scope.data_cat = [];
+    $scope._ = _;
 
     // Accordeon
     $("dt").click(function(){ // trigger
@@ -167,6 +192,10 @@ app.controller('StateCtrl', function($scope, ranking) {
         $scope.state = state;
         loadData(state);
     };
+
+    $scope.getNumber = function(num) {
+        return new Array(num);
+    }
 
     function loadData(state) {
         ranking.getState(state, function(err, data) {
@@ -187,8 +216,6 @@ app.controller('StateCtrl', function($scope, ranking) {
             $scope.informationsrechte_points = data['Informationsrechte'].points;
             $scope.informationsrechte_max = data['Informationsrechte'].max;
             $scope.informationsrechte_label = Math.floor($scope.informationsrechte_points * 100 / $scope.informationsrechte_max) + "%";
-
-            $scope.$apply();
         });
     }
 });
