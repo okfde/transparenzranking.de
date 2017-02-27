@@ -66,10 +66,13 @@ app.directive('bar', function() {
                     .range([0, width]);
 
                 canvas.select('.bar-rect')
+                    .style('fill', scope.color ? scope.color : "");
+
+                canvas.select('.bar-rect')
                     .transition()
                     .duration(1000)
-                    .attr('width', scope.value ? xscale(scope.value) : 0)
-                    .style('fill', scope.color ? scope.color : "");
+                    .attr('width', scope.value ? xscale(scope.value) : 0);
+
 
                 canvas.select('.bar-text')
                     .transition()
