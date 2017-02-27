@@ -25,4 +25,4 @@ welchen Schlüssen die Evaluation der hessischen Landesregierung
 kommt, bleibt übrigens geheim. Eine Veröffentlichung des
 Dokuments ist nicht beabsichtigt.
 Mangels gesetzlicher Regelung bleibt Hessen eines der
-Schlusslichter.
+Schlusslichter. 
