@@ -19,7 +19,6 @@ layout: default
             <div class="cat-wrapper">
                 <div class="row" ng-repeat="cat in data_cat track by $index">
                     <div class="col-md-2 col-md-offset-4">
-                        {{cat.name}}
                         {{cat_names[cat.name]}}
                     </div>
                     <div class="col-md-3 text-center">
@@ -41,9 +40,11 @@ layout: default
                     <p>{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
                     <div class="row" ng-repeat="indicator in indicators">
                         <div class="col-md-4">
-                            <dt>{{indicator.bezeichnung}}<span class="acc-indicator fa fa-arrow-down"></span></dt>
-                            <dd>{{indicator.hintergrund}}</dd>
-                            <dd>{{indicator.erklaerung}}</dd>
+                            <dt ng-click="indicator_click($event)">{{indicator.bezeichnung}}<span class="acc-indicator fa fa-arrow-down"></span></dt>
+                            <dd>
+                                {{indicator.hintergrund}}<br />
+                                <strong>Erklärung: </strong>{{indicator.erklaerung}}
+                            </dd>
                         </div>
                         <div class="col-md-4">
                             <p>{{indicator.erreichte_punkte}} von {{indicator.maximalpunkte}}</p>

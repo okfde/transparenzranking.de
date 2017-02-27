@@ -182,11 +182,6 @@ app.controller('StateCtrl', function($scope, ranking) {
     $scope._ = _;
 
     // Accordeon
-    $("dt").click(function(){ // trigger
-        $(this).next("dd").slideToggle("fast"); // blendet beim Klick auf "dt" die nächste "dd" ein.
-        $(this).next("span").toggleClass('fa-arrow-down');
-        $(this).next("span").toggleClass('fa-arrow-up');
-    });
 
     $scope.init = function(state) {
         $scope.state = state;
@@ -218,5 +213,14 @@ app.controller('StateCtrl', function($scope, ranking) {
             $scope.informationsrechte_label = Math.floor($scope.informationsrechte_points * 100 / $scope.informationsrechte_max) + "%";
         });
     }
+
+    $scope.indicator_click = function($event) { // trigger
+        var elem = $event.currentTarget;
+        $(elem).next("dd").slideToggle("fast"); // blendet beim Klick auf "dt" die nächste "dd" ein.
+        $(elem).next("span").toggleClass('fa-arrow-down');
+        $(elem).next("span").toggleClass('fa-arrow-up');
+    }
 });
+
+
 
