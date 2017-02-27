@@ -217,8 +217,8 @@ app.controller('StateCtrl', function($scope, ranking) {
     $scope.indicator_click = function($event) { // trigger
         var elem = $event.currentTarget;
         $(elem).next("dd").slideToggle("fast"); // blendet beim Klick auf "dt" die nächste "dd" ein.
-        $(elem).next("span").toggleClass('fa-arrow-down');
-        $(elem).next("span").toggleClass('fa-arrow-up');
+        $(elem).find("span").toggleClass('fa-caret-down');
+        $(elem).find("span").toggleClass('fa-caret-right');
     }
 });
 

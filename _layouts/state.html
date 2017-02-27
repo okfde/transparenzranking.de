@@ -40,7 +40,7 @@ layout: default
                     <p>{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
                     <div class="row" ng-repeat="indicator in indicators">
                         <div class="col-md-4">
-                            <dt ng-click="indicator_click($event)">{{indicator.bezeichnung}}<span class="acc-indicator fa fa-arrow-down"></span></dt>
+                            <dt ng-click="indicator_click($event)">{{indicator.bezeichnung}}<span class="acc-indicator fa fa-caret-right"></span></dt>
                             <dd>
                                 {{indicator.hintergrund}}<br />
                                 <strong>Erklärung: </strong>{{indicator.erklaerung}}

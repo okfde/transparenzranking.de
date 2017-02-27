@@ -246,6 +246,10 @@ dd { display:none; }
 
 }
 
+.acc-indicator:before {
+  margin-left: 10px;
+}
+
 //Angular hiding
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
