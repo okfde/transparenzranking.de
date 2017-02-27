@@ -166,6 +166,9 @@ app.directive('barchart', function() {
                     .enter()
                     .append('text')
                     .attr('class', 'bar-text')
+                    .attr('y', function (d, i) {
+                        return yscale(i) + 14
+                    })
                     .style('font-size', '9pt')
                     .text(function(d) {
                         return d + '%'
@@ -213,9 +216,6 @@ app.directive('barchart', function() {
                             return xscale(d) + 10.5;
                         else
                             return xscale(d) - 35;
-                    })
-                    .attr('y', function (d, i) {
-                        return yscale(i) + 14
                     })
                     .text(function (d) {
                         return d + "%";
