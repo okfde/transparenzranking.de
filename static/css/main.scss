@@ -21,6 +21,7 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$grey-bright: #FAFBFF;
 
 $shadow: 0 0 4px 0 rgba(128, 128, 128, 0.5);
 
@@ -44,6 +45,9 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+
+
 
 @font-face {
   font-family: Cabin;
@@ -101,6 +105,11 @@ $on-laptop:        800px;
   font-weight: 700;
 }
 
+
+
+.fond__grey { background-color: $white;}
+
+
 body {
   font-family: 'Cabin', sans-serif;
 }
@@ -114,7 +123,7 @@ h1 {
   font-size: 50px;
   font-weight: bold;
   color: $font-blue;
-  margin: 66px 0 29px 0;
+  margin: 80px 0 60px 0;
 }
 
 p {
@@ -142,6 +151,7 @@ footer p {
 }
 
 footer h3 {
+  color: $white;
   font-size: 18px;
   margin-top: 60px;
 }
@@ -243,6 +253,7 @@ dd { display:none; }
   vertical-align: top;
   overflow: hidden;
 }
+
 .svg-content-responsive {
   display: inline-block;
   position: absolute;
@@ -301,9 +312,23 @@ h2{
   font-size: 35px;
   padding: 10px 0;
   margin-top: 50px;
-
-
 }
 
 
+h3 {
+  color: $font-blue;
+  margin-top: 50px;
+}
 
+
+ol {
+  margin: 20px;
+  font-family: Georgia;
+  font-size: 21px;
+  line-height: 1.57;
+  color: $font-grey;
+
+  li {
+    padding: 10px 0 0 0;
+  }
+}

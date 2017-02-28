@@ -13,7 +13,7 @@
             stroke-width: 1px;
         }
         .feature text {
-            fill: black
+            fill: #112233;
         }
     /* ]]> */
     </style>

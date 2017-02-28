@@ -14,27 +14,42 @@ layout: default
 
                     {% endraw %}
                 </div>
+                <br> <br>
             </div>
-            {% raw %}
-            <div class="cat-wrapper">
-                <div class="row" ng-repeat="cat in data_cat track by $index">
-                    <div class="col-md-2 col-md-offset-4">
-                        {{cat_names[cat.name]}}
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <bar value="cat.points" max="cat.max" color="cat_colors[cat.name]" label="cat.value + '%'"></bar>
-                    </div>
+        </div>
+    </div>
+</div>
+<div class="container fond__grey" ng-controller="StateCtrl" ng-init="init('{{page.name}}')">
+    <div class="row">
+        {% raw %}
+        <div class="cat-wrapper">
+            <div class="row" ng-repeat="cat in data_cat track by $index">
+                <div class="col-md-2 col-md-offset-4">
+                    {{cat_names[cat.name]}}
+                </div>
+                <div class="col-md-3 text-center">
+                    <bar value="cat.points" max="cat.max" color="cat_colors[cat.name]" label="cat.value + '%'"></bar>
                 </div>
             </div>
-            {% endraw %}
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p>{{ content }}</p>
+        </div>
+        {% endraw %}
+    </div>
+</div>
+<div class="container" ng-controller="StateCtrl" ng-init="init('{{page.name}}')">
+
+        <div class="row">
+            <div class="col-md-12">
+
+
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>{{ content }}</p>
+                    </div>
                 </div>
-            </div>
-            {% raw %}
-            <div class="row" ng-repeat="(category, indicators) in stateData">
-                <div class="col-lg-8 col-lg-offset-2">
+                {% raw %}
+                <div class="row" ng-repeat="(category, indicators) in stateData">
+                    <div class="col-lg-8 col-lg-offset-2">
+
 
                     <h2>{{cat_names[category]}}</h2>
                     <p class="subinfo">{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
@@ -100,4 +115,5 @@ layout: default
     </div>
 
 </div>
+
 
