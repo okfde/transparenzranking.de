@@ -10,19 +10,21 @@ layout: default
       Deutschlands. Wir haben erstmalig die Informationsfreiheits- und Transparenzgesetze in Bund und Ländern
       miteinander verglichen.
     </p>
+    <br><br><br>
   </div>
 
   <div class="vis col-md-12" ng-controller="BarchartCtrl">
   {% raw %}
   <div class="col-md-3" ng-show="loading_finished" ng-cloak="">
-        <div class="col-md-12" ng-repeat="category in categories track by $index">
-            <button class="btn-default vis-btn-cat vis-btn-information"
-                    ng-style="{'border-left-color': colors[$index % colors.length]}" ng-click="catClick(category, colors[$index])">{{category}}</button>
-        </div>
         <div class="col-md-12">
           <button class="btn-default vis-btn-cat vis-btn-information"
               style="border-left-color: #6dffd4" ng-click="loadOverview()">Gesamt</button>
         </div>
+        <div class="col-md-12" ng-repeat="category in categories track by $index">
+            <button class="btn-default vis-btn-cat vis-btn-information"
+                    ng-style="{'border-left-color': colors[$index % colors.length]}" ng-click="catClick(category, colors[$index])">{{category}}</button>
+        </div>
+      
     </div>
     <div class="col-md-9">
 
@@ -32,7 +34,7 @@ layout: default
     </div>
   </div>
   {% endraw %}
-  <div class="col-md-offset-1 col-md-10">
+  <div class="col-lg-8 col-lg-offset-2">
     <p style="font-size:small;">
       <a href="/methodik" class="uppercase">Unsere Kriterien</a>
     </p>
@@ -47,7 +49,7 @@ layout: default
     </p>
   </div>
 
-  <div class="map-container col-md-offset-1 col-md-10" ng-controller="MapCtrl">
+  <div class="map-container col-lg-8 col-lg-offset-2" ng-controller="MapCtrl">
     <h2 class="text-center">Wählen Sie für Details ein Bundesland aus</h2>
     {% include svg/map.svg %}
     <!--<div class="map text-center">-->

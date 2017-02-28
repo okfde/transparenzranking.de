@@ -88,14 +88,14 @@ app.factory('ranking', function($http) {
 
 app.controller('BarchartCtrl', function ($scope, ranking) {
 
-    $scope.colors = ['#ffcb64','#ff7c7c','#ff639c','#374053', '#83eeff', '#6ddecb', '#6dffd4'];
+    $scope.colors = ['#ffe500','#f7a600','#596b01','#9a0052', '#009ee3', '#004079', '#6dffd4'];
 
     //$scope.activeColor = $scope.colors['Gesamt'];
     $scope.chart_data = [];
     $scope.categories = [];
     $scope.bardata = [];
     $scope.barcat = [];
-    $scope.barcolors = ['#ffcb64','#ffcb64','#ffcb64','#ffcb64','#ffcb64','#ffcb64','#ffcb64','#ffcb64','#ffcb64','#ffcb64'];
+    $scope.barcolors = ['#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffcb64','#ffcb64'];
     $scope.overview_data = [];
     $scope.activeColor = "#f00";
 
@@ -168,18 +168,18 @@ app.controller('StateCtrl', function($scope, ranking) {
     $scope.overview_color = "#6dffd4";
     $scope.informationsrechte_color = "#ffcb64";
     $scope.cat_colors = {
-        "Informationsrechte":"#ffcb64",
-        "Auskunftspflichten":"#ff7c7c",
-        "Ausnahmen": "#ff639c",
-        "Antragsstellung":"#d3b4ff",
-        "Gebuehren" : "#83eeff",
-        "Informationsfreiheitsbeauftragte": "#6ddecb"};
+        "Informationsrechte":"#ffe500",
+        "Auskunftspflichten":"#f7a600",
+        "Ausnahmen":"#596b01",
+        "Antragsstellung":"#9a0052",
+        "Gebuehren":"#009ee3",
+        "Informationsfreiheitsbeauftragte":"#004079"};
     $scope.cat_names = {
         "Informationsrechte":"Informationsrechte",
         "Auskunftspflichten":"Auskunftspflichten",
-        "Ausnahmen": "Ausnahmen",
+        "Ausnahmen":"Ausnahmen",
         "Antragsstellung":"Antragsstellung und Antwort",
-        "Gebuehren" : "Gebühren",
+        "Gebuehren":"Gebühren",
         "Informationsfreiheitsbeauftragte": "Informationsfreiheitsbeauftragte"};
     $scope.data_cat = [];
     $scope._ = _;

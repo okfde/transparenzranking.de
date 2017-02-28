@@ -39,13 +39,13 @@ layout: default
             </div>
             {% endraw %}
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-lg-8 col-lg-offset-2">
                     <p>{{ content }}</p>
                 </div>
             </div>
             {% raw %}
             <div class="row" ng-repeat="(category, indicators) in stateData">
-                <div class="col-md-12">
+                <div class="col-lg-8 col-lg-offset-2">
 
                     <h1>{{cat_names[category]}}</h1>
                     <p>{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
