@@ -10,8 +10,9 @@ Das „Hamburgische Transparenzgesetz“ (HmbTG) von 2012
 gilt bisher als Musterbeispiel für Transparenzgesetze in
 Deutschland. Eingebracht hat es eine Volksinitiative, die von
 zahlreichen zivilgesellschaftlichen Organisationen unterstützt
-wurde, umgesetzt hat es letztlich die SPD-Regierung. Das
-HmbTG ersetzte das Hamburger Informationsfreiheitsgesetz
+wurde, umgesetzt hat es letztlich die SPD-Regierung. 
+
+Das HmbTG ersetzte das Hamburger Informationsfreiheitsgesetz
 (HmbIFG) von 2006. Es verpflichtet das Land, amtliche Informationen
 öffentlich und kostenlos im Internet zugänglich zu
 machen. Dazu gehören etwa Gutachten, Senatsbeschlüsse und
@@ -23,6 +24,7 @@ von der Pflicht sind in Hamburg Rechnungshof, Steuerbehörden,
 Verfassungsschutz und der NDR als öffentlichrechtlicher
 Rundfunk. Eine weitere kleinere Schwäche sind
 fehlende Legaldefinitionen und daraus folgende Rechtsunsicherheit.
+
 Zum Beispiel sind Begriffe wie „Studien“ oder „Gutachten“
 im Gesetz nicht klar definiert. Unklar bleibt auch, ob die
 mittelbare Staatsverwaltung veröffentlichungspflichtig oder lediglich
