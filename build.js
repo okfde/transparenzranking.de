@@ -11,7 +11,7 @@ var urlify = require('urlify').create({
 });
 var _ = require('lodash');
 
-var colors = ['#ffcb64', '#ff7c7c', ' #ff639c', '#d3b4ff', '#83eeff', '#6ddecb'];
+var colors = ['#ffe500', '#f7a600', ' #596b01', '#9a0052', '#83eeff', '#6ddecb'];
 
 var layput = "state";
 
