@@ -47,10 +47,10 @@ layout: default
             <div class="row" ng-repeat="(category, indicators) in stateData">
                 <div class="col-lg-8 col-lg-offset-2">
 
-                    <h1>{{cat_names[category]}}</h1>
-                    <p>{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
-                    <div class="row" ng-repeat="indicator in indicators">
-                        <div class="col-md-4">
+                    <h2>{{cat_names[category]}}</h2>
+                    <p class="subinfo">{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
+                    <div class="row indicator" ng-repeat="indicator in indicators">
+                        <div class="col-md-5">
                             <dt ng-click="indicator_click($event)">{{indicator.bezeichnung}}<span class="acc-indicator fa fa-caret-right"></span></dt>
                             <dd>
                                 <strong>Fundstelle: </strong>{{indicator.erklaerung}}<br /><br />
@@ -58,8 +58,8 @@ layout: default
 
                             </dd>
                         </div>
-                        <div class="col-md-4">
-                            <p>{{indicator.erreichte_punkte}} von {{indicator.maximalpunkte}}</p>
+                        <div class="col-md-3">
+                            <p class="right">{{indicator.erreichte_punkte}} von {{indicator.maximalpunkte}}</p>
                         </div>
                         <div class="col-md-4">
                             <svg height="20">

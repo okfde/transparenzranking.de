@@ -133,6 +133,7 @@ footer {
   color: $white;
   height: 100%;
   padding-bottom: 90px;
+  margin-top: 150px;
 }
 
 footer p {
@@ -144,6 +145,14 @@ footer h3 {
   font-size: 18px;
   margin-top: 60px;
 }
+
+footer h2 {
+  font-size: 35px;;
+  margin-top: 90px;
+  color: $white;
+}
+
+
 
 footer a, footer a:hover, footer a:visited {
   color: $silver;
@@ -264,6 +273,45 @@ dd { display:none; }
   display: none !important;
 }
 
+
+
+.right{
+
+  font-family: Cabin;
+  color: #515b66;
+  font-size: 16px;
+  text-align: right;
+  padding-left: 60px;
+}
+
+
+.indicator {
+  font-family: Cabin;
+  color: #515b66;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+
+.subinfo {
+  font-family: Cabin;
+  color: #515b66;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h2{
+
+  font-family: Cabin;
+  font-style: 500;
+  color: #112233;
+  font-size: 35px;
+  padding: 10px 0;
+  margin-top: 50px;
+
+
+}
 
 
 
