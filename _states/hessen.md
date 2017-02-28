@@ -14,15 +14,16 @@ die SPD einen Entwurf für ein Transparenzgesetz in den Landtag
 ein, den die Regierungsmehrheit ablehnte. Bündnis 90/Die
 Grünen wollen die Auswertung der vorhandenen Transparenzgesetze
 abwarten.
+
 Laut einer Antwort des hessischen Innenministeriums auf
 eine kleine Anfrage der Fraktion Die Linke wollte die Koalition
-bis zum Herbst 2016 eine insgesamt einjährige Evaluation
-zum Thema abschließen, die allerdings Anfang 2017 noch nicht
+<a href="https://netzpolitik.org/2016/hessen-informationsfreiheit/">bis zum Herbst 2016</a> eine insgesamt einjährige Evaluation
+zum Thema abschließen, die allerdings auch Anfang 2017 noch nicht
 vorlag. Darin will die Landesregierung die „Chancen und Risiken“
 für die Einführung eines solchen Gesetzes bewerten und
 abschätzen, wie stark es die Verwaltung belasten würde. Zu
 welchen Schlüssen die Evaluation der hessischen Landesregierung
 kommt, bleibt übrigens geheim. Eine Veröffentlichung des
 Dokuments ist nicht beabsichtigt.
-Mangels gesetzlicher Regelung bleibt Hessen eines der
-Schlusslichter. 
+
+Mangels gesetzlicher Regelung bleibt Hessen eines der Schlusslichter des Rankings. 
