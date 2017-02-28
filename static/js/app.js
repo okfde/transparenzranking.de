@@ -115,7 +115,7 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
                         }, 0);
                         return {name: elem, sum: sum}
                     })
-                    $scope.bar = _.sortBy($scope.bar, 'name');
+                    $scope.bar = _.sortBy($scope.bar, 'sum').reverse();
                     $scope.bardata = _.map($scope.bar, 'sum');
                     $scope.barcat = _.map($scope.bar, 'name');
                 });
@@ -126,7 +126,7 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
 
     $scope.catClick = function(category, color) {
         var cat_data = _.find($scope.overview_data, function(elem) { return elem.name === category });
-        $scope.bar = _.chain(cat_data.entries)
+        var barentries = _.chain(cat_data.entries)
             .reduce(function(result, value, key) {
                 console.log(result);
                 result.push({ name:key, value:Math.floor(value * 100 / cat_data.max) });
@@ -134,6 +134,9 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
             }, [])
             .sortBy('name')
             .value();
+        $scope.bar = _.map($scope.barcat, function(order, index) {
+            return _.find(barentries, ['name', order]);
+        })
         $scope.bardata = _.map($scope.bar, 'value');
         $scope.barcat = _.map($scope.bar, 'name');
         $scope.activeColor = color;
