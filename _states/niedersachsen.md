@@ -8,13 +8,11 @@ noch ein Transparenzgesetz. Gesetzesanträge der
 Opposition in den Jahren 2009 und 2013 scheiterten. SPD und
 Bündnis 90/Die Grünen haben in ihrem Koalitionsvertrag
 (2013-2018) ein Gesetz nach dem Vorbild des Hamburger Transparenzgesetzes
-angekündigt. Voraussichtlich wird in dieser Legislaturperiode
-jedoch nur ein Informationsfreiheitsgesetz
-kommen. Das Kabinett hat Anfang 2017 einen entsprechenden
-Entwurf beschlossen. Er nimmt jedoch die kommunale Ebene
-bei der Veröffentlichung zentraler Daten aus. Außerdem ist im
-Entwurf keine Begrenzung von Gebühren vorgesehen. Das gibt
-es sonst nur in Baden-Württemberg.
+angekündigt. In dieser Legislaturperiode
+wird jedoch maximal ein Informationsfreiheitsgesetz
+kommen. Das Kabinett hat Anfang 2017 <a href="https://netzpolitik.org/2017/entwurf-fuer-informationsfreiheitsgesetz-in-niedersachsen-landesregierung-schwingt-die-gebuehrenkeule/">einen entsprechenden Entwurf</a> beschlossen. Darin sind nicht nur viele Ausnahmeregelungen vorgesehen. Außerdem soll es keine Begrenzung von Gebühren geben. Das gibt
+es sonst nur in Baden-Württemberg. 
+
 Unabhängig von den (fehlenden) gesetzlichen Regelungen
 auf Landesebene erlaubt das Kommunalverfassungsgesetz den
 Kommunen, jeweils eigenständig sogenannte Informationsfreiheitssatzungen

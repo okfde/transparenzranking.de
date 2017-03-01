@@ -168,6 +168,10 @@ footer a, footer a:hover, footer a:visited {
   color: $silver;
 }
 
+dd {
+  margin-top: 10px;
+}
+
 .dropdown-toggle {
   font-weight: bold;
   font-size: 15px;
@@ -249,7 +253,7 @@ dd { display:none; }
   display: inline-block;
   position: relative;
   width: 100%;
-  padding-bottom: 100%; /* aspect ratio */
+  padding-bottom: 80%; /* aspect ratio */
   vertical-align: top;
   overflow: hidden;
 }
@@ -263,11 +267,18 @@ dd { display:none; }
 
 .cat-wrapper {
   margin: 7em 0;
+}
 
+.cat-explanation {
+  margin-top: 20px;
 }
 
 .acc-indicator:before {
   margin-left: 10px;
+}
+
+.bars {
+  margin-top: 3em;
 }
 
 //Angular hiding

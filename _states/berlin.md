@@ -21,9 +21,11 @@ Die seit 2016 regierende rot-rot-grüne Landesregierung hat
 vereinbart, das Informationsfreiheitsgesetz in Richtung eines
 Transparenzgesetzes weiter zu entwickeln. Konkrete Vorschläge
 liegen noch nicht vor.
+
 Die jüngsten Änderungen traten 2016 in Kraft. Demnach
 müssen von den Behörden geführte Verzeichnisse auch im Internet
 veröffentlicht werden.
+
 Berlin liegt insgesamt auf Platz 4. Positiv hervorzuheben
 sind vor allem die umfassenden Auskunftspflichten, von denen
 nur wenige Ausnahmen gemacht werden. Verbesserungsbedarf

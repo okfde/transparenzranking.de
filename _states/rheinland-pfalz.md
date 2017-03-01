@@ -9,10 +9,7 @@ Rheinland-Pfalz ist das erste Flächenland mit einem Transparenzgesetz.
 Das „Landestransparenzgesetz Rheinland-Pfalz“
 (LTranspG) trat zum Jahresbeginn 2016 in Kraft. Es ersetzt das
 vorherige Informationsfreiheits- und das Umweltinformationsgesetz.
-Das neue Gesetz wurde mit Hilfe einer breiten Bürgerbeteiligung
-entwickelt. Eine Beteiligungsplattform ermöglichte
-es Interessierten, das Gesetz online zu kommentieren und in
-Workshops Änderungsvorschläge zu unterbreiten.
+
 Rheinland-Pfalz steht mit seinem Gesetz auf Platz 5. Dies
 liegt vor allem an der Pflicht zur aktiven Veröffentlichung
 einiger Informationen. Dass die kommunale Ebene weitgehend

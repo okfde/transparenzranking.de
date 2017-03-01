@@ -7,49 +7,42 @@ layout: default
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h1>{{page.name}}</h1>
-                    <p><em>Informationsfreiheitsgesetz seit 2012</em></p>
+                    <p><em>Informationsfreiheitsgesetz seit {{page.ifg}}</em></p>
                     <p class="text-center">Gesamt {{overview_points}}</p>
                     {% raw %}
                     <bar value="overview_points" max="100" color="overview_color" label="overview_label" /></div>
 
                     {% endraw %}
                 </div>
-                <br> <br>
             </div>
-        </div>
-    </div>
-</div>
-<div class="container fond__grey" ng-controller="StateCtrl" ng-init="init('{{page.name}}')">
-    <div class="row">
-        {% raw %}
-        <div class="cat-wrapper">
-            <div class="row" ng-repeat="cat in data_cat track by $index">
-                <div class="col-md-2 col-md-offset-4">
-                    {{cat_names[cat.name]}}
-                </div>
-                <div class="col-md-3 text-center">
-                    <bar value="cat.points" max="cat.max" color="cat_colors[cat.name]" label="cat.value + '%'"></bar>
-                </div>
-            </div>
-        </div>
-        {% endraw %}
-    </div>
-</div>
-<div class="container" ng-controller="StateCtrl" ng-init="init('{{page.name}}')">
-
-        <div class="row">
-            <div class="col-md-12">
-
-
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <p>{{ content }}</p>
+            {% raw %}
+            <div class="cat-wrapper">
+                <div class="row" >
+                    <div class="col-md-12">
+                        <div class="bars">
+                            <div class="bar-wrapper" ng-repeat="cat in data_cat track by $index">
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-3">
+                                        {{cat_names[cat.name]}}
+                                    </div>
+                                    <div class="col-md-3">
+                                        <bar value="cat.points" max="cat.max" color="cat_colors[cat.name]" label="cat.value + '%'"></bar>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                {% raw %}
-                <div class="row" ng-repeat="(category, indicators) in stateData">
-                    <div class="col-lg-8 col-lg-offset-2">
-
+            </div>
+            {% endraw %}
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>{{ content }}</p>
+                </div>
+            </div>
+            {% raw %}
+            <div class="row" ng-repeat="(category, indicators) in stateData">
+                <div class="col-lg-8 col-lg-offset-2">
 
                     <h2>{{cat_names[category]}}</h2>
                     <p class="subinfo">{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
@@ -57,8 +50,9 @@ layout: default
                         <div class="col-md-5">
                             <dt ng-click="indicator_click($event)">{{indicator.bezeichnung}}<span class="acc-indicator fa fa-caret-right"></span></dt>
                             <dd>
-                                {{indicator.hintergrund}}<br />
-                                <strong>Erklärung: </strong>{{indicator.erklaerung}}
+                                <strong>Fundstelle: </strong>{{indicator.erklaerung}}<br /><br />
+                                {{indicator.hintergrund}}
+
                             </dd>
                         </div>
                         <div class="col-md-3">
@@ -115,5 +109,4 @@ layout: default
     </div>
 
 </div>
-
 

@@ -6,6 +6,7 @@ app.factory('ranking', function($http) {
     var data = null;
     var categories = null;
     var keys = null;
+    var info = null;
 
     function load(cb) {
         if (!data) {
@@ -82,6 +83,16 @@ app.factory('ranking', function($http) {
             } else {
                 cb(null, categories);
             }
+        },
+        getCategoryInfo: function(cb) {
+            if (!info) {
+                $http.get('/static/js/data/categoryInfo.json').then(function(response) {
+                    info = response.data;
+                    cb(null, info);
+                });
+            } else {
+                cb(null, info);
+            }
         }
     }
 });
@@ -98,8 +109,13 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
     $scope.barcolors = ['#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffcb64','#ffcb64'];
     $scope.overview_data = [];
     $scope.activeColor = "#f00";
+    $scope.show_info = false;
+    $scope.cat_info = [];
+    $scope.active_cat = '';
+    $scope.active_info = '';
 
     $scope.loadOverview = function() {
+        $scope.show_info = false;
         ranking.getOverview(function(err, data) {
             console.log('overview loaded');
             if (err) {
@@ -115,7 +131,7 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
                         }, 0);
                         return {name: elem, sum: sum}
                     })
-                    $scope.bar = _.sortBy($scope.bar, 'name');
+                    $scope.bar = _.sortBy($scope.bar, 'sum').reverse();
                     $scope.bardata = _.map($scope.bar, 'sum');
                     $scope.barcat = _.map($scope.bar, 'name');
                 });
@@ -124,9 +140,16 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
         });
     };
 
+    ranking.getCategoryInfo(function(err, data) {
+        $scope.cat_info = data;
+    })
+
     $scope.catClick = function(category, color) {
+        $scope.show_info = true;
+        $scope.active_cat = category;
+        $scope.active_info = _.find($scope.cat_info, ['name', category])['info'];
         var cat_data = _.find($scope.overview_data, function(elem) { return elem.name === category });
-        $scope.bar = _.chain(cat_data.entries)
+        var barentries = _.chain(cat_data.entries)
             .reduce(function(result, value, key) {
                 console.log(result);
                 result.push({ name:key, value:Math.floor(value * 100 / cat_data.max) });
@@ -134,6 +157,9 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
             }, [])
             .sortBy('name')
             .value();
+        $scope.bar = _.map($scope.barcat, function(order, index) {
+            return _.find(barentries, ['name', order]);
+        })
         $scope.bardata = _.map($scope.bar, 'value');
         $scope.barcat = _.map($scope.bar, 'name');
         $scope.activeColor = color;
@@ -168,15 +194,15 @@ app.controller('StateCtrl', function($scope, ranking) {
         "Informationsrechte":"#ffe500",
         "Auskunftspflichten":"#f7a600",
         "Ausnahmen":"#596b01",
-        "Antragsstellung":"#9a0052",
-        "Gebuehren":"#009ee3",
+        "Antragssteller":"#9a0052",
+        "Gebühren":"#009ee3",
         "Informationsfreiheitsbeauftragte":"#004079"};
     $scope.cat_names = {
         "Informationsrechte":"Informationsrechte",
         "Auskunftspflichten":"Auskunftspflichten",
         "Ausnahmen":"Ausnahmen",
-        "Antragsstellung":"Antragsstellung und Antwort",
-        "Gebuehren":"Gebühren",
+        "Antragssteller":"Antragsstellung und Antwort",
+        "Gebühren":"Gebühren",
         "Informationsfreiheitsbeauftragte": "Informationsfreiheitsbeauftragte"};
     $scope.data_cat = [];
     $scope._ = _;

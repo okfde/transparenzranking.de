@@ -1,7 +1,7 @@
 ---
 name: Bund
 link: bund
-ifg: 2012
+ifg: 2006, zuletzt geändert 2013
 ifg_link: "https://www.gesetze-im-internet.de/ifg/BJNR272200005.html"
 layout: state
 ---
