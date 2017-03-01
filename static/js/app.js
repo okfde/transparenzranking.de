@@ -6,6 +6,7 @@ app.factory('ranking', function($http) {
     var data = null;
     var categories = null;
     var keys = null;
+    var info = null;
 
     function load(cb) {
         if (!data) {
@@ -82,6 +83,16 @@ app.factory('ranking', function($http) {
             } else {
                 cb(null, categories);
             }
+        },
+        getCategoryInfo: function(cb) {
+            if (!info) {
+                $http.get('/static/js/data/categoryInfo.json').then(function(response) {
+                    info = response.data;
+                    cb(null, info);
+                });
+            } else {
+                cb(null, info);
+            }
         }
     }
 });
@@ -98,8 +109,13 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
     $scope.barcolors = ['#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffe500','#ffcb64','#ffcb64'];
     $scope.overview_data = [];
     $scope.activeColor = "#f00";
+    $scope.show_info = false;
+    $scope.cat_info = [];
+    $scope.active_cat = '';
+    $scope.active_info = '';
 
     $scope.loadOverview = function() {
+        $scope.show_info = false;
         ranking.getOverview(function(err, data) {
             console.log('overview loaded');
             if (err) {
@@ -124,7 +140,14 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
         });
     };
 
+    ranking.getCategoryInfo(function(err, data) {
+        $scope.cat_info = data;
+    })
+
     $scope.catClick = function(category, color) {
+        $scope.show_info = true;
+        $scope.active_cat = category;
+        $scope.active_info = _.find($scope.cat_info, ['name', category])['info'];
         var cat_data = _.find($scope.overview_data, function(elem) { return elem.name === category });
         var barentries = _.chain(cat_data.entries)
             .reduce(function(result, value, key) {

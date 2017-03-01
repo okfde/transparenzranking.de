@@ -24,10 +24,11 @@ layout: default
             <button class="btn-default vis-btn-cat vis-btn-information"
                     ng-style="{'border-left-color': colors[$index % colors.length]}" ng-click="catClick(category, colors[$index])">{{category}}</button>
         </div>
-      
+        <div class="col-md-12 cat-explanation" ng-if="show_info">
+          <strong>{{active_cat}}</strong> {{active_info}}
+        </div>
     </div>
     <div class="col-md-9">
-
       <div id="wrapper">
           <barchart data="bardata" caption="barcat" colors="activeColor" max="100"></barchart>
       </div>
