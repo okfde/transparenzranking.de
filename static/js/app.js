@@ -194,14 +194,14 @@ app.controller('StateCtrl', function($scope, ranking) {
         "Informationsrechte":"#ffe500",
         "Auskunftspflichten":"#f7a600",
         "Ausnahmen":"#596b01",
-        "Antragsstellung":"#9a0052",
+        "Antragssteller":"#9a0052",
         "Gebühren":"#009ee3",
         "Informationsfreiheitsbeauftragte":"#004079"};
     $scope.cat_names = {
         "Informationsrechte":"Informationsrechte",
         "Auskunftspflichten":"Auskunftspflichten",
         "Ausnahmen":"Ausnahmen",
-        "Antragsstellung":"Antragsstellung und Antwort",
+        "Antragssteller":"Antragsstellung und Antwort",
         "Gebühren":"Gebühren",
         "Informationsfreiheitsbeauftragte": "Informationsfreiheitsbeauftragte"};
     $scope.data_cat = [];
