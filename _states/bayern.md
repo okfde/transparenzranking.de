@@ -1,7 +1,7 @@
 ---
 layout: state
 name: Bayern
-link: Bayern
+link: bayern
 ---
 In Bayern blockiert seit Jahren die regierende CSU ein Informationsfreiheitsgesetz auf Landesebene. Seit 2001 versuchten insgesamt elf parlamentarische Initiativen ein Informationsfreiheitsgesetz einzuführen, sie scheiterten alle an der Regierungsmehrheit.
 
