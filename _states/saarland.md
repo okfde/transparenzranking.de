@@ -6,6 +6,8 @@ ifg_link: "http://sl.juris.de/cgi-bin/landesrecht.py?d=http://sl.juris.de/sl/ges
 layout: state
 
 ---
+<i>In der ursprünglichen Version wurden Regelungen zu Kopien und Gebühren nicht beachtet, sodass die Bewertung zu Unrecht fünf Punkte zu niedrig ausfiel. Dies wurde am 10.03.2017 korrigiert.</i>
+
 Das „Saarländische Informationsfreiheitsgesetz“ (SIFG) trat
 2006 in Kraft. Eine Evaluation 2010 erbrachte keine substanziellen
 Änderungsvorschläge. Im Vergleich zu anderen Landesinformationsfreiheitsgesetzen
