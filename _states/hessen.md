@@ -5,9 +5,9 @@ ifg: 2018 (Entwurf)
 link: hessen
 ---
 In Hessen gibt es weder ein Informationsfreiheitsgesetz noch
-ein Transparenzgesetz. Allerdings liegt dem Landesparlement
-derzeit ein <a href="https://transparenzranking.de/">Entwurf der grün-schwarzen 
-Landesregierung vor</a>.
+ein Transparenzgesetz. Allerdings liegt dem Landtag
+derzeit ein <a href="https://transparenzranking.de/">Entwurf 
+der schwarzen-grünen Landesregierung vor</a>.
 
 Der Entwurf ist Teil des Datenschutzgesetzes und umfasst 
 nur wenige Teile eines echten Informationsfreiheitsgesetzes.
