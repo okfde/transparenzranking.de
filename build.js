@@ -15,6 +15,8 @@ var colors = ['#ffe500', '#f7a600', ' #596b01', '#9a0052', '#83eeff', '#6ddecb']
 
 var layput = "state";
 
+var drafts = ["Hessen"];
+
 // getOverview(function(err, data) {
 //     jsonfile.writeFile('static/js/data/overview.json', data, function(err) {
 //         console.log('overview.json written')
@@ -65,7 +67,8 @@ function writeOverview(data) {
         return prev.concat(categories)
     }, []);
 
-    var overview = _.chain(cat_state_elements)
+    var overview = {};
+    overview['entries'] = _.chain(cat_state_elements)
         .groupBy('category')
         .map(function(category) {
             return {
@@ -79,6 +82,8 @@ function writeOverview(data) {
             }
         })
         .value();
+
+    overview['drafts'] = drafts;
     jsonfile.writeFile('static/js/data/overview.json', overview, function(err) {
         console.log('overview.json written')
     })
@@ -87,6 +92,7 @@ function writeOverview(data) {
 function writeStates(data) {
     for (var state in data) {
         var state_data = _.groupBy(data[state].elements, 'kategorie');
+
         jsonfile.writeFile('static/js/data/states/' + state + '.json', state_data, function(err) {
            console.log('written' + state)
         });

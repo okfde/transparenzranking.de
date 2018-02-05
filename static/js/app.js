@@ -118,22 +118,41 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
         $scope.show_info = false;
         ranking.getOverview(function(err, data) {
             console.log('overview loaded');
+            console.log(data);
             if (err) {
                 console.error(err);
             } else {
-                $scope.overview_data = data;
-                $scope.activeColor = "#6dffd4";
+                $scope.overview_data = data.entries;
+                $scope.drafts = data.drafts;
+                // $scope.activeColor = "#6dffd4";
+                var barcolors = [];
                 ranking.getKeysForStates(function(err, keys) {
                     keys = keys.sort();
                     $scope.bar = keys.map(function(elem, index) {
-                        var sum = data.reduce(function(prev, cat) {
+                        var sum = data.entries.reduce(function(prev, cat) {
                             return prev + cat.entries[elem];
                         }, 0);
+                        barcolors.push('#6dffd4');
                         return {name: elem, sum: sum}
-                    })
+                    });
+
                     $scope.bar = _.sortBy($scope.bar, 'sum').reverse();
                     $scope.bardata = _.map($scope.bar, 'sum');
                     $scope.barcat = _.map($scope.bar, 'name');
+                    $scope.barcat.map(function(elem, index) {
+                        if (data.drafts.indexOf(elem) > -1) {
+                            barcolors[index] = '#ff0000';
+                        }
+                    });
+                    $scope.barcaptions = $scope.barcat.map(function(elem) {
+                        if ($scope.drafts.indexOf(elem) > -1) {
+                            return elem + ' (Entwurf)'
+                        } else {
+                            return elem;
+                        }
+                    });
+                    // barcolors[0] = '#ff0000';
+                    $scope.activeColor = barcolors;
                 });
                 $scope.loading_finished = true;
             }
@@ -149,6 +168,7 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
         $scope.active_cat = category;
         $scope.active_info = _.find($scope.cat_info, ['name', category])['info'];
         var cat_data = _.find($scope.overview_data, function(elem) { return elem.name === category });
+        var barcolors = [];
         var barentries = _.chain(cat_data.entries)
             .reduce(function(result, value, key) {
                 console.log(result);
@@ -158,11 +178,25 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
             .sortBy('name')
             .value();
         $scope.bar = _.map($scope.barcat, function(order, index) {
+            barcolors.push(color);
             return _.find(barentries, ['name', order]);
-        })
+        });
+
         $scope.bardata = _.map($scope.bar, 'value');
         $scope.barcat = _.map($scope.bar, 'name');
-        $scope.activeColor = color;
+        $scope.barcat.map(function(elem, index) {
+            if ($scope.drafts.indexOf(elem) > -1) {
+                barcolors[index] = '#ff0000';
+            }
+        });
+        $scope.barcaptions = $scope.barcat.map(function(elem, index) {
+            if ($scope.drafts.indexOf(elem) > -1) {
+                return elem + ' (Entwurf)'
+            } else {
+                return elem;
+            }
+        });
+        $scope.activeColor = barcolors;
     };
 
     ranking.getCategoryNames(function(err, data) {
