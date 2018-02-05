@@ -2,6 +2,8 @@
 layout: state
 name: Hessen
 link: hessen
+status: draft
+ifg: 2017
 ---
 In Hessen gibt es weder ein Informationsfreiheitsgesetz noch
 ein Transparenzgesetz. Der Versuch, eines einzuführen, scheiterte

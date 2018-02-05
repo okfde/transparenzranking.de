@@ -4,7 +4,7 @@ link: baden-wuerttemberg
 ifg: 2016
 ifg_link: "http://www.landesrecht-bw.de/jportal/portal/t/g2u/page/bsbawueprod.psml;jsessionid=7B9F63D2264ED25A8E80DA5127A56164.jp91?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-InfFrGBWpP10&doc.part=X&doc.price=0.0#focuspoint"
 layout: state
-
+status: complete
 ---
 Das jüngste Informationsfreiheitsgesetz Deutschlands („Landesinformationsfreiheitsgesetz Baden-Württemberg“ – LIFG) trat Ende 2015 in Kraft. Die grün-rote Landesregierung erarbeitete es kurz vor Ende der Legislaturperiode, der Landtag verabschiedete
 es einstimmig. Es gibt den Baden-Württemberger/innen gegenüber den Verwaltungen ein Recht auf Information, unabhängig

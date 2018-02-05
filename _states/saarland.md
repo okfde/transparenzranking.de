@@ -4,7 +4,7 @@ link: saarland
 ifg: 2006, letzte Änderung 2015
 ifg_link: "http://sl.juris.de/cgi-bin/landesrecht.py?d=http://sl.juris.de/sl/gesamt/SIFG_SL_2006.htm#SIFG_SL_2006_rahmen"
 layout: state
-
+status: complete
 ---
 <i>In der ursprünglichen Version wurden Regelungen zu Kopien und Gebühren nicht beachtet, sodass die Bewertung zu Unrecht fünf Punkte zu niedrig ausfiel. Dies wurde am 10.03.2017 korrigiert.</i>
 

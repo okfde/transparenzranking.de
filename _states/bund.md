@@ -4,6 +4,7 @@ link: bund
 ifg: 2006, zuletzt geändert 2013
 ifg_link: "https://www.gesetze-im-internet.de/ifg/BJNR272200005.html"
 layout: state
+status: complete
 ---
 Auf Bundesebene gilt das Infomationsfreiheitsgesetz (IFG-Bund). Es betrifft aber nur Bundesbehörden.
 Es liegt im Vergleich zu den landesrechtlichen Regelungen mit 38 Punkten im Mittelfeld.

@@ -2,6 +2,7 @@
 layout: state
 name: Niedersachsen
 link: niedersachsen
+status: complete
 ---
 In Niedersachsen gibt es bislang weder ein Informationsfreiheitsgesetz
 noch ein Transparenzgesetz. Gesetzesanträge der

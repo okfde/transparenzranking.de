@@ -4,7 +4,7 @@ link: thueringen
 ifg: 2012
 ifg_link: "http://landesrecht.thueringen.de/jportal/?quelle=jlink&query=InfFrG+TH&psml=bsthueprod.psml&max=true"
 layout: state
-
+status: complete
 ---
 Das Land Thüringen hat den Zugang zu Informationen im
 „Thüringer Informationsfreiheitsgesetz“ (ThürIFG) von 2012

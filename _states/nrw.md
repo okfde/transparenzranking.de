@@ -4,7 +4,7 @@ link: nrw
 ifg: 2001
 ifg_link: "https://recht.nrw.de/lmi/owa/pl_text_anzeigen?v_id=4820020930120743668"
 layout: state
-
+status: complete
 ---
 Das „Gesetz über die Freiheit des Zugangs zu Informationen für
 das Land Nordrhein-Westfalen“ (IFG-NRW) trat 2001 in Kraft

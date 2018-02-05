@@ -2,6 +2,7 @@
 layout: state
 name: Sachsen
 link: sachsen
+status: complete
 ---
 Sachsen hat weder ein Informationsfreiheits- noch ein Transparenzgesetz.
 

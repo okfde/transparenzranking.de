@@ -4,7 +4,7 @@ link: brandenburg
 ifg: 1998, letzte Änderung 2013
 ifg_link: "http://bravors.brandenburg.de/de/gesetze-212780"
 layout: state
-
+status: complete
 ---
 Der Vorreiter der Informationsfreiheit in Deutschland beschloss
 als erstes Bundesland 1998 ein „Akteneinsichts- und

@@ -4,7 +4,7 @@ link: berlin
 ifg: 1998, letzte Änderung 2016
 ifg_link: "http://gesetze.berlin.de/jportal/?quelle=jlink&query=InfFrG+BE&psml=bsbeprod.psml&max=true&aiz=true"
 layout: state
-
+status: complete
 ---
 Das „Gesetz zur Förderung der Informationsfreiheit in Berlin“
 trat bereits 1999 in Kraft. Bündnis 90/Die Grünen brachten diesen

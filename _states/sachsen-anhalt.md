@@ -4,6 +4,7 @@ link: sachsen-anhalt
 ifg: 2008
 ifg_link: "http://www.landesrecht.sachsen-anhalt.de/jportal/?quelle=jlink&query=InfZG+ST&psml=bssahprod.psml&max=true&aiz=true"
 layout: state
+status: complete
 ---
 Sachsen-Anhalt regelt den Zugang zu Informationen gesetzlich
 seit 2008 („Informationszugangsgesetz Sachsen-Anhalt“ – IZG

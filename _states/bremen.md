@@ -4,7 +4,7 @@ link: bremen
 ifg: 2006, letzte Änderung 2015
 ifg_link: "http://transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.67770.de&asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d"
 layout: state
-
+status: complete
 ---
 Das „Gesetz über die Freiheit des Zugangs zu Informationen für das Land Bremen“ (BremIFG) trat 2006 in Kraft. Nach einer
 Evaluierung des Gesetzes erfolgten zwei Novellierungen 2011 und 2015, die das Gesetz um ein Informationsregister ergänzten,
