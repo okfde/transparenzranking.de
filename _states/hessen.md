@@ -1,9 +1,9 @@
 ---
 layout: state
 name: Hessen
-ifg: 2018 (Entwurf)
+ifg: 2018
 link: hessen
-status: draft
+status: complete
 ifg: 2017
 ---
 In Hessen gibt es weder ein Informationsfreiheitsgesetz noch

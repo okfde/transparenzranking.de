@@ -15,7 +15,7 @@ var colors = ['#ffe500', '#f7a600', ' #596b01', '#9a0052', '#83eeff', '#6ddecb']
 
 var layput = "state";
 
-var drafts = ["Hessen"];
+var drafts = [];
 
 // getOverview(function(err, data) {
 //     jsonfile.writeFile('static/js/data/overview.json', data, function(err) {
