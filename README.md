@@ -1,6 +1,6 @@
 # Website for the Transparency Ranking in Germany
 
-Repository of [okfn.de](https://transparenzranking.de) – pull requests are welcome.
+Repository of [transparenzranking.de](https://transparenzranking.de) – pull requests are welcome.
 
 ---
 
