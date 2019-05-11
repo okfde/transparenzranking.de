@@ -77,7 +77,14 @@ app.directive('bar', function() {
                 canvas.select('.bar-text')
                     .transition()
                     .duration(1000)
-                    .attr('x', scope.value ? xscale(scope.value) + 10 : 0)
+                    .attr('x', function () {
+                        var value = scope.value ? xscale(scope.value) : 0;
+
+                        if (xscale(scope.max) - value > 50) {
+                            return value + 10.5;
+                        }
+                        return value - 35;
+                    })
                     .text(scope.label ? scope.label : "")
             }
         }
