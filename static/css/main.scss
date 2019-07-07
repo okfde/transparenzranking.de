@@ -115,7 +115,6 @@ body {
 }
 
 header {
-  padding-bottom: 17px;
   box-shadow: $shadow;
 }
 
@@ -190,14 +189,6 @@ dd {
   font-weight: bold;
   line-height: 1.25;
   color: $font-blue;
-}
-
-.site-header .left {
-  margin-top: 23px;
-}
-
-.site-header .right {
-  margin-top: 16px;
 }
 
 .vis {
@@ -299,7 +290,6 @@ dd { display:none; }
   color: #515b66;
   font-size: 16px;
   text-align: right;
-  padding-left: 60px;
 }
 
 

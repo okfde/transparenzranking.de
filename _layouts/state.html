@@ -3,79 +3,75 @@ layout: default
 ---
 <div class="container" ng-controller="StateCtrl" ng-init="init('{{page.name}}')">
     <div class="row">
-        <div class="col-md-offset-1 col-md-10">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    {% if page.status == 'draft' %}
-                        <h1 style="color: red">{{page.name}} (Entwurf)</h1>
-                        <p><em>Entwurf von {{page.ifg}}</em></p>
-                    {% else %}
-                        <h1>{{page.name}}</h1>
-                        <p><em>Informationsfreiheitsgesetz seit {{page.ifg}}</em></p>
-                    {% endif %}
-                    <p class="text-center">Gesamt {{overview_points}}</p>
-                    {% raw %}
-                    <bar value="overview_points" max="100" color="overview_color" label="overview_label" /></div>
-
-                    {% endraw %}
-                </div>
-            </div>
+        <div class="col-md-offset-2 col-md-8 text-center">
+            {% if page.status == 'draft' %}
+                <h1 style="color: red">{{page.name}} (Entwurf)</h1>
+                <p><em>Entwurf von {{page.ifg}}</em></p>
+            {% else %}
+                <h1>{{page.name}}</h1>
+                <p><em>Informationsfreiheitsgesetz seit {{page.ifg}}</em></p>
+            {% endif %}
+            <p class="text-center">Gesamt {{overview_points}}</p>
             {% raw %}
-            <div class="cat-wrapper">
-                <div class="row" >
-                    <div class="col-md-12">
-                        <div class="bars">
-                            <div class="bar-wrapper" ng-repeat="cat in data_cat track by $index">
-                                <div class="row">
-                                    <div class="col-md-offset-3 col-md-3">
-                                        {{cat_names[cat.name]}}
-                                    </div>
-                                    <div class="col-md-3">
-                                        <bar value="cat.points" max="cat.max" color="cat_colors[cat.name]" label="cat.value + '%'"></bar>
-                                    </div>
-                                </div>
+            <bar value="overview_points" max="100" color="overview_color" label="overview_label" />
+            {% endraw %}
+        </div>
+    </div>
+    {% raw %}
+    <div class="cat-wrapper">
+        <div class="row" >
+            <div class="col-md-12">
+                <div class="bars">
+                    <div class="bar-wrapper" ng-repeat="cat in data_cat track by $index">
+                        <div class="row">
+                            <div class="col-md-offset-3 col-md-3">
+                                {{cat_names[cat.name]}}
+                            </div>
+                            <div class="col-md-3">
+                                <bar value="cat.points" max="cat.max" color="cat_colors[cat.name]" label="cat.value + '%'"></bar>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            {% endraw %}
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p>{{ content }}</p>
+        </div>
+    </div>
+    {% endraw %}
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <p>{{ content }}</p>
+        </div>
+    </div>
+    {% raw %}
+    <div class="row" ng-repeat="(category, indicators) in stateData">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>{{cat_names[category]}}</h2>
+            <p class="subinfo">{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
+            <div class="row indicator" ng-repeat="indicator in indicators">
+                <div class="col-sm-10 col-md-5">
+                    <dt ng-click="indicator_click($event)">{{indicator.bezeichnung}}<span class="acc-indicator fa fa-caret-right"></span></dt>
+                    <dd>
+                        <strong>Fundstelle: </strong>{{indicator.erklaerung}}<br /><br />
+                        {{indicator.hintergrund}}
+
+                    </dd>
+                </div>
+                <div class="col-sm-2 col-md-3">
+                    <p class="right">{{indicator.erreichte_punkte}} von {{indicator.maximalpunkte}}</p>
+                </div>
+                <div class="col-md-4">
+                    <svg height="20">
+                        <g>
+                            <rect width="20" height="20" ng-attr-x="{{(i -1) * 24 }}" fill="{{cat_colors[category]}}" ng-repeat="i in _.range(1, indicator.erreichte_punkte + 1) track by $index"></rect>
+                        </g>
+                        <g ng-repeat="i in _.range(indicator.erreichte_punkte, indicator.maximalpunkte)">
+                            <rect width="20" height="20" ng-attr-x="{{(i) * 24 }}" fill="grey"></rect>
+                        </g>
+
+                    </svg>
                 </div>
             </div>
-            {% raw %}
-            <div class="row" ng-repeat="(category, indicators) in stateData">
-                <div class="col-lg-8 col-lg-offset-2">
-
-                    <h2>{{cat_names[category]}}</h2>
-                    <p class="subinfo">{{_.sumBy(indicators, 'erreichte_punkte')}} von {{_.sumBy(indicators, 'maximalpunkte')}} Punkten</p>
-                    <div class="row indicator" ng-repeat="indicator in indicators">
-                        <div class="col-md-5">
-                            <dt ng-click="indicator_click($event)">{{indicator.bezeichnung}}<span class="acc-indicator fa fa-caret-right"></span></dt>
-                            <dd>
-                                <strong>Fundstelle: </strong>{{indicator.erklaerung}}<br /><br />
-                                {{indicator.hintergrund}}
-
-                            </dd>
-                        </div>
-                        <div class="col-md-3">
-                            <p class="right">{{indicator.erreichte_punkte}} von {{indicator.maximalpunkte}}</p>
-                        </div>
-                        <div class="col-md-4">
-                            <svg height="20">
-                                <g>
-                                    <rect width="20" height="20" ng-attr-x="{{i * 24 }}" fill="{{cat_colors[category]}}" ng-repeat="i in _.range(1, indicator.erreichte_punkte + 1) track by $index"></rect>
-                                </g>
-                                <g ng-repeat="i in _.range(indicator.erreichte_punkte, indicator.maximalpunkte)">
-                                    <rect width="20" height="20" ng-attr-x="{{(i + 1) * 24 }}" fill="grey"></rect>
-                                </g>
-
-                            </svg>
-                        </div>
-                    </div>
-                {% endraw %}
+        {% endraw %}
                     <!--{% for category in page.categories %}-->
                         <!--{% if category.name %}-->
                             <!--<h1>{{category.name}}</h1>-->
@@ -107,11 +103,9 @@ layout: default
                         <!--{% endif %}-->
                     <!--{% endfor %}-->
 
-                </div>
-                <div class="ende"></div>
             </div>
+            <div class="ende"></div>
         </div>
     </div>
-
 </div>
 

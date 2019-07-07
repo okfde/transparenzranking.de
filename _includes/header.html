@@ -1,26 +1,30 @@
-<header class="site-header col-md-12">
-  <div class="left col-md-3">
-    <a href="/">
-      <div class="col-md-5 col-sm-3 col-xs-3">
-        <img src="/static/img/ifg-ranking-logo.png" alt="" />
-      </div>
-      <div class="col-md-7 col-xs-9 logo-description">
-        Transparenzranking<br>
-        Deutschland
-      </div>
-    </a>
-  </div>
-  <div class="col-md-offset-6 col-md-3 right">
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle text-uppercase" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Bundesland wählen
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        {% for state in site.states %}
+<header class="site-header navbar navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand">
+        <div class="row">
+          <div class="col-md-5 col-sm-3 col-xs-3">
+            <img src="/static/img/ifg-ranking-logo.png" alt="" />
+          </div>
+          <div class="col-md-7 col-xs-9 logo-description">
+            Transparenzranking<br>
+            Deutschland
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="navbar-form navbar-right">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle text-uppercase" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Bundesland wählen
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          {% for state in site.states %}
           <li><a href="/laender/{{state.link}}">{{state.name}}</a></li>
-        {% endfor %}
-      </ul>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
 </header>

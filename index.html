@@ -3,76 +3,82 @@ layout: default
 ---
 
 <div class="container">
-  <div class="text-center col-md-offset-1 col-md-10">
-    <h1 class="">Transparenzranking</h1>
-    <p>
-      Jede Person hat das Recht auf staatliche Informationen - doch die Umsetzung dieses Rechts unterscheidet sich innerhalb
-      Deutschlands. Wir haben erstmalig die Informationsfreiheits- und Transparenzgesetze in Bund und Ländern
-      miteinander verglichen.
-    </p>
-    <br><br><br>
-  </div>
-
-  <div class="vis col-md-12" ng-controller="BarchartCtrl">
-  {% raw %}
-  <div class="col-md-3" ng-show="loading_finished" ng-cloak="">
-        <div class="col-md-12">
-          <button class="btn-default vis-btn-cat vis-btn-information"
-              style="border-left-color: #6dffd4" ng-click="loadOverview()">Gesamt</button>
-        </div>
-        <div class="col-md-12" ng-repeat="category in categories track by $index">
-            <button class="btn-default vis-btn-cat vis-btn-information"
-                    ng-style="{'border-left-color': colors[$index % colors.length]}" ng-click="catClick(category, colors[$index])">{{category}}</button>
-        </div>
-        <div class="col-md-12 cat-explanation" ng-if="show_info">
-          <strong>{{active_cat}}</strong> {{active_info}}
-        </div>
+  <div class="row">
+    <div class="text-center col-md-offset-1 col-md-10">
+      <h1 class="">Transparenz<wbr>ranking</h1>
+      <p>
+        Jede Person hat das Recht auf staatliche Informationen - doch die Umsetzung dieses Rechts unterscheidet sich innerhalb
+        Deutschlands. Wir haben erstmalig die Informationsfreiheits- und Transparenzgesetze in Bund und Ländern
+        miteinander verglichen.
+      </p>
+      <br><br><br>
     </div>
-    <div class="col-md-9">
-      <div id="wrapper">
-          <barchart data="bardata" caption="barcaptions" colors="activeColor" max="100"></barchart>
+
+    <div class="vis col-xs-12" ng-controller="BarchartCtrl">
+    {% raw %}
+      <div class="row">
+        <div class="col-md-3" ng-show="loading_finished" ng-cloak="">
+          <ul class="nav nav-pills nav-stacked" role="">
+            <li>
+              <a class=" vis-btn-cat vis-btn-information"
+                 style="border-left-color: #6dffd4" ng-click="loadOverview()">Gesamt</a>
+            </li>
+            <li  ng-repeat="category in categories track by $index">
+              <a ng-style="{'border-left-color': colors[$index % colors.length]}" ng-click="catClick(category, colors[$index])" class="vis-btn-cat vis-btn-information">{{category}}</a>
+            </li>
+          </ul>
+            <div class="col-md-12 cat-explanation" ng-if="show_info">
+              <strong>{{active_cat}}</strong> {{active_info}}
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div id="wrapper">
+                <barchart data="bardata" caption="barcaptions" colors="activeColor" max="100"></barchart>
+            </div>
+          </div>
       </div>
+    {% endraw %}
+    </div>
+    <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+      <p>
+        Transparenz erleichtert Korruptionsbekämpfung und Kontrolle und stärkt damit das Vertrauen der Bürger/innen in Politik und
+        Verwaltung. Nur wer von einem Vorgang weiß, kann sich aktiv in politische Prozesse einbringen. Aber auch dem Staat selbst bringt Transparenz Vorteile, weil Informationen behördenintern besser zugänglich werden.
+      </p>
+      <p>
+        Deshalb setzen sich Mehr Demokratie und die Open Knowledge Foundation für mehr Transparenz in allen Bundesländern ein.
+        An Vorschlägen für gute Transparenzgesetze mangelt es nicht. Beispielsweise hat das Bündnis „NRW blickt durch“ dem Landtag
+        in Düsseldorf bereits 2014 einen Vorschlag für ein <a href="http://www.nrw-blickt-durch.de/der-gesetzentwurf/">Transparenz- und Informationsfreiheitsgesetz</a> überreicht. Dafür, dass viele diesem Vorschlag folgen, werden wir weiter arbeiten.
+      </p>
+      <p>
+        Sie können <a href="/methodik" class="uppercase">hier</a> mehr über unsere Kriterien zur Erfassung des Rankings erfahren.
+      </p>
+      <br>
+    </div>
+
+    <div class="map-container col-xs-12  col-lg-8 col-lg-offset-2" ng-controller="MapCtrl">
+      <h2 class="text-center">Wählen Sie für Details ein Bundesland aus</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+          {% include svg/map.svg %}
+        </div>
+      </div>
+      <!--<div class="map text-center">-->
+        <!--<div id="map"></div>-->
+      <!--</div>-->
+      <p>
+        Die Entwicklung der Infomationsfreiheitsgesetze in den Bundesländern lässt sich in drei Stufen unterteilen:
+      </p>
+
+      <ol>
+        <li>
+          Bundesländer ohne gesetzliche Regelungen (Bayern, Niedersachsen, Sachsen).</li>
+        <li>
+          Bundesländer mit Informationsfreiheitsgesetzen, nach denen Informationen auf Antrag herausgegeben werden müssen (Baden-Württemberg, Berlin, Brandenburg, Hessen, Mecklenburg-Vorpommern, Nordrhein-Westfalen, Saarland, Sachsen-Anhalt, Schleswig-Holstein, Thüringen)
+        </li>
+        <li>
+          Bundesländer mit Transparenzgesetzen, die Behörden zusätzlich zur eigenständigen Veröffentlichung von zentralen Daten verpflichten (Bremen, Hamburg, Rheinland-Pfalz)
+        </li>
+      </ol>
     </div>
   </div>
-  {% endraw %}
-  <div class="col-lg-8 col-lg-offset-2">
-    <p>
-      Transparenz erleichtert Korruptionsbekämpfung und Kontrolle und stärkt damit das Vertrauen der Bürger/innen in Politik und 
-      Verwaltung. Nur wer von einem Vorgang weiß, kann sich aktiv in politische Prozesse einbringen. Aber auch dem Staat selbst bringt Transparenz Vorteile, weil Informationen behördenintern besser zugänglich werden.
-    </p>
-    <p>
-      Deshalb setzen sich Mehr Demokratie und die Open Knowledge Foundation für mehr Transparenz in allen Bundesländern ein. 
-      An Vorschlägen für gute Transparenzgesetze mangelt es nicht. Beispielsweise hat das Bündnis „NRW blickt durch“ dem Landtag 
-      in Düsseldorf bereits 2014 einen Vorschlag für ein <a href="http://www.nrw-blickt-durch.de/der-gesetzentwurf/">Transparenz- und Informationsfreiheitsgesetz</a> überreicht. Dafür, dass viele diesem Vorschlag folgen, werden wir weiter arbeiten.
-    </p>
-    <p>
-      Sie können <a href="/methodik" class="uppercase">hier</a> mehr über unsere Kriterien zur Erfassung des Rankings erfahren.
-    </p>
-    <br>
-  </div>
-
-  <div class="map-container col-lg-8 col-lg-offset-2" ng-controller="MapCtrl">
-    <h2 class="text-center">Wählen Sie für Details ein Bundesland aus</h2>
-    {% include svg/map.svg %}
-    <!--<div class="map text-center">-->
-      <!--<div id="map"></div>-->
-    <!--</div>-->
-    <p>
-      Die Entwicklung der Infomationsfreiheitsgesetze in den Bundesländern lässt sich in drei Stufen unterteilen: 
-    </p>
-
-    <ol>
-      <li>
-        Bundesländer ohne gesetzliche Regelungen (Bayern, Niedersachsen, Sachsen).</li>
-      <li>
-        Bundesländer mit Informationsfreiheitsgesetzen, nach denen Informationen auf Antrag herausgegeben werden müssen (Baden-Württemberg, Berlin, Brandenburg, Hessen, Mecklenburg-Vorpommern, Nordrhein-Westfalen, Saarland, Sachsen-Anhalt, Schleswig-Holstein, Thüringen)
-      </li>
-      <li>
-        Bundesländer mit Transparenzgesetzen, die Behörden zusätzlich zur eigenständigen Veröffentlichung von zentralen Daten verpflichten (Bremen, Hamburg, Rheinland-Pfalz)
-      </li>
-    </ol>
-       
-    </p>
-  </div>
-
 </div>
