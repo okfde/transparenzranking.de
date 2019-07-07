@@ -1,7 +1,8 @@
 ---
 name: Hamburg
 link: hamburg
-ifg: 2012
+ifg_year: 2012
+ifg_type: tg
 ifg_link: "http://transparenz.hamburg.de/das-hmbtg/"
 layout: state
 status: complete

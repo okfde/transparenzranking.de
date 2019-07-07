@@ -1,7 +1,8 @@
 ---
 name: Berlin
 link: berlin
-ifg: 1998, letzte Änderung 2016
+ifg_year: 1998, letzte Änderung 2016
+ifg_type: ifg
 ifg_link: "http://gesetze.berlin.de/jportal/?quelle=jlink&query=InfFrG+BE&psml=bsbeprod.psml&max=true&aiz=true"
 layout: state
 status: complete

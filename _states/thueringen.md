@@ -1,7 +1,8 @@
 ---
 name: Thüringen
 link: thueringen 
-ifg: 2012
+ifg_year: 2012
+ifg_type: ifg
 ifg_link: "http://landesrecht.thueringen.de/jportal/?quelle=jlink&query=InfFrG+TH&psml=bsthueprod.psml&max=true"
 layout: state
 status: draft

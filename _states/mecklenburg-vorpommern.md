@@ -1,7 +1,8 @@
 ---
 name: Mecklenburg-Vorpommern
 link: mecklenburg-vorpommern
-ifg: 2006, letzte Änderung 2011
+ifg_year: 2006, letzte Änderung 2011
+ifg_type: ifg
 ifg_link: "http://www.landesrecht-mv.de/jportal/portal/page/bsmvprod.psml?showdoccase=1&doc.id=jlr-InfFrGMVrahmen&doc.part=X&doc.origin=bs&st=lr"
 layout: state
 status: complete

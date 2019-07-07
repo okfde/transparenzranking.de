@@ -1,7 +1,8 @@
 ---
 name: Schleswig-Holstein
 link: schleswig-holstein
-ifg: 2012, wird 2017 geändert
+ifg_year: 2012, wird 2017 geändert
+ifg_type: ifg
 ifg_link: "http://www.gesetze-rechtsprechung.sh.juris.de/jportal/portal/t/gx/page/bsshoprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-InfoZGSHrahmen&doc.part=X&doc.price=0.0#focuspoint"
 layout: state
 status: complete

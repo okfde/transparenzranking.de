@@ -1,7 +1,8 @@
 ---
 name: Saarland
 link: saarland
-ifg: 2006, letzte Änderung 2015
+ifg_year: 2006, letzte Änderung 2015
+ifg_type: ifg
 ifg_link: "http://sl.juris.de/cgi-bin/landesrecht.py?d=http://sl.juris.de/sl/gesamt/SIFG_SL_2006.htm#SIFG_SL_2006_rahmen"
 layout: state
 status: complete
