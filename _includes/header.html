@@ -16,8 +16,22 @@
         Bundesland wählen
         <span class="caret"></span>
       </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <ul class="dropdown-menu">
         {% for state in site.states %}
+          {% if state.link != 'bund' %}
+            {% continue %}
+          {% endif %}
+
+          <li><a href="/laender/{{state.link}}">{{state.name}}</a></li>
+        {% endfor %}
+
+        <li role="separator" class="divider"></li>
+
+        {% for state in site.states %}
+          {% if state.link == 'bund' %}
+            {% continue %}
+          {% endif %}
+
           <li><a href="/laender/{{state.link}}">{{state.name}}</a></li>
         {% endfor %}
       </ul>
