@@ -3,7 +3,8 @@ layout: state
 name: Hessen
 link: hessen
 status: complete
-ifg: 2018
+ifg_year: 2018
+ifg_type: ifg
 ---
 In Hessen gibt es seit 2018 ein Informationsfreiheitsgesetz.
 

@@ -1,7 +1,8 @@
 ---
 name: Rheinland-Pfalz
 link: rheinland-pfalz
-ifg: 2016
+ifg_year: 2016
+ifg_type: tg
 ifg_link: "http://www.landesrecht.rlp.de/jportal/portal/t/3jm/page/bsrlpprod.psml;jsessionid=89FF88C31F2B1651FD4FE86448CF26DF.jp10?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=3&numberofresults=8&fromdoctodoc=yes&doc.id=jlr-TranspGRPrahmen&doc.part=X&doc.price=0.0#focuspoint"
 layout: state
 status: complete

@@ -1,7 +1,8 @@
 ---
 name: Sachsen-Anhalt
 link: sachsen-anhalt
-ifg: 2008
+ifg_year: 2008
+ifg_type: ifg
 ifg_link: "http://www.landesrecht.sachsen-anhalt.de/jportal/?quelle=jlink&query=InfZG+ST&psml=bssahprod.psml&max=true&aiz=true"
 layout: state
 status: complete

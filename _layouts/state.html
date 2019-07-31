@@ -6,13 +6,32 @@ layout: default
         <div class="col-md-offset-1 col-md-10">
             <div class="row">
                 <div class="col-md-12 text-center">
+                    {% assign type_text = "Informationsfreiheitsgesetz seit" %}
+
+                    {% if page.ifg_type == 'tg' %}
+                        {% assign type_text = "Transparenzgesetz seit" %}
+                    {% endif %}
+
+                    {% if page.status == 'draft' %}
+                        {% assign type_text = "Entwurf von" %}
+                    {% endif %}
+
                     {% if page.status == 'draft' %}
                         <h1 style="color: red">{{page.name}} (Entwurf)</h1>
-                        <p><em>Entwurf von {{page.ifg}}</em></p>
                     {% else %}
                         <h1>{{page.name}}</h1>
-                        <p><em>Informationsfreiheitsgesetz seit {{page.ifg}}</em></p>
                     {% endif %}
+
+                    <p>
+                        <em>
+                            {% if page.ifg_year %}
+                                {{type_text}} {{page.ifg_year}}
+                            {% else %}
+                                Kein Informationsfreiheitsgesetz
+                            {% endif %}
+                        </em>
+                    </p>
+
                     <p class="text-center">Gesamt {{overview_points}}</p>
                     {% raw %}
                     <bar value="overview_points" max="100" color="overview_color" label="overview_label" /></div>

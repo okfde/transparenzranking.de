@@ -1,7 +1,8 @@
 ---
 name: Bremen
 link: bremen
-ifg: 2006, letzte Änderung 2015
+ifg_year: 2006, letzte Änderung 2015
+ifg_type: ifg
 ifg_link: "http://transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.67770.de&asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d"
 layout: state
 status: complete

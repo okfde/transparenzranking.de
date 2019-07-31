@@ -1,7 +1,8 @@
 ---
 name: Brandenburg
 link: brandenburg
-ifg: 1998, letzte Änderung 2013
+ifg_year: 1998, letzte Änderung 2013
+ifg_type: ifg
 ifg_link: "http://bravors.brandenburg.de/de/gesetze-212780"
 layout: state
 status: complete
