@@ -6,7 +6,9 @@ ifg_type: tg
 ifg_link: "http://transparenz.hamburg.de/das-hmbtg/"
 layout: state
 status: complete
+
 ---
+
 Das „Hamburgische Transparenzgesetz“ (HmbTG) von 2012
 gilt bisher als Musterbeispiel für Transparenzgesetze in
 Deutschland. Eingebracht hat es eine Volksinitiative, die von

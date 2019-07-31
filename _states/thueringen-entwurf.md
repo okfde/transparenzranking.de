@@ -1,12 +1,12 @@
 ---
-name: Thüringen
+name: Thüringen (Entwurf)
 title: Thüringen
-link: thueringen
+link: thueringen-entwurf
 ifg_year: 2019
 ifg_type: ifg
 ifg_link: "http://landesrecht.thueringen.de/jportal/?quelle=jlink&query=InfFrG+TH&psml=bsthueprod.psml&max=true"
 layout: state
-status: complete
+status: draft
 
 ---
 
