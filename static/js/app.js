@@ -145,11 +145,7 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
                         }
                     });
                     $scope.barcaptions = $scope.barcat.map(function(elem) {
-                        if ($scope.drafts.indexOf(elem) > -1) {
-                            return elem + ' (Entwurf)'
-                        } else {
-                            return elem;
-                        }
+                        return elem;
                     });
                     // barcolors[0] = '#ff0000';
                     $scope.activeColor = barcolors;
