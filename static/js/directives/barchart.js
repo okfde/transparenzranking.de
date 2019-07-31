@@ -105,8 +105,16 @@ app.directive('barchart', function() {
                     .selectAll('.chart-description')
                     .data(scope.data)
                     .enter()
+                    .append('a')
+                        .attr('class', 'chart-description')
+                        .attr('href', function(d, i) {
+                            var slug = scope.caption[i].toLowerCase()
+                            slug = slug.replace('ü', 'ue')
+                            slug = slug.replace(/[^\w]/g, '-')
+                            slug = slug.replace(/-{2,}/, '-').replace(/-$/, '')
+                            return '/laender/' + slug + '/'
+                        })
                     .append('text')
-                    .attr('class', 'chart-description')
                     .attr('x', xscale(xmax) + 5)
                     .attr('y', function (d, i) {
                         return yscale(i) + 15
