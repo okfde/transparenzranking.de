@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="container">
+  <div class="row">
   <div class="text-center col-md-offset-1 col-md-10">
     <h1 class="">Transparenzranking</h1>
     <p>
@@ -12,7 +13,8 @@ layout: default
     </p>
     <br><br><br>
   </div>
-
+</div>
+<div class="row">
   <div class="vis col-md-12" ng-controller="BarchartCtrl">
   {% raw %}
   <div class="col-md-3" ng-show="loading_finished" ng-cloak="">
@@ -35,6 +37,8 @@ layout: default
     </div>
   </div>
   {% endraw %}
+</div>
+<div class="row">
   <div class="col-lg-8 col-lg-offset-2">
     <p>
       Transparenz erleichtert Korruptionsbekämpfung und Kontrolle und stärkt damit das Vertrauen der Bürger/innen in Politik und 
@@ -50,7 +54,8 @@ layout: default
     </p>
     <br>
   </div>
-
+</div>
+<div class="row">
   <div class="map-container col-lg-8 col-lg-offset-2" ng-controller="MapCtrl">
     <h2 class="text-center">Wählen Sie für Details ein Bundesland aus</h2>
     {% include svg/map.svg %}
@@ -74,5 +79,5 @@ layout: default
        
     </p>
   </div>
-
+</div>
 </div>
