@@ -3,17 +3,13 @@ name: Thüringen
 title: Thüringen
 link: thueringen
 ifg_year: 2020
-ifg_type: ifg
-ifg_link: "http://landesrecht.thueringen.de/jportal/?quelle=jlink&query=InfFrG+TH&psml=bsthueprod.psml&max=true"
+ifg_type: tg
+ifg_link: "http://landesrecht.thueringen.de/jportal/?quelle=jlink&query=TranspG+TH&psml=bsthueprod.psml&max=true"
 layout: state
 status: complete
 
 ---
 
-Das Land Thüringen hat den Zugang zu Informationen im „Thüringer Informationsfreiheitsgesetz“ (ThürIFG) von 2012
-geregelt. Die Linke , SPD und Bündnis 90/Die Grünen haben sich in ihrem Koalitionsvertrag (2014-2019) auf die Verabschiedung
-eines Transparenzgesetzes verständigt. Inzwischen liegt ein erster Entwurf des Thüringer Innenministeriums vor, den wir hier analysieren. Vor allem die [Gebührenregelung des Entwurfs](https://netzpolitik.org/2018/transparenzgesetz-bekommt-thueringen-die-schlechteste-gebuehrenregelung-westeuropas/) ist schlecht. Sie sieht vor, dass öffentliche Stellen sämtliche Kosten in Bezug auf Informationsfreiheit Bürgern in Rechnung stellen können, potentiell pro Anfrage tausende Euro.
+Zum 1.1.2020 hat das Thüringer Transparenzgesetz (ThürTG) das seit 2012 geltende Informationsfreiheitsgesetz abgelöst. Damit werden eine Reihe von wichtigen Informationen proaktiv in einem Transparenzportal veröffentlicht, darunter Vertragsinhalte, Gutachten, Verwaltungsvorschriften, Berichte und Zuwendungen.
 
-Das bisherige Informationsfriheitsgesetz gehört zu den schlechtesten in Deutschland, was vor allem an den unzureichend geregelten Informationsrechten liegt. Es hat 32 von 100 möglichen Punkten erreicht.
-
-Am 1.1.2020 tritt das neue Thüringer Transparenzgesetz (ThürTG) in Kraft.
+Die Kritik an der Gebührenregelung des ersten Entwurfs ist zumindest teilweise angekommen: In dem nun beschlossenen Gesetz ist eine Kostendeckelung von 500€ vorgesehen. Einige der Ausnahmen aus dem zuvor geltenden Informationsfreiheitsgesetz wurde abegeschafft und die Auskunftspflichten erweitert. Thüringen katapultiert sich so auf Platz 5.
