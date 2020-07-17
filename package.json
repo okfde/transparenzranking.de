@@ -20,7 +20,7 @@
   "dependencies": {
     "js-yaml": "^3.7.0",
     "jsonfile": "^2.4.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "tabletop": "^1.4.3",
     "urlify": "^0.3.6",
     "write-yaml": "^0.2.2",
