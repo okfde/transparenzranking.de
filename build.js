@@ -37,7 +37,7 @@ var drafts = ["Hamburg (Entwurf)"];
 // }
 
 tabletop.init({
-    key: 'https://docs.google.com/spreadsheets/d/10QpOTuLp01kl2Dev8ueblqCUFK8GAJD0UJXV6rBhjeo/pubhtml',
+    key: '1eMAdjdADNSFxl1J2IV15G0byzb5cVHEh-G8u0inasJY',
     parseNumbers: true,
     callback: function (tabletop_data, tabletop) {
         var data = tabletop_data;
