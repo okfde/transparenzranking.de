@@ -2,7 +2,7 @@
     <style>
         /* <![CDATA[ */
         .feature:hover {
-          fill: rgb(109, 255, 211);
+          fill: #3695D8;
         }
         .feature {
             fill: rgb(181, 193, 205);

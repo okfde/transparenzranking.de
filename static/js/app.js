@@ -99,7 +99,7 @@ app.factory('ranking', function($http) {
 
 app.controller('BarchartCtrl', function ($scope, ranking) {
 
-    $scope.colors = ['#ffe500','#f7a600','#596b01','#9a0052', '#009ee3', '#004079', '#6dffd4'];
+    $scope.colors = ['#ffe500','#f7a600','#596b01','#9a0052', '#009ee3', '#004079', '#3695D8'];
 
     //$scope.activeColor = $scope.colors['Gesamt'];
     $scope.chart_data = [];
@@ -132,7 +132,7 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
                         var sum = data.entries.reduce(function(prev, cat) {
                             return prev + cat.entries[elem];
                         }, 0);
-                        barcolors.push('#6dffd4');
+                        barcolors.push('#3695D8');
                         return {name: elem, sum: sum}
                     });
 
@@ -218,7 +218,7 @@ app.controller('MapCtrl', function($scope) {
 app.controller('StateCtrl', function($scope, ranking) {
     $scope.overview_points = 0;
     $scope.overview_max = 100;
-    $scope.overview_color = "#6dffd4";
+    $scope.overview_color = "#3695D8";
     $scope.informationsrechte_color = "#ffcb64";
     $scope.cat_colors = {
         "Informationsrechte":"#ffe500",

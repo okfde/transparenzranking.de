@@ -1,6 +1,6 @@
 # Website for the Transparency Ranking in Germany
 
-Repository of [transparenzranking.de](https://transparenzranking.de) – pull requests are welcome.
+Repository of [lobbyranking.de](https://lobbyranking.de) – pull requests are welcome.
 
 ---
 
