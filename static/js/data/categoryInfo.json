@@ -1,11 +1,11 @@
 [
   {
     "name" : "Lobbyregister",
-    "info" : "Ein Lobbyregister dient dazu, den politischen Einfluss von Interessensvertreter:innen transparenter zu machen. Im Gesetzgebungsprozess gibt es viele Kontakte zwischen Interessensvertretern und der Politik. In der Vergangenheit herrschte darüber wenig Transparenz, was immer wieder zu politischen Skandalen führte. Ein Lobbyregister führt eben diese treffen zwischen Politikern und Interessenvertreter:innen öffentlich auf."
+    "info" : "Ein Lobbyregister dient dazu, den politischen Einfluss von Lobbyist:innen transparenter zu machen. Es handelt sich beim Register um eine öffentliche Liste von allen Lobbyist:innen, die selbst oder im Auftrag bestimmter Gruppen auf den politischen Prozess Einfluss nehmen wollen und sich im Zuge dessen mit den Entscheidungsträger:innen treffen. Manchmal wird auch von 'Transparenzregister' gesprochen. Da dieser Begriff auch in anderen Zusammenhängen benutzt wird, ist 'Lobbyregister' eindeutiger."
   },
   {
     "name" : "Legislativer Fußabdruck",
-    "info" : "In der Regel bleibt der Öffentlichkeit verborgen, welche Interessen in Gesetzesvorhaben oder anderen Regelungen einfließen. Durch einen „Legislativer Fußabdruck“ werden alle Dokumente und Eingaben veröffentlicht, die Interessensvertreter:innen im Laufe der Erarbeitung eines Gesetzesentwurfs eingebracht haben. Dies gilt insbesondere für die Frühphase der Erarbeitung. Bestenfalls werden außerdem bei der Begründung von Gesetzesvorhaben prägende Beiträge von Dritten genannt und veröffentlicht."
+    "info" : "In der Regel bleibt der Öffentlichkeit verborgen, welche Interessen in Gesetzesvorhaben oder anderen Regelungen einfließen. Ein 'legislativer Fußabdruck' ist eine inhaltliche und chronologische Aufzeichnung der Entstehung einer Gesetzesvorlage sowie die Nennung der an der Entstehung Beteiligten und ihrer Beiträge. So soll transparent werden, welche Interessen sich möglicherweise in Gesetzesvorhaben widerspiegeln."
   },
   {
     "name" : "Karenzzeit",
@@ -13,6 +13,6 @@
   },
   {
     "name" : "Verhaltensregeln",
-    "info" : "Abgeordnete übernehmen eine wichtige Verantwortung, die ihnen von den Bürgerinnen und Bürgern übertragen wird. Ziel muss es sein, dieses Vertrauen zurückzuzahlen, unabhängig und transparent zu arbeiten. In ihrer Mandatsausübung sind sie zwar frei, sollen hierbei jedoch stets das Wohl der Allgemeinheit im Auge behalten. Die Verhaltensregeln der Landesparlamente legen den Volksvertreter:innen bestimmte Pflichten auf. Diese sind an verschiedener Stelle verortet, sind unterschiedlich streng und werden unterschiedlich streng sanktioniert."
+    "info" : "Verhaltensregeln sind Bestandteil der Geschäftsordnungen der Parlamente (Anlagen) oder finden sich direkt in den Abgeordnetengesetzen geregelt. Sie listen eine Reihe von Anzeigepflichten und Verbotstatbeständen auf und enthalten meist auch Sanktionen. Verhaltensregeln stehen in einem Spannungsfeld zum Grundsatz der freien Mandatsausübung und dienen der Sicherung der Integrität des Handelns der Volksvertreter."
   }
 ]
