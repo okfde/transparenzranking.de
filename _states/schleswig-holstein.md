@@ -3,15 +3,20 @@ name: Schleswig-Holstein
 link: schleswig-holstein
 ifg_year: 2012, wird 2017 geändert
 ifg_type: ifg
-ifg_link: "http://www.gesetze-rechtsprechung.sh.juris.de/jportal/portal/t/gx/page/bsshoprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-InfoZGSHrahmen&doc.part=X&doc.price=0.0#focuspoint"
+Lobbyregister_link: 
+Fußabdruck_link: 
+Karenz_year: 2016
+Karenz_link: "http://www.gesetze-rechtsprechung.sh.juris.de/jportal/;jsessionid=444F24B53BBD9844B0837987589A115E.jp13?quelle=jlink&query=MinG+SH&psml=bsshoprod.psml&max=true&aiz=true#jlr-MinGSHV6P8a"
+Verhaltensr_year: 2017
+Verhaltensr_link: "http://www.gesetze-rechtsprechung.sh.juris.de/jportal/?quelle=jlink&query=AbgVerhaltRegl+SH&psml=bsshoprod.psml&max=true&aiz=true#jlr-AbgVerhaltReglSH2018rahmen"
 layout: state
 status: complete
+
 ---
-Schleswig-Holstein hat 2012 sein „Informationszugangsgesetz“ (IZG-SH) verabschiedet.
+In Schleswig-Holstein existiert keine Regelung für ein Lobbyregister.
 
-Das Gesetz [wird 2017 verändert](http://www.landtag.ltsh.de/infothek/wahl18/drucks/5300/drucksache-18-5325.pdf) - allerdings nicht zum Besseren. Ursprünglich war vorgesehen, eine Veröffentlichungspflicht für die Verwaltung einzuführen. Dies wurde zugunsten einer nicht verpflichtenden Regelung zurückgenommen. So sollen Behörden nur bestimmte Dokumente veröffentlichen. Tun sie dies nicht, können sie nicht dazu gezwungen werden. 
+In Schleswig-Holstein existiert keine Regelung für einen legislativen Fußabdruck.
 
-Einen zentralen Rückschritt findet sich ausgerechnet bei den wissenschaftlichen Diensten des Landtags, die von den Fraktionen beauftragt
-werden. Diese sind künftig von der Auskunftspflicht befreit.
+Das Land Schleswig-Holstein hat unter Führung der SPD im Jahr 2016 eine 24-monatige Karenzzeit eingeführt. § 8a des Landesministergesetzes dokumentiert entsprechende Regelungen.
 
-Damit verliert das Gesetz des Jahres 2017 gegenüber dem Gesetz aus dem Jahr 2012 einen Punkt. Im Transparenzranking erreicht Schleswig-Holstein weiterhin Platz 2 hinter Hamburg, vor allem aufgrund von vergleichsweise weiten Auskunftspflichten und geringen Ausnahmen.
+Erfreuliche Regelungen bei den Verhaltensregelungen, denen mit Ausnahme der nicht Euro-genauen Pflicht zur Angabe der Nebeneinkünfte eine Vorbildfunktion zugesprochen werden kann.
