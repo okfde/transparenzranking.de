@@ -1,23 +1,22 @@
 ---
 name: Sachsen-Anhalt
 link: sachsen-anhalt
-ifg_year: 2008
-ifg_type: ifg
-ifg_link: "http://www.landesrecht.sachsen-anhalt.de/jportal/?quelle=jlink&query=InfZG+ST&psml=bssahprod.psml&max=true&aiz=true"
+ifg_type:
+Lobbyregister_link: "https://www.landtag.sachsen-anhalt.de/landtag/lobbyregister/"
+Fußabdruck_link: ""
+Karenz_year:
+Karenz_link: "https://www.landtag.sachsen-anhalt.de/fileadmin/files/drs/wp6/drs/d3402vbe.pdf"
+Verhaltensr_year: 2002
+Verhaltensr_link: "https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Verhaltensregeln.pdf"
 layout: state
 status: complete
----
-Sachsen-Anhalt regelt den Zugang zu Informationen gesetzlich
-seit 2008 („Informationszugangsgesetz Sachsen-Anhalt“ – IZG
-LSA). Eine Evaluierung im Jahr 2015 führte bisher zu keinen
-Gesetzesänderungen.
 
-Dabei ist Reformbedarf durchaus vorhanden. Der Umfang
-der Informationsrechte ist im Vergleich mit anderen Bundesländern
-unzureichend. Von Organisations- und Aktenplänen einmal
-abgesehen werden keine Informationen aktiv veröffentlicht,
-Bürger/innen haben kein Recht auf Kopien und auch
-Ablehnungen sind nicht gebührenfrei. Die Regelungen zu Ausnahmen
-und Gebühren sind vergleichsweise dünn, im Falle der
-fehlenden Abwägungsklausel für Betriebs- und Geschäftsgeheimnisse
-sogar hinderlich.
+---
+
+In Sachsen-Anhalt existiert keine Regelung für ein Lobbyregister. Das dortige so bezeichnete “Lobbyregister” ist weder verpflichtend zur Kontaktaufnahme, noch werden die für ein Lobbyregister wesentlichen Informationen erfasst.
+
+In Sachsen-Anhalt existiert keine Regelung für einen legislativen Fußabdruck.
+
+In Sachsen-Anhalt existiert keine Regelung zu Karenzzeiten. Im Jahr 2014 wurde ein Antrag zur Änderung des Ministergesetzes der Fraktion Bündnis 90/Die Grünen im Finanzausschuss abgelehnt. Im Anschluss wurde er vom Landtag mit der Begründung abgelehnt, dass man die damals noch nicht eingeführte Bundesregelung abwarten sollte. Hingegen gilt eine Karenzzeitregelung nur für Staatssekretär:innen sowie Abteilungsleiter:innen, also für die den Minister:innen nachstehenden Ebenen.
+
+Die Verhaltensregeln bleiben hinsichtlich der Pflicht zur Anzeige der vor der Mandatsübernahme ausgeübten Tätigkeiten (längerer Zeitraum als zwei Jahre nicht erfasst) wie auch jener zur Anzeige der erzielten Nebeneinkünfte hinter den Anforderungen zurück (nur 5-Stufen-Regelung). Erhaltene Zuwendungen müssen nicht veröffentlicht werden. 
