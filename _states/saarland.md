@@ -2,21 +2,22 @@
 name: Saarland
 link: saarland
 ifg_year: 2006, letzte Änderung 2015
-ifg_type: ifg
-ifg_link: "http://sl.juris.de/cgi-bin/landesrecht.py?d=http://sl.juris.de/sl/gesamt/SIFG_SL_2006.htm#SIFG_SL_2006_rahmen"
+ifg_typ:
+Lobbyregister_link: ""
+Fußabdruck_link: ""
+Karenz_year:
+Karenz_link: ""
+Verhaltensr_year:
+Verhaltensr_link: "https://www.landtag-saar.de/verhaltensregeln/"
 layout: state
 status: complete
----
-<i>In der ursprünglichen Version wurden Regelungen zu Kopien und Gebühren nicht beachtet, sodass die Bewertung zu Unrecht fünf Punkte zu niedrig ausfiel. Dies wurde am 10.03.2017 korrigiert.</i>
 
-Das „Saarländische Informationsfreiheitsgesetz“ (SIFG) trat
-2006 in Kraft. Eine Evaluation 2010 erbrachte keine substanziellen
-Änderungsvorschläge. Im Vergleich zu anderen Landesinformationsfreiheitsgesetzen
-fällt das SIFG im Umfang relativ
-kurz aus. Der schwarz-rote Koalitionsvertrag (2012-2017) verrät
-nichts über eine geplante Reform.
-Saarland erreicht gemeinsam mit Baden-Württemberg und
-Thüringen Platz 10. Damit ist sein Informationsfreiheitsgesetz
-eines der schwächsten in Deutschland. Ähnlich wie das Bundesgesetz
-schneidet das SIFG besonders schlecht ab, was die
-Informationsrechte und die Gebühren angeht.
+---
+
+In Saarland existiert keine Regelung für ein Lobbyregister.
+
+In Saarland existiert keine Regelung für einen legislativen Fußabdruck.
+
+Im Saarland existieren bislang keine Regelungen zu Karenzzeiten. Ein Gesetzesentwurf der Fraktion Die Linke aus dem Jahr 2019, der Karenzzeiten bei dem Wechsel von einem politischen Spitzenamt in den Posten des Direktors der Landesmedienanstalt vorsah, wurde von der schwarz-roten Landesregierung abgelehnt.
+
+Die saarländischen Verhaltensregeln verlangen zwar (ebenso wenig wie die anderen Bundesländer) eine Euro-genauen Angaben der erzielten Nebeneinkünfte, sehen aber immerhin eine (20-Stufen-Regelung) vor. Außerdem punktet das Land bei dem Sanktionssystem (Verstöße gegen die Anzeigepflichten) sowie bei der Offenlegung der Interessenkonflikte bei der Ausschussarbeit.
