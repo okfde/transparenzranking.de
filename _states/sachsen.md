@@ -2,13 +2,19 @@
 layout: state
 name: Sachsen
 link: sachsen
+Karenz_year: 2019
+Karenz_link: "http://edas.landtag.sachsen.de/viewer.aspx?dok_nr=681&dok_art=Drs&leg_per=7&pos_dok=0&dok_id=undefined"
+Verhaltensr_year: 2019
+Verhaltensr_link: "https://www.landtag.sachsen.de/dokumente/Verhaltensregeln_7_Wahlperiode.pdf"
+layout: state
 status: complete
 ---
-Sachsen hat weder ein Informationsfreiheits- noch ein Transparenzgesetz.
 
-Laut ihrem <a href="https://www.staatsregierung.sachsen.de/downloads/AKTUELL_Koalitionsvertrag_CDU_SPD_2014-2019.pdf">Koalitionsvertrag</a> (2014-2019) wollen CDU und SPD dies jedoch ändern. Darin ist das Vorhaben formuliert, mit Hilfe eines Informationsfreiheitsgesetzes dafür zu
-sorgen, dass Bürger/innen „gegen angemessene Gebühren grundsätzlich Zugang zu behördlichen Informationen und Dokumenten
-bekommen, wenn nicht wesentliche Rechtsgüter wie der Schutz von personenbezogenen Daten, von Betriebs- und
-Geschäftsgeheimnissen oder besonderen öffentlichen Belangen entgegenstehen“. Offensichtlich arbeitet das sächsische Innenministerium derzeit aber nicht aktiv an einem Gesetzentwurf. Einzige Lichtblicke sind die Städte Dresden und Leipzig, die sich eigene Informationsfreiheitssatzungen gegeben haben.
+In Sachsen existiert keine Regelung für ein Lobbyregister.
 
-Gemeinsam mit Bayern, Hessen und Niedersachsen reicht es deshalb nur für den letzten Platz.
+In Sachsen existiert keine Regelung für einen legislativen Fußabdruck.
+
+In Sachsen existiert keine Regelung zu Karenzzeiten. Zuletzt wurden zwei separate Anträge der Fraktionen Bündnis 90/Die Grünen und Die Linke vom sächsichen Landtag abgelehnt
+
+Die Verhaltensregeln hinterlassen einen zwiespältigen Eindruck. Die vor der Mandatsübernahme seitens der Abgeordneten ausgeübten Tätigkeiten sind nicht anzuzeigen, bezüglich der Anzeige der erzielten Nebeneinkünfte lehnen sich die Verhaltensregeln nur an das 10-Stufen-Modell des Bundes an. Auch gibt es keine Veröffentlichung verhängter Sanktionen. Demgegenüber positiv die Pflicht Interessenverknüpfungen auch dann anzuzeigen, wenn es sich nicht um die Tätigkeit in einem Ausschuss handelt.
+
