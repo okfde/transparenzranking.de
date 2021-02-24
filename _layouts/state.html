@@ -22,16 +22,6 @@ layout: default
                         <h1>{{page.name}}</h1>
                     {% endif %}
 
-                    <p>
-                        <em>
-                            {% if page.ifg_year %}
-                                {{type_text}} {{page.ifg_year}}
-                            {% else %}
-                                Kein Informationsfreiheitsgesetz
-                            {% endif %}
-                        </em>
-                    </p>
-
                     <p class="text-center">Gesamt {{overview_points}}</p>
                     {% raw %}
                     <bar value="overview_points" max="100" color="overview_color" label="overview_label" /></div>
@@ -74,7 +64,7 @@ layout: default
                         <div class="col-md-5">
                             <dt ng-click="indicator_click($event)">{{indicator.bezeichnung}}<span class="acc-indicator fa fa-caret-right"></span></dt>
                             <dd>
-                                <strong>Fundstelle: </strong>{{indicator.erklaerung}}<br /><br />
+                                <strong>Erklärung: </strong>{{indicator.erklaerung}}<br /><br />
                                 {{indicator.hintergrund}}
 
                             </dd>
