@@ -1,6 +1,6 @@
 ---
-name: NRW
-link: nrw
+name: Nordrhein-Westfalen
+link: nordrhein-westfalen
 ifg_year: 2001
 ifg_type: ifg
 ifg_link: "https://recht.nrw.de/lmi/owa/pl_text_anzeigen?v_id=4820020930120743668"

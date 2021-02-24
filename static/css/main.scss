@@ -114,11 +114,6 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
-header {
-  padding-bottom: 17px;
-  box-shadow: $shadow;
-}
-
 h1 {
   font-size: 50px;
   font-weight: bold;
@@ -192,12 +187,18 @@ dd {
   color: $font-blue;
 }
 
-.site-header .left {
-  margin-top: 23px;
+.site-header {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3695D8;
 }
 
-.site-header .right {
-  margin-top: 16px;
+.site-header {
+  img {
+    height: 80px;
+  }
 }
 
 .vis {
@@ -254,19 +255,13 @@ footer a {
 dd { display:none; }
 
 .svg-container {
-  display: inline-block;
-  position: relative;
   width: 100%;
-  padding-bottom: 80%; /* aspect ratio */
-  vertical-align: top;
+  height: 100%;
   overflow: hidden;
 }
 
 .svg-content-responsive {
   display: inline-block;
-  position: absolute;
-  top: 10px;
-  left: 0;
 }
 
 .cat-wrapper {

@@ -25,7 +25,7 @@ app.directive('barchart', function() {
                 .append("svg")
                 //responsive SVG needs these 2 attributes and no width and height attr
                 .attr("preserveAspectRatio", "xMinYMin meet")
-                .attr("viewBox", "0 0 600 400")
+                .attr("viewBox", "0 0 600 430")
                 //class to make it responsive
                 .classed("svg-content-responsive", true);
 
@@ -75,6 +75,8 @@ app.directive('barchart', function() {
                 console.log(xmax);
                 var barwidth = width - margin;
 
+                const yMargin = (i) => i === scope.data.length - 1 ? 20 : 0;
+
                 var xscale = d3.scaleLinear()
                     .domain([0, xmax])
                     .range([0, barwidth - barpadding]);
@@ -96,7 +98,7 @@ app.directive('barchart', function() {
                     .attr('height', 20)
                     .attr('x', 0)
                     .attr('y', function (d, i) {
-                        return yscale(i);
+                        return yscale(i) + yMargin(i);
                     })
                     .style('fill', '#e9eaee')
                     .attr('width', xscale(xmax));
@@ -117,7 +119,7 @@ app.directive('barchart', function() {
                     .append('text')
                     .attr('x', xscale(xmax) + 5)
                     .attr('y', function (d, i) {
-                        return yscale(i) + 15
+                        return yscale(i) + yMargin(i) + 15
                     })
                     .text(function (d, i) {
                         return scope.caption[i];
@@ -134,7 +136,7 @@ app.directive('barchart', function() {
                     .attr('class', 'bars-backround-sep')
                     .attr('x', xscale(xmax) - 2)
                     .attr('y', function (d, i) {
-                        return yscale(i);
+                        return yscale(i) + yMargin(i);
                     })
                     .style('fill', '#9aa9b8')
                     .attr('width', 2)
@@ -163,7 +165,7 @@ app.directive('barchart', function() {
 
                     .attr('x', 0)
                     .attr('y', function (d, i) {
-                        return yscale(i);
+                        return yscale(i) + yMargin(i);
                     })
                     // .attr('width', function (d) {
                     //     return xscale(d);
@@ -175,7 +177,7 @@ app.directive('barchart', function() {
                     .append('text')
                     .attr('class', 'bar-text')
                     .attr('y', function (d, i) {
-                        return yscale(i) + 14
+                        return yscale(i) + yMargin(i) + 14
                     })
                     .style('font-size', '9pt')
                     .text(function(d) {

@@ -136,7 +136,7 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
                         return {name: elem, sum: sum}
                     });
 
-                    $scope.bar = _.sortBy($scope.bar, 'sum').reverse();
+                    $scope.bar = _.sortBy($scope.bar, [({name}) => name != 'Bund', 'sum']).reverse();
                     $scope.bardata = _.map($scope.bar, 'sum');
                     $scope.barcat = _.map($scope.bar, 'name');
                     $scope.barcat.map(function(elem, index) {
@@ -221,19 +221,17 @@ app.controller('StateCtrl', function($scope, ranking) {
     $scope.overview_color = "#3695D8";
     $scope.informationsrechte_color = "#ffcb64";
     $scope.cat_colors = {
-        "Informationsrechte":"#ffe500",
-        "Auskunftspflichten":"#f7a600",
-        "Ausnahmen":"#596b01",
-        "Antragssteller":"#9a0052",
-        "Gebühren":"#009ee3",
-        "Informationsfreiheitsbeauftragte":"#004079"};
+        "Lobbyregister":"#ffe500",
+        "Legislativer Fußabdruck":"#f7a600",
+        "Karenzzeit":"#596b01",
+        "Verhaltensregeln":"#9a0052",
+    };
     $scope.cat_names = {
-        "Informationsrechte":"Informationsrechte",
-        "Auskunftspflichten":"Auskunftspflichten",
-        "Ausnahmen":"Ausnahmen",
-        "Antragssteller":"Antragsstellung und Antwort",
-        "Gebühren":"Gebühren",
-        "Informationsfreiheitsbeauftragte": "Informationsfreiheitsbeauftragte"};
+        "Lobbyregister":"Lobbyregister",
+        "Legislativer Fußabdruck":"Legislativer Fußabdruck",
+        "Karenzzeit":"Karenzzeit",
+        "Verhaltensregeln":"Verhaltensregeln",
+    };
     $scope.data_cat = [];
     $scope._ = _;
 
