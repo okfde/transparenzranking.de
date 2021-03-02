@@ -1,20 +1,22 @@
 ---
 name: Bremen
 link: bremen
-ifg_year: 2006, letzte Änderung 2015
-ifg_type: ifg
-ifg_link: "http://transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.67770.de&asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d"
+Lobbyregister_year:
+Lobbyregister_link: 
+Fußabdruck_year:
+Fußabdruck_link: 
+Karenz_year: 
+Karenz_link: 
+Verhaltensr_year: 2020
+Verhaltensr_link: "https://www.bremische-buergerschaft.de/fileadmin/user_upload/Dateien/rechtsgrundlagen/Geschaeftsordnung_Bremische_Buergerschaft_einzel.pdf"
 layout: state
 status: complete
 ---
-Das „Gesetz über die Freiheit des Zugangs zu Informationen für das Land Bremen“ (BremIFG) trat 2006 in Kraft. Nach einer
-Evaluierung des Gesetzes erfolgten zwei Novellierungen 2011 und 2015, die das Gesetz um ein Informationsregister ergänzten,
-in dem die Stadtverwaltung zum Beispiel Verträge und Gutachten veröffentlichen kann. Seit April 2015 ist teilweise
-eine unverzügliche aktive Veröffentlichung von Informationen im Transparenzportal Bremen vorgeschrieben. Hierzu gehören
-Verträge, Gutachten, Unternehmensdaten und Verwaltungsvorschriften von allgemeinem Interesse.
 
-Bremen erreicht nach der Reform Platz 3, was vor allem an der hohen Punktzahl für die Informationsrechte und die Ausgestaltung
-der Ausnahmen liegt. Verbesserungsbedarf besteht bei den Regelungen zur Antragstellung: Eine Antragsassistenz gibt
-es nicht. Anonyme Anfragen sind nicht vorgesehen. Überschreitet die Behörde die Antwortfrist oder veröffentlicht Daten
-anders als vorgesehen nicht, muss sie den oder die Antragsteller/in nicht in Kenntnis setzen und auch nicht mit Sanktionen
-rechnen.
+In Bremen existiert keine Regelung für ein Lobbyregister.
+
+In Bremen existiert keine Regelung für einen legislativen Fußabdruck.
+
+Im rot-grün-roten Koalitionsvertrag findet die Einführung von Karenzzeiten keine Erwähnung. Jedoch existiert ein Vorstandsbeschluss der SPD Bremen, der als Reaktion auf den Fall Amthor Karrenzzeiten fordert.
+
+Mit Ausnahme des allerdings gravierenden Fehlens eines wirksamen Sanktionssystems bei Verstößen gegen die Anzeigepflichten sowie der Nichtberücksichtigung des Problems einer potentiellen Interessenkollision bei der Mitarbeit in einem Ausschuss, lassen sich keine nennenswerten Mängel in der Regelung in Bremen festzustellen. Vorbildlich ist die Pflicht der Nennung des steuerpflichtigen Betrags von Nebeneinkünften nebst dessen Veröffentlichung im Internet. 
