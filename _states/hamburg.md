@@ -14,7 +14,7 @@ layout: state
 status: complete
 ---
 
-In Hessen existiert keine Regelung für ein Lobbyregister. Im Koalitionsvertrag von 2018 ist eine Regelung vereinbart.
+In Hamburg existiert keine Regelung für ein Lobbyregister.
 
 Es existiert auch keine Regelung für einen legislativen Fußabdruck in Hamburg. Im Koalitionsvertrag von 2020 ist eine Offenlegung begrenzt auf die Verbändeanhörung des Senats vereinbart.
 
