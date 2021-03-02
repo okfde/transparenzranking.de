@@ -1,18 +1,18 @@
 [
   {
     "name" : "Lobbyregister",
-    "info" : "Ein Lobbyregister dient dazu, den politischen Einfluss von Lobbyist:innen transparenter zu machen. Es handelt sich beim Register um eine öffentliche Liste von allen Lobbyist:innen, die selbst oder im Auftrag bestimmter Gruppen auf den politischen Prozess Einfluss nehmen wollen und sich im Zuge dessen mit den Entscheidungsträger:innen treffen. Manchmal wird auch von 'Transparenzregister' gesprochen. Da dieser Begriff auch in anderen Zusammenhängen benutzt wird, ist 'Lobbyregister' eindeutiger."
+    "info" : "Unter einem Lobbyregister versteht man eine öffentliche Liste von allen Lobbyist:innen, welche als Mitglied bestimmter Gruppen wie etwa Unternehmen oder in deren Auftrag auf den politischen Prozess in schriftlicher oder sonstiger Weise Einfluss nehmen wollen."
   },
   {
     "name" : "Legislativer Fußabdruck",
-    "info" : "In der Regel bleibt der Öffentlichkeit verborgen, welche Interessen in Gesetzesvorhaben oder anderen Regelungen einfließen. Ein 'legislativer Fußabdruck' ist eine inhaltliche und chronologische Aufzeichnung der Entstehung einer Gesetzesvorlage sowie die Nennung der an der Entstehung Beteiligten und ihrer Beiträge. So soll transparent werden, welche Interessen sich möglicherweise in Gesetzesvorhaben widerspiegeln."
+    "info" : "Inhaltliche und chronologische Aufzeichnung der Entstehung einer Gesetzesvorlage sowie Nennung der an der Entstehung Beteiligten und ihrer Beiträge. So soll transparent werden, welche Interessen sich möglicherweise in Gesetzesvorhaben widerspiegeln."
   },
   {
     "name" : "Karenzzeit",
-    "info" : "Eine „Karenzzeit“ ist nach allgemeinem Sprachgebrauch eine „Wartezeit, Sperrfrist, vor deren Ablauf eine bestimmte Erlaubnis nicht erteilt wird bzw. ein bestimmter Anspruch nicht geltend gemacht werden kann“. In der Politik lässt sich darunter eine Sperrfrist verstehen, die für ausgeschiedene PolitikerInnen und SpitzenbeamtInnen beim Wechsel in die Privatwirtschaft und Lobbytätigkeiten vorgesehen ist. Ziel einer Karenzzeit ist es, die Folgen problematischer Interessenverflechtungen zu vermeiden."
+    "info" : "Eine „Wartezeit, Sperrfrist, vor deren Ablauf eine bestimmte Erlaubnis nicht erteilt wird“. In der Politik bedeutet eine Karenzzeit, dass aus ihrem Amt ausgeschiedene Regierungsmitglieder und SpitzenbeamtInnen bis zu einem Wechsel in die Privatwirtschaft eine bestimmte Zeit warten müssen."
   },
   {
     "name" : "Verhaltensregeln",
-    "info" : "Verhaltensregeln sind Bestandteil der Geschäftsordnungen der Parlamente (Anlagen) oder finden sich direkt in den Abgeordnetengesetzen geregelt. Sie listen eine Reihe von Anzeigepflichten und Verbotstatbeständen auf und enthalten meist auch Sanktionen. Verhaltensregeln stehen in einem Spannungsfeld zum Grundsatz der freien Mandatsausübung und dienen der Sicherung der Integrität des Handelns der Volksvertreter."
+    "info" : "Verhaltensregeln listen eine Reihe von Anzeigepflichten und Verbotstatbeständen auf und enthalten meist auch Sanktionen. Sie stehen in einem Spannungsfeld zum Grundsatz der freien Mandatsausübung und dienen der Sicherung der Integrität des Handelns der Volksvertreter."
   }
 ]
