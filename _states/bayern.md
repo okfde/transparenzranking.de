@@ -1,19 +1,22 @@
 ---
-layout: state
 name: Bayern
 link: bayern
+Lobbyregister_year:
+Lobbyregister_link: 
+Fußabdruck_year:
+Fußabdruck_link: 
+Karenz_year: 
+Karenz_link: 
+Verhaltensr_year: 2013
+Verhaltensr_link: "https://www.bayern.landtag.de/fileadmin/Internet_Dokumente/Sonstiges_A/AI/Verhaltensregeln.pdf"
+layout: state
 status: complete
 ---
-In Bayern blockiert seit Jahren die regierende CSU ein Informationsfreiheitsgesetz auf Landesebene. Seit 2001 versuchten insgesamt elf parlamentarische Initiativen ein Informationsfreiheitsgesetz einzuführen, sie scheiterten alle an der Regierungsmehrheit.
 
-Auf kommunaler Ebene sieht es besser aus. Mehr als 80 Kommunen haben bisher für ihren Wirkungsbereich eigene Informationsfreiheitssatzungen
-erlassen, darunter fast alle Städte Bayerns mit mehr als 100.000 Einwohner/innen: München,
-Nürnberg, Augsburg, Würzburg, Regensburg, Ingolstadt und Fürth. Nur Erlangen fehlt noch. Die Satzungen basieren auf einer
-Mustersatzung des zivilgesellschaftlichen Bündnisses <a href="https://informationsfreiheit.org/">„Informationsfreiheit für Bayern“</a>, das auch eine Übersicht aller Kommunen mit einer solchen Satzung zusammengestellt hat.
+In Bayern existiert keine Regelung für ein Lobbyregister. Laut Pressemeldungen ist eine Regelung in Planung.
 
-Im Juli 2015 hat die bayerische Staatsregierung einen Gesetzentwurf über die elektronische Verwaltung in Bayern eingebracht.
-Das neue Gesetz hätte Auskunfts- und Akteneinsichtsrechte für die Bürger/innen bringen können, bleibt jedoch weit
-davon entfernt. So verpflichtet es insbesondere die Kommunen weder zur elektronischen Bereitstellung von Behördeninformationen
-noch zur elektronischen Akten- oder Registerführung.
+In Bayern existiert keine Regelung für einen legislativen Fußabdruck.
 
-Zwar wurde das Bayerische Datenschutzgesetz um einen neuen Artikel mit dem Titel „Recht auf Auskunft“ ergänzt. Allerdings setzen Auskünftsansprüche ein "berechtigtes Interesse" voraus - das Gegenteil von Informationsfreiheit. Kein Fortschritt also. Bayern bleibt auf absehbare Zeit ein Schlusslicht in Sachen Verwaltungstransparenz in Deutschland.
+Für Karenzzeiten gibt es aktuell keine Regelungen in Bayern. Auch im Koalitionsvertrag der CSU und der Freien Wähler findet die Einführung von Karenzzeiten keine Erwähnung. Allerdings fordern die Freien Wähler in ihrem Wahlprogramm eine Karenzzeit von drei Jahren für Minister. Im April 2018 wurde ein Antrag zur Einführung einer 12-monatigen Karenzzeit für Beamte der höheren Qualifikationsebenen von der SPD-Landtagsfraktion vorgelegt 
+
+Die bayerischen Verhaltensregeln weisen keine gravierenden Mängel auf. Bei der Pflicht Nebeneinkünfte und Zuwendungen anzuzeigen, findet sich ein Rückgriff auf die Verhaltensregeln des Bundes.
