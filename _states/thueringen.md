@@ -2,8 +2,9 @@
 name: Thüringen
 title: Thüringen
 link: thueringen
-ifg_type: tg
+Lobbyregister_year:
 Lobbyregister_link: "https://www.thueringer-landtag.de/dokumente/beteiligtentransparenz-dokumentation/#:~:text=Beteiligten%2D%20transparenz%2D%20dokumentation&text=In%20der%20Beteiligtentransparenzdokumentation%20werden%20alle,Gesetzentw%C3%BCrfe%2C%20die%20ab%20dem%201"
+Fußabdruck_year:
 Fußabdruck_link: "https://www.thueringer-landtag.de/dokumente/beteiligtentransparenz-dokumentation/#:~:text=Beteiligten%2D%20transparenz%2D%20dokumentation&text=In%20der%20Beteiligtentransparenzdokumentation%20werden%20alle,Gesetzentw%C3%BCrfe%2C%20die%20ab%20dem%201"
 Karenz_year: 2018
 Karenz_link: "http://www.parldok.thueringen.de/ParlDok/dokument/64543/drittes_gesetz_zur_aenderung_des_thueringer_ministergesetzes.pdf"
