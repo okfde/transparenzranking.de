@@ -1,16 +1,23 @@
 ---
 name: Baden-Württemberg
 link: baden-wuerttemberg
-ifg_year: 2016
-ifg_type: ifg
-ifg_link: "http://www.landesrecht-bw.de/jportal/portal/t/g2u/page/bsbawueprod.psml;jsessionid=7B9F63D2264ED25A8E80DA5127A56164.jp91?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-InfFrGBWpP10&doc.part=X&doc.price=0.0#focuspoint"
+Lobbyregister_year: 2021
+Lobbyregister_link: "https://www.landtag-bw.de/files/live/sites/LTBW/files/dokumente/WP16/Drucksachen/9000/16_9883_D.pdf"
+Fußabdruck_year: 2021
+Fußabdruck_link: "https://www.landtag-bw.de/files/live/sites/LTBW/files/dokumente/WP16/Drucksachen/9000/16_9883_D.pdf"
+Karenz_year: 
+Karenz_link: 
+Verhaltensr_year: 2019
+Verhaltensr_link: "https://www.landtag-bw.de/files/live/sites/LTBW/files/dokumente/rechtliche_grundlagen/Gesch%C3%A4ftsordnung%2016.%20LT.pdf"
 layout: state
 status: complete
 ---
-Das jüngste Informationsfreiheitsgesetz Deutschlands („Landesinformationsfreiheitsgesetz Baden-Württemberg“ – LIFG) trat Ende 2015 in Kraft. Die grün-rote Landesregierung erarbeitete es kurz vor Ende der Legislaturperiode, der Landtag verabschiedete es einstimmig. Es gibt den Baden-Württemberger/innen gegenüber den Verwaltungen ein Recht auf Information, unabhängig davon, ob sie ein persönliches Informationsinteresse vorweisen können oder nicht. Allerdings besteht bei der Auskunftspflicht verschiedener Stellen Verbesserungsbedarf. Zum Beispiel Schulen und Hochschulen sind ausgenommen. 2019 führte die Landesregierung einen Kostendeckel für Anfragen an Landesbehörden ein, allerdings nicht für Anfragen an Kommunalbehörden.
 
-Die Behörden müssen die angefragten Informationen innerhalb eines Monats bereitstellen, in Ausnahmefällen innerhalb
-von drei Monaten. Wenn die voraussichtlichen Gebühren über 200 Euro liegen, sind die Behörden dazu verpflichtet, die oder
-den Antragssteller/in über die voraussichtlichen Gebühren zu informieren. Negativ fällt ins Gewicht, dass selbst einfache Auskünfte nur bei höheren Behörden gebührenfrei erfolgen. Bei Anfragen an Kommunen gibt es keine Gebührenobergrenze. Nur bestimmte Informationen müssen die Behörden auch von sich aus veröffentlichen, etwa das Abstimmungsverhalten der Landesregierung im Bundesrat, Geodaten, erlassene oder geänderte Verwaltungsvorschriften, Beschlüsse und wesentliche Unternehmensdaten von Beteiligungen des Landes an privatrechtlichen Unternehmen. 
+Das “Transparenzregister” des Landes erfüllt die meisten Ansprüche an ein Lobbyregister und wurde 2021. Ein zentraler Kritikpunkt ist allerdings, dass der tatsächliche Umfang der Lobbytätigkeit nicht offen gelegt wird.
 
-Insgesamt hat Baden-Württemberg eines der schwächsten Informationsfreiheitsgesetze in Deutschland.
+Das “Transparenzregister” des Landes sieht einen legislativen Fußabdruck für die Landesregierung vor. Die genaue Ausgestaltung obliegt der Landesregierung und ist bislang ungeklärt. 
+
+In Baden-Württemberg existiert keine Karenzzeitregelung für Minister und Staatssekretäre. Die grün-schwarze Landesregierung prüft die Einführung von Karenzzeiten.
+
+In den Regelungen der Verhaltensregeln in Baden-Würtemberg fällt auf, dass die von den Abgeordneten erzielten Nebeneinkünfte nur unzureichend anzuzeigen sind. Überdies findet sich keine Möglichkeit, die Verletzung von Anzeigepflichten wirksam zu sanktionieren (nur Mitteilung des Prüfungsergebnisses an die Fraktionen).
+
