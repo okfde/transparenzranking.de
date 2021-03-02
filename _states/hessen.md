@@ -1,22 +1,22 @@
 ---
-layout: state
 name: Hessen
 link: hessen
+Lobbyregister_year:
+Lobbyregister_link: 
+Fußabdruck_year:
+Fußabdruck_link: 
+Karenz_year: 2015
+Karenz_link: "http://starweb.hessen.de/cache/GVBL//2015/00028.pdf"
+Verhaltensr_year: 2014
+Verhaltensr_link: "https://hessischer-landtag.de/sites/default/files/scald/files/Verhaltensregeln.pdf"
+layout: state
 status: complete
-ifg_year: 2018
-ifg_type: ifg
 ---
-In Hessen gibt es seit 2018 ein Informationsfreiheitsgesetz.
 
-Es ist ungewöhnlicherweise Teil des Datenschutzgesetzes und umfasst 
-nur wenige Teile eines echten Informationsfreiheitsgesetzes.
-Er gilt nur für wenige Behörden und nimmt neben Gemeinden
-beispielsweise auch die Polizei vom Anwendungsbereich aus. 
-Außerdem sieht er keinen Kostendeckel für Anfragen und sogar
-eine "Missbrauchsgebühr" vor. Schließlich ist er auch nicht
-voraussetzungslos: Bei rein wirtschaftlichem Interesse sollen
-Antragsstellerinen keinen Anspruch auf Informationen haben.
-Wie dieses Interesse festgestellt werden soll, ist unklar.
+In Hessen existiert keine Regelung für ein Lobbyregister. Im Koalitionsvertrag von 2018 ist eine Regelung vereinbart.
 
-Mit dieser Regelung ist das Hessische Informationsfreiheitsgesetz
-das mit Abstand schwächste Gesetz Deutschlands.
+In Hessen existiert keine Regelung für einen legislativen Fußabdruck. 
+
+Im Jahr 2015 wurde in Hessen das Gesetz über die Bezüge der Mitglieder der Landesregierung geändert und die Karenzzeitregelung in § 8a BbgMinG eingeführt
+
+Die Pflicht zur Offenlegung der Nebeneinkünfte sowie der Spenden sind in Hessen an die Verhaltensregeln des Bundes angelehnt. Die Offenlegungspflicht bezüglich einer Interessenverknüpfung bei der Ausschussarbeit ist noch optimierbar.
