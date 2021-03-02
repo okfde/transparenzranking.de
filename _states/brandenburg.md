@@ -1,24 +1,22 @@
 ---
 name: Brandenburg
 link: brandenburg
-ifg_year: 1998, letzte Änderung 2013
-ifg_type: ifg
-ifg_link: "http://bravors.brandenburg.de/de/gesetze-212780"
+Lobbyregister_year:
+Lobbyregister_link: "https://www.landtag.brandenburg.de/de/parlament/lobbyregister/607534"
+Fußabdruck_year:
+Fußabdruck_link: 
+Karenz_year: 2016
+Karenz_link: "https://bravors.brandenburg.de/gesetze/bbgming_2016"
+Verhaltensr_year: 2019
+Verhaltensr_link: "https://bravors.brandenburg.de/gesetze/abgg"
 layout: state
 status: complete
 ---
-Der Vorreiter der Informationsfreiheit in Deutschland beschloss
-als erstes Bundesland 1998 ein „Akteneinsichts- und
-Informationszugangsgesetz“ (AIG). Eine Reform 2013 erweiterte
-und konkretisierte das Gesetz. Seither sind die Behörden,
-die Einsicht in ihre Akten gewähren müssen, konkret benannt.
-Außerdem wurde die Anfertigung von Kopien gesetzlich verankert.
-Zusätzlich soll die Verwaltung des Landes von sich aus
-Daten auf einer einheitlichen Plattform zur Verfügung stellen,
-die dann frei nutzbar sind.
 
-Im <a href="http://www.brandenburg.de/media/lbm1.a.4868.de/20141010-Koalitionsvertrag.pdf">rot-roten Koalitionsvertrag</a> (2014-2019) steht: „Die Koalition will verstärkt die Potentiale des Internets nutzen, um für die Bürgerinnen und Bürger mehr Mitgestaltung zu gewährleisten,
-neue Zugänge zur Demokratie zu ermöglichen und die Teilhabe an Wissen zu stärken.“ Konkretere Ankündigungen gibt es nicht.
+In Brandenburg existiert keine Regelung für ein Lobbyregister. Das dortige so bezeichnete “Lobbyregister” ist weder verpflichtend zur Kontaktaufnahme, noch werden die für ein Lobbyregister wesentlichen Informationen erfasst.
 
-Bei den Informationsrechten erreicht Brandenburg nur fünf von 28 möglichen Punkten. Insbesondere sind weder elektronische
-Aktenführung noch proaktive Veröffentlichung vorgesehen. Insgesamt liegt das Land mit Platz 8 im Mittelfeld.
+In Brandenburg existiert keine Regelung für  einen legislativen Fußabdruck.
+
+In Brandenburg wurde im Jahr 2016 das Brandenburgischen Ministergesetz (BbgMinG) geändert und die Karenzzeiten in § 5b-d BbgMinG normiert.
+
+Diese Verhaltensregeln verfehlen auf gleich vier Gebieten die notwendigen Standards: Anzeige der vor der Mandatsübernahme ausgeübten Tätigkeiten, Anzeige der Nebeneinkünfte, Sanktionssystem und Pflicht zur Offenlegung einer Interessenverknüpfung bei der Mitarbeit in einem Ausschuss.
