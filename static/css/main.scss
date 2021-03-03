@@ -342,3 +342,20 @@ ol {
     padding: 10px 0 0 0;
   }
 }
+
+.category-buttons {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media (max-width: 1000px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -10px 0 10px -10px;
+
+    > * {
+      margin: 10px 0 0 10px;
+    }
+  }
+}
