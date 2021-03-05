@@ -19,4 +19,4 @@ In Schleswig-Holstein existiert keine Regelung für einen legislativen Fußabdru
 
 Das Land Schleswig-Holstein hat unter Führung der SPD im Jahr 2016 eine 24-monatige Karenzzeit eingeführt. § 8a des Landesministergesetzes dokumentiert entsprechende Regelungen.
 
-Erfreuliche Regelungen bei den Verhaltensregelungen, denen mit Ausnahme der nicht Euro-genauen Pflicht zur Angabe der Nebeneinkünfte eine Vorbildfunktion zugesprochen werden kann.
+Es handelt sich um erfreuliche Verhaltensregeln, denen mit Ausnahme der nicht Euro-genauen Pflicht zur Angabe der Nebeneinkünfte eine Vorbildfunktion zugesprochen werden kann.
