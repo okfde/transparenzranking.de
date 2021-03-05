@@ -13,7 +13,7 @@ layout: state
 status: complete
 ---
 
-Das “Transparenzregister” des Landes erfüllt die meisten Ansprüche an ein Lobbyregister und wurde 2021. Ein zentraler Kritikpunkt ist allerdings, dass der tatsächliche Umfang der Lobbytätigkeit nicht offen gelegt wird.
+Das “Transparenzregister” des Landes erfüllt die meisten Ansprüche an ein Lobbyregister und wurde 2021 geschaffen. Ein zentraler Kritikpunkt ist allerdings, dass der tatsächliche Umfang der Lobbytätigkeit nicht offen gelegt wird.
 
 Das “Transparenzregister” des Landes sieht einen legislativen Fußabdruck für die Landesregierung vor. Die genaue Ausgestaltung obliegt der Landesregierung und ist bislang ungeklärt. 
 
