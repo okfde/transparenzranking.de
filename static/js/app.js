@@ -53,7 +53,6 @@ app.factory('ranking', function($http) {
                     }, {points: 0, max: 0});
                     return prev;
                 }, {});
-                console.log(categories)
                 categories['Gesamt'] = Object.keys(categories).reduce(function(prev, elem) {
                     const { points, max } = categories[elem];
                     return {
