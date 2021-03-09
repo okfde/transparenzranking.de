@@ -17,6 +17,6 @@ In Bayern existiert keine Regelung für ein Lobbyregister. Laut Pressemeldungen 
 
 In Bayern existiert keine Regelung für einen legislativen Fußabdruck.
 
-Für Karenzzeiten gibt es aktuell keine Regelungen in Bayern. Auch im Koalitionsvertrag der CSU und der Freien Wähler findet die Einführung von Karenzzeiten keine Erwähnung. Allerdings fordern die Freien Wähler in ihrem Wahlprogramm eine Karenzzeit von drei Jahren für Minister. Im April 2018 wurde ein Antrag zur Einführung einer 12-monatigen Karenzzeit für Beamte der höheren Qualifikationsebenen von der SPD-Landtagsfraktion vorgelegt 
+Für Karenzzeiten gibt es aktuell keine Regelungen in Bayern. Auch im Koalitionsvertrag der CSU und der Freien Wähler findet die Einführung von Karenzzeiten keine Erwähnung. Allerdings fordern die Freien Wähler in ihrem Wahlprogramm eine Karenzzeit von drei Jahren für Minister. Im April 2018 wurde ein Antrag zur Einführung einer 12-monatigen Karenzzeit für Beamte der höheren Qualifikationsebenen von der SPD-Landtagsfraktion vorgelegt.
 
-Die bayerischen Verhaltensregeln weisen keine gravierenden Mängel auf. Bei der Pflicht Nebeneinkünfte und Zuwendungen anzuzeigen, findet sich ein Rückgriff auf die Verhaltensregeln des Bundes.
+Die bayerischen Verhaltensregeln weisen keine gravierenden Mängel auf. Bei der Pflicht, Nebeneinkünfte und Zuwendungen anzuzeigen, findet sich ein Rückgriff auf die Verhaltensregeln des Bundes.
