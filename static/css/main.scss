@@ -27,7 +27,6 @@ $shadow: 0 0 4px 0 rgba(128, 128, 128, 0.5);
 
 //colors
 $font-blue: #112233;
-$font-grey: #515b66;
 $darkblue: #232b3d;
 $white : #fff;
 $silver: #c3cad1;
@@ -48,70 +47,12 @@ $on-laptop:        800px;
 
 
 
-
-@font-face {
-  font-family: Cabin;
-  src: url(../fonts/Cabin/cabin-regular.ttf);
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Cabin;
-  src: url(../fonts/Cabin/cabin-italic.ttf);
-  font-style: italic;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Cabin;
-  src: url(../fonts/Cabin/cabin-medium.ttf);
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Cabin;
-  src: url(../fonts/Cabin/cabin-medium-italic.ttf);
-  font-style: italic;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Cabin;
-  src: url(../fonts/Cabin/cabin-semi-bold.ttf);
-  font-style: normal;
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Cabin;
-  src: url(../fonts/Cabin/cabin-semi-bold-italic.ttf);
-  font-style: italic;
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Cabin;
-  src: url(../fonts/Cabin/cabin-bold.ttf);
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: Cabin;
-  src: url(../fonts/Cabin/cabin-bold-italic.ttf);
-  font-style: italic;
-  font-weight: 700;
-}
-
-
-
 .fond__grey { background-color: $white;}
 
 
-body {
+body, p {
   font-family: 'Cabin', sans-serif;
+  color: #333333;
 }
 
 h1 {
@@ -122,10 +63,8 @@ h1 {
 }
 
 p {
-  font-family: Georgia;
   font-size: 21px;
   line-height: 1.57;
-  color: $font-grey;
 }
 
 img {
@@ -133,15 +72,14 @@ img {
 }
 
 footer {
-  background-color: $darkblue;
   color: $white;
   height: 100%;
   padding-bottom: 90px;
   margin-top: 150px;
 }
 
-footer p {
-  color: $silver;
+footer p, footer a {
+  color: $white;
   font-size: 15px;
 }
 
@@ -158,10 +96,6 @@ footer h2 {
 }
 
 
-
-footer a, footer a:hover, footer a:visited {
-  color: $silver;
-}
 
 dd {
   margin-top: 10px;
@@ -192,13 +126,14 @@ dd {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #3695D8;
-}
 
-.site-header {
   img {
     height: 50px;
   }
+}
+
+.site-header, .site-footer {
+  background: #3695D8;
 }
 
 .vis {
@@ -336,7 +271,6 @@ ol {
   font-family: Georgia;
   font-size: 21px;
   line-height: 1.57;
-  color: $font-grey;
 
   li {
     padding: 10px 0 0 0;
