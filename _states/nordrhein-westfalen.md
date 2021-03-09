@@ -19,4 +19,4 @@ In Nordrhein-Westfalen existiert keine Regelung für einen legislativen Fußabdr
 
 Unter rot-grüner Führung wurde im Jahr 2016 eine 12-monatige Karrenzzeit unter § 4b-c des Landesministergesetzes eingeführt.
 
-Diese Verhaltensregeln enthalten die begrüßenswerte Besonderheit, dass jede Nebentätigkeit anzuzeigen ist, deren Einnahme 5 % der jährlichen Abgeordnetenbezüge übersteigen. Schwach demgegenüber die Anzeigepflicht hinsichtlich der hieraus erzielten Einnahmen (lediglich 7-Stufen-Regelung). Die Problematik einer potentiellen Interessenverknüpfung bei der Ausschussarbeit findet überhaupt keine Berücksichtigung.
+Diese Verhaltensregeln enthalten die begrüßenswerte Besonderheit, dass jede Nebentätigkeit anzuzeigen ist, für die Einnahmen anfallen, die 5 % der jährlichen Abgeordnetenbezüge übersteigen. Demgegenüber fällt die Anzeigepflicht hinsichtlich der hieraus erzielten Einnahmen (lediglich 7-Stufen-Regelung) schwach aus. Die Problematik eines potenziellen Interessenskonflikts bei der Ausschussarbeit findet überhaupt keine Berücksichtigung.
