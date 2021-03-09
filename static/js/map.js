@@ -3,7 +3,6 @@ d3.json("static/js/germany.json", function(error, topo) {
     var width = 950,
         height = 550;
 
-    console.log(topo);
     var states = topojson.feature(topo, topo.objects.states).features;
 
     var svg = d3.select("#map").append("svg")

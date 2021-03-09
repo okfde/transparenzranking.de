@@ -35,7 +35,6 @@ app.factory('ranking', function($http) {
             }
         },
         getState: function(state, cb) {
-            console.log('loading states');
             if (!states[state]) {
                 $http.get('/static/js/data/states/' + state + '.json').then(function(response) {
                     states[state] = response.data;
@@ -54,8 +53,13 @@ app.factory('ranking', function($http) {
                     }, {points: 0, max: 0});
                     return prev;
                 }, {});
+                console.log(categories)
                 categories['Gesamt'] = Object.keys(categories).reduce(function(prev, elem) {
-                    return {points: prev.points + categories[elem].points, max: prev.max + categories[elem].max }
+                    const { points, max } = categories[elem];
+                    return {
+                        points: prev.points + points / max / Object.keys(categories).length,
+                        max: 100
+                    };
                 }, {points:0, max: 0});
                 cb(null, categories);
             })
@@ -117,8 +121,6 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
     $scope.loadOverview = function() {
         $scope.show_info = false;
         ranking.getOverview(function(err, data) {
-            console.log('overview loaded');
-            console.log(data);
             if (err) {
                 console.error(err);
             } else {
@@ -129,9 +131,9 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
                 ranking.getKeysForStates(function(err, keys) {
                     keys = keys.sort();
                     $scope.bar = keys.map(function(elem, index) {
-                        var sum = data.entries.reduce(function(prev, cat) {
-                            return prev + cat.entries[elem];
-                        }, 0);
+                        var sum = Math.round(data.entries.reduce(function(prev, cat) {
+                            return prev + cat.entries[elem] / cat.max / data.entries.length;
+                        }, 0) * 100);
                         barcolors.push('#3695D8');
                         return {name: elem, sum: sum}
                     });
@@ -167,7 +169,6 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
         var barcolors = [];
         var barentries = _.chain(cat_data.entries)
             .reduce(function(result, value, key) {
-                console.log(result);
                 result.push({ name:key, value:Math.floor(value * 100 / cat_data.max) });
                 return result;
             }, [])
@@ -198,7 +199,6 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
     ranking.getCategoryNames(function(err, data) {
         if (!err) {
             $scope.categories = data;
-            console.log(data);
         } else {
             console.error(data);
         }
@@ -252,8 +252,9 @@ app.controller('StateCtrl', function($scope, ranking) {
         });
         ranking.getOverviewForState(state, function(err, data) {
             $scope.overview_data = data;
-            $scope.overview_points = data['Gesamt'].points;
-            $scope.overview_label = data['Gesamt'].points + "%";
+            const points = Math.round(100 * data['Gesamt'].points);
+            $scope.overview_points = points;
+            $scope.overview_label = points + "%";
             for (var cat in data) {
                 if (cat !== "Gesamt") {
                     var curr = $scope.overview_data[cat];
