@@ -19,4 +19,4 @@ In Mecklenburg-Vorpommern existiert keine Regelung für einen legislativen Fußa
 
 Die Landesregierung hat bereits im Jahr 2019 ein Karenzzeitgesetz angekündigt. Allerdings hat die Covid19-Pandemie zu einer Verzögerung und Depriorisierung eines entsprechenden Gesetzes beigetragen. Laut der SPD-Fraktion solle zeitnah ein entsprechender Gesetzentwurf vorgelegt werden.
 
-Diese Verhaltensregeln genügen nur bezüglich der Pflicht zur Offenlegung einer Interessenverknüpfung bei der Ausschussarbeit den Anforderungen. Demgegenüber keine Pflicht die Höhe der erzielten Nebeneinkünfte anzuzeigen sowie keine wirksame Sanktionsmöglichkeit bei Pflichtverstößen (lediglich Mitteilung des Prüfungsergebnisses an den Landtag).
+Diese Verhaltensregeln genügen nur bezüglich der Pflicht zur Offenlegung einer Interessenverknüpfung bei der Ausschussarbeit den Anforderungen. Demgegenüber gibt es keine Pflicht die Höhe der erzielten Nebeneinkünfte anzuzeigen sowie keine wirksame Sanktionsmöglichkeit bei Pflichtverstößen (lediglich Mitteilung des Prüfungsergebnisses an den Landtag).
