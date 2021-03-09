@@ -17,6 +17,6 @@ In Hessen existiert keine Regelung für ein Lobbyregister. Im Koalitionsvertrag 
 
 In Hessen existiert keine Regelung für einen legislativen Fußabdruck. 
 
-Im Jahr 2015 wurde in Hessen das Gesetz über die Bezüge der Mitglieder der Landesregierung geändert und die Karenzzeitregelung in § 8a BbgMinG eingeführt
+Im Jahr 2015 wurde in Hessen das Gesetz über die Bezüge der Mitglieder der Landesregierung geändert und die Karenzzeitregelung in § 8a BbgMinG eingeführt.
 
-Die Pflicht zur Offenlegung der Nebeneinkünfte sowie der Spenden sind in Hessen an die Verhaltensregeln des Bundes angelehnt. Die Offenlegungspflicht bezüglich einer Interessenverknüpfung bei der Ausschussarbeit ist noch optimierbar.
+Die Pflicht zur Offenlegung der Nebeneinkünfte sowie der Spenden ist in Hessen an die Verhaltensregeln des Bundes angelehnt. Die Offenlegungspflicht bezüglich einer Interessenverknüpfung bei der Ausschussarbeit ist noch optimierbar.
