@@ -19,4 +19,4 @@ In Berlin existiert keine Regelung für einen legislativen Fußabdruck. Laut Pre
 
 Im Koalitionsvertrag der rot-rot-grünen Koalition ist eine Regelung zur Karenzzeit von SenatorInnen in Anlehnung an die Regelung für StaatssekretärInnen (§ 68 Abs. 1 LBG) vorgesehen. Dieses Versprechen hat die Koalition noch nicht eingelöst.
 
-Die Berliner Verhaltensregeln enthalten erhebliche Lücken. Unzureichend geregelt ist die Anzeigepflicht bezüglich der vor der Mandatsübernahme ausgeübten Tätigkeiten, der Angabe der Höhe der Nebeneinkünfte der Abgeordneten sowie vor allem auch die Möglichkeit Sanktionen zu verhängen.
+Die Berliner Verhaltensregeln enthalten erhebliche Lücken. Unzureichend geregelt sind die Anzeigepflicht bezüglich der vor der Mandatsübernahme ausgeübten Tätigkeiten sowie der Angabe der Höhe der Nebeneinkünfte der Abgeordneten. Vor allem fehlt eine Möglichkeit Sanktionen zu verhängen.
