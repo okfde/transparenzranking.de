@@ -4,9 +4,32 @@
 @charset "utf-8";
 
 
+@font-face {
+  font-family: Helvetica Neue Condensed;
+  src: url('../fonts/helvetica/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix');
+  src: url('../fonts/helvetica/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix') format("eot"),
+       url('../fonts/helvetica/946b2f3f-a9d7-47e4-9738-ee963004d697.woff2') format("woff2"),
+       url('../fonts/helvetica/ce90a9c3-4580-4fa7-b453-9a4e86d0c271.woff') format("woff"),
+       url('../fonts/helvetica/a621a6bf-fa40-4115-9f42-6ffb55c017e2.ttf') format("truetype"),
+       url('../fonts/helvetica/436f9358-58a7-4f85-bdef-f4cd10831df6.svg') format("svg");
+  font-weight: 400;
+  font-style:normal
+}
+
+@font-face {
+  font-family: Helvetica Neue Condensed;
+  src: url('../fonts/helvetica/1527aeed-e69d-4399-82e3-7b53d48da7a2.eot?#iefix');
+  src: url('../fonts/helvetica/1527aeed-e69d-4399-82e3-7b53d48da7a2.eot?#iefix') format("eot"),
+       url('../fonts/helvetica/5f4620bc-98f7-4b13-9f90-3a54ea6a9c55.woff2') format("woff2"),
+       url('../fonts/helvetica/ac30e84e-cb19-4576-b6f9-491fccbd42ff.woff') format("woff"),
+       url('../fonts/helvetica/b583b782-0709-4a13-899f-7e9ab1a7eccd.ttf') format("truetype"),
+       url('../fonts/helvetica/d5dd03f5-3afb-46e9-aad0-234de8607afa.svg#d5dd03f5-3afb-46e9-aad0-234de8607afa') format("svg");
+  font-weight: 700;
+  font-style:normal
+}
 
 // Our variables
-$base-font-family: Arial, sans-serif;
+$base-font-family: "Helvetica Neue Condensed", sans-serif;
 $base-font-size:   21px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -51,7 +74,7 @@ $on-laptop:        800px;
 
 
 body, p {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Helvetica Neue Condensed', sans-serif;
   color: #333333;
 }
 
@@ -126,6 +149,15 @@ dd {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+
+  @media (max-width: 460px) {
+    justify-content: center;
+
+    img {
+      margin-bottom: 10px;
+    }
+  }
 
   img {
     height: 50px;
@@ -225,7 +257,7 @@ dd { display:none; }
 
 .right{
 
-  font-family: Cabin;
+  font-family: $base-font-family;
   color: #515b66;
   font-size: 16px;
   text-align: right;
@@ -234,7 +266,7 @@ dd { display:none; }
 
 
 .indicator {
-  font-family: Cabin;
+  font-family: $base-font-family;
   color: #515b66;
   font-size: 16px;
   padding-bottom: 15px;
@@ -242,7 +274,7 @@ dd { display:none; }
 
 
 .subinfo {
-  font-family: Cabin;
+  font-family: $base-font-family;
   color: #515b66;
   font-size: 18px;
   font-weight: bold;
@@ -251,7 +283,7 @@ dd { display:none; }
 
 h2{
 
-  font-family: Cabin;
+  font-family: $base-font-family;
   font-style: 500;
   color: #112233;
   font-size: 35px;
