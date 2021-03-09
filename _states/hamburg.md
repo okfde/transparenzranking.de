@@ -16,9 +16,9 @@ status: complete
 
 In Hamburg existiert keine Regelung für ein Lobbyregister.
 
-Es existiert auch keine Regelung für einen legislativen Fußabdruck in Hamburg. Im Koalitionsvertrag von 2020 ist eine Offenlegung begrenzt auf die Verbändeanhörung des Senats vereinbart.
+Es existiert auch keine Regelung für einen legislativen Fußabdruck in Hamburg. Im Koalitionsvertrag von 2020 ist eine Offenlegung, begrenzt auf die Verbändeanhörung des Senats, vereinbart.
 
 Hamburg war das erste Bundesland, das im Jahr 2014 eine Karenzzeitregelung eingeführt hat. Die Karenzzeiten sind in § 9a des Senatsgesetzes normiert.
 
 Die Verhaltensregeln finden sich in Hamburg qualitativ in einem merkwürdigen Gegensatz zu dem HH-Transparenzgesetz (Informationsrechte der BürgerInnen bezüglich des Behördenhandelns), wo der Stadtstaat eine Vorreiterrolle einnimmt.
-Hinsichtlich der vor Mandatsübernahme ausgeübten Tätigkeiten der Abgeordneten gibt es nur eine stark eingeschränkte Anzeigepflicht. Nebeneinkünfte sind überhaupt nicht anzuzeigen. Deutliche Mängel auch bei den Sanktionsmöglichkeiten sowie bei der Veröffentlichung des Angezeigten.
+Hinsichtlich der vor Mandatsübernahme ausgeübten Tätigkeiten der Abgeordneten gibt es nur eine stark eingeschränkte Anzeigepflicht. Nebeneinkünfte sind überhaupt nicht anzuzeigen. Deutliche Mängel gibt es auch bei den Sanktionsmöglichkeiten sowie bei der Veröffentlichung des Angezeigten.
