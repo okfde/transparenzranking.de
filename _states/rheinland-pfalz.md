@@ -14,10 +14,10 @@ status: complete
 
 ---
 
-In Rheinland-Pfalz existiert keine Regelung für ein Lobbyregister. Das dortige so bezeichnete “Lobbyregister” ist weder verpflichtend zur Kontaktaufnahme, noch werden die für ein Lobbyregister wesentlichen Informationen erfasst.
+In Rheinland-Pfalz existiert keine Regelung für ein Lobbyregister. Das dortige, so bezeichnete “Lobbyregister” greift weder verpflichtend bei Kontaktaufnahme, noch werden die für ein Lobbyregister wesentlichen Informationen erfasst.
 
 In Rheinland-Pfalz existiert keine Regelung für einen legislativen Fußabdruck.
 
-In Rheinland Pfalz existiert keine Regelungen zu Karenzzeiten. Im Koalitionsvertrag der rot-gelb-grünen Landesregierung findet eine solche Regelung auch keine Erwähnung. Ministerpräsidenting Malu Dreyer (SPD) sah hier im Jahr 2017 keinen Handlungsbedarf.
+In Rheinland Pfalz existiert keine Regelungen zu Karenzzeiten. Im Koalitionsvertrag der rot-gelb-grünen Landesregierung findet eine solche Regelung auch keine Erwähnung. Ministerpräsidentin Malu Dreyer (SPD) sah hier im Jahr 2017 keinen Handlungsbedarf.
 
 Die Verhaltensregeln weisen in Rheinland-Pfalz mit der einen allerdings gravierenden Ausnahme, dass die erhaltenen Spenden keiner Veröffentlichungspflicht unterliegen, keine Besonderheiten auf.
