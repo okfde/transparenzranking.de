@@ -15,10 +15,10 @@ status: complete
 
 ---
 
-Die Thüringer Regelung eines legislativen Fußabdrucks umfasst einzelne Kriterien eines Lobbyregisters.
+Die Thüringer Regelung eines legislativen Fußabdrucks erfüllt einige Kriterien eines Lobbyregisters.
 
 In Thüringen existiert eine Regelung, welche wesentliche Elemente eines legislativen Fußabdrucks umsetzt. Kritisch einzustufen ist allerdings die Möglichkeit der Interessenvertreter, die Offenlegung der Stellungnahmen zu verhindern.
 
 Die rot-rot-grüne Landesregierung führte im Jahr 2018 eine 18 bis 24-monatige Karenzzeitregelung ein. Entsprechende Regelungen sind in § 5b-d des Thüringer Ministergesetzes zu finden. 
 
-Diese Verhaltensregeln in Thüringen weisen mit den folgenden zwei Ausnahmen keine Besonderheiten auf: Zum einen müssen lediglich die in Erwartung des Mandats aufgegebenen früheren Tätigkeiten angezeigt werden, und zum anderen ist die Offenlegung einer bei der gesetzgeberischen Arbeit bestehenden Interessenverknüpfung unzulänglich.
+Diese Verhaltensregeln in Thüringen weisen mit den folgenden zwei Ausnahmen keine Besonderheiten auf: Zum einen müssen lediglich die in Erwartung des Mandats aufgegebenen früheren Tätigkeiten angezeigt werden, und zum anderen ist die Offenlegung potenzieller Interessenskonflikte bei der gesetzgeberischen Arbeit unzulänglich.
