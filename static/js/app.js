@@ -168,7 +168,7 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
         var barcolors = [];
         var barentries = _.chain(cat_data.entries)
             .reduce(function(result, value, key) {
-                result.push({ name:key, value:Math.floor(value * 100 / cat_data.max) });
+                result.push({ name:key, value:Math.round(value * 100 / cat_data.max) });
                 return result;
             }, [])
             .sortBy('name')
