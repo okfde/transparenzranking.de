@@ -1,5 +1,22 @@
 var app = angular.module('App', []);
 
+const getMaxFor = (category, items) => (
+    items.filter(item => item.kategorie == category).reduce((sum, item) => sum + item.maximalpunkte, 0)
+);
+
+function getTotalFor(data, name) {
+    return Math.round(Object.keys(data.categories).reduce((sum, category) =>
+        sum + Math.round(
+        data.states[name]
+            .filter(i => i.kategorie == category)
+            .reduce((prev, item) => prev + item.erreichte_punkte, 0)
+        * 100
+        / getMaxFor(category, data.states[name])
+        ),
+        0
+    ) / Object.keys(data.categories).length);
+}
+
 app.factory('ranking', function ($http) {
     var data = null;
     var categories = null;
@@ -29,22 +46,15 @@ app.factory('ranking', function ($http) {
                             {points: 0, max: 0}
                         )
                 }), {});
-                categories['Gesamt'] = Object.keys(categories).reduce(function (prev, elem) {
-                    const {points, max} = categories[elem];
-                    return {
-                        points: prev.points + points / max / Object.keys(categories).length,
-                        max: 100
-                    };
-                }, {points: 0, max: 0});
+                categories['Gesamt'] = {
+                    points: getTotalFor(data, state),
+                    max: 100
+                }
                 cb(null, categories);
             })
         },
     }
 });
-
-const getMaxFor = (category, items) => (
-    items.filter(item => item.kategorie == category).reduce((sum, item) => sum + item.maximalpunkte, 0)
-);
 
 app.controller('BarchartCtrl', function ($scope, ranking) {
 
@@ -71,22 +81,16 @@ app.controller('BarchartCtrl', function ($scope, ranking) {
                 return;
             }
             $scope.drafts = data.drafts;
-            // $scope.activeColor = "#6dffd4";
-            var barcolors = [];
-            $scope.bar = Object.keys(data.states).sort().map(function (name) {
-                var sum = Math.round(data.states[name].reduce(
-                    (prev, item, i, items) => prev + item.erreichte_punkte / getMaxFor(item.kategorie, items) / Object.keys(data.categories).length,
-                    0
-                ) * 100);
-                barcolors.push('#3695D8');
-                return {name, sum}
-            });
+            const barcolors = Object.keys(data.states).map(() => '#3695D8');
+            $scope.bar = Object.keys(data.states).sort().map(name => ({
+                name,
+                sum: getTotalFor(data, name)
+            }));
 
             $scope.bar = _.sortBy($scope.bar, [({name}) => name != 'Bund', 'sum']).reverse();
             $scope.bardata = _.map($scope.bar, 'sum');
             $scope.barcat = _.map($scope.bar, 'name');
             $scope.barcaptions = $scope.barcat;
-            // barcolors[0] = '#ff0000';
             $scope.activeColor = barcolors;
             $scope.loading_finished = true;
         });
@@ -157,7 +161,7 @@ app.controller('StateCtrl', function ($scope, ranking) {
     function loadData(state) {
         ranking.getOverviewForState(state, function (err, data) {
             $scope.overview_data = data;
-            const points = Math.round(100 * data['Gesamt'].points);
+            const points = data['Gesamt'].points;
             $scope.overview_points = points;
             $scope.overview_label = points + "%";
             for (var cat in data) {
