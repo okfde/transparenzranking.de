@@ -7,7 +7,21 @@
 
 # Site settings
 title: Lobbyranking der Bundesländer
-url: "https://lobbyranking.de/"
+url: "https://lobbyranking.de"
+
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "bower_components/**"
+    values:
+      sitemap: false
+  - scope:
+      path: "**/*.html"
+    values:
+      sitemap: false
 
 # Build settings
 markdown: kramdown
