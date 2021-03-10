@@ -159,6 +159,13 @@ app.controller('StateCtrl', function ($scope, ranking) {
     }
 
     function loadData(state) {
+        ranking.getData((err, data) => {
+           $scope.stateData = Object.fromEntries(Object.keys(data.categories).map((category) => [
+               category,
+               data.states[state].filter(item => item.kategorie == category)
+           ]))
+        });
+
         ranking.getOverviewForState(state, function (err, data) {
             $scope.overview_data = data;
             const points = data['Gesamt'].points;
