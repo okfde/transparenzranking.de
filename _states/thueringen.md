@@ -7,7 +7,7 @@ ifg_type: tg
 ifg_link: "http://landesrecht.thueringen.de/jportal/?quelle=jlink&query=TranspG+TH&psml=bsthueprod.psml&max=true"
 layout: state
 status: complete
-
+fds_blog_tag: thuringen
 ---
 
 Zum 1.1.2020 hat das Thüringer Transparenzgesetz (ThürTG) das seit 2012 geltende Informationsfreiheitsgesetz abgelöst. Damit werden eine Reihe von wichtigen Informationen proaktiv in einem Transparenzportal veröffentlicht, darunter Vertragsinhalte, Gutachten, Verwaltungsvorschriften, Berichte und Zuwendungen.

@@ -62,6 +62,12 @@ layout: default
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <p>{{ content }}</p>
+
+                    <p>
+                        <a href="https://fragdenstaat.de/blog/tag/{{ page.fds_blog_tag | default: page.link }}/">
+                            → Aktuelles zu {{page.name}} im FragDenStaat-Blog
+                        </a>
+                    </p>
                 </div>
             </div>
             {% raw %}
