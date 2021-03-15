@@ -8,7 +8,7 @@ Fußabdruck_link:
 Karenz_year: 
 Karenz_link: 
 Verhaltensr_year: 2019
-Verhaltensr_link: ""
+Verhaltensr_link: "https://www.parlament-berlin.de/C1257B55002B290D/vwContentByKey/W29CANFU717SHEQDE/$FILE/LandesAbgG_-_Auszug_5a.pdf"
 layout: state
 status: complete
 ---
