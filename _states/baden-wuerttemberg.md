@@ -19,5 +19,4 @@ Das [“Transparenzregister”](https://www.landtag-bw.de/files/live/sites/LTBW/
 
 In Baden-Württemberg existiert keine Karenzzeitregelung für Minister und Staatssekretäre. Die grün-schwarze Landesregierung prüft die Einführung von Karenzzeiten.
 
-In den Regelungen der [Verhaltensregeln](https://www.landtag-bw.de/files/live/sites/LTBW/files/dokumente/rechtliche_grundlagen/Gesch%c3%a4ftsordnung.pdf) in Baden-Würtemberg fällt auf, dass die von den Abgeordneten erzielten Nebeneinkünfte nur unzureichend anzuzeigen sind. Überdies findet sich keine Möglichkeit, die Verletzung von Anzeigepflichten wirksam zu sanktionieren (nur Mitteilung des Prüfungsergebnisses an die Fraktionen).
-
+In den [Verhaltensregeln](https://www.landtag-bw.de/files/live/sites/LTBW/files/dokumente/rechtliche_grundlagen/Gesch%c3%a4ftsordnung.pdf) in Baden-Württemberg (sog. Offenlegungsregeln) fällt auf, dass die von den Abgeordneten erzielten Nebeneinkünfte nur unzureichend anzuzeigen sind. Überdies findet sich keine Möglichkeit, die Verletzung von Anzeigepflichten wirksam zu sanktionieren (nur Mitteilung des Prüfungsergebnisses an die Fraktionen).
