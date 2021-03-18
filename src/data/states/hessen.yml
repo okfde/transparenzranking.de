@@ -1,0 +1,126 @@
+name: Hessen
+short: HE
+year: 2018
+type: ifg
+fds_id: 94
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Anspruch für Jede/n
+    points: 0
+    citation: '§ 82 (5) HDSIG (Entwurf): Bei "rein wirtschaftlichen Interessen" soll kein Auskunftsanspruch bestehen."'
+  - title: Zweckbestimmung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Recht auf Kopien
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Hochschule
+    points: 0
+    citation: '§ 81 (1.5): Hochschulen, Schulen, Forschungseinrichtungen und Universitätskliniken sind nur beschränkt anfragbar'
+  - title: Geheimdienste
+    points: 0
+    citation: '§ 81 (2.1)'
+  - title: Kammern
+    points: 0
+    citation: '§ 81 (2.3)'
+  - title: staatlich kontrollierte Unternehmen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Rundfunk
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Landtag
+    points: 0
+    citation: '§ 81 (1.1): Unklar, was anfragbar wäre. "Freiheit des Mandats" dürfe nicht beeinträchtigt werden"'
+  - title: Rechnungshof
+    points: 0
+    citation: '§ 81 (1.2): Nur soweit Aufgabenstellung nicht beeinträchtigt werde'
+  - title: Sparkassen und Landesbank
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 0
+    citation: '§ 81 (1.3): Nur Verwaltung. Abzug für Ausnahmen bei Gemeinden'
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Zeitliche und situative Begrenzung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klare Begriffsbestimmungen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 85 (1) HDSIG'
+  - title: anonym möglich
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: praktische Antragsassistenz
+    points: 2
+    citation: '§ 85 (2) HDSIG'
+  - title: angemessene Antwortfrist
+    points: 1
+    citation: '§ 87 (1) HDSIG: ein Monat, Verlängerung auf drei Monate'
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 1
+    citation: '§ 87 (3) HDSIG'
+  - title: Gebührenfreiheit
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Kostendeckel
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: anrufbar
+    points: 2
+    citation: '§ 89 (1) HDSIG'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 89 (3) HDSIG: Beanstandungsrechte'
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: selbst auskunftspflichtig
+    points: 0
+    citation: '§ 81 (1) HDSIG: Nur soweit die Aufgabenstellung nicht beeinträchtigt wird'

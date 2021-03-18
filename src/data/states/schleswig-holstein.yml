@@ -1,0 +1,127 @@
+name: Schleswig-Holstein
+short: SH
+year: 2012
+updated: 2019
+type: ifg
+fds_id: 11
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 1
+    citation: '§ 8 IZG-SH: Umweltinformationen; § 11: Veröffentlichung von Informationen; lediglich Soll-Vorschrift'
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 2
+    citation: '§ 53 Verf SH'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 3 IZG-SH'
+  - title: Zweckbestimmung
+    points: 2
+    citation: '§ 1 IZG-SH'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 1
+    citation: 'zusammengefasst, nicht harmonisiert'
+  - title: Recht auf Kopien
+    points: 1
+    citation: '§ 5 (1) IZG-SH'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Hochschule
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Geheimdienste
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Kammern
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: staatlich kontrollierte Unternehmen
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Rundfunk
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Landtag
+    points: 0
+    citation: '§ 2 (4.2) IZG-SH'
+  - title: Rechnungshof
+    points: 1
+    citation: '§ 2 (4.4) IZG-SH: soweit nicht in richterlicher Unabhängigkeit'
+  - title: Sparkassen und Landesbank
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation: '§ 2 (4.3) IZG-SH: nicht wenn Organe der Rechtspflege'
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 8
+    citation: '§§ 9 und 10 IZG-SH'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 6
+    citation: '§ 10 IZG-SH'
+  - title: Zeitliche und situative Begrenzung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klare Begriffsbestimmungen
+    points: 2
+    citation: '§ 2 IZG-SH'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 6 (2) IZG-SH'
+  - title: anonym möglich
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: praktische Antragsassistenz
+    points: 2
+    citation: '§ 4 (2) IZG-SH'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 5 (2) IZG-SH: ein Monat'
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 1
+    citation: '§ 5 (2) IZG-SH: ein Monat'
+  - title: Gebührenfreiheit
+    points: 2
+    citation: '§ 12 (1) IZG-SH: einfache Anfragen, Einsichtnahmen vor Ort'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 1
+    citation: '§ 2 IZG-SH-KostenVO'
+  - title: Kostendeckel
+    points: 4
+    citation: 'Kostentarif IZG-SH-KostenVO: 500 Euro'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: anrufbar
+    points: 2
+    citation: '§ 13 IZG-SH'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 13 IZG-SH: Beanstandungsrechte'
+  - title: auch für Umweltinformationen zuständig
+    points: 1
+    citation: '§ 13 IZG-SH'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 2
+    citation: 'ja'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'keine Erwähnung'

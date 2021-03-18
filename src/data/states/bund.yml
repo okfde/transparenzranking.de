@@ -1,0 +1,126 @@
+name: Bund
+year: 2006
+updated: 2013
+type: ifg
+fds_id: 1
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 1
+    citation: '§ 11 IFG: Aktenverzeichnisse, Organigramme; "Soll-Bestimmung"'
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 1 (1) IFG: "Jeder"'
+  - title: Zweckbestimmung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Statistikpflicht für Behörden
+    points: 2
+    citation: 'nicht vorgeschrieben, aber de facto durch Innenministerium: https://www.bmi.bund.de/DE/Themen/Moderne-Verwaltung/Open-Government/Informationsfreiheitsgesetz/informationsfreiheitsgesetz_node.html'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'nein'
+  - title: Recht auf Kopien
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: '§ 6 EGovG; tritt erst 2020 in Kraft'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'nein'
+  - title: Hochschule
+    points: 2
+    citation: 'nicht anwendbar'
+  - title: Geheimdienste
+    points: 0
+    citation: '§ 3 (8) IFG: ausgenommen'
+  - title: Kammern
+    points: 2
+    citation: 'nicht erwähnt'
+  - title: staatlich kontrollierte Unternehmen
+    points: 0
+    citation: '§ 1 (1) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+  - title: Rundfunk
+    points: 2
+    citation: 'nicht anwendbar'
+  - title: Landtag
+    points: 1
+    citation: '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+  - title: Rechnungshof
+    points: 0
+    citation: 'Spezialgesetzliche Regelung in § 9 (4) BHO'
+  - title: Sparkassen und Landesbank
+    points: 1
+    citation: '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation: '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 1
+    citation: '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 2
+    citation: '§ 5 (1) IFG: nur bei personenbezogenen Daten'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Zeitliche und situative Begrenzung
+    points: 1
+    citation: 'teilweise situative Begrenzung'
+  - title: Klare Begriffsbestimmungen
+    points: 2
+    citation: '§ 2 IFG'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 7 (3) IFG'
+  - title: anonym möglich
+    points: 1
+    citation: 'unklar, unterschiedliche Praxis der Behörden'
+  - title: praktische Antragsassistenz
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 7 (5) IFG: ein Monat'
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Gebührenfreiheit
+    points: 1
+    citation: '§ 10 (1) IFG: einfache Auskünfte gebührenfrei'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 0
+    citation: '§ 2 IFGGebV: nur Ermäßigung von 50 Prozent möglich'
+  - title: Kostendeckel
+    points: 4
+    citation: 'Anlage IFGGebV: bis 500 Euro'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 2
+    citation: 'keine Erwähnung; praktisch gebührenfrei'
+  - title: anrufbar
+    points: 2
+    citation: '§ 12 (1) IFG'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 12 (3) IFG'
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde
+    points: 1
+    citation: '§ 4f BDSG; kein Haushaltsrecht'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'ja'

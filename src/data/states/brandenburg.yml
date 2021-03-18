@@ -1,0 +1,127 @@
+name: Brandenburg
+short: BB
+year: 1998
+updated: 2013
+type: ifg
+fds_id: 3
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 2
+    citation: '§ 19 Landesverfassung'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 1 AIG: auch Bürgerinitiativen'
+  - title: Zweckbestimmung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Recht auf Kopien
+    points: 1
+    citation: '§ 7 (1) AIG'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Hochschule
+    points: 1
+    citation: '§ 2 (2) AIG: ohne Forschung und Lehre'
+  - title: Geheimdienste
+    points: 0
+    citation: '§ 2 (5) AIG'
+  - title: Kammern
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: staatlich kontrollierte Unternehmen
+    points: 0
+    citation: '§ 2 (5) AIG'
+  - title: Rundfunk
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Landtag
+    points: 1
+    citation: '§ 2 (2) AIG: nur Verwaltung'
+  - title: Rechnungshof
+    points: 1
+    citation: '§ 2 (1) AIG: nur Verwaltung'
+  - title: Sparkassen und Landesbank
+    points: 1
+    citation: '§ 2 (1) AIG: nur Verwaltung'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation: '§ 2 (2) AIG: nur Verwaltung'
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 1
+    citation: '§ 2 (1) AIG: nur Verwaltung'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 2
+    citation: '§ 5 (1) und (2) AIG'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 3
+    citation: '§ 5 (1) AIG: Abwägung mit Interesse der Antragsstellerin'
+  - title: Zeitliche und situative Begrenzung
+    points: 0
+    citation: 'keine Erwähnung; In laufenden Verwaltungsverfahren ist kein Informationszugang möglich'
+  - title: Klare Begriffsbestimmungen
+    points: 1
+    citation: '§ 3 AIG'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 6 (1) AIG'
+  - title: anonym möglich
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: praktische Antragsassistenz
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 6 (1) AIG'
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 1
+    citation: '§ 6 (1) AIG'
+  - title: Gebührenfreiheit
+    points: 1
+    citation: 'einfache Anfragen nach Landesgebührenordnung; Abweichungen in Kommunen möglich'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 1
+    citation: '§ 2 AIGGebO'
+  - title: Kostendeckel
+    points: 3
+    citation: 'Anlage AIGGebO: 1000 Euro'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: anrufbar
+    points: 2
+    citation: '§ 11 AIG'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 11 (1) AIG'
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 2
+    citation: 'ja'
+  - title: selbst auskunftspflichtig
+    points: 0
+    citation: '§ 2 (1) AIG: nur Verwaltung'

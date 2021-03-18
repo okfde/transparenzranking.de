@@ -1,0 +1,127 @@
+name: Saarland
+short: SL
+year: 2006
+updated: 2015
+type: ifg
+fds_id: 4
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 1
+    citation: '§ 11 IFG: Aktenverzeichnisse, Organigramme; "Soll-Bestimmung"'
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 1 SIFG: "Jeder"'
+  - title: Zweckbestimmung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'nein'
+  - title: Recht auf Kopien
+    points: 1
+    citation: '§ 1 Satz1 SIFG i.V.m. § 7 Abs. 4 IFG'
+  - title: elektronische Aktenführung
+    points: 1
+    citation: 'teilweise'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'nein'
+  - title: Hochschule
+    points: 1
+    citation: '§ 1 SIFG: ohne Forschung und Lehre'
+  - title: Geheimdienste
+    points: 0
+    citation: '§ 2 SIFG: ausgenommen'
+  - title: Kammern
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: staatlich kontrollierte Unternehmen
+    points: 1
+    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+  - title: Rundfunk
+    points: 1
+    citation: '§ 1 SIFG: nur Verwaltung'
+  - title: Landtag
+    points: 1
+    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+  - title: Rechnungshof
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Sparkassen und Landesbank
+    points: 1
+    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 1
+    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 2
+    citation: '§ 5 (1) IFG: nur bei personenbezogenen Daten'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Zeitliche und situative Begrenzung
+    points: 1
+    citation: 'teilweise situative Begrenzung'
+  - title: Klare Begriffsbestimmungen
+    points: 2
+    citation: '§ 2 IFG'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 7 (3) IFG'
+  - title: anonym möglich
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: praktische Antragsassistenz
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 7 (5) IFG: ein Monat'
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Gebührenfreiheit
+    points: 1
+    citation: 'Allgemeines Gebührenverzeichnis Nr. 455'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 0
+    citation: 'Allgemeines Gebührenverzeichnis Nr. 455: keine Erwähnung'
+  - title: Kostendeckel
+    points: 4
+    citation: 'Allgemeines Gebührenverzeichnis Nr. 455: 500 Euro'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 0
+    citation: 'Allgemeines Gebührenverzeichnis Nr. 455: keine Erwähnung'
+  - title: anrufbar
+    points: 2
+    citation: '§ 4 SIFG'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 4 (3) SIFG: Beanstandungsrechte'
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 1
+    citation: 'ja'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'keine Erwähnung'

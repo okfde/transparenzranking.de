@@ -1,0 +1,160 @@
+- title: proaktive Veröffentlichung und Transparenzregister
+  description: Daten seitens der Behörden sollten bereitgestellt werden, ohne dass hierfür ein Antrag erforderlich ist. Damit wird das Vertrauen in das Handeln von Politik und Verwaltung gefördert und gleichzeitig das Kostenbewusstsein der Behörden erhöht. Es sollte ein Set von Datenkategorien geben, das verbindlich veröffentlicht werden muss. Die Daten werden zentral in einem Transparenzregister bereitgestellt. Ein Punkt für Aktenpläne und Organisationpläne, jeweils ein weiterer Punkt für Verträge, Beschlüsse, Weisungen, Katasterdaten und weitere Daten. Zwei Punkte für ein Transparenzregister. Keine Punkte für Daten, die ohnehin veröffentlicht werden (müssen).
+  max_points: 10
+  category: Informationsrechte
+- title: Open Data
+  description: Die Daten sollen ausdrücklich als maschinenlesbar herausgegeben werden. Zwei Punkte. Ein Punkt Abzug, wenn die Regelung nicht im IFG, sondern einem Open-Data-Gesetz festgeschrieben ist.
+  max_points: 2
+  category: Informationsrechte
+- title: verfassungsrechtlicher Anspruch
+  description: Das Recht auf Informationszugang sollte auch in den Landesverfassungen verankert sein. Zwei Punkte.
+  max_points: 2
+  category: Informationsrechte
+- title: Anspruch für Jede/n
+  description: Nicht nur natürlichen, sondern auch juristischen Personen (also zum Beispiel Unternehmen) muss ein Informationsanspruch zustehen. Zwei Punkte.
+  max_points: 2
+  category: Informationsrechte
+- title: Zweckbestimmung
+  description: Das IFG sollte eine Zweckbestimmung enthalten, auf die im Verfahren Bezug genommen kann. Sie hilft dabei, strittige Regelungen zu klären. Zwei Punkte.
+  max_points: 2
+  category: Informationsrechte
+- title: Statistikpflicht für Behörden
+  description: Die Behörden sollten regelmäßig Berichte verfassen müssen, in denen auch Empfehlungen zur Verbesserung des Informationszugang enthalten sind. Zwei Punkte für eine Statistikpflicht, ein Punkt für eine vorgeschriebene Evaluation.
+  max_points: 2
+  category: Informationsrechte
+- title: IFG und UIG zusammengefasst und harmonisiert
+  description: Die Zusammenfassung der Informationsansprüche in einem Gesetz ist übersichtlicher und somit bürgerfreundlicher. Ein Punkt für Zusammenführung, ein Punkt für Harmonisierung.
+  max_points: 2
+  category: Informationsrechte
+- title: Recht auf Kopien
+  description: Viele Informationen sind so umfangreich, dass eine Einsichtnahme alleine nicht zielführend ist. Sind Kopien zugelassen, haben die Bürgerinnen und Bürger die Möglichkeit, sich eingehend mit den Daten zu beschäftigen und sie auch Dritten zugänglich zu machen. Ein Punkt für eine ausdrückliche Regelung.
+  max_points: 1
+  category: Informationsrechte
+- title: elektronische Aktenführung
+  description: Ohne die e-Akte ist die Beantwortung von Anfragen aufwändiger und teurer, eine proaktive Veröffentlichung von Daten besonders schwierig. Zwei Punkte für eine ausdrückliche Regelung.
+  max_points: 2
+  category: Informationsrechte
+- title: ordnungsgemäße Aktenführung
+  description: Eine ordnungsgemäße Aktenführung ist zentral für einen effektiven Informationszugang. Dazu gehört die Pflicht sicherzustellen, dass Informationen nicht über Post-Its, Zweitakten und fehlende Paginierung verschwinden. Der Verstoß gegen die ordnungsgemäße Aktenführung wird konsequent und sanktionsbewährt verfolgt. Drei Punkte für eine nachweisliche Verfolgung.
+  max_points: 3
+  category: Informationsrechte
+- title: Hochschule
+  description: Hochschulen sind Körperschaften des öffentlichen Rechts und werden durch öffentliche Mittel finanziert. Sie sollten daher grundsätzlich von der Auskunftspflicht erfasst sein. Ein besonderes Informationsinteresse besteht hier in Bezug auf Drittmittelverträge. Neben Informationsfreiheitsgesetzen sind hier teilweise auch Hochschulgesetze ausschlaggebend. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Geheimdienste
+  description: Hier kann beispielsweise zum Sachstand eines Verfahrens oder zu Ermittlungsergebnissen ein überragendes Interesse der Presse und der Öffentlichkeit bestehen, dem keine schutzwürdigen Belange des Verfassungsschutzes entgegenstehen. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Kammern
+  description: Immer wieder verweigern sich berufsständische Kammern den Transparenzanforderungen der jeweiligen Informationszugangsgesetze. Berufsständische Kammern nehmen hoheitliche Aufgaben auf Bundesebene und Länderebene wahr. Für die jeweiligen Berufsgruppen besteht eine gesetzliche Pflicht zur Mitgliedschaft, die Kammern sind für Berufszulassungen zuständig und haben oft weitgehende Sanktionsmöglichkeiten. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: staatlich kontrollierte Unternehmen
+  description: Die Behörden sollen sich ihrer Auskunftspflicht nicht durch eine „Flucht ins Privatrecht“ entziehen können. Bei einer Beschränkung der Auskunftspflicht auf öffentliche Stellen, ließe sich transparentes Verwaltungshandeln nicht verwirklichen. Denn bei der Erfüllung öffentlicher Aufgaben wird immer öfter auf privatrechtliche Organisations- und Handlungsformen zurückgegriffen. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Rundfunk
+  description: Auch der öffentlich-rechtliche Rundfunk als meinungsbildendes Medium sollte zu Auskünften verpflichtet sein. Die Bürgerinnen und Bürger haben ein Recht darauf, zu erfahren, was mit ihren Gebühren passiert. Neben den Informationsfreiheitsgesetze sind hier auch Staatsverträge ausschlaggebend. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Landtag
+  description: Die Landtage sollten einer umfassenden Informationspflicht unterliegen, die nicht auf Verwaltungstätigkeiten begrenzt ist. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Rechnungshof
+  description: Für eine Informationspflicht des Rechnungshofes spricht, dass dieser im Rahmen seiner Prüfungstätigkeit Aufgaben der öffentlichen Verwaltung wahrnimmt. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Sparkassen und Landesbank
+  description: Auch Sparkassen, die in öffentlicher Hand liegen sowie Landesbanken sollten unter Berücksichtigung des Datenschutzes zur Herausgabe von Daten verpflichtet sein. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+  description: Diese Stellen sollten neben den Auskunftspflichten aus prozessrechtlichen Vorschriften auch zur Herausgabe von Informationen nach den Informationsfreiheits- und Transparenzgesetzen verpflichtet sein. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+  description: Auch Anstalten des öffentlichen Rechts sollten vom IFG nicht ausgenommen sein. Ein Punkt für teilweisen Informationszugang, zwei Punkte für vollständigen Informationszugang.
+  max_points: 2
+  category: Auskunftspflichten
+- title: Abwägung mit öffentlichem Interesse
+  description: Eine Abwägungsklausel im Gesetz sorgt dafür, dass die entgegenstehenden Interessen (Geheimhaltungsinteresse und Informationsinteresse) gegeneinander abgewogen werden müssen. Idealerweise sollte dem Informationsinteresse grundsätzlich der Vorrang eingeräumt werden. Acht Punkte für Abwägungsklauseln für alle Ausnahmetatbestände, jeweils zwei Punkte weniger für fehlende Abwägungsklauseln.
+  max_points: 8
+  category: Ausnahmen
+- title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+  description: Das Gesetz sollte den Behörden ermöglichen, zugunsten des Informationsinteresses zu entscheiden. Hierzu ist eine gut formulierte Abwägungsklausel hilfreich. Sechs Punkte für Abwägungsklausel, null Punkte bei fehlender Abwägungsklausel.
+  max_points: 6
+  category: Ausnahmen
+- title: Zeitliche und situative Begrenzung
+  description: Geschützt sollten Güter nur soweit und solange sein wie nötig. Geschützt sollte nur der Entscheidungsbildungsprozess der Behörde sein. Sinn und Zweck ist, der Behörde eine unbefangene und unabhängige Entscheidungsfindung zu gewährleisten. Wenn der behördliche Willensbildungsprozess aber abgeschlossen ist, ist dieser nicht mehr schutzbedürftig. Ein Punkt für situative Begrenzung, ein Punkt für zeitliche Begrenzung.
+  max_points: 2
+  category: Ausnahmen
+- title: Klare Begriffsbestimmungen
+  description: Die Begriffe im Gesetz sollten klar definiert sein. Der Begriff der Informationen muss umfassend und offen formuliert sein, sodass alle amtlichen Zwecken dienende Aufzeichnungen unabhängig von der Art des Speichermediums erfasst sind. Ein Punkt für Definition des Begriffs Information, ein weiterer Punkt für weitere Definitionen.
+  max_points: 2
+  category: Ausnahmen
+- title: per E-Mail möglich
+  description: Die Hemmschwelle, einen Antrag schriftlich oder persönlich bei der Behörde zu stellen, sollte abgebaut werden und der elektronische Antrag möglich sein. Drei Punkte für Möglichkeit des elektronischen Antrags.
+  max_points: 3
+  category: Antragsstellung
+- title: anonym möglich
+  description: Die Möglichkeit, auch anonym an Informationen zu gelangen, lässt auch Anfragen von Bürgerinnen und Bürgern zu, die bei Namensnennung zum Beispiel berufliche Nachteile zu befürchten hätten. Zwei Punkte für Möglichkeit der anonymen Antragsstellung.
+  max_points: 2
+  category: Antragsstellung
+- title: praktische Antragsassistenz
+  description: Die Verwaltung sollte den Bürgerinnen und Bürgern die Antragstellung mittels eines Tools im Internet erleichtern und bei unklaren Anfragen unterstützend wirken. Zwei Punkte, wenn Antragsassistenz im Gesetz vorgeschrieben und umgesetzt wird.
+  max_points: 2
+  category: Antragsstellung
+- title: angemessene Antwortfrist
+  description: Um den Bürgerinnen und Bürgern eine schnelle Durchsetzung ihres Informationsanspruches zu sichern, ist eine gesetzliche Antwortfrist sinnvoll. Ein Punkt bei bis zu drei Monaten Antwortfrist, zwei Punkte bei einem Monat Antwortfrist, drei Punkte bei drei Wochen Antwortfrist, vier Punkte bei zwei Wochen Antwortfrist.
+  max_points: 4
+  category: Antragsstellung
+- title: Sanktionen bei Nichteinhaltung der Frist
+  description: Wenn das Gesetz zwar eine Frist für die Beantwortung der Anfrage setzt, das Verstreichenlassen derselben aber keine Konsequenzen für die Behörde hat, ist nicht hinreichend sichergestellt, dass sich die öffentlichen Stellen auch an die Frist halten. Zwei Punkte für Sanktionen, die über formelle Beanstandungen hinausgehen.
+  max_points: 2
+  category: Antragsstellung
+- title: Unterrichtung bei längerer Dauer
+  description: Die Verwaltung sollte den Bürger informieren müssen, wenn die Bearbeitung eines Antrags längere Zeit in Anspruch nimmt. Ein Punkt.
+  max_points: 1
+  category: Antragsstellung
+- title: Gebührenfreiheit
+  description: Die Gebührenfreiheit von Informationen sorgt dafür, dass der Zugang zu Informationen nicht vom Geldbeutel abhängt. Werden keine Gebühren erhoben, werden Bürger nicht von vornherein aus Angst vor hohen Kosten davon abgehalten, von Ihrem Auskunftsrecht Gebrauch zu machen. Bei hohen Gebühren wird im Vorfeld informiert. Ein Punkt bei Gebührenfreiheit für einfache Anfragen. Zwei Punkte für weitgehende Gebührenfreiheit. Drei Punkte für grundsätzliche Gebührenfreiheit.
+  max_points: 3
+  category: Gebühren
+- title: Gebührenfreiheit in Sonderfällen
+  description: In Sonderfällen wie sozialen Härten sollte von der Gebührenerhebung grundsätzlich abgesehen werden. Ein Punkt.
+  max_points: 1
+  category: Gebühren
+- title: Kostendeckel
+  description: Bürgerinnen und Bürger dürfen nicht mit unangemessen hohen Kosten davon abgeschreckt werden, ihr Recht auf Information in Anspruch zu nehmen. Deshalb ist eine Kostendeckelung sinnvoll. Vier Punkte bei Kostendeckel von 500 Euro, drei Punkte bei Kostendeckel von 1000 Euro, zwei Punkte bei Kostendeckel von 2000 Euro
+  max_points: 4
+  category: Gebühren
+- title: Ablehnung grundsätzlich kostenfrei
+  description: Wäre ein ablehnender Bescheid auch noch kostenpflichtig, so würden die Antragsteller(innen) doppelt bestraft. Zwei Punkte für ausdrückliche Regelung.
+  max_points: 2
+  category: Gebühren
+- title: anrufbar
+  description: Bei Verweigerung der Herausgabe einer Information haben Bürginnen und Bürger das Recht, den oder die Datenschutzbeauftrage(n) anzurufen. Zwei Punkte.
+  max_points: 2
+  category: Informationsfreiheitsbeauftragte
+- title: Sanktionsmöglichkeiten
+  description: Der oder die Datenschutzbeauftragte sollte Beanstandungsrechte und Sanktionsmöglichkeiten gegenüber den auskunftspflichtigen Stellen haben, wenn er oder sie einen Verstoß gegen das entsprechende Gesetz feststellt, insbesondere eine zu Unrecht ergangene Ablehnung eines Antrags. Ein Punkt für Beanstandungsrechte, ein Punkt für weitergehende Sanktionsmöglichkeiten.
+  max_points: 2
+  category: Informationsfreiheitsbeauftragte
+- title: auch für Umweltinformationen zuständig
+  description: Der oder die Datenschutzbeauftragte sollte auch für Anfragen nach dem Umweltinformationsgesetz zuständig sein. Ein Punkt.
+  max_points: 1
+  category: Informationsfreiheitsbeauftragte
+- title: Klagerecht des Datenschutzbeauftragten
+  description: Der oder die Datenschutzbeauftragte sollte das Recht haben, strittige Fälle durch eigene Klagen gerichtlich zu klären. Zwei Punkte.
+  max_points: 2
+  category: Informationsfreiheitsbeauftragte
+- title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+  description: Der oder die Beauftragte für Datenschutz soll als unabhängige Instanz gewährleisten, dass den Informationspflichten aus den jeweiligen Gesetzen nachgekommen wird. Seine oder ihre politische Unabhängigkeit ist deshalb unabdingbar. Dazu gehört auch die Hoheit über den eigenen Haushalt. Ein Punkt für politische Unabhängigkeit, ein Punkt für Haushaltshoheit.
+  max_points: 2
+  category: Informationsfreiheitsbeauftragte
+- title: selbst auskunftspflichtig
+  description: Datenschutzbeauftragte sollten selbst voll auskunftspflichtig sein. Ein Punkt.
+  max_points: 1
+  category: Informationsfreiheitsbeauftragte

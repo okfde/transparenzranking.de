@@ -1,0 +1,33 @@
+.container {
+  @apply max-w-screen-lg px-4 mx-auto;
+}
+
+.headline {
+  @apply text-3xl md:text-5xl mb-12 text-blue font-bold text-center;
+}
+
+a.link {
+  @apply text-lightblue no-underline;
+
+  &:hover, &:focus {
+    @apply underline;
+  }
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.prose p {
+  @apply text-gray-700 font-serif;
+}
+
+.prose.prose-dark {
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-light;
+  }
+
+  p, a {
+    @apply text-gray-400;
+  }
+}

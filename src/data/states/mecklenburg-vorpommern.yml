@@ -1,0 +1,127 @@
+name: Mecklenburg-Vorpommern
+short: MV
+year: 2006
+updated: 2011
+type: ifg
+fds_id: 7
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 1
+    citation: '§ 6 (3) Landesverfassung: Zugang zu Umweltinformationen'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 1 (2) IFG M-V: auch Personenvereinigungen'
+  - title: Zweckbestimmung
+    points: 0
+    citation: '§ 1 (1) IFG M-V'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Recht auf Kopien
+    points: 1
+    citation: '§ 4 (3) IFG M-V'
+  - title: elektronische Aktenführung
+    points: 1
+    citation: 'auf Ministerialebene durchgesetzt'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Hochschule
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Geheimdienste
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Kammern
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: staatlich kontrollierte Unternehmen
+    points: 1
+    citation: '§ 8 IFG M-V: allerdings Anwedung von Betriebs- und Geschäftsgeheimnissen'
+  - title: Rundfunk
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Landtag
+    points: 1
+    citation: '§ 3 (1) IFG M-V: nur Verwaltungsaufgaben'
+  - title: Rechnungshof
+    points: 1
+    citation: '§ 3 (4.1): soweit sie in richterlicher Unabhängigkeit tätig sind'
+  - title: Sparkassen und Landesbank
+    points: 2
+    citation: 'ja'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 0
+    citation: '§ 3 (4.2): soweit sie in richterlicher Unabhängigkeit tätig sind'
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 2
+    citation: 'ja'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Zeitliche und situative Begrenzung
+    points: 1
+    citation: '§ 10 (5) IFG M-V'
+  - title: Klare Begriffsbestimmungen
+    points: 1
+    citation: '§ 2 IFG M-V'
+  - title: per E-Mail möglich
+    points: 0
+    citation: '§ 4 IFG M-V: nur schriftlich und mündlich'
+  - title: anonym möglich
+    points: 1
+    citation: '§ 4 IFG M-V: bei schriftlichen Anträgen nicht; keine explizite Erwähnung'
+  - title: praktische Antragsassistenz
+    points: 2
+    citation: '§ 10 (2) IFG M-V'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 11 (1) IFG M-V: ein Monat'
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 1
+    citation: '§ 11 (1) IFG M-V'
+  - title: Gebührenfreiheit
+    points: 1
+    citation: 'Anlage IFGKostVO M-V: einfache Anfragen'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 1
+    citation: '§ 2 IFGKostVO M-V'
+  - title: Kostendeckel
+    points: 4
+    citation: 'Anlage IFGKostVO M-V: 500 Euro'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 1
+    citation: 'keine Erwähnung; praktisch nicht bekannt'
+  - title: anrufbar
+    points: 2
+    citation: '§ 14 IFG M-V'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 14 IFG M-V'
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 2
+    citation: 'ja'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'keine Erwähnung'
