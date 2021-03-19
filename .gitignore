@@ -1,6 +1,3 @@
-_site
-.sass-cache
-.jekyll*
-.idea
 node_modules
+dist
 .vscode

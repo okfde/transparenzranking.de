@@ -1,1 +1,0 @@
-import{q as o,o as s,c as a,b as e}from"./vendor.347d64f6.js";const d={class:"markdown-body"},l=e("p",null,"hallo",-1),t={expose:[],setup:e=>(o({meta:[]}),(o,e)=>(s(),a("div",d,[l])))};export default t;
