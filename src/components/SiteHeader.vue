@@ -3,7 +3,7 @@
     <div class="flex items-center text-blue">
       <div class="md:w-1/4">
         <router-link to="/">
-          <img src="../assets/img/ifg-ranking-logo.png" alt="Logo" />
+          <img src="../assets/img/logo.svg" alt="Logo" />
         </router-link>
       </div>
       <div class="w-1/2 hidden md:flex justify-center">
@@ -12,8 +12,13 @@
         </router-link>
       </div>
       <div class="flex-1 md:w-1/4 flex justify-end">
+        <div class="md:hidden">
+          <router-link to="/laender/" title="Zur Länderübersicht...">
+            <icon-menu class="w-8 h-8" />
+          </router-link>
+        </div>
         <select
-          class="bg-light text-sm px-4 py-2 uppercase border border-gray-300 rounded"
+          class="hidden md:block bg-light text-sm px-4 py-2 uppercase border border-gray-300 rounded"
           v-model="selector"
           @input="e => $router.push(`/laender/${e.target.value}/`)"
         >
@@ -24,11 +29,19 @@
         </select>
       </div>
     </div>
+    <input
+      type="checkbox"
+      id="nav-toggle"
+      class="sr-only"
+      aria-label="Navigation öffnen/schließen"
+    />
+    <nav>hallo</nav>
   </header>
 </template>
 
 <script setup>
 import { ref, watch } from 'vue';
+import IconMenu from '/@vite-icons/mdi/menu';
 import states from '@data/states';
 
 const selector = ref('choose');
@@ -38,8 +51,16 @@ watch(selector, () => {
 });
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 header {
   box-shadow: 0 0 4px 0 rgba(128, 128, 128, 0.5);
+
+  #nav-toggle + nav {
+    display: none;
+  }
+
+  #nav-toggle:checked + nav {
+    display: block;
+  }
 }
 </style>

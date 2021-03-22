@@ -1,3 +1,5 @@
+@import './bars.css';
+
 .container {
   @apply max-w-screen-lg px-4 mx-auto;
 }
@@ -6,7 +8,7 @@
   @apply text-3xl md:text-5xl mb-12 text-blue font-bold text-center;
 }
 
-a.link {
+.prose a {
   @apply text-lightblue no-underline;
 
   &:hover, &:focus {
@@ -19,7 +21,7 @@ a.link {
 }
 
 .prose p {
-  @apply text-gray-700 font-serif;
+  @apply text-gray-800 font-serif;
 }
 
 .prose.prose-dark {

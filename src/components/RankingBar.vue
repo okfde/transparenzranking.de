@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex h-4 border-r-4 border-gray-500 my-2 bg-gray-300 relative"
+    class="flex h-5 border-r-4 border-gray-500 my-1 bg-gray-300 relative"
     role="progressbar"
     :aria-valuenow="progress"
     aria-valuemin="0"
@@ -14,7 +14,7 @@
     ></div>
 
     <span class="text" :style="{ right: textRight }" ref="text">
-      {{ progress }}%
+      {{ progress }} %
     </span>
   </div>
 </template>
@@ -66,7 +66,8 @@ export default {
 
 .text {
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-  @apply absolute right-1 text-xs font-sans text-blue ml-2 pl-4;
+  @apply absolute right-1 h-full flex items-center ml-2 pl-4;
+  @apply text-xs font-sans text-blue whitespace-nowrap;
 }
 
 .bar,

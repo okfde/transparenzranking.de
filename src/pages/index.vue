@@ -13,7 +13,7 @@
 
     <ranking-overview class="my-12" />
 
-    <div class="prose">
+    <div class="prose prose-lg">
       <p>
         Transparenz erleichtert Korruptionsbekämpfung und Kontrolle und stärkt
         damit das Vertrauen der Bürger/innen in Politik und Verwaltung. Nur wer
@@ -33,7 +33,7 @@
         Dafür, dass viele diesem Vorschlag folgen, werden wir weiter arbeiten.
       </p>
       <p>
-        Sie können <router-link to="/methodik">hier</router-link> mehr über
+        Sie können <router-link to="/methodik/">hier</router-link> mehr über
         unsere Kriterien zur Erfassung des Rankings erfahren.
       </p>
     </div>

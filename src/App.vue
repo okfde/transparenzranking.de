@@ -1,20 +1,25 @@
 <template>
   <div>
-    <site-header />
-    <transition name="fade" mode="out-in">
-      <router-view class="my-16" :key="$route.path" />
-    </transition>
+    <div>
+      <site-header />
+      <transition name="fade" mode="out-in" @enter="checkHash">
+        <router-view class="my-16 flex-1" :key="$route.path" />
+      </transition>
+    </div>
     <site-footer />
   </div>
 </template>
 
-<script>
+<script setup>
 import SiteHeader from './components/SiteHeader.vue';
 import SiteFooter from './components/SiteFooter.vue';
 
-export default {
-  components: { SiteHeader, SiteFooter }
-};
+function checkHash() {
+  if (window.location.hash) {
+    const hash = decodeURIComponent(window.location.hash.substr(1));
+    document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 </script>
 
 <style lang="postcss" scoped>

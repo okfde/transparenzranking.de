@@ -3,35 +3,49 @@
     <div class="flex flex-wrap mb-4">
       <button
         class="category-btn"
-        :class="{ active: selected === overview[category.title] }"
+        :class="{ active: category.slug === selected }"
         :style="{ borderColor: category.color }"
         v-for="(category, i) in categories"
         :key="i"
-        @click="selected = overview[category.title]"
+        @click="selected = category.slug"
       >
         {{ category.title }}
       </button>
     </div>
 
-    <div class="prose prose-sm mb-4">{{ selected.description }}</div>
+    <div class="prose prose-sm mb-4" v-if="selectedCategory.description">
+      {{ selectedCategory.description }}
+      <router-link :to="`/methodik/#${selectedCategory.slug}`">
+        Mehr...
+      </router-link>
+    </div>
 
-    <table>
+    <table class="ranking-bars allow-break">
       <transition-group tag="tbody" name="states">
-        <tr
-          v-for="bar in selected.states"
-          :key="bar.state.name"
-          class="transition-all duration-700 ease-in-out"
-        >
-          <td
-            class="text-sm text-gray-700 text-right md:whitespace-nowrap pr-4 flex min-h-8 items-center justify-end"
-          >
-            <span class="hidden md:inline">{{ bar.state.name }}</span>
-            <span class="md:hidden">{{
-              bar.state.short || bar.state.name
-            }}</span>
+        <tr v-for="bar in overview[selected].states" :key="bar.state.name">
+          <td>
+            <router-link
+              :to="`/laender/${bar.state.slug}/`"
+              title="Mehr Details..."
+            >
+              <span>
+                <span class="hidden md:inline">{{ bar.state.name }}</span>
+                <span class="md:hidden">
+                  {{ bar.state.short || bar.state.name }}
+                </span>
+              </span>
+            </router-link>
           </td>
-          <td class="w-full">
-            <ranking-bar :color="selected.color" :progress="bar.points" />
+          <td>
+            <router-link
+              :to="`/laender/${bar.state.slug}/`"
+              title="Mehr Details..."
+            >
+              <ranking-bar
+                :color="overview[selected].color"
+                :progress="bar.percentage"
+              />
+            </router-link>
           </td>
         </tr>
       </transition-group>
@@ -40,16 +54,18 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import RankingBar from './RankingBar.vue';
 import overview from '@data/overview';
 
-const keys = Object.keys(overview);
-const first = keys[0];
-const selected = ref(overview[first]);
-console.log(selected.value, overview[first]);
+const categoryTitles = Object.keys(overview);
+const first = categoryTitles[0];
+const selected = ref(first);
 
-const categories = keys.map(title => ({ ...overview[title], title }));
+const categories = categoryTitles.map(title => ({ ...overview[title], title }));
+const selectedCategory = computed(() =>
+  categories.find(c => c.slug === selected.value)
+);
 </script>
 
 <style lang="postcss" scoped>

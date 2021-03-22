@@ -3,7 +3,7 @@ In Bayern blockiert seit Jahren die regierende CSU ein Informationsfreiheitsgese
 Auf kommunaler Ebene sieht es besser aus. Mehr als 80 Kommunen haben bisher für ihren Wirkungsbereich eigene Informationsfreiheitssatzungen
 erlassen, darunter fast alle Städte Bayerns mit mehr als 100.000 Einwohner/innen: München,
 Nürnberg, Augsburg, Würzburg, Regensburg, Ingolstadt und Fürth. Nur Erlangen fehlt noch. Die Satzungen basieren auf einer
-Mustersatzung des zivilgesellschaftlichen Bündnisses <a href="https://informationsfreiheit.org/">„Informationsfreiheit für Bayern“</a>, das auch eine Übersicht aller Kommunen mit einer solchen Satzung zusammengestellt hat.
+Mustersatzung des zivilgesellschaftlichen Bündnisses [„Informationsfreiheit für Bayern“](https://informationsfreiheit.org/), das auch eine Übersicht aller Kommunen mit einer solchen Satzung zusammengestellt hat.
 
 Im Juli 2015 hat die bayerische Staatsregierung einen Gesetzentwurf über die elektronische Verwaltung in Bayern eingebracht.
 Das neue Gesetz hätte Auskunfts- und Akteneinsichtsrechte für die Bürger/innen bringen können, bleibt jedoch weit

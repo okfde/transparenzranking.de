@@ -8,6 +8,7 @@ import Icons from 'vite-plugin-icons';
 
 import Overview from './src/data/overview';
 import States from './src/data/states';
+import Categories from './src/data/categories';
 
 export default defineConfig({
   resolve: {
@@ -19,14 +20,15 @@ export default defineConfig({
     Vue({
       include: [/\.vue$/, /\.md$/]
     }),
-    /* Legacy({ }), */
+    Legacy({ targets: ['defaults'] }),
 
     Yaml(),
     WindiCSS(),
     Icons(),
 
     Overview(),
-    States()
+    States(),
+    Categories()
   ],
   // https://github.com/antfu/vite-ssg
   ssgOptions: {
@@ -36,7 +38,6 @@ export default defineConfig({
   },
 
   optimizeDeps: {
-    include: ['vue', 'vue-router'],
-    exclude: ['vue-demi']
+    include: ['vue', 'vue-router']
   }
 });
