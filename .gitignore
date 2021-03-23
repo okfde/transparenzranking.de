@@ -1,3 +1,4 @@
 node_modules
 dist
 .vscode
+.vite-ssg-temp
