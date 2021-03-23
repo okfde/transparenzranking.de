@@ -28,7 +28,6 @@
 import { ref } from 'vue';
 import _states from '@data/states';
 
-console.log(_states);
 const states = ref(_states);
 Promise.all(
   _states.map(async state => ({

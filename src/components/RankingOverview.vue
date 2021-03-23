@@ -55,13 +55,12 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import RankingBar from './RankingBar.vue';
 import overview from '@data/overview';
 import categories from '@data/categories';
 
 const first = Object.values(categories)[0];
 const selected = ref(first.slug);
-console.log(selected.value, categories, categories[selected.value]);
+
 const selectedCategory = computed(() => ({
   ...overview[selected.value],
   ...categories[selected.value]

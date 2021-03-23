@@ -39,11 +39,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import RankingOverview from '../components/RankingOverview.vue';
-
-export default {
-  components: { RankingOverview }
-};
-</script>

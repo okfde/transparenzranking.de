@@ -104,7 +104,6 @@
 
 <script setup>
 import categories from '@data/categories';
-import MethodologyHeading from '../components/MethodologyHeading.vue';
 
 function getCategory(category) {
   return categories[category];

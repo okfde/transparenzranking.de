@@ -62,7 +62,6 @@
 
 <script setup>
 import { ref, defineProps } from 'vue';
-import SlideUpDown from './SlideUpDown.vue';
 
 defineProps({
   performance: Array

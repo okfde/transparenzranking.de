@@ -62,8 +62,6 @@
 
 <script setup>
 import { ref, computed, defineProps } from 'vue';
-import RankingBar from '../components/RankingBar.vue';
-import StateDetails from '../components/StateDetails.vue';
 
 import lawtypes from '~/data/lawtypes.yml';
 import states from '@data/states';
