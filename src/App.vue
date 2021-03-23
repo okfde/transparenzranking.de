@@ -21,15 +21,3 @@ function checkHash() {
   }
 }
 </script>
-
-<style lang="postcss" scoped>
-.fade-leave-active,
-.fade-enter-active {
-  transition: opacity 0.2s;
-}
-
-.fade-leave-to,
-.fade-enter-from {
-  opacity: 0;
-}
-</style>

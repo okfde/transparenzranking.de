@@ -14,6 +14,8 @@ const statesDir = path.join(__dirname, 'states');
 const criteriaFile = path.join(__dirname, 'criteria.yml');
 const fdsFile = path.join(__dirname, 'fds.yml');
 
+let idCounter = 0;
+
 export async function getStates() {
   const categories = await getCategories();
   const criteria = await loadYaml(criteriaFile);
@@ -40,7 +42,8 @@ export async function getStates() {
           .map(sc => ({
             ...sc,
             ...criteria.find(c => c.title === sc.title),
-            category: undefined
+            category: undefined,
+            id: idCounter++
           }));
 
         const achievedPoints = getPoints(state, category.criteriaTitles);

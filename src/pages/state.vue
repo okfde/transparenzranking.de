@@ -24,9 +24,13 @@
       >
         <td>
           <span :class="{ 'font-bold': i === 0 }">
-            {{ bar.category.title }}
+            <router-link
+              :to="`/methodik/#${bar.category.slug}`"
+              v-if="i !== 0"
+              title="Mehr Informationen..."
+            >
+              {{ bar.category.title }}
 
-            <router-link :to="`/methodik/#${bar.category.slug}`" v-if="i !== 0">
               <icon-info />
             </router-link>
           </span>
@@ -37,7 +41,7 @@
       </tr>
     </table>
 
-    <div class="prose prose-lg mb-8">
+    <div class="prose prose-lg my-8">
       <div v-html="state.description" />
 
       <p>
@@ -51,33 +55,17 @@
       </p>
     </div>
 
-    <template
-      v-for="{ category, achievedPoints, details } in performance"
-      :key="category.slug"
-    >
-      <template v-if="category.slug !== 'gesamt'">
-        <div class="prose prose-lg details">
-          <h2 :id="category.slug">{{ category.title }}</h2>
-          <span class="text-gray-500 text-md"
-            >{{ achievedPoints }} von {{ category.maxPoints }} Punkten</span
-          >
-        </div>
-
-        <ul>
-          <li v-for="(detail, i) in details" :key="i">
-            {{ detail.title }}
-          </li>
-        </ul>
-      </template>
-    </template>
+    <state-details v-if="state.criteria" :performance="performance" />
   </div>
 </template>
 
 <script setup>
 import { ref, computed, defineProps } from 'vue';
 import RankingBar from '../components/RankingBar.vue';
+import StateDetails from '../components/StateDetails.vue';
+import { InformationOutline as IconInfo } from 'mdue';
+
 import lawtypes from '~/data/lawtypes.yml';
-import IconInfo from '/@vite-icons/mdi/information-outline';
 import states from '@data/states';
 import _categories from '@data/categories';
 
@@ -104,9 +92,3 @@ const performance = computed(() =>
   }))
 );
 </script>
-
-<style lang="postcss" scoped>
-.details h2 {
-  @apply mb-1;
-}
-</style>

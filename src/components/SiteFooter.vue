@@ -1,9 +1,12 @@
 <template>
   <footer class="bg-darkblue text-light">
-    <div class="max-w-screen-xl mx-auto py-8 px-4">
-      <h2 class="text-3xl my-8 font-semibold">Über das Transparenzranking</h2>
-      <div class="w-full prose prose-sm prose-dark">
-        <div class="md:grid grid-cols-2 gap-2">
+    <div class="max-w-screen-xl mx-auto px-4 py-8">
+      <h2 class="text-3xl mb-8 mt-2 md:mt-8 font-semibold">
+        Über das Transparenzranking
+      </h2>
+
+      <div class="w-full prose prose-md prose-dark">
+        <div class="footer-grid">
           <div>
             <h3>Die Erhebung</h3>
             <p>
@@ -56,23 +59,20 @@
           </div>
         </div>
 
-        <div class="md:grid grid-cols-2 gap-2">
+        <div class="footer-grid">
           <div>
             <h3>Downloads</h3>
-            <div class="grid grid-cols-2 gap-2">
+            <div class="grid grid-cols-2 gap-x-2">
               <p>
-                <icon-pdf />
-                <a href="/static/files/ifg-ranking.pdf">
-                  Die Broschüre zum Ranking <br />
-                  pdf | 1MB
-                </a>
+                <icon-pdf class="mr-1" />
+                <a href="/static/files/ifg-ranking.pdf"
+                  >Die Broschüre zum Ranking</a
+                >
               </p>
               <p>
-                <icon-csv />
-                <a href="/static/files/ifg-ranking-daten.xlsx">
-                  Der Datensatz
-                  <br />
-                  xlsx | 430 KB
+                <icon-github class="mr-1" />
+                <a href="https://github.com/okfde/transparenzranking.de"
+                  >Quellcode & Datensatz
                 </a>
               </p>
             </div>
@@ -89,15 +89,15 @@
           </div>
         </div>
 
-        <div class="md:grid grid-cols-2 gap-2">
+        <div class="footer-grid">
           <div>
             <h3>Kontakt</h3>
             <p>
               Wir freuen uns sehr über Feedback, Kritik und Fragen. Kontaktieren
               Sie uns bitte unter
               <a href="mailto:info@fragdenstaat.de">info@fragdenstaat.de</a>
-              (<a href="https://fragdenstaat.de/kontakt/#pgp-key">
-                PGP-Schlüssel </a
+              (<a href="https://fragdenstaat.de/kontakt/#pgp-key"
+                >PGP-Schlüssel</a
               >).
             </p>
           </div>
@@ -106,6 +106,8 @@
             <p>
               Verantwortlicher Diensteanbieter für diese Homepage ist das
               Projekt FragDenStaat der Open Knowledge Foundation Deutschland.
+            </p>
+            <p>
               <a href="https://fragdenstaat.de/impressum/">Impressum</a>
               /
               <a href="https://fragdenstaat.de/datenschutzerklaerung/">
@@ -120,6 +122,11 @@
 </template>
 
 <script setup>
-import IconPdf from '/@vite-icons/mdi/file-pdf-box';
-import IconCsv from '/@vite-icons/mdi/file-delimited';
+import { PdfBox as IconPdf, Github as IconGithub } from 'mdue';
 </script>
+
+<style lang="postcss" scoped>
+footer .footer-grid {
+  @apply md:grid grid-cols-2 gap-x-4;
+}
+</style>

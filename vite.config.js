@@ -4,7 +4,6 @@ import Vue from '@vitejs/plugin-vue';
 import Legacy from '@vitejs/plugin-legacy';
 import Yaml from '@rollup/plugin-yaml';
 import WindiCSS from 'vite-plugin-windicss';
-import Icons from 'vite-plugin-icons';
 
 import Overview from './src/data/overview';
 import States from './src/data/states';
@@ -20,11 +19,10 @@ export default defineConfig({
     Vue({
       include: [/\.vue$/, /\.md$/]
     }),
-    Legacy({ targets: ['defaults'] }),
+    Legacy({ targets: ['defaults', 'IE 11'] }),
 
     Yaml(),
     WindiCSS(),
-    Icons(),
 
     Overview(),
     States(),

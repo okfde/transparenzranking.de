@@ -16,7 +16,7 @@
     <div class="prose prose-sm mb-4" v-if="selectedCategory.description">
       {{ selectedCategory.description }}
       <router-link :to="`/methodik/#${selectedCategory.slug}`">
-        Mehr...
+        Mehr Informationen...
       </router-link>
     </div>
 
