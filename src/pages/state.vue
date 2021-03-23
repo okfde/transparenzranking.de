@@ -61,7 +61,8 @@
 </template>
 
 <script setup>
-import { ref, computed, defineProps } from 'vue';
+import { computed, defineProps } from 'vue';
+import { useHead } from '@vueuse/head';
 
 import lawtypes from '~/data/lawtypes.yml';
 import states from '@data/states';
@@ -89,4 +90,9 @@ const performance = computed(() =>
     category: getCategory(p.categorySlug)
   }))
 );
+
+const stateName =
+  state.value.name === 'Bund' ? 'Deutschland' : state.value.name;
+const title = `Informationsfreiheit in ${stateName} - Das Transparenzranking`;
+useHead({ title });
 </script>
