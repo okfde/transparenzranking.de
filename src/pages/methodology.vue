@@ -23,7 +23,7 @@
         mögliche Höchstpunktzahl von 100 Prozent.
       </p>
 
-      <methodology-heading :category="getCategory('Informationsrechte')" />
+      <methodology-heading :category="getCategory('informationsrechte')" />
 
       <p>
         Das stärkste Gewicht in dieser Kategorie hat die erstmals in Hamburg
@@ -39,7 +39,7 @@
         Informationsfreiheitsgesetz und das Recht auf Kopien.
       </p>
 
-      <methodology-heading :category="getCategory('Auskunftspflichten')" />
+      <methodology-heading :category="getCategory('auskunftspflichten')" />
       <p>
         Aufgaben der Daseinsvorsorge sind oft in städtische Unternehmen
         ausgelagert und werden nicht von den Verwaltungen wahrgenommen. Dies
@@ -50,7 +50,7 @@
         Transparenz-Anspruch umfasst sein.
       </p>
 
-      <methodology-heading :category="getCategory('Ausnahmen')" />
+      <methodology-heading :category="getCategory('ausnahmen')" />
       <p>
         Selbstverständlich ist der Anspruch auf Transparenz staatlichen Handelns
         nicht grenzenlos, sondern endet dort, wo Persönlichkeitsrechte betroffen
@@ -65,7 +65,7 @@
         kein Argument für völlige Intransparenz sein.
       </p>
 
-      <methodology-heading :category="getCategory('Antragstellung')" />
+      <methodology-heading :category="getCategory('antragstellung')" />
       <p>
         Auch nachdem ein Transparenzgesetz in Kraft getreten ist, bleibt ein
         Antragsrecht für nicht aktiv veröffentlichte Informationen notwendig.
@@ -75,7 +75,7 @@
         möglich.
       </p>
 
-      <methodology-heading :category="getCategory('Gebühren')" />
+      <methodology-heading :category="getCategory('gebuehren')" />
       <p>
         Die Ablehnung einer Anfrage auf Informationsfreigabe kostet
         grundsätzlich nichts, ebenso wie die meisten Anfragen. So ist das
@@ -85,7 +85,7 @@
       </p>
 
       <methodology-heading
-        :category="getCategory('Informationsfreiheitsbeauftragte')"
+        :category="getCategory('informationsfreiheitsbeauftragte')"
       />
       <p>
         Der oder die Informationsfreiheitsbeauftragte ist erste Instanz der
