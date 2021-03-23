@@ -4,8 +4,8 @@
       <router-link
         v-for="state in states"
         :key="state.name"
-        :value="state.slug"
         :to="`/laender/${state.slug}/`"
+        :title="state.type === 'none' ? `${state.name} (kein IFG)` : state.name"
         class="w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 py-6 lg:py-12 flex flex-col items-center text-center"
       >
         <div class="h-12 md:h-16 lg:h-20 mb-4 md:mb-6">
@@ -14,6 +14,7 @@
               :src="state.wappen"
               :alt="`Wappen ${state.name}`"
               class="h-full"
+              :class="{ 'no-ifg': state.type === 'none' }"
               v-if="state.wappen"
             />
           </transition>
@@ -36,3 +37,10 @@ Promise.all(
   }))
 ).then(res => (states.value = res));
 </script>
+
+<style lang="postcss" scoped>
+.no-ifg {
+  filter: grayscale(1);
+  opacity: 0.25;
+}
+</style>

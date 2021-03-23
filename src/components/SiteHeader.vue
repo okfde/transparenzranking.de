@@ -24,6 +24,7 @@
           <option value="choose" disabled>Bundesland wählen...</option>
           <option v-for="state in states" :key="state.name" :value="state.slug">
             {{ state.name }}
+            {{ state.type === 'none' ? '(kein IFG)' : '' }}
           </option>
         </select>
       </div>
@@ -48,7 +49,7 @@ header {
 
   select {
     @apply hidden md:block nojs:hidden;
-    @apply bg-light text-sm px-4 py-2 uppercase border border-gray-300 rounded;
+    @apply bg-light text-sm px-4 py-2 border border-gray-300 rounded uppercase;
   }
 
   .menu-link {
