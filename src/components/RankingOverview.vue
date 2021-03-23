@@ -22,7 +22,7 @@
 
     <table class="ranking-bars allow-break">
       <transition-group tag="tbody" name="states">
-        <tr v-for="bar in overview[selected].states" :key="bar.state.name">
+        <tr v-for="bar in selectedCategory.states" :key="bar.state.name">
           <td>
             <router-link
               :to="`/laender/${bar.state.slug}/`"
@@ -42,7 +42,7 @@
               title="Mehr Details..."
             >
               <ranking-bar
-                :color="overview[selected].color"
+                :color="selectedCategory.color"
                 :progress="bar.percentage"
               />
             </router-link>
@@ -57,15 +57,15 @@
 import { ref, computed } from 'vue';
 import RankingBar from './RankingBar.vue';
 import overview from '@data/overview';
+import categories from '@data/categories';
 
-const categoryTitles = Object.keys(overview);
-const first = categoryTitles[0];
-const selected = ref(first);
-
-const categories = categoryTitles.map(title => ({ ...overview[title], title }));
-const selectedCategory = computed(() =>
-  categories.find(c => c.slug === selected.value)
-);
+const first = Object.values(categories)[0];
+const selected = ref(first.slug);
+console.log(selected.value, categories, categories[selected.value]);
+const selectedCategory = computed(() => ({
+  ...overview[selected.value],
+  ...categories[selected.value]
+}));
 </script>
 
 <style lang="postcss" scoped>

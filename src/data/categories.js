@@ -25,9 +25,10 @@ export async function getCategories() {
   });
 }
 
+// map array to obj
 export default serveVirtualFile('categories', async () =>
   (await getCategories()).reduce((obj, category) => {
-    obj[category.title] = category;
+    obj[category.slug] = category;
     return obj;
   }, {})
 );

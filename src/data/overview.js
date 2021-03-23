@@ -15,11 +15,11 @@ async function overview() {
     bars[slug].description = description;
 
     for (const state of states) {
-      const points =
-        state.performance.find(({ slug: t }) => t === slug)?.achievedPoints ||
-        0;
+      const { achievedPoints } = state.performance.find(
+        ({ categorySlug }) => categorySlug === slug
+      );
 
-      const percentage = pointPercentage(points, maxPoints);
+      const percentage = pointPercentage(achievedPoints, maxPoints);
 
       bars[slug].states.push({
         state: { slug: state.slug, name: state.name, short: state.short },
@@ -27,7 +27,7 @@ async function overview() {
       });
     }
 
-    bars[slug].states.sort((a, b) => b.points - a.points);
+    bars[slug].states.sort((a, b) => b.percentage - a.percentage);
   }
 
   const clean = { ...bars, toJSON: undefined };
