@@ -20,7 +20,7 @@
             @click="toggle(detail)"
           >
             {{ detail.title }}
-            <chevron-down
+            <i-mdi-chevron-down
               class="ml-0.5 h-4 transform transition-transform duration-150 ease"
               :class="{ '-rotate-180': visible(detail) }"
             />
@@ -62,7 +62,6 @@
 
 <script setup>
 import { ref, defineProps } from 'vue';
-import { ChevronDown, Information as IconInfo } from 'mdue';
 import SlideUpDown from './SlideUpDown.vue';
 
 defineProps({

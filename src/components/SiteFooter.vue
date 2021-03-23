@@ -64,13 +64,13 @@
             <h3>Downloads</h3>
             <div class="grid grid-cols-2 gap-x-2">
               <p>
-                <icon-pdf class="mr-1" />
+                <i-mdi-file-pdf-outline class="mr-1" />
                 <a href="/static/files/ifg-ranking.pdf"
                   >Die Broschüre zum Ranking</a
                 >
               </p>
               <p>
-                <icon-github class="mr-1" />
+                <i-mdi-github class="mr-1" />
                 <a href="https://github.com/okfde/transparenzranking.de"
                   >Quellcode & Datensatz
                 </a>
@@ -122,7 +122,6 @@
 </template>
 
 <script setup>
-import { PdfBox as IconPdf, Github as IconGithub } from 'mdue';
 </script>
 
 <style lang="postcss" scoped>

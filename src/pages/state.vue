@@ -31,8 +31,9 @@
             >
               {{ bar.category.title }}
 
-              <icon-info />
+              <i-mdi-information-outline />
             </router-link>
+            <span v-else v-text="bar.category.title" />
           </span>
         </td>
         <td class="w-full">
@@ -63,7 +64,6 @@
 import { ref, computed, defineProps } from 'vue';
 import RankingBar from '../components/RankingBar.vue';
 import StateDetails from '../components/StateDetails.vue';
-import { InformationOutline as IconInfo } from 'mdue';
 
 import lawtypes from '~/data/lawtypes.yml';
 import states from '@data/states';

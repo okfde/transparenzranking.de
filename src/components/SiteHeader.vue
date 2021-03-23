@@ -14,7 +14,7 @@
       <div class="flex-1 md:w-1/4 flex justify-end">
         <div class="menu-link">
           <router-link to="/laender/" title="Zur Länderübersicht...">
-            <icon-menu class="w-8 h-8" />
+            <i-mdi-menu class="w-8 h-8" />
           </router-link>
         </div>
         <select
@@ -33,7 +33,6 @@
 
 <script setup>
 import { ref, watch } from 'vue';
-import { Menu as IconMenu } from 'mdue';
 import states from '@data/states';
 
 const selector = ref('choose');

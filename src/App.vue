@@ -13,6 +13,11 @@
 <script setup>
 import SiteHeader from './components/SiteHeader.vue';
 import SiteFooter from './components/SiteFooter.vue';
+import { useHead } from '@vueuse/head';
+
+useHead({
+  title: 'Informationsfreiheit in Deutschland - Das Transparenzranking'
+});
 
 function checkHash() {
   if (window.location.hash) {
