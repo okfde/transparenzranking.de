@@ -7,7 +7,10 @@ fdsId: 12
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 7
-    citation: '§ 11 BremIFG: u.a. Statistiken, Haushaltspläne, Studien, Verträge, Gutachten; Abzüge für Unklarheit, was "wesentliche" Daten sind, wer nach §11 veröffentlichen muss und fehlende Durchsetzung'
+    citation:
+      '§ 11 BremIFG: u.a. Statistiken, Haushaltspläne, Studien, Verträge,
+      Gutachten; Abzüge für Unklarheit, was "wesentliche" Daten sind, wer nach
+      §11 veröffentlichen muss und fehlende Durchsetzung'
   - title: Open Data
     points: 2
     citation: '§ 1 (2) BremIFG'
@@ -97,7 +100,9 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Gebührenfreiheit
     points: 2
-    citation: 'Anlage der IFG-Gebührenordnung: einfache Anfragen und Einsichtnahme gebührenfrei'
+    citation:
+      'Anlage der IFG-Gebührenordnung: einfache Anfragen und Einsichtnahme
+      gebührenfrei'
   - title: Gebührenfreiheit in Sonderfällen
     points: 0
     citation: '§ 2 IFG-Gebührenordnung: nur bis 50 Prozent Ermäßigung'

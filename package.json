@@ -40,6 +40,7 @@
   "prettier": {
     "singleQuote": true,
     "arrowParens": "avoid",
-    "trailingComma": "none"
+    "trailingComma": "none",
+    "proseWrap": "always"
   }
 }

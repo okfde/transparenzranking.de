@@ -7,7 +7,9 @@ fdsId: 11
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1
-    citation: '§ 8 IZG-SH: Umweltinformationen; § 11: Veröffentlichung von Informationen; lediglich Soll-Vorschrift'
+    citation:
+      '§ 8 IZG-SH: Umweltinformationen; § 11: Veröffentlichung von
+      Informationen; lediglich Soll-Vorschrift'
   - title: Open Data
     points: 0
     citation: 'keine Erwähnung'

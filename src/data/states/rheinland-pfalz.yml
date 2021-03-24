@@ -6,7 +6,9 @@ fdsId: 6
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 7
-    citation: '§ 7 LTranspG: Beschlüsse, Verträge, Pläne, Vorschriften, Statistiken, Gutachten; ohne Kommunen; mit access for one, access for all'
+    citation:
+      '§ 7 LTranspG: Beschlüsse, Verträge, Pläne, Vorschriften, Statistiken,
+      Gutachten; ohne Kommunen; mit access for one, access for all'
   - title: Open Data
     points: 2
     citation: '§ 8 (3) LTranspG'
@@ -21,7 +23,8 @@ criteria:
     citation: '§ 1 LTranspG'
   - title: Statistikpflicht für Behörden
     points: 1
-    citation: 'nicht explizit, jedoch nach § 20 LTranspG Herausgabe der Informationen'
+    citation:
+      'nicht explizit, jedoch nach § 20 LTranspG Herausgabe der Informationen'
   - title: IFG und UIG zusammengefasst und harmonisiert
     points: 1
     citation: 'zusammengefasst, nicht harmonisiert'

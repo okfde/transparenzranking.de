@@ -46,25 +46,30 @@ criteria:
     citation: 'keine Erwähnung'
   - title: staatlich kontrollierte Unternehmen
     points: 1
-    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+    citation:
+      '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
   - title: Rundfunk
     points: 1
     citation: '§ 1 SIFG: nur Verwaltung'
   - title: Landtag
     points: 1
-    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+    citation:
+      '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
   - title: Rechnungshof
     points: 2
     citation: 'keine Erwähnung'
   - title: Sparkassen und Landesbank
     points: 1
-    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+    citation:
+      '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+    citation:
+      '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 1
-    citation: '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+    citation:
+      '§ 1 SIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
   - title: Abwägung mit öffentlichem Interesse
     points: 2
     citation: '§ 5 (1) IFG: nur bei personenbezogenen Daten'

@@ -12,7 +12,8 @@ criteria:
     citation: '§ 10 (1) HmbTG'
   - title: verfassungsrechtlicher Anspruch
     points: 1
-    citation: 'über Einbezug des Datenschutzbeauftragten institutioneller Rahmen'
+    citation:
+      'über Einbezug des Datenschutzbeauftragten institutioneller Rahmen'
   - title: Anspruch für Jede/n
     points: 2
     citation: '§ 1 (2) HmbTG'
@@ -33,10 +34,13 @@ criteria:
     citation: 'ja'
   - title: ordnungsgemäße Aktenführung
     points: 1
-    citation: 'keine Erwähnung; es gibt eine Musteraktenordnung des Staatsarchivs'
+    citation:
+      'keine Erwähnung; es gibt eine Musteraktenordnung des Staatsarchivs'
   - title: Hochschule
     points: 1
-    citation: '§ 5 (7) HmbTG: Forschung ist ausgenommen; § 77 (8) HmbHochschulG: Veröffentlichungspflicht für Hochschulen/Drittmittelverträge'
+    citation:
+      '§ 5 (7) HmbTG: Forschung ist ausgenommen; § 77 (8) HmbHochschulG:
+      Veröffentlichungspflicht für Hochschulen/Drittmittelverträge'
   - title: Geheimdienste
     points: 0
     citation: '§ 5 (3) HmbTG'
@@ -45,7 +49,9 @@ criteria:
     citation: 'keine Erwähnung'
   - title: staatlich kontrollierte Unternehmen
     points: 2
-    citation: '§ 2 (3) HmbTG: soweit sie öffentliche Dienstleistungen erbringen oder öffentlich-rechtliche Verwaltungsaufgaben'
+    citation:
+      '§ 2 (3) HmbTG: soweit sie öffentliche Dienstleistungen erbringen oder
+      öffentlich-rechtliche Verwaltungsaufgaben'
   - title: Rundfunk
     points: 1
     citation: '§ 5 (6) HmbTG: nicht journalistisch-redaktionelle Informationen'
@@ -60,7 +66,9 @@ criteria:
     citation: 'nur als AG'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: '§ 5 (1) HmbTG: soweit in richterlicher Unabhängigkeit tätig; mit neuem HmbTG auch Gnadenbereich ausgenommen'
+    citation:
+      '§ 5 (1) HmbTG: soweit in richterlicher Unabhängigkeit tätig; mit neuem
+      HmbTG auch Gnadenbereich ausgenommen'
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 2
     citation: '§ 2 (3) HmbTG'
@@ -81,13 +89,17 @@ criteria:
     citation: '§ 11 (1) HmbTG'
   - title: anonym möglich
     points: 0
-    citation: 'Durch Weitergabe von Namen und Adresse in Drittbeteiligungsverfahren künftig de facto Angabe dieser Daten nötig.'
+    citation:
+      'Durch Weitergabe von Namen und Adresse in Drittbeteiligungsverfahren
+      künftig de facto Angabe dieser Daten nötig.'
   - title: praktische Antragsassistenz
     points: 2
     citation: '§ 11 (2) HmbTG'
   - title: angemessene Antwortfrist
     points: 1
-    citation: 'bisher § 13 (1) HmbTG: ein Monat; künftig wird dies in bestimmten Fällen auf drei Monate erweitert werden'
+    citation:
+      'bisher § 13 (1) HmbTG: ein Monat; künftig wird dies in bestimmten Fällen
+      auf drei Monate erweitert werden'
   - title: Sanktionen bei Nichteinhaltung der Frist
     points: 0
     citation: 'keine Erwähnung'
@@ -96,7 +108,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Gebührenfreiheit
     points: 1
-    citation: '§ 1 (3) HmbTGGebO: einfache Auskünfte, zehn Kopien; nicht bei Privaten'
+    citation:
+      '§ 1 (3) HmbTGGebO: einfache Auskünfte, zehn Kopien; nicht bei Privaten'
   - title: Gebührenfreiheit in Sonderfällen
     points: 1
     citation: '§ 3 HmbTGGebO'

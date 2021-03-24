@@ -6,7 +6,8 @@ fdsId: 2
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1
-    citation: '§ 12 IFG NRW: Geschäftsverteilungspläne, Organigramme, Aktenpläne'
+    citation:
+      '§ 12 IFG NRW: Geschäftsverteilungspläne, Organigramme, Aktenpläne'
   - title: Open Data
     points: 0
     citation: 'keine Erwähnung'

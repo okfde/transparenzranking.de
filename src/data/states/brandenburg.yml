@@ -73,7 +73,9 @@ criteria:
     citation: '§ 5 (1) AIG: Abwägung mit Interesse der Antragsstellerin'
   - title: Zeitliche und situative Begrenzung
     points: 0
-    citation: 'keine Erwähnung; In laufenden Verwaltungsverfahren ist kein Informationszugang möglich'
+    citation:
+      'keine Erwähnung; In laufenden Verwaltungsverfahren ist kein
+      Informationszugang möglich'
   - title: Klare Begriffsbestimmungen
     points: 1
     citation: '§ 3 AIG'
@@ -97,7 +99,9 @@ criteria:
     citation: '§ 6 (1) AIG'
   - title: Gebührenfreiheit
     points: 1
-    citation: 'einfache Anfragen nach Landesgebührenordnung; Abweichungen in Kommunen möglich'
+    citation:
+      'einfache Anfragen nach Landesgebührenordnung; Abweichungen in Kommunen
+      möglich'
   - title: Gebührenfreiheit in Sonderfällen
     points: 1
     citation: '§ 2 AIGGebO'

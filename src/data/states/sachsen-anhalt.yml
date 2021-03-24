@@ -36,7 +36,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Hochschule
     points: 1
-    citation: "'§ 3 (9) IZG LSA: ohne wissenschaftliche Tätigkeit von Hochschulen'"
+    citation:
+      "'§ 3 (9) IZG LSA: ohne wissenschaftliche Tätigkeit von Hochschulen'"
   - title: Geheimdienste
     points: 0
     citation: '§ 3 (8) IZG LSA'
@@ -48,7 +49,8 @@ criteria:
     citation: "'§ 1 (1.2) IZG LSA: wenn sich Behörden ihrer bedienen'"
   - title: Rundfunk
     points: 1
-    citation: "'§ 3 (10) IZG LSA: nicht bei journalistisch-redaktionellen Informationen'"
+    citation:
+      "'§ 3 (10) IZG LSA: nicht bei journalistisch-redaktionellen Informationen'"
   - title: Landtag
     points: 2
     citation: 'keine Erwähnung'
@@ -60,10 +62,13 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: 'unklare Regelung; nur Möglichkeit für "Betroffene", Akten einzusehen'
+    citation:
+      'unklare Regelung; nur Möglichkeit für "Betroffene", Akten einzusehen'
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 1
-    citation: 'grundsätzlich ja; nach § 5 (6) Stiftungsgesetz nicht Anerkennungsdokumente'
+    citation:
+      'grundsätzlich ja; nach § 5 (6) Stiftungsgesetz nicht
+      Anerkennungsdokumente'
   - title: Abwägung mit öffentlichem Interesse
     points: 2
     citation: "'§ 5 IZG LSA: bei personenbezogenen Daten'"

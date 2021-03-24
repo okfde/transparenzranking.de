@@ -21,7 +21,9 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Statistikpflicht für Behörden
     points: 2
-    citation: 'nicht vorgeschrieben, aber de facto durch Innenministerium: https://www.bmi.bund.de/DE/Themen/Moderne-Verwaltung/Open-Government/Informationsfreiheitsgesetz/informationsfreiheitsgesetz_node.html'
+    citation:
+      'nicht vorgeschrieben, aber de facto durch Innenministerium:
+      https://www.bmi.bund.de/DE/Themen/Moderne-Verwaltung/Open-Government/Informationsfreiheitsgesetz/informationsfreiheitsgesetz_node.html'
   - title: IFG und UIG zusammengefasst und harmonisiert
     points: 0
     citation: 'nein'
@@ -51,19 +53,23 @@ criteria:
     citation: 'nicht anwendbar'
   - title: Landtag
     points: 1
-    citation: '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation:
+      '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
   - title: Rechnungshof
     points: 0
     citation: 'Spezialgesetzliche Regelung in § 9 (4) BHO'
   - title: Sparkassen und Landesbank
     points: 1
-    citation: '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation:
+      '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation:
+      '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 1
-    citation: '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation:
+      '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
   - title: Abwägung mit öffentlichem Interesse
     points: 2
     citation: '§ 5 (1) IFG: nur bei personenbezogenen Daten'

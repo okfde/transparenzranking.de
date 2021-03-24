@@ -46,7 +46,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: staatlich kontrollierte Unternehmen
     points: 1
-    citation: '§ 8 IFG M-V: allerdings Anwedung von Betriebs- und Geschäftsgeheimnissen'
+    citation:
+      '§ 8 IFG M-V: allerdings Anwedung von Betriebs- und Geschäftsgeheimnissen'
   - title: Rundfunk
     points: 2
     citation: 'keine Erwähnung'
@@ -82,7 +83,8 @@ criteria:
     citation: '§ 4 IFG M-V: nur schriftlich und mündlich'
   - title: anonym möglich
     points: 1
-    citation: '§ 4 IFG M-V: bei schriftlichen Anträgen nicht; keine explizite Erwähnung'
+    citation:
+      '§ 4 IFG M-V: bei schriftlichen Anträgen nicht; keine explizite Erwähnung'
   - title: praktische Antragsassistenz
     points: 2
     citation: '§ 10 (2) IFG M-V'

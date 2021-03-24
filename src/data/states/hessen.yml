@@ -15,7 +15,9 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Anspruch für Jede/n
     points: 0
-    citation: '§ 82 (5) HDSIG (Entwurf): Bei "rein wirtschaftlichen Interessen" soll kein Auskunftsanspruch bestehen."'
+    citation:
+      '§ 82 (5) HDSIG (Entwurf): Bei "rein wirtschaftlichen Interessen" soll
+      kein Auskunftsanspruch bestehen."'
   - title: Zweckbestimmung
     points: 0
     citation: 'keine Erwähnung'
@@ -36,7 +38,9 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Hochschule
     points: 0
-    citation: '§ 81 (1.5): Hochschulen, Schulen, Forschungseinrichtungen und Universitätskliniken sind nur beschränkt anfragbar'
+    citation:
+      '§ 81 (1.5): Hochschulen, Schulen, Forschungseinrichtungen und
+      Universitätskliniken sind nur beschränkt anfragbar'
   - title: Geheimdienste
     points: 0
     citation: '§ 81 (2.1)'
@@ -51,10 +55,13 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Landtag
     points: 0
-    citation: '§ 81 (1.1): Unklar, was anfragbar wäre. "Freiheit des Mandats" dürfe nicht beeinträchtigt werden"'
+    citation:
+      '§ 81 (1.1): Unklar, was anfragbar wäre. "Freiheit des Mandats" dürfe
+      nicht beeinträchtigt werden"'
   - title: Rechnungshof
     points: 0
-    citation: '§ 81 (1.2): Nur soweit Aufgabenstellung nicht beeinträchtigt werde'
+    citation:
+      '§ 81 (1.2): Nur soweit Aufgabenstellung nicht beeinträchtigt werde'
   - title: Sparkassen und Landesbank
     points: 0
     citation: 'keine Erwähnung'
@@ -123,4 +130,5 @@ criteria:
     citation: 'keine Erwähnung'
   - title: selbst auskunftspflichtig
     points: 0
-    citation: '§ 81 (1) HDSIG: Nur soweit die Aufgabenstellung nicht beeinträchtigt wird'
+    citation:
+      '§ 81 (1) HDSIG: Nur soweit die Aufgabenstellung nicht beeinträchtigt wird'

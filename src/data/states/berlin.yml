@@ -7,7 +7,9 @@ fdsId: 4
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 4
-    citation: '§ 17 IFG: Kataster, Messungen, besondere Verträge (§ 7a), Aktenpläne – bisher schlecht umgesetzt, Änderung ist beschlossen (AGH Drs. 17/2882)'
+    citation:
+      '§ 17 IFG: Kataster, Messungen, besondere Verträge (§ 7a), Aktenpläne –
+      bisher schlecht umgesetzt, Änderung ist beschlossen (AGH Drs. 17/2882)'
   - title: Open Data
     points: 0
     citation: 'keine Erwähnung'
@@ -103,7 +105,8 @@ criteria:
     citation: 'VGebO Tarifstelle 1004'
   - title: Kostendeckel
     points: 2
-    citation: 'VGebO Tarifstelle 1004: mindestens fünf Euro, Kostendeckel 500 Euro'
+    citation:
+      'VGebO Tarifstelle 1004: mindestens fünf Euro, Kostendeckel 500 Euro'
   - title: Ablehnung grundsätzlich kostenfrei
     points: 2
     citation: 'VGebO Tarifstelle 1004'

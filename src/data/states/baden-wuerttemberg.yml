@@ -6,7 +6,9 @@ fdsId: 91
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 3
-    citation: '§ 11 (1) LIFG: Aktenpläne, Bundesratsverhalten, Geodaten, Verwaltungsvorschriften, Beschlüsse, Unternehmensdaten'
+    citation:
+      '§ 11 (1) LIFG: Aktenpläne, Bundesratsverhalten, Geodaten,
+      Verwaltungsvorschriften, Beschlüsse, Unternehmensdaten'
   - title: Open Data
     points: 0
     citation: 'keine Erwähnung'
@@ -15,7 +17,9 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Anspruch für Jede/n
     points: 2
-    citation: '§ 3 (1) LIFG: natürliche und juristische Personen, auch "deren Zusammenschlüsse"'
+    citation:
+      '§ 3 (1) LIFG: natürliche und juristische Personen, auch "deren
+      Zusammenschlüsse"'
   - title: Zweckbestimmung
     points: 2
     citation: '§ 1 (1) LIFG'
@@ -45,13 +49,19 @@ criteria:
     citation: '§ 2 (3.3) LIFG'
   - title: staatlich kontrollierte Unternehmen
     points: 2
-    citation: '§ 2 (4) LIFG: nur bei Erfüllung öffentlich-rechtlicher Verwaltungsaufgaben'
+    citation:
+      '§ 2 (4) LIFG: nur bei Erfüllung öffentlich-rechtlicher
+      Verwaltungsaufgaben'
   - title: Rundfunk
     points: 0
-    citation: '§ 2 (2.4) LIFG: nur bei Erfüllung öffentlich-rechtlicher Verwaltungsaufgaben'
+    citation:
+      '§ 2 (2.4) LIFG: nur bei Erfüllung öffentlich-rechtlicher
+      Verwaltungsaufgaben'
   - title: Landtag
     points: 1
-    citation: '§ 2 (2.1) LIFG: nur soweit er öffentlich-rechtliche Verwaltungsaufgaben wahrnimmt'
+    citation:
+      '§ 2 (2.1) LIFG: nur soweit er öffentlich-rechtliche Verwaltungsaufgaben
+      wahrnimmt'
   - title: Rechnungshof
     points: 1
     citation: '§ 2 (2.2) LIFG: ohne Prüfungs- und Beratungstätigkeit'
@@ -60,10 +70,14 @@ criteria:
     citation: '§3 (3.3) LIFG'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 0
-    citation: '§ 2 (2.3) LIFG: nicht, wenn sie in richterlicher Unabhängigkeit tätig werden'
+    citation:
+      '§ 2 (2.3) LIFG: nicht, wenn sie in richterlicher Unabhängigkeit tätig
+      werden'
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 1
-    citation: '§ 2 (1.3) LIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen'
+    citation:
+      '§ 2 (1.3) LIFG: soweit sie öffentlich-rechtliche Verwaltungsaufgaben
+      wahrnehmen'
   - title: Abwägung mit öffentlichem Interesse
     points: 2
     citation: '§ 8 (1) LIFG: nur bei personenbezogenen Daten'
@@ -81,7 +95,9 @@ criteria:
     citation: '§ 7 LIFG'
   - title: anonym möglich
     points: 0
-    citation: 'Nach den Anwendungshinweisen der Landesregierung ist anonyme Antragstellung nicht möglich.'
+    citation:
+      'Nach den Anwendungshinweisen der Landesregierung ist anonyme
+      Antragstellung nicht möglich.'
   - title: praktische Antragsassistenz
     points: 1
     citation: '§ 7 (2): Aufforderung zu Präzisierung'
@@ -96,7 +112,8 @@ criteria:
     citation: '§ 7 (7) LIFG'
   - title: Gebührenfreiheit
     points: 0
-    citation: '§ 10 (3): Nur bei höheren Behörden sind einfache Anfragen gebührenfrei'
+    citation:
+      '§ 10 (3): Nur bei höheren Behörden sind einfache Anfragen gebührenfrei'
   - title: Gebührenfreiheit in Sonderfällen
     points: 0
     citation: 'keine Erwähnung'
