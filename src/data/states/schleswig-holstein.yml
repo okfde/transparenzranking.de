@@ -7,15 +7,15 @@ fdsId: 11
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1
-    citation:
-      '§ 8 IZG-SH: Umweltinformationen; § 11: Veröffentlichung von
-      Informationen; lediglich Soll-Vorschrift'
+    citation: '§ 8 IZG-SH: Umweltinformationen; § 11'
+    limitation: Veröffentlichung von Informationen; lediglich Soll-Vorschrift
   - title: Open Data
     points: 0
     citation: 'keine Erwähnung'
   - title: verfassungsrechtlicher Anspruch
     points: 2
     citation: '§ 53 Verf SH'
+    citationLink: false
   - title: Anspruch für Jede/n
     points: 2
     citation: '§ 3 IZG-SH'
@@ -57,19 +57,21 @@ criteria:
     citation: '§ 2 (4.2) IZG-SH'
   - title: Rechnungshof
     points: 1
-    citation: '§ 2 (4.4) IZG-SH: soweit nicht in richterlicher Unabhängigkeit'
+    citation: '§ 2 (4.4) IZG-SH'
+    limitation: soweit nicht in richterlicher Unabhängigkeit
   - title: Sparkassen und Landesbank
     points: 2
     citation: 'keine Erwähnung'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: '§ 2 (4.3) IZG-SH: nicht wenn Organe der Rechtspflege'
+    citation: '§ 2 (4.3) IZG-SH'
+    limitation: nicht wenn Organe der Rechtspflege
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 2
     citation: 'keine Erwähnung'
   - title: Abwägung mit öffentlichem Interesse
     points: 8
-    citation: '§§ 9 und 10 IZG-SH'
+    citation: '§ 9 und 10 IZG-SH'
   - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
     points: 6
     citation: '§ 10 IZG-SH'
@@ -90,22 +92,28 @@ criteria:
     citation: '§ 4 (2) IZG-SH'
   - title: angemessene Antwortfrist
     points: 2
-    citation: '§ 5 (2) IZG-SH: ein Monat'
+    citation: '§ 5 (2) IZG-SH'
+    limitation: ein Monat
   - title: Sanktionen bei Nichteinhaltung der Frist
     points: 0
     citation: 'keine Erwähnung'
   - title: Unterrichtung bei längerer Dauer
     points: 1
-    citation: '§ 5 (2) IZG-SH: ein Monat'
+    citation: '§ 5 (2) IZG-SH'
+    limitation: ein Monat
   - title: Gebührenfreiheit
     points: 2
-    citation: '§ 12 (1) IZG-SH: einfache Anfragen, Einsichtnahmen vor Ort'
+    citation: '§ 12 (1) IZG-SH'
+    limitation: einfache Anfragen, Einsichtnahmen vor Ort
   - title: Gebührenfreiheit in Sonderfällen
     points: 1
     citation: '§ 2 IZG-SH-KostenVO'
+    citationLink: false
   - title: Kostendeckel
     points: 4
-    citation: 'Kostentarif IZG-SH-KostenVO: 500 Euro'
+    citation: 'Kostentarif IZG-SH-KostenVO'
+    citationLink: false
+    limitation: 500 Euro
   - title: Ablehnung grundsätzlich kostenfrei
     points: 0
     citation: 'keine Erwähnung'

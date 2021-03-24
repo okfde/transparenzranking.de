@@ -48,7 +48,7 @@ export async function getStates() {
             );
 
             let { citationLink } = criterium;
-            if (!citationLink) {
+            if (citationLink === undefined) {
               const result = paragraphs.exec(criterium.citation);
               if (result) {
                 result.shift();

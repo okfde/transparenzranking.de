@@ -32,7 +32,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: elektronische Aktenführung
     points: 0
-    citation: '§ 6 EGovG; tritt erst 2020 in Kraft'
+    citation: '§ 6 EGovG'
+    citationLink: false
   - title: ordnungsgemäße Aktenführung
     points: 0
     citation: 'nein'
@@ -41,38 +42,41 @@ criteria:
     citation: 'nicht anwendbar'
   - title: Geheimdienste
     points: 0
-    citation: '§ 3 (8) IFG: ausgenommen'
+    citation: '§ 3 (8) IFG'
+    limitation: ausgenommen
   - title: Kammern
     points: 2
     citation: 'nicht erwähnt'
   - title: staatlich kontrollierte Unternehmen
     points: 0
-    citation: '§ 1 (1) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation: '§ 1 (1) IFG'
+    citationLink: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"
   - title: Rundfunk
     points: 2
     citation: 'nicht anwendbar'
   - title: Landtag
     points: 1
-    citation:
-      '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation: '§ 1 (1.2) IFG'
+    citationLink: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"
   - title: Rechnungshof
     points: 0
     citation: 'Spezialgesetzliche Regelung in § 9 (4) BHO'
   - title: Sparkassen und Landesbank
     points: 1
-    citation:
-      '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation: '§ 1 (1.2) IFG'
+    citationLink: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation:
-      '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation: '§ 1 (1.2) IFG'
+    citationLink: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 1
-    citation:
-      '§ 1 (1.2) IFG: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"'
+    citation: '§ 1 (1.2) IFG'
+    citationLink: Nur bei Erfüllung "öffentlich-rechtlicher Aufgaben"
   - title: Abwägung mit öffentlichem Interesse
     points: 2
-    citation: '§ 5 (1) IFG: nur bei personenbezogenen Daten'
+    citation: '§ 5 (1) IFG'
+    limitation: nur bei personenbezogenen Daten
   - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
     points: 0
     citation: 'keine Erwähnung'
@@ -93,7 +97,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: angemessene Antwortfrist
     points: 2
-    citation: '§ 7 (5) IFG: ein Monat'
+    citation: '§ 7 (5) IFG'
+    limitation: ein Monat
   - title: Sanktionen bei Nichteinhaltung der Frist
     points: 0
     citation: 'keine Erwähnung'
@@ -102,10 +107,13 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Gebührenfreiheit
     points: 1
-    citation: '§ 10 (1) IFG: einfache Auskünfte gebührenfrei'
+    citation: '§ 10 (1) IFG'
+    limitation: einfache Auskünfte gebührenfrei
   - title: Gebührenfreiheit in Sonderfällen
     points: 0
-    citation: '§ 2 IFGGebV: nur Ermäßigung von 50 Prozent möglich'
+    citation: '§ 2 IFGGebV'
+    citationLink: false
+    limitation: nur Ermäßigung von 50 Prozent möglich
   - title: Kostendeckel
     points: 4
     citation: 'Anlage IFGGebV: bis 500 Euro'
@@ -127,6 +135,7 @@ criteria:
   - title: polit. Unabhängigkeit der Stellung der Behörde
     points: 1
     citation: '§ 4f BDSG; kein Haushaltsrecht'
+    citationLink: false
   - title: selbst auskunftspflichtig
     points: 1
     citation: 'ja'

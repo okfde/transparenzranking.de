@@ -6,8 +6,8 @@ fdsId: 2
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1
-    citation:
-      '§ 12 IFG NRW: Geschäftsverteilungspläne, Organigramme, Aktenpläne'
+    citation: '§ 12 IFG NRW'
+    limitation: Geschäftsverteilungspläne, Organigramme, Aktenpläne
   - title: Open Data
     points: 0
     citation: 'keine Erwähnung'
@@ -37,10 +37,12 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Hochschule
     points: 1
-    citation: '§ 2 (3) IFG NRW: nicht Forschung und Lehre'
+    citation: '§ 2 (3) IFG NRW'
+    limitation: nicht Forschung und Lehre
   - title: Geheimdienste
     points: 1
-    citation: '§ 6 a: Verfassungsschutz darf nicht beeinträchtigt werden'
+    citation: '§ 6 a IFG NRW'
+    limitation: Verfassungsschutz darf nicht beeinträchtigt werden
   - title: Kammern
     points: 2
     citation: 'keine Erwähnung'
@@ -52,16 +54,19 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Landtag
     points: 1
-    citation: '§ 2 (2) IFG NRW: nur Verwaltung'
+    citation: '§ 2 (2) IFG NRW'
+    limitation: nur Verwaltung
   - title: Rechnungshof
     points: 1
-    citation: '§ 2 (2) IFG NRW: nur Verwaltung'
+    citation: '§ 2 (2) IFG NRW'
+    limitation: nur Verwaltung
   - title: Sparkassen und Landesbank
     points: 2
     citation: 'keine Erwähnung'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: '§ 2 (2) IFG NRW: nur Verwaltung'
+    citation: '§ 2 (2) IFG NRW'
+    limitation: nur Verwaltung
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 2
     citation: 'keine Erwähnung'
@@ -88,7 +93,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: angemessene Antwortfrist
     points: 2
-    citation: '§ 5 (2) IFG NRW: ein Monat'
+    citation: '§ 5 (2) IFG NRW'
+    limitation: ein Monat
   - title: Sanktionen bei Nichteinhaltung der Frist
     points: 0
     citation: 'keine Erwähnung'
@@ -97,13 +103,16 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Gebührenfreiheit
     points: 1
-    citation: 'Gebührentarif IFG NRW: einfache Auskünfte'
+    citation: 'Gebührentarif IFG NRW'
+    limitation: einfache Auskünfte
   - title: Gebührenfreiheit in Sonderfällen
     points: 1
     citation: '§ 2 VerwGebO IFG NRW'
+    citationLink: false
   - title: Kostendeckel
     points: 2
-    citation: 'Gebührentarif IFG NRW: 1000 Euro'
+    citation: 'Gebührentarif IFG NRW'
+    limitation: 1000 Euro
   - title: Ablehnung grundsätzlich kostenfrei
     points: 2
     citation: '§ 11 (1) IFG NRW'

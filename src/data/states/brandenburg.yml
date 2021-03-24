@@ -14,6 +14,7 @@ criteria:
   - title: verfassungsrechtlicher Anspruch
     points: 2
     citation: '§ 19 Landesverfassung'
+    citationLink: false
   - title: Anspruch für Jede/n
     points: 2
     citation: '§ 1 AIG: auch Bürgerinitiativen'
@@ -37,7 +38,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Hochschule
     points: 1
-    citation: '§ 2 (2) AIG: ohne Forschung und Lehre'
+    citation: '§ 2 (2) AIG'
+    limitation: ohne Forschung und Lehre
   - title: Geheimdienste
     points: 0
     citation: '§ 2 (5) AIG'
@@ -52,19 +54,24 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Landtag
     points: 1
-    citation: '§ 2 (2) AIG: nur Verwaltung'
+    citation: '§ 2 (2) AIG'
+    limitation: nur Verwaltung
   - title: Rechnungshof
     points: 1
-    citation: '§ 2 (1) AIG: nur Verwaltung'
+    citation: '§ 2 (1) AIG'
+    limitation: nur Verwaltung
   - title: Sparkassen und Landesbank
     points: 1
-    citation: '§ 2 (1) AIG: nur Verwaltung'
+    citation: '§ 2 (1) AIG'
+    limitation: nur Verwaltung
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: '§ 2 (2) AIG: nur Verwaltung'
+    citation: '§ 2 (2) AIG'
+    limitation: nur Verwaltung
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 1
-    citation: '§ 2 (1) AIG: nur Verwaltung'
+    citation: '§ 2 (1) AIG'
+    limitation: nur Verwaltung
   - title: Abwägung mit öffentlichem Interesse
     points: 2
     citation: '§ 5 (1) und (2) AIG'
@@ -105,6 +112,7 @@ criteria:
   - title: Gebührenfreiheit in Sonderfällen
     points: 1
     citation: '§ 2 AIGGebO'
+    citationLink: false
   - title: Kostendeckel
     points: 3
     citation: 'Anlage AIGGebO: 1000 Euro'
@@ -128,4 +136,5 @@ criteria:
     citation: 'ja'
   - title: selbst auskunftspflichtig
     points: 0
-    citation: '§ 2 (1) AIG: nur Verwaltung'
+    citation: '§ 2 (1) AIG'
+    limitation: nur Verwaltung

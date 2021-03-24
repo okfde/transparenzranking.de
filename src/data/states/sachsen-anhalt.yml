@@ -6,7 +6,8 @@ fdsId: 13
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1
-    citation: "'§ 11 IZG LSA: Organisations- und Aktenpläne'"
+    citation: '§ 11 IZG LSA'
+    limitation: Organisations- und Aktenpläne
   - title: Open Data
     points: 0
     citation: 'keine Erwähnung'
@@ -36,8 +37,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Hochschule
     points: 1
-    citation:
-      "'§ 3 (9) IZG LSA: ohne wissenschaftliche Tätigkeit von Hochschulen'"
+    citation: '§ 3 (9) IZG LSA'
+    limitation: ohne wissenschaftliche Tätigkeit von Hochschulen
   - title: Geheimdienste
     points: 0
     citation: '§ 3 (8) IZG LSA'
@@ -46,11 +47,12 @@ criteria:
     citation: 'keine Erwähnung'
   - title: staatlich kontrollierte Unternehmen
     points: 1
-    citation: "'§ 1 (1.2) IZG LSA: wenn sich Behörden ihrer bedienen'"
+    citation: '§ 1 (1.2) IZG LSA'
+    limitation: wenn sich Behörden ihrer bedienen
   - title: Rundfunk
     points: 1
-    citation:
-      "'§ 3 (10) IZG LSA: nicht bei journalistisch-redaktionellen Informationen'"
+    citation: '§ 3 (10) IZG LSA'
+    limitation: nicht bei journalistisch-redaktionellen Informationen
   - title: Landtag
     points: 2
     citation: 'keine Erwähnung'
@@ -71,7 +73,8 @@ criteria:
       Anerkennungsdokumente'
   - title: Abwägung mit öffentlichem Interesse
     points: 2
-    citation: "'§ 5 IZG LSA: bei personenbezogenen Daten'"
+    citation: '§ 5 IZG LSA'
+    limitation: bei personenbezogenen Daten
   - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
     points: 0
     citation: 'keine Erwähnung'
@@ -92,7 +95,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: angemessene Antwortfrist
     points: 2
-    citation: "'§ 7 (5) IZG LSA: ein Monat'"
+    citation: '§ 7 (5) IZG LSA'
+    limitation: ein Monat
   - title: Sanktionen bei Nichteinhaltung der Frist
     points: 0
     citation: 'keine Erwähnung'
@@ -108,6 +112,7 @@ criteria:
   - title: Kostendeckel
     points: 1
     citation: "'IZG LSA KostVO: 2000 Euro'"
+    citationLink: false
   - title: Ablehnung grundsätzlich kostenfrei
     points: 0
     citation: 'keine Erwähnung'
@@ -116,7 +121,8 @@ criteria:
     citation: '§ 12 (1) IZG LSA'
   - title: Sanktionsmöglichkeiten
     points: 1
-    citation: "'§ 12 (1) IZG LSA: Beanstandungsrechte'"
+    citation: '§ 12 (1) IZG LSA'
+    limitation: Beanstandungsrechte
   - title: auch für Umweltinformationen zuständig
     points: 0
     citation: 'keine Erwähnung'

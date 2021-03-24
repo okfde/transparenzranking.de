@@ -57,9 +57,9 @@
                 />
                 <span v-else v-text="detail.citation" />
               </p>
-              <p v-if="detail.comment">
-                <strong>Kommentar:</strong>
-                {{ detail.comment }}
+              <p v-if="detail.limitation">
+                <strong>Einschränkung:</strong>
+                {{ detail.limitation }}
               </p>
 
               <p>

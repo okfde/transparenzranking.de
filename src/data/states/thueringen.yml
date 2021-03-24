@@ -6,17 +6,18 @@ fdsId: 10
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 4
-    citation:
-      '§ 6 ThürTG: Gesetze, Verwaltungsvorschriften, Kabinettsbeschlüsse,
-      Berichte an Landtag, Sponsoringleistungen, Kapitalbeteiligungen,
-      Tätigkeitsberichte, Beschlüsse und Protokolle, Umweltinformationen,
-      Statistiken, Pläne, Vertragsinhalte, Zuwendungen, Finanzhilfen, Gutachten
-      und Studien'
+    citation: '§ 6 ThürTG'
+    limitation:
+      Gesetze, Verwaltungsvorschriften, Kabinettsbeschlüsse, Berichte an
+      Landtag, Sponsoringleistungen, Kapitalbeteiligungen, Tätigkeitsberichte,
+      Beschlüsse und Protokolle, Umweltinformationen, Statistiken, Pläne,
+      Vertragsinhalte, Zuwendungen, Finanzhilfen, Gutachten und Studien
   - title: Open Data
     points: 1
-    citation:
-      '§ 7 (5) ThürTG: Maschinelle Weiterverwendung soll ermöglicht werden, Open
-      Data wird nicht erwähnt'
+    citation: '§ 7 (5) ThürTG'
+    limitation:
+      Maschinelle Weiterverwendung soll ermöglicht werden, Open Data wird nicht
+      erwähnt
   - title: verfassungsrechtlicher Anspruch
     points: 0
     citation: 'keine Erwähnung'
@@ -31,8 +32,8 @@ criteria:
     citation: '§ 22 ThürTG'
   - title: IFG und UIG zusammengefasst und harmonisiert
     points: 1
-    citation:
-      '§ 19 (2) ThürIFG: Beauftragter auch für Umweltinformationen zuständig'
+    citation: '§ 19 (2) ThürIFG'
+    limitation: Beauftragter auch für Umweltinformationen zuständig
   - title: Recht auf Kopien
     points: 1
     citation: '§ 11 (2) ThürTG'
@@ -44,24 +45,27 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Hochschule
     points: 1
-    citation: '§ 2 (4) ThürTG: ohne Forschung und Lehre'
+    citation: '§ 2 (4) ThürTG'
+    limitation: ohne Forschung und Lehre
   - title: Geheimdienste
     points: 1
-    citation: '§ 12 (1) 3c ThürTG: De-facto-Bereichsausnahme für Geheimdienst'
+    citation: '§ 12 (1) 3c ThürTG'
+    limitation: De-facto-Bereichsausnahme für Geheimdienst
   - title: Kammern
     points: 2
     citation: 'keine Erwähnung'
   - title: staatlich kontrollierte Unternehmen
     points: 1
-    citation:
-      '§ 2 (1) und (3) ThürTG: soweit sie nicht am Wettbewerb teilnehmen'
+    citation: '§ 2 (1) und (3) ThürTG'
+    limitation: soweit sie nicht am Wettbewerb teilnehmen
   - title: Rundfunk
     points: 1
-    citation:
-      '§ 2 (5) ThürTG: nicht, wenn es anders staatsvertraglich geregelt ist'
+    citation: '§ 2 (5) ThürTG'
+    limitation: nicht, wenn es anders staatsvertraglich geregelt ist
   - title: Landtag
     points: 1
-    citation: '§ 2 (3) ThürTG: nicht parlamentarische Angelegenheiten'
+    citation: '§ 2 (3) ThürTG'
+    limitation: nicht parlamentarische Angelegenheiten
   - title: Rechnungshof
     points: 2
     citation: 'keine Erwähnung'
@@ -70,20 +74,24 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: '§ 2 (6) ThürTG: nicht zu Informationen aus Verfahrensakten'
+    citation: '§ 2 (6) ThürTG'
+    limitation: nicht zu Informationen aus Verfahrensakten
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 1
-    citation:
-      '§ 2 (1) ThürIFG: soweit sie öffentlich-rechtliche Aufgaben wahrnehmen'
+    citation: '§ 2 (1) ThürIFG'
+    limitation: soweit sie öffentlich-rechtliche Aufgaben wahrnehmen
   - title: Abwägung mit öffentlichem Interesse
     points: 2
-    citation: '§ 13 (1) ThürTG: bei personenbezogenen Daten'
+    citation: '§ 13 (1) ThürTG'
+    limitation: bei personenbezogenen Daten
   - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
     points: 3
-    citation: '§ 13 (1) ThürTG: nur bei rechtlichem Interesse'
+    citation: '§ 13 (1) ThürTG'
+    limitation: nur bei rechtlichem Interesse
   - title: Zeitliche und situative Begrenzung
     points: 2
-    citation: '§ 12 (2) ThürTG: nur bei behördlichem Entscheidungsprozess'
+    citation: '§ 12 (2) ThürTG'
+    limitation: nur bei behördlichem Entscheidungsprozess
   - title: Klare Begriffsbestimmungen
     points: 2
     citation: '§ 3 ThürTG'
@@ -98,9 +106,8 @@ criteria:
     citation: '§ 9 (4) ThürTG'
   - title: angemessene Antwortfrist
     points: 1
-    citation:
-      '§ 10 (3) ThürTG: ein Monat, "angemessene" Verlängerung unbestimmt
-      möglich"'
+    citation: '§ 10 (3) ThürTG'
+    limitation: ein Monat, "angemessene" Verlängerung unbestimmt möglich
   - title: Sanktionen bei Nichteinhaltung der Frist
     points: 0
     citation: 'keine Erwähnung'
@@ -109,7 +116,8 @@ criteria:
     citation: '§ 10 (3) ThürTG'
   - title: Gebührenfreiheit
     points: 0
-    citation: '§ 15 ThürTG: Kostendeckungsprinzip'
+    citation: '§ 15 ThürTG'
+    limitation: Kostendeckungsprinzip
   - title: Gebührenfreiheit in Sonderfällen
     points: 1
     citation: '§ 15 (2) ThürTG'
@@ -118,17 +126,19 @@ criteria:
     citation: '§ 15 ThürTG'
   - title: Ablehnung grundsätzlich kostenfrei
     points: 0
-    citation: '§ 15 ThürTG: Kostendeckungsprinzip'
+    citation: '§ 15 ThürTG'
+    limitation: Kostendeckungsprinzip
   - title: anrufbar
     points: 2
     citation: '§ 17 ThürTG'
   - title: Sanktionsmöglichkeiten
     points: 1
-    citation: '§ 19 (2) ThürTG: Beanstandungsrechte'
+    citation: '§ 19 (2) ThürTG'
+    limitation: Beanstandungsrechte
   - title: auch für Umweltinformationen zuständig
     points: 1
-    citation:
-      '§ 19 (2) ThürTG: Beauftragter auch für Umweltinformationen zuständig'
+    citation: '§ 19 (2) ThürTG'
+    limitation: Beauftragter auch für Umweltinformationen zuständig
   - title: Klagerecht des Datenschutzbeauftragten
     points: 0
     citation: 'keine Erwähnung'

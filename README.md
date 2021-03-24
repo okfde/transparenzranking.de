@@ -55,7 +55,7 @@ Die YAML-Datei beinhaltet folgende Eigenschaften (Beispiel:
   - `citation`: die zitierte Gesetzesstelle
   - `citationLink`: optional. Ein absoluter URL zum Gesetz. Standardmäßig ein
     Anker für die FragDenStaat-Gesetzesseite.
-  - `comment`: ein optionaler Kommentar
+  - `limitation`: optionale Einschränkung
 
 ## License
 

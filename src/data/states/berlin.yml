@@ -7,9 +7,10 @@ fdsId: 4
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 4
-    citation:
-      '§ 17 IFG: Kataster, Messungen, besondere Verträge (§ 7a), Aktenpläne –
-      bisher schlecht umgesetzt, Änderung ist beschlossen (AGH Drs. 17/2882)'
+    citation: '§ 17 IFG'
+    limitation:
+      Kataster, Messungen, besondere Verträge (§ 7a), Aktenpläne – bisher
+      schlecht umgesetzt, Änderung ist beschlossen (AGH Drs. 17/2882)
   - title: Open Data
     points: 0
     citation: 'keine Erwähnung'
@@ -48,7 +49,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: staatlich kontrollierte Unternehmen
     points: 1
-    citation: '§ 2 (1): Private, die mit hoheitlichen Aufgaben betraut sind'
+    citation: '§ 2 (1) IFG'
+    limitation: Private, die mit hoheitlichen Aufgaben betraut sind
   - title: Rundfunk
     points: 2
     citation: 'keine Erwähnung'
@@ -63,10 +65,11 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
-    citation: '§ 2 (1): nur, soweit sie Verwaltungsaufgaben erledigen'
+    citation: '§ 2 (1) IFG'
+    limitation: nur, soweit sie Verwaltungsaufgaben erledigen
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 2
-    citation: '§ 2 (1)'
+    citation: '§ 2 (1) IFG'
   - title: Abwägung mit öffentlichem Interesse
     points: 4
     citation: '§§ 6 und 7 IFG'
@@ -116,6 +119,7 @@ criteria:
   - title: Sanktionsmöglichkeiten
     points: 1
     citation: '§ 21 BlnDSG'
+    citationLink: false
   - title: auch für Umweltinformationen zuständig
     points: 1
     citation: '§ 18 IFG'
@@ -125,6 +129,7 @@ criteria:
   - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
     points: 2
     citation: '§ 22 BlnDSG'
+    citationLink: false
   - title: selbst auskunftspflichtig
     points: 1
     citation: 'ja'

@@ -7,10 +7,11 @@ fdsId: 12
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 7
-    citation:
-      '§ 11 BremIFG: u.a. Statistiken, Haushaltspläne, Studien, Verträge,
-      Gutachten; Abzüge für Unklarheit, was "wesentliche" Daten sind, wer nach
-      §11 veröffentlichen muss und fehlende Durchsetzung'
+    citation: '§ 11 BremIFG'
+    limitation:
+      u.a. Statistiken, Haushaltspläne, Studien, Verträge, Gutachten; Abzüge für
+      Unklarheit, was "wesentliche" Daten sind, wer nach §11 veröffentlichen
+      muss und fehlende Durchsetzung
   - title: Open Data
     points: 2
     citation: '§ 1 (2) BremIFG'
@@ -52,7 +53,8 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Rundfunk
     points: 1
-    citation: '§ 3 (8) BremIFG: nicht journalistisch-redaktionell'
+    citation: '§ 3 (8) BremIFG'
+    limitation: nicht journalistisch-redaktionell
   - title: Landtag
     points: 2
     citation: 'keine Erwähnung'
@@ -85,13 +87,15 @@ criteria:
     citation: '§ 7 (1) BremIFG'
   - title: anonym möglich
     points: 0
-    citation: '§ 7 (1) BremIFG: auf Verlangen der Behörde nicht'
+    citation: '§ 7 (1) BremIFG'
+    limitation: auf Verlangen der Behörde nicht
   - title: praktische Antragsassistenz
     points: 0
     citation: 'keine Erwähnung'
   - title: angemessene Antwortfrist
     points: 2
-    citation: '§ 7 (6) BremIFG: ein Monat'
+    citation: '§ 7 (6) BremIFG'
+    limitation: ein Monat
   - title: Sanktionen bei Nichteinhaltung der Frist
     points: 0
     citation: 'keine Erwähnung'
@@ -106,6 +110,7 @@ criteria:
   - title: Gebührenfreiheit in Sonderfällen
     points: 0
     citation: '§ 2 IFG-Gebührenordnung: nur bis 50 Prozent Ermäßigung'
+    citationLink: false
   - title: Kostendeckel
     points: 4
     citation: 'Anlage der IFG-Gebührenordnung: 500 Euro'

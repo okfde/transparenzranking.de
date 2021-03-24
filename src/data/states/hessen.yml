@@ -15,9 +15,10 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Anspruch für Jede/n
     points: 0
-    citation:
-      '§ 82 (5) HDSIG (Entwurf): Bei "rein wirtschaftlichen Interessen" soll
-      kein Auskunftsanspruch bestehen."'
+    citation: '§ 82 (5) HDSIG'
+    limitation:
+      Bei "rein wirtschaftlichen Interessen" soll kein Auskunftsanspruch
+      bestehen.
   - title: Zweckbestimmung
     points: 0
     citation: 'keine Erwähnung'
@@ -38,9 +39,10 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Hochschule
     points: 0
-    citation:
-      '§ 81 (1.5): Hochschulen, Schulen, Forschungseinrichtungen und
-      Universitätskliniken sind nur beschränkt anfragbar'
+    citation: '§ 81 (1.5) HDSIG'
+    limitation:
+      Hochschulen, Schulen, Forschungseinrichtungen und Universitätskliniken
+      sind nur beschränkt anfragbar
   - title: Geheimdienste
     points: 0
     citation: '§ 81 (2.1)'
@@ -55,9 +57,10 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Landtag
     points: 0
-    citation:
-      '§ 81 (1.1): Unklar, was anfragbar wäre. "Freiheit des Mandats" dürfe
-      nicht beeinträchtigt werden"'
+    citation: '§ 81 (1.1) HDSIG'
+    limitation:
+      Unklar, was anfragbar wäre. "Freiheit des Mandats" dürfe nicht
+      beeinträchtigt werden
   - title: Rechnungshof
     points: 0
     citation:
@@ -94,7 +97,8 @@ criteria:
     citation: '§ 85 (2) HDSIG'
   - title: angemessene Antwortfrist
     points: 1
-    citation: '§ 87 (1) HDSIG: ein Monat, Verlängerung auf drei Monate'
+    citation: '§ 87 (1) HDSIG'
+    limitation: ein Monat, Verlängerung auf drei Monate
   - title: Sanktionen bei Nichteinhaltung der Frist
     points: 0
     citation: 'keine Erwähnung'
@@ -118,7 +122,8 @@ criteria:
     citation: '§ 89 (1) HDSIG'
   - title: Sanktionsmöglichkeiten
     points: 1
-    citation: '§ 89 (3) HDSIG: Beanstandungsrechte'
+    citation: '§ 89 (3) HDSIG'
+    limitation: Beanstandungsrechte
   - title: auch für Umweltinformationen zuständig
     points: 0
     citation: 'keine Erwähnung'
@@ -130,5 +135,5 @@ criteria:
     citation: 'keine Erwähnung'
   - title: selbst auskunftspflichtig
     points: 0
-    citation:
-      '§ 81 (1) HDSIG: Nur soweit die Aufgabenstellung nicht beeinträchtigt wird'
+    citation: '§ 81 (1) HDSIG'
+    limitation: Nur soweit die Aufgabenstellung nicht beeinträchtigt wird

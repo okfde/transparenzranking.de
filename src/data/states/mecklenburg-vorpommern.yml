@@ -13,10 +13,13 @@ criteria:
     citation: 'keine Erwähnung'
   - title: verfassungsrechtlicher Anspruch
     points: 1
-    citation: '§ 6 (3) Landesverfassung: Zugang zu Umweltinformationen'
+    citation: '§ 6 (3) Landesverfassung'
+    citationLink: false
+    limitation: Zugang zu Umweltinformationen
   - title: Anspruch für Jede/n
     points: 2
-    citation: '§ 1 (2) IFG M-V: auch Personenvereinigungen'
+    citation: '§ 1 (2) IFG M-V'
+    limitation: auch Personenvereinigungen
   - title: Zweckbestimmung
     points: 0
     citation: '§ 1 (1) IFG M-V'
@@ -53,16 +56,19 @@ criteria:
     citation: 'keine Erwähnung'
   - title: Landtag
     points: 1
-    citation: '§ 3 (1) IFG M-V: nur Verwaltungsaufgaben'
+    citation: '§ 3 (1) IFG M-V'
+    limitation: nur Verwaltungsaufgaben
   - title: Rechnungshof
     points: 1
-    citation: '§ 3 (4.1): soweit sie in richterlicher Unabhängigkeit tätig sind'
+    citation: '§ 3 (4.1) IFG M-V'
+    limitation: soweit sie in richterlicher Unabhängigkeit tätig sind
   - title: Sparkassen und Landesbank
     points: 2
     citation: 'ja'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 0
-    citation: '§ 3 (4.2): soweit sie in richterlicher Unabhängigkeit tätig sind'
+    citation: '§ 3 (4.2) IFG M-V'
+    limitation: soweit sie in richterlicher Unabhängigkeit tätig sind
   - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
     points: 2
     citation: 'ja'
@@ -80,11 +86,12 @@ criteria:
     citation: '§ 2 IFG M-V'
   - title: per E-Mail möglich
     points: 0
-    citation: '§ 4 IFG M-V: nur schriftlich und mündlich'
+    citation: '§ 4 IFG M-V'
+    limitation: nur schriftlich und mündlich
   - title: anonym möglich
     points: 1
-    citation:
-      '§ 4 IFG M-V: bei schriftlichen Anträgen nicht; keine explizite Erwähnung'
+    citation: '§ 4 IFG M-V'
+    limitation: bei schriftlichen Anträgen nicht; keine explizite Erwähnung
   - title: praktische Antragsassistenz
     points: 2
     citation: '§ 10 (2) IFG M-V'
@@ -99,13 +106,17 @@ criteria:
     citation: '§ 11 (1) IFG M-V'
   - title: Gebührenfreiheit
     points: 1
-    citation: 'Anlage IFGKostVO M-V: einfache Anfragen'
+    citation: 'Anlage IFGKostVO M-V'
+    citationLink: false
+    limitation: einfache Anfragen
   - title: Gebührenfreiheit in Sonderfällen
     points: 1
     citation: '§ 2 IFGKostVO M-V'
   - title: Kostendeckel
     points: 4
-    citation: 'Anlage IFGKostVO M-V: 500 Euro'
+    citation: 'Anlage IFGKostVO M-V'
+    citationLink: false
+    limitation: 500 Euro
   - title: Ablehnung grundsätzlich kostenfrei
     points: 1
     citation: 'keine Erwähnung; praktisch nicht bekannt'
