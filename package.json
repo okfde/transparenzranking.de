@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "NODE_ENV=development vite",
     "build": "NODE_ENV=production vite-ssg build",
     "preview": "vite preview"
   },
