@@ -112,6 +112,7 @@ criteria:
   - title: Gebührenfreiheit in Sonderfällen
     points: 1
     citation: '§ 2 IFGKostVO M-V'
+    citationLink: false
   - title: Kostendeckel
     points: 4
     citation: 'Anlage IFGKostVO M-V'
