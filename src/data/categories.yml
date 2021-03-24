@@ -1,6 +1,7 @@
 - title: Gesamt
   slug: gesamt
   color: '#6dffd4'
+  description: Klicken Sie auf ein Bundesland oder eine Rankingkategorie, um mehr zu erfahren.
 - title: Informationsrechte
   slug: informationsrechte
   color: '#ffe500'

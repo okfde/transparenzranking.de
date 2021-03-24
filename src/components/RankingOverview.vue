@@ -15,7 +15,10 @@
 
     <div class="prose prose-sm mb-4" v-if="selectedCategory.description">
       {{ selectedCategory.description }}
-      <router-link :to="`/methodik/#${selectedCategory.slug}`">
+      <router-link
+        :to="`/methodik/#${selectedCategory.slug}`"
+        v-if="selectedCategory.slug !== 'gesamt'"
+      >
         Mehr Informationen...
       </router-link>
     </div>
