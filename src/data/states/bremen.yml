@@ -1,0 +1,137 @@
+name: Bremen
+short: HB
+year: 2006
+updated: 2015
+type: ifg
+fdsId: 12
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 7
+    citation: '§ 11 BremIFG'
+    limitation:
+      u.a. Statistiken, Haushaltspläne, Studien, Verträge, Gutachten; Abzüge für
+      Unklarheit, was "wesentliche" Daten sind, wer nach §11 veröffentlichen
+      muss und fehlende Durchsetzung
+  - title: Open Data
+    points: 2
+    citation: '§ 1 (2) BremIFG'
+  - title: verfassungsrechtlicher Anspruch
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 1 (1) BremIFG'
+  - title: Zweckbestimmung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Statistikpflicht für Behörden
+    points: 1
+    citation: '§ 12 zu Veröffentlichungen'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Recht auf Kopien
+    points: 1
+    citation: '§ 7 Absatz 5 BremIFG'
+  - title: elektronische Aktenführung
+    points: 1
+    citation: 'teilweise eingführt'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Hochschule
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Geheimdienste
+    points: 0
+    citation: '§ 3 (8) BremIFG'
+  - title: Kammern
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: staatlich kontrollierte Unternehmen
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Rundfunk
+    points: 1
+    citation: '§ 3 (8) BremIFG'
+    limitation: nicht journalistisch-redaktionell
+  - title: Landtag
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Rechnungshof
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Sparkassen und Landesbank
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 2
+    citation: '§ 5 (1) BremIFG: nur bei personenbezogenen Daten'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 6
+    citation: '§ 6 (1) BremIFG'
+  - title: Zeitliche und situative Begrenzung
+    points: 2
+    citation: '§ 3 (1) BremIFG'
+  - title: Klare Begriffsbestimmungen
+    points: 2
+    citation: '§ 2 BremIFG'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 7 (1) BremIFG'
+  - title: anonym möglich
+    points: 0
+    citation: '§ 7 (1) BremIFG'
+    limitation: auf Verlangen der Behörde nicht
+  - title: praktische Antragsassistenz
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 7 (6) BremIFG'
+    limitation: ein Monat
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Gebührenfreiheit
+    points: 2
+    citation:
+      'Anlage der IFG-Gebührenordnung: einfache Anfragen und Einsichtnahme
+      gebührenfrei'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 0
+    citation: '§ 2 IFG-Gebührenordnung: nur bis 50 Prozent Ermäßigung'
+    citationLink: false
+  - title: Kostendeckel
+    points: 4
+    citation: 'Anlage der IFG-Gebührenordnung: 500 Euro'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 2
+    citation: '§ 10 (2) BremIFG'
+  - title: anrufbar
+    points: 2
+    citation: '§ 13 BremIFG'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 13 (3) BremIFG'
+  - title: auch für Umweltinformationen zuständig
+    points: 1
+    citation: '§ 13 BremIFG'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 2
+    citation: '§ 25 BremDSG'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'keine Erwähnung'

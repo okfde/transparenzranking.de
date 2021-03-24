@@ -1,0 +1,137 @@
+name: Sachsen-Anhalt
+short: ST
+year: 2008
+type: ifg
+fdsId: 13
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 1
+    citation: '§ 11 IZG LSA'
+    limitation: Organisations- und Aktenpläne
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 2
+    citation: '§ 6 (2) Landesverfassung'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 1 (1) IZG LSA'
+  - title: Zweckbestimmung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Recht auf Kopien
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Hochschule
+    points: 1
+    citation: '§ 3 (9) IZG LSA'
+    limitation: ohne wissenschaftliche Tätigkeit von Hochschulen
+  - title: Geheimdienste
+    points: 0
+    citation: '§ 3 (8) IZG LSA'
+  - title: Kammern
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: staatlich kontrollierte Unternehmen
+    points: 1
+    citation: '§ 1 (1.2) IZG LSA'
+    limitation: wenn sich Behörden ihrer bedienen
+  - title: Rundfunk
+    points: 1
+    citation: '§ 3 (10) IZG LSA'
+    limitation: nicht bei journalistisch-redaktionellen Informationen
+  - title: Landtag
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Rechnungshof
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Sparkassen und Landesbank
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation:
+      'unklare Regelung; nur Möglichkeit für "Betroffene", Akten einzusehen'
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 1
+    citation:
+      'grundsätzlich ja; nach § 5 (6) Stiftungsgesetz nicht
+      Anerkennungsdokumente'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 2
+    citation: '§ 5 IZG LSA'
+    limitation: bei personenbezogenen Daten
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Zeitliche und situative Begrenzung
+    points: 1
+    citation: 'nur bei behördlichem Entscheidungsprozess'
+  - title: Klare Begriffsbestimmungen
+    points: 2
+    citation: '§ 2 IZG LSA'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 7 (3) IZG LSA'
+  - title: anonym möglich
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: praktische Antragsassistenz
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 7 (5) IZG LSA'
+    limitation: ein Monat
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Gebührenfreiheit
+    points: 1
+    citation: "'IZG LSA KostVO: bei einfachen Anfragen'"
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Kostendeckel
+    points: 1
+    citation: "'IZG LSA KostVO: 2000 Euro'"
+    citationLink: false
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: anrufbar
+    points: 2
+    citation: '§ 12 (1) IZG LSA'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 12 (1) IZG LSA'
+    limitation: Beanstandungsrechte
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 2
+    citation: 'ja'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'keine Erwähnung'

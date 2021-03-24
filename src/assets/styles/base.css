@@ -1,0 +1,66 @@
+@import './bars.css';
+
+.container {
+  @apply max-w-screen-lg px-4 mx-auto;
+}
+
+.headline {
+  @apply text-3xl md:text-5xl mb-12 text-blue font-bold text-center;
+}
+
+.link {
+  @apply text-lightblue no-underline;
+
+  &:hover,
+  &:focus {
+    @apply underline;
+  }
+}
+
+.prose {
+  @apply max-w-none white break-auto text-justify;
+  hyphens: auto;
+
+  a {
+    @apply link;
+
+    &:hover,
+    &:focus {
+      @apply underline;
+    }
+  }
+
+  p {
+    @apply text-gray-800 font-serif;
+  }
+
+  &.prose-dark {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply text-light;
+    }
+
+    p,
+    a {
+      @apply text-gray-400;
+    }
+
+    a {
+      @apply underline;
+    }
+  }
+}
+
+.fade-leave-active,
+.fade-enter-active {
+  transition: opacity 0.2s;
+}
+
+.fade-leave-to,
+.fade-enter-from {
+  opacity: 0;
+}

@@ -1,0 +1,45 @@
+table.ranking-bars {
+  @apply w-full;
+
+  tr {
+    @apply flex flex-col md:table-row;
+    @apply transition-all duration-700 ease-in-out;
+
+    td:first-of-type {
+      @apply text-sm text-gray-700;
+      @apply flex items-center;
+
+      > span {
+        @apply flex items-center;
+
+        svg {
+          @apply ml-1;
+        }
+      }
+
+      @screen md {
+          @apply pr-4 min-h-7;
+          @apply justify-end text-right whitespace-nowrap;
+        }
+    }
+
+    td:last-of-type {
+      @apply w-full mb-2;
+    }
+
+    &.first td:last-of-type {
+      @apply pb-4;
+    }
+  }
+
+  &.allow-break tr {
+    @apply table-row !important;
+    
+    td:first-of-type {
+      /* TODO: remove duplication */
+      @apply flex items-center;
+      @apply pr-4 min-h-7;
+      @apply justify-end text-right whitespace-nowrap;
+    }   
+  }
+}

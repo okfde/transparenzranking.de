@@ -1,0 +1,146 @@
+name: Baden-Württemberg
+short: BW
+year: 2016
+type: ifg
+fdsId: 91
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 3
+    citation: '§ 11 (1) LIFG'
+    limitation:
+      Aktenpläne, Bundesratsverhalten, Geodaten, Verwaltungsvorschriften,
+      Beschlüsse, Unternehmensdaten
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: § 3 (1) LIFG
+    limitation:
+      natürliche und juristische Personen, auch "deren Zusammenschlüsse"
+  - title: Zweckbestimmung
+    points: 2
+    citation: '§ 1 (1) LIFG'
+  - title: Statistikpflicht für Behörden
+    points: 1
+    citation: 'Fußbnote 2 LIFG: Evaluierung nach fünf Jahren'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Recht auf Kopien
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: 'nein'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'nein'
+  - title: Hochschule
+    points: 0
+    citation: '§ 2 (3.2) LIFG'
+  - title: Geheimdienste
+    points: 0
+    citation: '§ 2 (3.1) LIFG'
+  - title: Kammern
+    points: 0
+    citation: '§ 2 (3.3) LIFG'
+  - title: staatlich kontrollierte Unternehmen
+    points: 2
+    citation: '§ 2 (4) LIFG'
+    limitation: nur bei Erfüllung öffentlich-rechtlicher Verwaltungsaufgaben
+  - title: Rundfunk
+    points: 0
+    citation: '§ 2 (2.4) LIFG'
+    limitation: nur bei Erfüllung öffentlich-rechtlicher Verwaltungsaufgaben
+  - title: Landtag
+    points: 1
+    citation: '§ 2 (2.1) LIFG'
+    limitation:
+      nur soweit er öffentlich-rechtliche Verwaltungsaufgaben wahrnimmt
+  - title: Rechnungshof
+    points: 1
+    citation: '§ 2 (2.2) LIFG'
+    limitation: ohne Prüfungs- und Beratungstätigkeit
+  - title: Sparkassen und Landesbank
+    points: 0
+    citation: '§3 (3.3) LIFG'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 0
+    citation: '§ 2 (2.3) LIFG'
+    limitation: nicht, wenn sie in richterlicher Unabhängigkeit tätig werden
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 1
+    citation: '§ 2 (1.3) LIFG'
+    limitation: soweit sie öffentlich-rechtliche Verwaltungsaufgaben wahrnehmen
+  - title: Abwägung mit öffentlichem Interesse
+    points: 2
+    citation: '§ 8 (1) LIFG'
+    limitation: nur bei personenbezogenen Daten
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Zeitliche und situative Begrenzung
+    points: 2
+    citation: '§ 4 (1), § 5, § 6 LIFG'
+  - title: Klare Begriffsbestimmungen
+    points: 2
+    citation: '§ 3 LIFG'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 7 LIFG'
+  - title: anonym möglich
+    points: 0
+    citation:
+      'Nach den Anwendungshinweisen der Landesregierung ist anonyme
+      Antragstellung nicht möglich.'
+  - title: praktische Antragsassistenz
+    points: 1
+    citation: '§ 7 (2) LIFG'
+    limitation: Aufforderung zu Präzisierung
+  - title: angemessene Antwortfrist
+    points: 1
+    citation: '§ 7 (7) LIFG'
+    limitation: ein Monat, Verlängerung auf drei Monate
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 1
+    citation: '§ 7 (7) LIFG'
+  - title: Gebührenfreiheit
+    points: 0
+    citation: '§ 10 (3) LIFG'
+    limitation: Nur bei höheren Behörden sind einfache Anfragen gebührenfrei'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Kostendeckel
+    points: 1
+    citation: 'Kostendeckel für Landesbehörden, nicht für Kommunalbehörden'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: anrufbar
+    points: 2
+    citation: '§ 12 (2) LIFG'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 12 (3) LIFG'
+    limitation: Beanstandungsrechte
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 1
+    citation: '§ 26 LDSG'
+    citationLink: false
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'ja'

@@ -1,0 +1,135 @@
+name: Berlin
+short: BE
+year: 1998
+updated: 2016
+type: ifg
+fdsId: 4
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 4
+    citation: '§ 17 IFG'
+    limitation:
+      Kataster, Messungen, besondere Verträge (§ 7a), Aktenpläne – bisher
+      schlecht umgesetzt, Änderung ist beschlossen (AGH Drs. 17/2882)
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 3 (1) IFG'
+  - title: Zweckbestimmung
+    points: 2
+    citation: '§ 1 (1) IFG'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 2
+    citation: '§ 18 a IFG'
+  - title: Recht auf Kopien
+    points: 1
+    citation: '§ 13 (6) IFG'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Hochschule
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Geheimdienste
+    points: 0
+    citation: 'Ausnahme in Verfassungsschutzgesetz'
+  - title: Kammern
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: staatlich kontrollierte Unternehmen
+    points: 1
+    citation: '§ 2 (1) IFG'
+    limitation: Private, die mit hoheitlichen Aufgaben betraut sind
+  - title: Rundfunk
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Landtag
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Rechnungshof
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Sparkassen und Landesbank
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation: '§ 2 (1) IFG'
+    limitation: nur, soweit sie Verwaltungsaufgaben erledigen
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 2
+    citation: '§ 2 (1) IFG'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 4
+    citation: '§§ 6 und 7 IFG'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 6
+    citation: '§§ 7 und 7a IFG'
+  - title: Zeitliche und situative Begrenzung
+    points: 2
+    citation: 'ja'
+  - title: Klare Begriffsbestimmungen
+    points: 1
+    citation: '§ 3 (2) IFG'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 13 (1) IFG'
+  - title: anonym möglich
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: praktische Antragsassistenz
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: angemessene Antwortfrist
+    points: 4
+    citation: '§ 14 (2) IFG'
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Gebührenfreiheit
+    points: 0
+    citation: 'VGebO Tarifstelle 1004'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 1
+    citation: 'VGebO Tarifstelle 1004'
+  - title: Kostendeckel
+    points: 2
+    citation:
+      'VGebO Tarifstelle 1004: mindestens fünf Euro, Kostendeckel 500 Euro'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 2
+    citation: 'VGebO Tarifstelle 1004'
+  - title: anrufbar
+    points: 2
+    citation: '§ 18 (2) IFG'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 21 BlnDSG'
+    citationLink: false
+  - title: auch für Umweltinformationen zuständig
+    points: 1
+    citation: '§ 18 IFG'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 2
+    citation: '§ 22 BlnDSG'
+    citationLink: false
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'ja'

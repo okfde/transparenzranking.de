@@ -1,0 +1,142 @@
+name: Rheinland-Pfalz
+short: RP
+year: 2016
+type: tg
+fdsId: 6
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 7
+    citation: '§ 7 LTranspG'
+    limitation:
+      Beschlüsse, Verträge, Pläne, Vorschriften, Statistiken, Gutachten; ohne
+      Kommunen; mit access for one, access for all
+  - title: Open Data
+    points: 2
+    citation: '§ 8 (3) LTranspG'
+  - title: verfassungsrechtlicher Anspruch
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 2 (1) LTranspG'
+  - title: Zweckbestimmung
+    points: 2
+    citation: '§ 1 LTranspG'
+  - title: Statistikpflicht für Behörden
+    points: 1
+    citation:
+      'nicht explizit, jedoch nach § 20 LTranspG Herausgabe der Informationen'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 1
+    citation: 'zusammengefasst, nicht harmonisiert'
+  - title: Recht auf Kopien
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: ordnungsgemäße Aktenführung
+    points: 3
+    citation: '§ 21 LTranspG'
+  - title: Hochschule
+    points: 1
+    citation: '§ 16 LTranspG'
+    limitation: nur Drittmittelangaben
+  - title: Geheimdienste
+    points: 0
+    citation: '§ 14 (4) LTranspG'
+  - title: Kammern
+    points: 0
+    citation: '§ 3 (6) LTranspG'
+  - title: staatlich kontrollierte Unternehmen
+    points: 1
+    citation: '§ 3 (1) LTranspG'
+    limitation: soweit sie Verwaltungstätigkeit ausüben
+  - title: Rundfunk
+    points: 0
+    citation: '§ 3 (7) LTranspG'
+    limitation: nur mit Staatsvertrag, nur Verwaltung
+  - title: Landtag
+    points: 1
+    citation: '§ 3 (4) LTranspG'
+    limitation: nur Verwaltung
+  - title: Rechnungshof
+    points: 1
+    citation: '§ 3 (5) LTranspG'
+    limitation: nur nach Abschluss von Verfahren
+  - title: Sparkassen und Landesbank
+    points: 0
+    citation: '§ 3 (6) LTranspG'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation: '§ 3 (4) LTranspG'
+    limitation: nur Verwaltung
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 1
+    citation: '§ 3 (1) LTranspG'
+    limitation: soweit sie Verwaltungstätigkeit ausüben
+  - title: Abwägung mit öffentlichem Interesse
+    points: 2
+    citation: '§ 16 (1) LTranspG'
+    limitation: nur bei personenbezogenen Daten
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 6
+    citation: '§ 16 (1) LTranspG'
+  - title: Zeitliche und situative Begrenzung
+    points: 2
+    citation: '§ 14 (1) LTranspG'
+  - title: Klare Begriffsbestimmungen
+    points: 2
+    citation: '§ 5 LTranspG'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 11 (1) LTranspG'
+  - title: anonym möglich
+    points: 0
+    citation: '§ 11 (2) LTranspG'
+    limitation: Identität muss erkennbar werden
+  - title: praktische Antragsassistenz
+    points: 1
+    citation: '§ 9 LTranspG'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 12 (3) LTranspG'
+    limitation: ein Monat
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 1
+    citation: '§ 12 (3) LTranspG'
+  - title: Gebührenfreiheit
+    points: 1
+    citation: '§24 LTranspG'
+    limitation: einfache Anfragen
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Kostendeckel
+    points: 3
+    citation: 'AllgGebVerzV: 700 Euro'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 2
+    citation: '§24 LTranspG'
+  - title: anrufbar
+    points: 2
+    citation: '§ 19 LTranspG'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 19 (1) LTranspG'
+    limitation: Beanstandungsrechte
+  - title: auch für Umweltinformationen zuständig
+    points: 1
+    citation: '§ 19 LTranspG'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 2
+    citation: 'ja'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'keine Erwähnung'

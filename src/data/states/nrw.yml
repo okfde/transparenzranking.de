@@ -1,0 +1,136 @@
+name: Nordrhein-Westfalen
+short: NRW
+year: 2001
+type: ifg
+fdsId: 2
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 1
+    citation: '§ 12 IFG NRW'
+    limitation: Geschäftsverteilungspläne, Organigramme, Aktenpläne
+  - title: Open Data
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: verfassungsrechtlicher Anspruch
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Anspruch für Jede/n
+    points: 0
+    citation: '§ 4 IFG NRW: Nur natürliche, nicht juristische Personen'
+  - title: Zweckbestimmung
+    points: 2
+    citation: '§ 1 IFG NRW'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Recht auf Kopien
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: elektronische Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: ordnungsgemäße Aktenführung
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Hochschule
+    points: 1
+    citation: '§ 2 (3) IFG NRW'
+    limitation: nicht Forschung und Lehre
+  - title: Geheimdienste
+    points: 1
+    citation: '§ 6 a IFG NRW'
+    limitation: Verfassungsschutz darf nicht beeinträchtigt werden
+  - title: Kammern
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: staatlich kontrollierte Unternehmen
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Rundfunk
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Landtag
+    points: 1
+    citation: '§ 2 (2) IFG NRW'
+    limitation: nur Verwaltung
+  - title: Rechnungshof
+    points: 1
+    citation: '§ 2 (2) IFG NRW'
+    limitation: nur Verwaltung
+  - title: Sparkassen und Landesbank
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation: '§ 2 (2) IFG NRW'
+    limitation: nur Verwaltung
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: Abwägung mit öffentlichem Interesse
+    points: 2
+    citation: '§ 9 IFG NRW: nur in Einzelfällen'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 3
+    citation: '§ 8 IFG NRW: Nur, wenn Schaden geringfügig wäre'
+  - title: Zeitliche und situative Begrenzung
+    points: 2
+    citation: '§ 6 IFG NRW'
+  - title: Klare Begriffsbestimmungen
+    points: 1
+    citation: '§ 3 IFG NRW'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 5 (1) IFG NRW'
+  - title: anonym möglich
+    points: 2
+    citation: 'keine Erwähnung'
+  - title: praktische Antragsassistenz
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: angemessene Antwortfrist
+    points: 2
+    citation: '§ 5 (2) IFG NRW'
+    limitation: ein Monat
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Gebührenfreiheit
+    points: 1
+    citation: 'Gebührentarif IFG NRW'
+    limitation: einfache Auskünfte
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 1
+    citation: '§ 2 VerwGebO IFG NRW'
+    citationLink: false
+  - title: Kostendeckel
+    points: 2
+    citation: 'Gebührentarif IFG NRW'
+    limitation: 1000 Euro
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 2
+    citation: '§ 11 (1) IFG NRW'
+  - title: anrufbar
+    points: 2
+    citation: '§ 13 IFG NRW'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 13 IFG NRW'
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 2
+    citation: 'ja'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'keine Erwähnung'

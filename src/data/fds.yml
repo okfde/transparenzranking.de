@@ -1,0 +1,57 @@
+# fragdenstaat.de jurisdictions
+# id: jurisdiction id
+# slug: jurisdiction slug
+# blog: blog tag (optional, jurisdiction slug by default).
+#       they differ for some states (like BW)
+# law: slug of corresponding law
+
+- id: 1
+  slug: bund
+  law: bundes-informationsfreiheitsgesetz
+- id: 91
+  slug: baden-wuerttemberg
+  blog: baden-wurttemberg
+  law: informationsfreiheitsgesetz-baden-wurttemberg-ifg
+- id: 92
+  slug: bayern
+- id: 4
+  slug: berlin
+  law: ifg-berlin
+- id: 3
+  slug: brandenburg
+  law: aig-brandenburg
+- id: 12
+  slug: bremen
+  law: bremer-informationsfreiheitsgesetz-bremifg
+- id: 5
+  slug: hamburg
+  law: hamburgisches-transparenzgesetz-hmbtg
+- id: 94
+  slug: hessen
+  law: hessisches-datenschutz-und-informationsfreiheitsgesetz-hdsig
+- id: 7
+  slug: mecklenburg-vorpommern
+  law: lifg-mv
+- id: 93
+  slug: niedersachsen
+- id: 2
+  slug: nrw
+  law: ifg-nrw
+- id: 6
+  slug: rheinland-pfalz
+  law: landesgesetz-uber-die-freiheit-des-zugangs-zu-informationen-rheinland-pfalz
+- id: 9
+  slug: saarland
+  law: saarlandisches-informationsfreiheitsgesetz-sifg
+- id: 89
+  slug: sachsen
+- id: 13
+  slug: sachsen-anhalt
+  law: informationszugangsgesetz-sachsen-anhalt-izg-lsa
+- id: 11
+  slug: schleswig-holstein
+  law: informationszugangsgesetz-fur-das-land-schleswig-holstein-izg-sh
+- id: 10
+  slug: thueringen
+  blog: thuringen
+  law: thuringer-transparenzgesetz-thurifg
