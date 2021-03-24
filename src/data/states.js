@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 import serveVirtualFile from '../utils/serveVirtualFile';
 import pointPercentage from '../utils/percentage';
 import { getCategories } from './categories';
+import { getStateStats } from './fdsStats';
 
 const md = new MarkdownIt();
 
@@ -38,6 +39,8 @@ export async function getStates() {
 
       const slug = path.basename(file, '.yml');
       const fds = fdsData.find(s => s.id === state.fdsId);
+
+      const stats = await getStateStats(state);
 
       const performance = categories.map(category => {
         const details = state.criteria
@@ -82,7 +85,8 @@ export async function getStates() {
         slug,
         fds,
         description,
-        performance
+        performance,
+        stats
       };
     })
   );

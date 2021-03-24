@@ -5,7 +5,7 @@ _paq.push(['disableCookies']);
 _paq.push(['enableLinkTracking']);
 (function () {
   var u = '//traffic.okfn.de/';
-  _paq.push(['setTrackerUrl', u + 'piwik.php']);
+  _paq.push(['setTrackerUrl', u + 'matomo.php']);
   _paq.push(['setSiteId', '31']);
   var d = document,
     g = d.createElement('script'),
@@ -13,6 +13,6 @@ _paq.push(['enableLinkTracking']);
   g.type = 'text/javascript';
   g.async = true;
   g.defer = true;
-  g.src = u + 'piwik.js';
+  g.src = u + 'matomo.js';
   s.parentNode.insertBefore(g, s);
 })();

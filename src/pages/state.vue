@@ -1,5 +1,5 @@
 <template>
-  <div class="container" v-if="state">
+  <div class="container state" v-if="state">
     <h1 class="headline">{{ state.name }}</h1>
     <div class="prose">
       <div class="text-center italic">
@@ -57,6 +57,7 @@
     </div>
 
     <state-details v-if="state.criteria" :performance="performance" />
+    <state-stats :state="state" class="mt-12" />
   </div>
 </template>
 
@@ -96,3 +97,9 @@ const stateName =
 const title = `Informationsfreiheit in ${stateName} - Das Transparenzranking`;
 useHead({ title });
 </script>
+
+<style scoped>
+.state:deep() h2 {
+  @apply text-xl md:text-3xl font-semibold mt-6 mb-1;
+}
+</style>
