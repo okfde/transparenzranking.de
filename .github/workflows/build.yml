@@ -24,9 +24,8 @@ jobs:
       - run: yarn install
       - name: Build
         run: yarn build
-      # - name: Deploy
-      #   if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      #   uses: peaceiris/actions-github-pages@v3.1.12
-      #   with:
-      #     publish_dir: dist
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy
+        uses: peaceiris/actions-github-pages@v3.1.12
+        with:
+          publish_dir: dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
