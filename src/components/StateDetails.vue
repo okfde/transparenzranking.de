@@ -37,7 +37,7 @@
               :key="i"
               class="bg-gray-400 h-4 w-4 mr-1 first:rounded-l last:rounded-r"
               :style="{
-                backgroundColor: i <= detail.points ? category.color : undefined
+                backgroundColor: i < detail.points ? category.color : undefined
               }"
             />
           </div>
@@ -108,7 +108,7 @@ function toggle({ id }) {
   }
 
   h2 {
-    @apply text-xl md:text-3xl font-semibold mt-6 mb-1 col-span-full;
+    @apply col-span-full;
   }
 
   .points-overall {
