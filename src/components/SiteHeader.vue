@@ -24,7 +24,7 @@
           <option value="choose" disabled>Bundesland wählen...</option>
           <option v-for="state in states" :key="state.name" :value="state.slug">
             {{ state.name }}
-            {{ state.type === 'none' ? '(kein IFG)' : '' }}
+            {{ state.type === false ? '(kein IFG)' : '' }}
           </option>
         </select>
       </div>

@@ -5,7 +5,7 @@
         v-for="state in states"
         :key="state.name"
         :to="`/laender/${state.slug}/`"
-        :title="state.type === 'none' ? `${state.name} (kein IFG)` : state.name"
+        :title="state.type === false ? `${state.name} (kein IFG)` : state.name"
         class="w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 py-6 lg:py-12 flex flex-col items-center text-center"
       >
         <div class="h-12 md:h-16 lg:h-20 mb-4 md:mb-6">
@@ -14,7 +14,7 @@
               :src="state.wappen"
               :alt="`Wappen ${state.name}`"
               class="h-full"
-              :class="{ 'no-ifg': state.type === 'none' }"
+              :class="{ 'no-ifg': state.type === false }"
               v-if="state.wappen"
             />
           </transition>

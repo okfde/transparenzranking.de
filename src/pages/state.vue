@@ -3,7 +3,7 @@
     <h1 class="headline">{{ state.name }}</h1>
     <div class="prose">
       <div class="text-center italic">
-        <p v-if="state.type && state.type !== 'none'">
+        <p v-if="state.type && state.type !== false">
           {{ law }} seit {{ state.year }}.
           <a
             :href="`https://fragdenstaat.de/zustaendigkeit/${state.fds.slug}/`"
