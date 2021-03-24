@@ -2,7 +2,7 @@ name: Baden-Württemberg
 short: BW
 year: 2016
 type: ifg
-fds_id: 91
+fdsId: 91
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 3

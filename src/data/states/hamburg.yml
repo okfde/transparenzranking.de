@@ -2,7 +2,7 @@ name: Hamburg
 short: HH
 year: 2020
 type: tg
-fds_id: 5
+fdsId: 5
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 10

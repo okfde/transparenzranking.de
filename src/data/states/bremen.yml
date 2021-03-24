@@ -3,7 +3,7 @@ short: HB
 year: 2006
 updated: 2015
 type: ifg
-fds_id: 12
+fdsId: 12
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 7

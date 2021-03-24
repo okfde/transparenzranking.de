@@ -3,7 +3,7 @@ short: BB
 year: 1998
 updated: 2013
 type: ifg
-fds_id: 3
+fdsId: 3
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 0

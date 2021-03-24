@@ -2,7 +2,7 @@ name: Thüringen
 short: TH
 year: 2020
 type: tg
-fds_id: 10
+fdsId: 10
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 4

@@ -2,7 +2,7 @@ name: Sachsen-Anhalt
 short: ST
 year: 2008
 type: ifg
-fds_id: 13
+fdsId: 13
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1

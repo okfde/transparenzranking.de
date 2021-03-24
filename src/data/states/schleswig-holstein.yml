@@ -3,7 +3,7 @@ short: SH
 year: 2012
 updated: 2019
 type: ifg
-fds_id: 11
+fdsId: 11
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1

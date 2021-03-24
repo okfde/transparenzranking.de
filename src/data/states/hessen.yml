@@ -2,7 +2,7 @@ name: Hessen
 short: HE
 year: 2018
 type: ifg
-fds_id: 94
+fdsId: 94
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 0

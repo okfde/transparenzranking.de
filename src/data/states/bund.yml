@@ -2,7 +2,7 @@ name: Bund
 year: 2006
 updated: 2013
 type: ifg
-fds_id: 1
+fdsId: 1
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1

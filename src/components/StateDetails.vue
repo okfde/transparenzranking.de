@@ -27,13 +27,13 @@
           </button>
 
           <span class="criteria-points">
-            {{ detail.points }} von {{ detail.max_points }}
+            {{ detail.points }} von {{ detail.maxPoints }}
             <span class="sr-only">Punkten</span>
           </span>
 
           <div class="criteria-bar">
             <div
-              v-for="(_, i) in Array(detail.max_points)"
+              v-for="(_, i) in Array(detail.maxPoints)"
               :key="i"
               class="bg-gray-400 h-4 w-4 mr-1 first:rounded-l last:rounded-r"
               :style="{

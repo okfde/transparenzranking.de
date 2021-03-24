@@ -3,7 +3,7 @@ short: MV
 year: 2006
 updated: 2011
 type: ifg
-fds_id: 7
+fdsId: 7
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 0

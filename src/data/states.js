@@ -34,7 +34,7 @@ export async function getStates() {
       const description = md.render(mdRaw);
 
       const slug = path.basename(file, '.yml');
-      const fds = fdsData.find(s => s.id === state.fds_id);
+      const fds = fdsData.find(s => s.id === state.fdsId);
 
       const performance = categories.map(category => {
         const details = state.criteria

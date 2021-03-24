@@ -2,7 +2,7 @@ name: Rheinland-Pfalz
 short: RP
 year: 2016
 type: tg
-fds_id: 6
+fdsId: 6
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 7

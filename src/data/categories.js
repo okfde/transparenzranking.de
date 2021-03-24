@@ -17,7 +17,7 @@ export async function getCategories() {
     );
     const criteriaTitles = correspondingCriteria.map(c => c.title);
     const maxPoints = correspondingCriteria.reduce(
-      (a, c) => a + c.max_points,
+      (a, c) => a + c.maxPoints,
       0
     );
 

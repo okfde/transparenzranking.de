@@ -2,7 +2,7 @@ name: Nordrhein-Westfalen
 short: NRW
 year: 2001
 type: ifg
-fds_id: 2
+fdsId: 2
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1

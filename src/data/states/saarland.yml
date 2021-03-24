@@ -3,7 +3,7 @@ short: SL
 year: 2006
 updated: 2015
 type: ifg
-fds_id: 4
+fdsId: 4
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 1
