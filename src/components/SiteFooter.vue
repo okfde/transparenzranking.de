@@ -62,7 +62,7 @@
         <div class="footer-grid">
           <div>
             <h3>Downloads</h3>
-            <div class="grid grid-cols-2 gap-x-2">
+            <div class="footer-grid">
               <p>
                 <i-mdi-file-pdf-outline class="mr-1" />
                 <a href="/static/files/ifg-ranking.pdf"
