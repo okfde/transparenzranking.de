@@ -45,9 +45,23 @@
           <slide-up-down :active="visible(detail)" class="criteria-details">
             <div>
               <p>
-                <strong>Fundstelle:</strong>
-                {{ detail.citation }}
+                <strong>Fundstelle: </strong>
+
+                <a
+                  v-if="detail.citationLink"
+                  :href="detail.citationLink"
+                  v-text="detail.citation"
+                  title="Zum Gesetzestext..."
+                  class="link"
+                  target="_blank"
+                />
+                <span v-else v-text="detail.citation" />
               </p>
+              <p v-if="detail.comment">
+                <strong>Kommentar:</strong>
+                {{ detail.comment }}
+              </p>
+
               <p>
                 <strong>Kriterienbeschreibung:</strong>
                 {{ detail.description }}

@@ -14,6 +14,9 @@ const statesDir = path.join(__dirname, 'states');
 const criteriaFile = path.join(__dirname, 'criteria.yml');
 const fdsFile = path.join(__dirname, 'fds.yml');
 
+// see see https://regex101.com/r/pOR9CI/1
+const paragraphs = /(§)\s*(\d+)\s*([a-z]*)/;
+
 let idCounter = 0;
 
 export async function getStates() {
@@ -39,20 +42,38 @@ export async function getStates() {
       const performance = categories.map(category => {
         const details = state.criteria
           ?.filter(c => category.criteriaTitles.includes(c.title))
-          .map(sc => ({
-            ...sc,
-            ...criteria.find(c => c.title === sc.title),
-            category: undefined,
-            id: idCounter++
-          }));
+          .map(criterium => {
+            const { maxPoints, description } = criteria.find(
+              c => c.title === criterium.title
+            );
+
+            let { citationLink } = criterium;
+            if (!citationLink) {
+              const result = paragraphs.exec(criterium.citation);
+              if (result) {
+                result.shift();
+                const anchor = result.join('');
+                citationLink = `https://fragdenstaat.de/gesetz/${fds.law}/#${anchor}`;
+              }
+            }
+
+            return {
+              ...criterium,
+              maxPoints,
+              citationLink,
+              description,
+              id: idCounter++
+            };
+          });
 
         const achievedPoints = getPoints(state, category.criteriaTitles);
+        const percentage = pointPercentage(achievedPoints, category.maxPoints);
 
         return {
           categorySlug: category.slug,
           details,
           achievedPoints,
-          percentage: pointPercentage(achievedPoints, category.maxPoints)
+          percentage
         };
       });
 
