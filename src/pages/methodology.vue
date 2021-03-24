@@ -12,7 +12,7 @@
         ausufernde Ausnahmebestimmungen wieder eingeschränkt werden, bekommen
         gut geregelte Ausnahmetatbestände ebenfalls eine hohe Punktzahl. Die
         Ausgestaltung von Antragstellung und Gebühren schließlich entscheidet
-        mit darüber, inwieweit die Bürger/innen theoretisch garantierte
+        mit darüber, inwieweit die Bürger:innen theoretisch garantierte
         Informations- und Auskunftsrechte auch praktisch nutzen können. Als
         Bewertungsmaßstab dienen die derzeit bestehenden gesetzlichen Regelungen
         im Vergleich untereinander.
@@ -94,7 +94,7 @@
         muss politisch unabhängig arbeiten können. Zu guter Letzt ist aber auch
         die Behörde des oder der Informationsfreiheitsbeauftragten selbst
         auskunftspflichtig. Die Auswahl und Gewichtung der Kriterien beruht auf
-        der Abstimmung mit zahlreichen Expert/innen der Informationsfreiheit aus
+        der Abstimmung mit zahlreichen Expert:innen der Informationsfreiheit aus
         allen Bundesländern. Wir bedanken uns an dieser Stelle für alle
         Rückmeldungen und Verbesserungsvorschläge!
       </p>

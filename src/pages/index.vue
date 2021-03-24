@@ -16,7 +16,7 @@
     <div class="prose prose-lg">
       <p>
         Transparenz erleichtert Korruptionsbekämpfung und Kontrolle und stärkt
-        damit das Vertrauen der Bürger/innen in Politik und Verwaltung. Nur wer
+        damit das Vertrauen der Bürger:innen in Politik und Verwaltung. Nur wer
         von einem Vorgang weiß, kann sich aktiv in politische Prozesse
         einbringen. Aber auch dem Staat selbst bringt Transparenz Vorteile, weil
         Informationen behördenintern besser zugänglich werden.
