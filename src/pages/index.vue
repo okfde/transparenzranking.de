@@ -2,7 +2,7 @@
   <div class="container flex flex-col items-center">
     <h1 class="headline">Transparenzranking</h1>
 
-    <div class="prose prose-lg">
+    <div class="prose prose-lg text-center">
       <p class="max-w-screen-lg w-full text-center">
         Jede Person hat das Recht auf staatliche Informationen - doch die
         Umsetzung dieses Rechts unterscheidet sich innerhalb Deutschlands. Wir

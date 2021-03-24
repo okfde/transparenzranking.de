@@ -9,12 +9,14 @@
 }
 
 .prose {
-  @apply max-w-none;
+  @apply max-w-none white break-auto text-justify;
+  hyphens: auto;
 
   a {
     @apply text-lightblue no-underline;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       @apply underline;
     }
   }
@@ -24,11 +26,17 @@
   }
 
   &.prose-dark {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       @apply text-light;
     }
 
-    p, a {
+    p,
+    a {
       @apply text-gray-400;
     }
 

@@ -7,7 +7,7 @@
           {{ law }} seit {{ state.year }}.
           <a
             :href="`https://fragdenstaat.de/zustaendigkeit/${state.fds.slug}/`"
-            class="link"
+            class="link whitespace-nowrap"
           >
             Anfrage stellen
           </a>
