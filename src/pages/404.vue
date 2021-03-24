@@ -5,9 +5,7 @@
     <div class="text-xl text-center">
       <p class="mb-1">Diese Seite existiert nicht.</p>
 
-      <router-link to="/" class="text-lightblue">
-        Zurück zur Startseite
-      </router-link>
+      <router-link to="/" class="link"> Zurück zur Startseite </router-link>
     </div>
   </div>
 </template>

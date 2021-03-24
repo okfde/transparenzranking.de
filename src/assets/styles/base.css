@@ -8,12 +8,21 @@
   @apply text-3xl md:text-5xl mb-12 text-blue font-bold text-center;
 }
 
+.link {
+  @apply text-lightblue no-underline;
+
+  &:hover,
+  &:focus {
+    @apply underline;
+  }
+}
+
 .prose {
   @apply max-w-none white break-auto text-justify;
   hyphens: auto;
 
   a {
-    @apply text-lightblue no-underline;
+    @apply link;
 
     &:hover,
     &:focus {
