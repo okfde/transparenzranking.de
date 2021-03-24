@@ -1,0 +1,114 @@
+{
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/vue/dist/vue.runtime.esm-bundler.js": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/vite-ssg/dist/chunk.TXS6LJMB.mjs": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/vue-router/dist/vue-router.esm-bundler.js": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/@vueuse/head/dist/index.mjs": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/vite-ssg/dist/index.mjs": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "\u0000commonjsHelpers.js": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/node_modules/lodash.debounce/index.js": [
+    "/assets/vendor-legacy.ddfd3a4d.js",
+    "/assets/vendor.bc21e845.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/baden-wuerttemberg.svg": [
+    "/assets/baden-wuerttemberg-legacy.2499dd20.js",
+    "/assets/baden-wuerttemberg.3f72371c.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/bayern.svg": [
+    "/assets/bayern-legacy.08c033e3.js",
+    "/assets/bayern.cd2a8fe2.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/berlin.svg": [
+    "/assets/berlin-legacy.febdea39.js",
+    "/assets/berlin.3f0fdb9f.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/brandenburg.svg": [
+    "/assets/brandenburg-legacy.e8c17bdc.js",
+    "/assets/brandenburg.c3581667.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/bremen.svg": [
+    "/assets/bremen-legacy.2711ffe6.js",
+    "/assets/bremen.c7b83ef9.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/bund.svg": [
+    "/assets/bund-legacy.5ac46b04.js",
+    "/assets/bund.b77720fa.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/hamburg.svg": [
+    "/assets/hamburg-legacy.22219bcb.js",
+    "/assets/hamburg.3dd74662.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/hessen.svg": [
+    "/assets/hessen-legacy.8591aa3f.js",
+    "/assets/hessen.9ed77eb2.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/mecklenburg-vorpommern.svg": [
+    "/assets/mecklenburg-vorpommern-legacy.36e0bbf2.js",
+    "/assets/mecklenburg-vorpommern.1ea5956f.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/niedersachsen.svg": [
+    "/assets/niedersachsen-legacy.d8cde447.js",
+    "/assets/niedersachsen.e22698ca.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/nrw.svg": [
+    "/assets/nrw-legacy.6402b1f4.js",
+    "/assets/nrw.d100b4bc.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/rheinland-pfalz.svg": [
+    "/assets/rheinland-pfalz-legacy.35733c16.js",
+    "/assets/rheinland-pfalz.b61d21d3.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/saarland.svg": [
+    "/assets/saarland-legacy.ec37edb0.js",
+    "/assets/saarland.34174d9a.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/sachsen-anhalt.svg": [
+    "/assets/sachsen-anhalt-legacy.d6cdacea.js",
+    "/assets/sachsen-anhalt.4f59024b.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/sachsen.svg": [
+    "/assets/sachsen-legacy.aaedd6f5.js",
+    "/assets/sachsen.3cc34e82.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/schleswig-holstein.svg": [
+    "/assets/schleswig-holstein-legacy.77531463.js",
+    "/assets/schleswig-holstein.652dd6df.js"
+  ],
+  "/home/runner/work/transparenzranking.de/transparenzranking.de/src/assets/img/wappen/thueringen.svg": [
+    "/assets/thueringen-legacy.b7f1da5a.js",
+    "/assets/thueringen.607a34fc.js"
+  ]
+}
