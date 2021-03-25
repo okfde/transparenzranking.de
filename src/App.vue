@@ -3,7 +3,7 @@
     <div>
       <site-header />
       <transition name="fade" mode="out-in" @enter="checkHash">
-        <router-view class="my-16 flex-1" :key="$route.path" />
+        <router-view class="mt-32 mb-16 flex-1" :key="$route.path" />
       </transition>
     </div>
     <site-footer />
