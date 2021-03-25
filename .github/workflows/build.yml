@@ -26,9 +26,7 @@ jobs:
         run: yarn build
       - name: Deploy
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-github-pages@v3.1.12
-        env:
-          ACTIONS_ALLOW_UNSECURE_COMMANDS: true # for ssh git deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: dist
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
