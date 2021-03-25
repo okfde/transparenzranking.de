@@ -27,6 +27,8 @@ jobs:
       - name: Deploy
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-github-pages@v3.1.12
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true # for ssh git deploy
         with:
           publish_dir: dist
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
