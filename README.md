@@ -1,6 +1,9 @@
 # Transparenzranking.de
 
-Transparenzranking.de vergleicht alle Transparenzregelungen Deutschlands.
+[![Build status](https://github.com/okfde/transparenzranking.de/actions/workflows/build.yml/badge.svg)](https://github.com/okfde/transparenzranking.de/actions/workflows/build.yml)
+
+[Transparenzranking.de](https://transparenzranking.de) vergleicht alle
+Transparenzregelungen Deutschlands.
 
 ## Setup
 
@@ -57,7 +60,7 @@ Die YAML-Datei beinhaltet folgende Eigenschaften (Beispiel:
     Anker für die FragDenStaat-Gesetzesseite.
   - `limitation`: optionale Einschränkung
 
-## License
+## Lizenz
 
 Der Code ist [MIT-lizensiert](./LICENSE), die Inhalte (alle `.yml` und `.md`
 Dateien) fallen unter [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
