@@ -19,6 +19,7 @@
         </div>
         <select
           v-model="selector"
+          ref="selectorEl"
           @input="e => $router.push(`/laender/${e.target.value}/`)"
         >
           <option value="choose" disabled>Bundesland wählen...</option>
@@ -37,9 +38,12 @@ import { ref, watch } from 'vue';
 import states from '@data/states';
 
 const selector = ref('choose');
+const selectorEl = ref();
+
 watch(selector, () => {
   // always reset afterwards
   selector.value = 'choose';
+  selectorEl.value?.blur();
 });
 </script>
 
