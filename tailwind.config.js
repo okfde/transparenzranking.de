@@ -1,7 +1,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-      sans: ['Cabin', 'sans-serif']
+      sans: ['Cabin', 'sans-serif'],
+      serif: ['Georgia', 'Cabin', 'sans-serif']
     },
     extend: {
       fontSize: {
