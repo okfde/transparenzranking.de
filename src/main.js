@@ -38,10 +38,24 @@ const routes = [
 export const createApp = ViteSSG(App, {
   routes,
   scrollBehavior(to, from, savedPosition) {
-    // always scroll to top
-    if (!to.hash)
-      return savedPosition
-        ? { ...savedPosition, behavior: 'smooth' }
-        : { top: 0, behavior: 'smooth' };
+    const behavior = 'smooth';
+    const toTop = savedPosition
+      ? { ...savedPosition, behavior }
+      : { top: 0, behavior };
+
+    if (!to.hash) return toTop;
+
+    const header = document.querySelector('#header').offsetHeight;
+
+    const getScrollPosition = () => ({
+      top: document.querySelector(to.hash)?.offsetTop - header - 24,
+      behavior
+    });
+
+    if (to.path === from.path) return getScrollPosition();
+
+    return new Promise(resolve =>
+      setTimeout(() => resolve(getScrollPosition()), 500)
+    );
   }
 });

@@ -12,7 +12,6 @@
 
 <script setup>
 import { useHead } from '@vueuse/head';
-import { useRouter } from 'vue-router';
 import socialPreview from './assets/img/social-preview.png';
 import favicon from './assets/img/favicon.png';
 
@@ -35,21 +34,5 @@ useHead({
       href: favicon
     }
   ]
-});
-
-const router = useRouter();
-router.afterEach(({ hash }) => {
-  console.log(hash);
-  if (!hash) return;
-
-  const offset = document.querySelector(hash)?.offsetTop;
-  if (!top) return;
-
-  const header = document.querySelector('#header').offsetHeight;
-
-  window.scroll({
-    top: offset - header - 24,
-    behavior: 'smooth'
-  });
 });
 </script>
