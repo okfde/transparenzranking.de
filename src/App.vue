@@ -2,7 +2,7 @@
   <div>
     <div>
       <site-header />
-      <transition name="fade" mode="out-in" @enter="checkHash">
+      <transition name="fade" mode="out-in">
         <router-view class="mt-32 mb-16 flex-1" :key="$route.path" />
       </transition>
     </div>
@@ -12,6 +12,7 @@
 
 <script setup>
 import { useHead } from '@vueuse/head';
+import { useRouter } from 'vue-router';
 import socialPreview from './assets/img/social-preview.png';
 import favicon from './assets/img/favicon.png';
 
@@ -36,11 +37,12 @@ useHead({
   ]
 });
 
-function checkHash() {
-  const hash = decodeURIComponent(window.location.hash.substr(1));
+const router = useRouter();
+router.afterEach(({ hash }) => {
+  console.log(hash);
   if (!hash) return;
 
-  const offset = document.getElementById(hash)?.offsetTop;
+  const offset = document.querySelector(hash)?.offsetTop;
   if (!top) return;
 
   const header = document.querySelector('#header').offsetHeight;
@@ -49,5 +51,5 @@ function checkHash() {
     top: offset - header - 24,
     behavior: 'smooth'
   });
-}
+});
 </script>

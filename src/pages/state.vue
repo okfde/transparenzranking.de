@@ -25,7 +25,7 @@
         <td>
           <span :class="{ 'font-bold': i === 0 }">
             <router-link
-              :to="`/methodik/#${bar.category.slug}`"
+              :to="`#${bar.category.slug}`"
               v-if="i !== 0"
               title="Mehr Informationen..."
             >
