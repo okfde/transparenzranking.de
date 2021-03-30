@@ -36,7 +36,7 @@ const routes = [
 
 // https://github.com/antfu/vite-ssg
 export const createApp = ViteSSG(App, {
-  routes: routes,
+  routes,
   scrollBehavior(to, from, savedPosition) {
     // always scroll to top
     if (!to.hash)
