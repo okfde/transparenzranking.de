@@ -1,5 +1,5 @@
 <template>
-  <header class="p-4 md:px-8 fixed top-0 inset-x-0 bg-light z-50">
+  <header class="p-4 md:px-8 fixed top-0 inset-x-0 bg-light z-50" id="header">
     <div class="flex items-center text-blue">
       <div class="md:w-1/4">
         <router-link to="/">

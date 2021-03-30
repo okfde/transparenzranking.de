@@ -37,9 +37,17 @@ useHead({
 });
 
 function checkHash() {
-  if (window.location.hash) {
-    const hash = decodeURIComponent(window.location.hash.substr(1));
-    document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
-  }
+  const hash = decodeURIComponent(window.location.hash.substr(1));
+  if (!hash) return;
+
+  const offset = document.getElementById(hash)?.offsetTop;
+  if (!top) return;
+
+  const header = document.querySelector('#header').offsetHeight;
+
+  window.scroll({
+    top: offset - header - 24,
+    behavior: 'smooth'
+  });
 }
 </script>
