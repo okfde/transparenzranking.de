@@ -4,6 +4,6 @@ ins Abgeordnetenhaus eingebracht. Der Entwurf ist ein Gegenentwurf zum
 Berliner Transparenzgesetz, das der Volksentscheid Transparenz entworfen hat.
 
 Sollte der Entwurf umgesetzt werden, würde er eine deutliche Verschlechterung der 
-Informationsfreiheit in Berlin bringen. Statt wie bisher 61 würde Berlin nur noch 50
+Informationsfreiheit in Berlin bringen. Statt wie bisher 61 würde Berlin nur noch 51
 Punkte im Transparenzranking erhalten, vor allem durch deutlich größere Bereichsausnahmen
 und Einschränkungen des Datenschutzes.
