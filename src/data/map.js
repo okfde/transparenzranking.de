@@ -27,7 +27,10 @@ async function renderSvg() {
   }
   const raw = xmlParser.toXml(root);
   return optimize(raw, {
-    plugins: extendDefaultPlugins([{ name: 'cleanupIDs', active: false }])
+    plugins: extendDefaultPlugins([
+      { name: 'cleanupIDs', active: false },
+      { name: 'removeViewBox', active: false }
+    ])
   }).data;
 }
 

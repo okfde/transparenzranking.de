@@ -23,7 +23,7 @@ onMounted(() => {
 
 <style lang="postcss" scoped>
 .map {
-  @apply max-w-1/2 w-full pointer-events-auto;
+  @apply sm:max-w-1/2 w-full pointer-events-auto;
 
   &:deep() path[id] {
     cursor: pointer;
