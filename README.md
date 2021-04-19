@@ -50,6 +50,8 @@ Die YAML-Datei beinhaltet folgende Eigenschaften (Beispiel:
   FragDenStaat-Jurisdiktion (etwa `1` für den Bund)
 - `type`: ein unter [`lawtypes.yml`](./src/data/lawtypes.yml) definierter
   Gesetzestyp wie `ifg`. Gibt es kein Gesetz, wird `false` angegeben
+- `draft`: handelt es sich um einen Gesetzesentwurf, hier `true`, sowie bei
+  `draftParent` den Slug des aktuellen Gesetzes angeben.
 - `criteria`: gibt es kein IFG, kann diese Eigenschaft weggelassen werden. Eine
   Liste von Kriterien, bestehend aus
   - `title`: der Kriterientitel, wie unter

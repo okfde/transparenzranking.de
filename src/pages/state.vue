@@ -4,13 +4,26 @@
     <div class="prose">
       <div class="text-center italic">
         <p v-if="state.type && state.type !== false">
-          {{ law }} seit {{ state.year }}.
-          <a
-            :href="`https://fragdenstaat.de/zustaendigkeit/${state.fds.slug}/`"
-            class="link whitespace-nowrap"
-          >
-            Anfrage stellen
-          </a>
+          <template v-if="state.draft">
+            Bisher noch nicht in Kraft getretener Gesetzesentwurf.
+
+            <router-link
+              :to="`/laender/${state.draftParent}`"
+              class="link whitespace-nowrap"
+            >
+              Zum aktuellen Gesetz
+            </router-link>
+          </template>
+          <template v-else>
+            {{ law }} seit {{ state.year }}.
+
+            <a
+              :href="`https://fragdenstaat.de/zustaendigkeit/${state.fds.slug}/`"
+              class="link whitespace-nowrap"
+            >
+              Anfrage stellen
+            </a>
+          </template>
         </p>
         <p v-else>Kein Informationsfreiheitsgesetz</p>
       </div>

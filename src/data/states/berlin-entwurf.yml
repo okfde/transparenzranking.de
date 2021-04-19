@@ -1,4 +1,6 @@
 name: Berlin (Entwurf)
+draft: true
+draftParent: berlin
 short: BE-E
 year: 2021
 updated: 2021
@@ -8,8 +10,7 @@ criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
     points: 7
     citation: ''
-    limitation:
-      Kataster, Messungen, besondere Verträge, Aktenpläne
+    limitation: Kataster, Messungen, besondere Verträge, Aktenpläne
   - title: Open Data
     points: 1
     citation: ''
