@@ -20,7 +20,7 @@ const paragraphs = /(§)\s*(\d+)\s*([a-z]*)/;
 
 let idCounter = 0;
 
-export async function getStates() {
+export async function getStates(withStats = true) {
   const categories = await getCategories();
   const criteria = await loadYaml(criteriaFile);
   const fdsData = await loadYaml(fdsFile);
@@ -40,7 +40,7 @@ export async function getStates() {
       const slug = path.basename(file, '.yml');
       const fds = fdsData.find(s => s.id === state.fdsId);
 
-      const stats = await getStateStats(state);
+      const stats = withStats ? await getStateStats(state) : undefined;
 
       const performance = categories.map(category => {
         const details = state.criteria

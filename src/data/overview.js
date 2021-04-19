@@ -6,7 +6,7 @@ import { getCategories } from './categories';
 
 async function overview() {
   const categories = await getCategories();
-  const states = await getStates();
+  const states = await getStates(false);
 
   const bars = new DefaultObj(() => ({ states: [] }));
 

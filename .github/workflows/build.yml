@@ -24,6 +24,8 @@ jobs:
       - run: yarn install
       - name: Build
         run: yarn build
+      - name: Embedable map
+        run: cp dist/assets/map.*.svg dist/assets/map.svg
       - name: Deploy
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3

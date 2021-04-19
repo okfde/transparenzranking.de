@@ -32,6 +32,9 @@
         einen Entwurf für ein modernes, progressives Auskunftsgesetz gemacht.
         Dafür, dass viele diesem Vorschlag folgen, werden wir weiter arbeiten.
       </p>
+
+      <ranking-map />
+
       <p>
         Sie können <router-link to="/methodik/">hier</router-link> mehr über
         unsere Kriterien zur Erfassung des Rankings erfahren.

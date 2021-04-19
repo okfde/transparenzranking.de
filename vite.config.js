@@ -10,6 +10,7 @@ import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons';
 import Overview from './src/data/overview';
 import States from './src/data/states';
 import Categories from './src/data/categories';
+import RankingMap from './src/data/map';
 
 export default defineConfig({
   resolve: {
@@ -33,7 +34,8 @@ export default defineConfig({
 
     Overview(),
     States(),
-    Categories()
+    Categories(),
+    RankingMap()
   ],
   // https://github.com/antfu/vite-ssg
   ssgOptions: {
