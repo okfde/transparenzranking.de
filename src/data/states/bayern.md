@@ -1,5 +1,5 @@
 In Bayern blockiert seit Jahren die regierende CSU ein
-Informationsfreiheitsgesetz auf Landesebene. Seit 2001 versuchten insgesamt elf
+Informationsfreiheitsgesetz auf Landesebene. Seit 2001 versuchten insgesamt zwölf
 parlamentarische Initiativen ein Informationsfreiheitsgesetz einzuführen, sie
 scheiterten alle an der Regierungsmehrheit.
 
