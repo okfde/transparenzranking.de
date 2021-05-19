@@ -22,4 +22,6 @@ Beschlüsse und wesentliche Unternehmensdaten von Beteiligungen des Landes an
 privatrechtlichen Unternehmen.
 
 Insgesamt hat Baden-Württemberg eines der schwächsten
-Informationsfreiheitsgesetze in Deutschland.
+Informationsfreiheitsgesetze in Deutschland. Im Koalitionsvertrag 2021 hat die
+Landesregierung vereinbart, das Gesetz zu einem Transparenzvertrag weiterentwickeln
+zu wollen.
