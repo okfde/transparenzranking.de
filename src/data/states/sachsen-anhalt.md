@@ -1,6 +1,7 @@
 Sachsen-Anhalt regelt den Zugang zu Informationen gesetzlich seit 2008
 („Informationszugangsgesetz Sachsen-Anhalt“ – IZG LSA). Eine Evaluierung im Jahr
-2015 führte bisher zu keinen Gesetzesänderungen.
+2015 führte bisher zu keinen Gesetzesänderungen. Eine vorgesehene Änderung im Jahr 2021 kurz
+vor der Landtagswahl scheiterte noch kurz vor Beschluss im Landtag.
 
 Dabei ist Reformbedarf durchaus vorhanden. Der Umfang der Informationsrechte ist
 im Vergleich mit anderen Bundesländern unzureichend. Von Organisations- und
