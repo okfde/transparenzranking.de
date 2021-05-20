@@ -26,7 +26,15 @@ onMounted(() => {
   @apply sm:max-w-1/2 w-full pointer-events-auto;
 
   &:deep() path[id] {
-    cursor: pointer;
+    @apply cursor-pointer transition-opacity;
+  }
+
+  &:deep() g:hover > path[id] {
+    @apply opacity-25;
+  }
+
+  &:deep() g:hover > path[id]:hover {
+    @apply opacity-100;
   }
 }
 </style>
