@@ -11,5 +11,5 @@ Gemeinden und Landkreise schon jetzt, unabhängig von der Landesebene, konkret
 etwas für Informationsfreiheit, Transparenz und Bürgerbeteiligung tun. Der
 Landkreis Wesermarsch sowie die Städte Braunschweig, Cuxhaven, Langenhagen und
 Lingen/Ems verfügen über eigene Informationsfreiheitssatzungen. Niedersachsen
-teilt sich mit Bayern, Hessen und Sachsen mangels gesetzlicher Regelung den
+teilt sich mit Bayern und Sachsen mangels gesetzlicher Regelung den
 letzten Platz.
