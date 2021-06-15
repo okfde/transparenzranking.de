@@ -6,5 +6,5 @@ Transparenzgesetz einführen. Der ursprünglich für 2020 geplante Gesetzentwurf
 offenbar derzeit aber großen Widerstand sämtlicher Landesministerien. Wann also ein fertiger
 Gesetzentwurf vom Kabinett beschlossen wird, ist noch nicht abzusehen.
 
-Gemeinsam mit Bayern, Hessen und Niedersachsen reicht es deshalb nur für den
+Gemeinsam mit Bayern und Niedersachsen reicht es deshalb nur für den
 letzten Platz.
