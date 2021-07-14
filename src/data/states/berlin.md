@@ -1,6 +1,6 @@
 Das „Gesetz zur Förderung der Informationsfreiheit in Berlin“ trat bereits 1999
 in Kraft. Bündnis 90/Die Grünen brachten diesen Gesetzesentwurf im April 1997
-auf den Weg. Als Reaktion auf eine Volksinitiative zur Wasserversorgung wurde
+auf den Weg. Als Reaktion auf den Volksentscheid zur Wasserversorgung wurde
 das Gesetz im Januar 2010 substanziell geändert: Seither sieht es auch
 Veröffentlichungspflichten von Grundversorgungsbetreibern bei der
 Wasserversorgung, der Abwasserentsorgung, dem öffentlichen Nahverkehr und der
