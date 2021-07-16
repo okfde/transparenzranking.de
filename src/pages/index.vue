@@ -6,7 +6,7 @@
       <p class="max-w-screen-lg w-full text-center">
         Jede Person hat das Recht auf staatliche Informationen - doch die
         Umsetzung dieses Rechts unterscheidet sich innerhalb Deutschlands. Wir
-        haben erstmalig die Informationsfreiheits- und Transparenzgesetze in
+        haben die Informationsfreiheits- und Transparenzgesetze in
         Bund und Ländern miteinander verglichen.
       </p>
     </div>
