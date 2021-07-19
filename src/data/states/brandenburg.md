@@ -8,4 +8,4 @@ stellen, die dann frei nutzbar sind.
 
 Bei den Informationsrechten erreicht Brandenburg nur fünf von 28 möglichen
 Punkten. Insbesondere sind weder elektronische Aktenführung noch proaktive
-Veröffentlichung vorgesehen. Insgesamt liegt das Land mit Platz 8 im Mittelfeld.
+Veröffentlichung vorgesehen. Insgesamt liegt das Land mit Platz 9 im Mittelfeld.
