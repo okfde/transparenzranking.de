@@ -27,7 +27,7 @@
         Transparenzgesetze mangelt es nicht. Beispielsweise hat das Bündnis für
         ein Berliner Transparenzgesetz
         <a href="https://volksentscheid-transparenz.de/"
-          >mit einem Volksbegehren 2019</a
+          >mit einem Antrag auf ein Volksbegehren 2019</a
         >
         einen Entwurf für ein modernes, progressives Auskunftsgesetz gemacht.
         Dafür, dass viele diesem Vorschlag folgen, werden wir weiter arbeiten.
