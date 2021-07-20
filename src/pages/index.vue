@@ -1,6 +1,6 @@
 <template>
   <div class="container flex flex-col items-center">
-    <h1 class="headline">Transparenzranking</h1>
+    <h1 class="headline">Transparenzranking 2021</h1>
 
     <div class="prose prose-lg text-center">
       <p class="max-w-screen-lg w-full text-center">
