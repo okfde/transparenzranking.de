@@ -1,7 +1,7 @@
 In Niedersachsen gibt es bislang weder ein Informationsfreiheitsgesetz noch ein
 Transparenzgesetz. Gesetzesanträge der Opposition in den Jahren 2009 und 2013
 scheiterten. SPD und Bündnis 90/Die Grünen hatte zwar ein Gesetz nach dem Vorbild des Hamburger Transparenzgesetzes
-bis 2018 angekündigt, dann aber kein Gesetz verabschiedet. Die derzeitige schwarz-gelbe Koalition
+bis 2018 angekündigt, dann aber kein Gesetz verabschiedet. Die derzeitige Koalition aus SPD und CDU
 plant keine Auskunftsregelung für mehr Transparenz.
 
 Unabhängig von den (fehlenden) gesetzlichen Regelungen auf Landesebene erlaubt
