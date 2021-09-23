@@ -127,15 +127,14 @@ criteria:
     points: 1
     citation: '§ 12 (3) IFG'
   - title: auch für Umweltinformationen zuständig
-    points: 0
+    points: 1
     citation: 'keine Erwähnung'
   - title: Klagerecht des Datenschutzbeauftragten
     points: 0
     citation: 'keine Erwähnung'
   - title: polit. Unabhängigkeit der Stellung der Behörde
-    points: 1
-    citation: '§ 4f BDSG; kein Haushaltsrecht'
-    citationLink: false
+    points: 2
+    citation: 'kein Haushaltsrecht'
   - title: selbst auskunftspflichtig
     points: 1
     citation: 'ja'
