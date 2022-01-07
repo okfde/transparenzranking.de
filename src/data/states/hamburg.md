@@ -11,8 +11,8 @@ wie vor Spitzenreiter, da es in nahezu allen Bereichen hohe Punktzahlen
 erreicht.
 
 Mit einer Reform, die im Januar 2020 in Kraft trat, wollte die rot-grüne
-Regierung den Anwendungsbereich erweitern. Tatsächlich verschlechtert sie aber
-die Transparenz. Anonyme Anträge wären nicht mehr möglich, weil Name und
+Regierung den Anwendungsbereich erweitern. Tatsächlich verschlechterte sie aber
+die Transparenz. Anonyme Anträge sind nicht mehr möglich, weil Name und
 Anschrift von Antragsteller an Dritte weitergegeben werden müssen.
 Antwortfristen werden deutlich verlängert. Allerdings wird der Landesbeauftragte
 für Informationsfreiheit künftig auch für Umwelt- und Verbraucherinformationen
