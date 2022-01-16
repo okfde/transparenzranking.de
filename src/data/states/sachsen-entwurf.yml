@@ -1,0 +1,137 @@
+name: Sachsen (Entwurf)
+draft: true
+draftParent: sachsen
+short: SächsTranspG
+year: 2022
+updated: 2022
+type: ifg
+fdsId: 89
+criteria:
+  - title: proaktive Veröffentlichung und Transparenzregister
+    points: 8
+    citation: '§ 8'
+    limitation: Aktenpläne und Organisationpläne, Beschlüsse, Verträge ab 25.000, Weisungen,  Gutachten und Studien von transparenzpfl. Stellen. Zwei Punkte für ein Transparenzregister.
+  - title: Open Data
+    points: 1
+    citation: '§ 9 Abs. 1'
+    limitation: Maschinenlesbarkeit nur, wenn kein unverhältnismäßiger Aufwand 
+  - title: verfassungsrechtlicher Anspruch
+    points: 1
+    citation: 'Art. 34 und 57 Verf. Sachsen'
+    limitation: nur Umweltinformationen
+  - title: Anspruch für Jede/n
+    points: 2
+    citation: '§ 1 Abs. 1'
+  - title: Zweckbestimmung
+    points: 2
+    citation: '§ 1 Abs. 3'
+  - title: Statistikpflicht für Behörden
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: IFG und UIG zusammengefasst und harmonisiert
+    points: 1
+    citation: '§8 Nr 14/ Nr. 19'
+  - title: Recht auf Kopien
+    points: 1
+    citation: '§ 11 Abs. 1 S. 2'
+  - title: elektronische Aktenführung
+    points: 1
+    citation: 'https://www.sid.sachsen.de/evasax.html'
+  - title: ordnungsgemäße Aktenführung
+    points: 1
+    citation: 'VwV Aktenführung'
+  - title: Hochschule
+    points: 1
+    citation: '§ 4 Abs. 3 S. 5'
+    limitation: nur für Drittmittel transparenzpflichtig
+  - title: Geheimdienste
+    points: 1
+    citation: '§ 5 Abs. 1 Nr. 15'
+  - title: Kammern
+    points: 1
+    citation: '§ 4 Abs. 3 S. 6'
+    limitation: nur soweit ihnen hoheitliche Aufgaben des Freistaates übertragen worden sind
+  - title: staatlich kontrollierte Unternehmen
+    points: 0
+    citation: '§ 4 Abs. 1 S. 1 '
+    limitation: nur juristische Personen des öffentlichen Rechts
+  - title: Rundfunk
+    points: 1
+    citation: '§ 4 Abs. 3 S. 4'
+  - title: Landtag
+    points: 1
+    citation: '§ 4 Abs. 3 S. 1'
+  - title: Rechnungshof
+    points: 1
+    citation: '§ 4 Abs. 3 S. 2'
+  - title: Sparkassen und Landesbank
+    points: 0
+    citation: '§ 4 Abs. 3 S. 7'
+  - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
+    points: 1
+    citation: '§ 4 Abs. 3 S. 1'
+    limitation: nur soweit sie Aufgaben der öffentlichen Verwaltung wahrnehmen 
+  - title: Staatliche Stiftungen und Anstalten öffentlichen Rechts
+    points: 1
+    citation: '§ 4 Abs. 1 S. 1 '
+  - title: Abwägung mit öffentlichem Interesse
+    points: 0
+    citation: '§ 5'
+  - title: Abwägungsklausel bei Betriebs- und Geschäftsgeheimnissen
+    points: 6
+    citation: '§ 5 Abs. 1 Nr. 19'
+  - title: Zeitliche und situative Begrenzung
+    points: 1
+    citation: '§ 5 Abs. 3'
+  - title: Klare Begriffsbestimmungen
+    points: 1
+    citation: '§ 3'
+  - title: per E-Mail möglich
+    points: 3
+    citation: '§ 10 Abs. 1'
+  - title: anonym möglich
+    points: 0
+    citation: '§ 10 Abs. 2'
+  - title: praktische Antragsassistenz
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: angemessene Antwortfrist
+    points: 1
+    citation: '§ 12 Abs. 1, 2'
+    limitation: Monatsfrist kann bei Bedarf "angemessen" verlängert werden
+  - title: Sanktionen bei Nichteinhaltung der Frist
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Unterrichtung bei längerer Dauer
+    points: 1
+    citation: '§ 12 Abs. 2'
+  - title: Gebührenfreiheit
+    points: 1
+    citation: '§ 12 Abs. 5'
+  - title: Gebührenfreiheit in Sonderfällen
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Kostendeckel
+    points: 
+    citation: 'Lfd 94 Kostenverzeichnis'
+  - title: Ablehnung grundsätzlich kostenfrei
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: anrufbar
+    points: 2
+    citation: '§ 13 Abs. 1 S. 2'
+  - title: Sanktionsmöglichkeiten
+    points: 1
+    citation: '§ 15'
+  - title: auch für Umweltinformationen zuständig
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: Klagerecht des Datenschutzbeauftragten
+    points: 0
+    citation: 'keine Erwähnung'
+  - title: polit. Unabhängigkeit der Stellung der Behörde (inkl. Haushaltsrecht)
+    points: 1
+    citation: 'keine Erwähnung'
+  - title: selbst auskunftspflichtig
+    points: 1
+    citation: 'ja'
