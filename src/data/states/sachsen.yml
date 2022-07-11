@@ -8,9 +8,9 @@ type: ifg
 fdsId: 89
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
-    points: 8
+    points: 5
     citation: '§ 8'
-    limitation: Aktenpläne und Organisationpläne, Beschlüsse, Verträge ab 25.000, Weisungen,  Gutachten und Studien von transparenzpfl. Stellen. Zwei Punkte für ein Transparenzregister.
+    limitation: Aktenpläne und Organisationpläne, Beschlüsse, Verträge ab 25.000, Weisungen, Gutachten und Studien von transparenzpfl. Stellen. Zwei Punkte für ein Transparenzregister. Kommunen sind ausgenommen.
   - title: Open Data
     points: 1
     citation: '§ 9 Abs. 1'
@@ -112,7 +112,7 @@ criteria:
     points: 0
     citation: 'keine Erwähnung'
   - title: Kostendeckel
-    points: 
+    points: 1
     citation: 'Lfd 94 Kostenverzeichnis'
   - title: Ablehnung grundsätzlich kostenfrei
     points: 0
