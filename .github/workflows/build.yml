@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
-concurrency: 
-  group: ${{ github.ref }}
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -18,23 +20,24 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '14.x'
-      - uses: actions/cache@v2
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-      - run: yarn install
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install
       - name: Build
-        run: yarn build
+        run: pnpm build
       - name: Embedable map
         run: cp dist/assets/map.*.svg dist/assets/map.svg
-      - name: Deploy
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          publish_dir: dist
-          publish_branch: release
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

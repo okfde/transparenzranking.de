@@ -6,7 +6,7 @@ import path from 'path';
 import { getStates } from './states';
 import { compileTemplate } from '@vue/compiler-sfc';
 
-const MAP = path.join(__dirname, 'src/data/map.svg');
+const MAP = path.join(__dirname, 'map.svg');
 let handle;
 
 const scale = chroma

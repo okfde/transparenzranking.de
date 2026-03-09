@@ -2,7 +2,6 @@ import fs from 'fs/promises';
 import path from 'path';
 import loadYaml from '../utils/loadYaml';
 import MarkdownIt from 'markdown-it';
-import { fileURLToPath } from 'url';
 import serveVirtualFile from '../utils/serveVirtualFile';
 import pointPercentage from '../utils/percentage';
 import { getCategories } from './categories';
@@ -10,7 +9,6 @@ import { getStateStats } from './fdsStats';
 
 const md = new MarkdownIt();
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const statesDir = path.join(__dirname, 'states');
 const criteriaFile = path.join(__dirname, 'criteria.yml');
 const fdsFile = path.join(__dirname, 'fds.yml');

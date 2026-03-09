@@ -15,7 +15,6 @@
     "lodash.debounce": "^4.0.8",
     "vue": "^3.0.7",
     "vue-router": "^4.0.5",
-    "vue-slide-up-down": "^2.0.1",
     "yaml": "^1.10.2"
   },
   "devDependencies": {

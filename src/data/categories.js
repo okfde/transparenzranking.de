@@ -1,9 +1,7 @@
 import path from 'path';
-import { fileURLToPath } from 'url';
 import serveVirtualFile from '../utils/serveVirtualFile';
 import loadYaml from '../utils/loadYaml';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const categoriesFile = path.join(__dirname, 'categories.yml');
 const criteriaFile = path.join(__dirname, 'criteria.yml');
 
