@@ -31,7 +31,7 @@
               :to="`/laender/${bar.state.slug}/`"
               title="Mehr Details..."
             >
-              <span>
+              <span :id="`state-label-${bar.state.slug}`">
                 <span class="hidden md:inline">{{ bar.state.name }}</span>
                 <span class="md:hidden">
                   {{ bar.state.short || bar.state.name }}
@@ -47,6 +47,7 @@
               <ranking-bar
                 :color="selectedCategory.color"
                 :progress="bar.percentage"
+                :aria-labelledby="`state-label-${bar.state.slug}`"
               />
             </router-link>
           </td>

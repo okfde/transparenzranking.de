@@ -1,7 +1,7 @@
 <template>
   <div
-    v-bind="attrs"
     :style="style"
+    :hidden="hidden"
     ref="container"
     @transitionend="onTransitionEnd"
   >
@@ -56,19 +56,6 @@ export default {
   computed: {
     el() {
       return this.$refs.container;
-    },
-
-    attrs() {
-      const attrs = {
-        'aria-hidden': !this.active,
-        'aria-expanded': this.active
-      };
-
-      if (this.useHidden) {
-        attrs.hidden = this.hidden;
-      }
-
-      return attrs;
     }
   },
 
@@ -129,3 +116,4 @@ export default {
   }
 };
 </script>
+

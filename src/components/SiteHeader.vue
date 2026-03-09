@@ -14,12 +14,14 @@
       <div class="flex-1 md:w-1/4 flex justify-end">
         <div class="menu-link">
           <router-link to="/laender/" title="Zur Länderübersicht...">
-            <i-mdi-menu class="w-8 h-8" />
+            <i-mdi-menu class="w-8 h-8" aria-hidden="true" />
           </router-link>
         </div>
+        <label for="state-select" class="sr-only">Bundesland</label>
         <select
           v-model="selector"
           ref="selectorEl"
+          id="state-select"
           @input="e => $router.push(`/laender/${e.target.value}/`)"
         >
           <option value="choose" disabled>Bundesland wählen...</option>

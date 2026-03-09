@@ -36,7 +36,10 @@
         :class="{ first: i === 0 }"
       >
         <td>
-          <span :class="{ 'font-bold': i === 0 }">
+          <span
+            :class="{ 'font-bold': i === 0 }"
+            :id="`bar-label-${bar.category.slug}`"
+          >
             <router-link
               :to="`#${bar.category.slug}`"
               v-if="i !== 0"
@@ -44,13 +47,17 @@
             >
               {{ bar.category.title }}
 
-              <i-mdi-information-outline />
+              <i-mdi-information-outline class="inline" aria-hidden="true" />
             </router-link>
             <span v-else v-text="bar.category.title" />
           </span>
         </td>
         <td class="w-full">
-          <ranking-bar :color="bar.category.color" :progress="bar.percentage" />
+          <ranking-bar
+            :color="bar.category.color"
+            :progress="bar.percentage"
+            :aria-labelledby="`bar-label-${bar.category.slug}`"
+          />
         </td>
       </tr>
     </table>

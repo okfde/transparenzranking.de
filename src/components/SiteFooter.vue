@@ -64,13 +64,13 @@
             <h3>Downloads</h3>
             <div class="footer-grid">
               <p>
-                <i-mdi-file-pdf-outline class="mr-1" />
+                <i-mdi-file-pdf-outline class="mr-1" aria-hidden="true" />
                 <a href="/static/files/ifg-ranking.pdf"
                   >Die Broschüre zum Ranking</a
                 >
               </p>
               <p>
-                <i-mdi-github class="mr-1" />
+                <i-mdi-github class="mr-1" aria-hidden="true" />
                 <a href="https://github.com/okfde/transparenzranking.de"
                   >Quellcode & Datensatz
                 </a>
@@ -127,5 +127,13 @@
 <style lang="postcss" scoped>
 footer .footer-grid {
   @apply md:grid grid-cols-2 gap-x-4;
+}
+
+a {
+  @apply transition-colors;
+}
+
+a:focus, a:hover {
+  @apply text-light;
 }
 </style>

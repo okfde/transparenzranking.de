@@ -17,13 +17,18 @@
           <button
             class="criteria-name"
             :class="{ 'font-bold': visible(detail) }"
+            :aria-expanded="visible(detail)"
+            :aria-controls="`detail-${category.slug}-${i}`"
             @click="toggle(detail)"
           >
             {{ detail.title }}
-            <i-mdi-chevron-down
-              class="ml-0.5 h-4 transform transition-transform duration-150 ease"
+            <span
+              class="transform transition-transform duration-150 ease ml-0.5"
               :class="{ '-rotate-180': visible(detail) }"
-            />
+              aria-hidden="true"
+            >
+              <i-mdi-chevron-down class="h-4" aria-hidden="true" />
+            </span>
           </button>
 
           <span class="criteria-points">
@@ -42,7 +47,11 @@
             />
           </div>
 
-          <slide-up-down :active="visible(detail)" class="criteria-details">
+          <slide-up-down
+            :active="visible(detail)"
+            :id="`detail-${category.slug}-${i}`"
+            class="criteria-details"
+          >
             <div>
               <p>
                 <strong>Fundstelle: </strong>
@@ -122,7 +131,7 @@ function toggle({ id }) {
   }
 
   .criteria-name {
-    @apply text-left outline-none;
+    @apply text-left;
   }
 
   .criteria-points {
