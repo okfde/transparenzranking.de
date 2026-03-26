@@ -4,17 +4,6 @@ auf den Weg. Als Reaktion auf den Volksentscheid zur Wasserversorgung wurde
 das Gesetz im Januar 2010 substanziell geändert: Seither sieht es auch
 Veröffentlichungspflichten von Grundversorgungsbetreibern bei der
 Wasserversorgung, der Abwasserentsorgung, dem öffentlichen Nahverkehr und der
-Energieversorgung vor. Bündnis 90/Die Grünen und die Piratenpartei versuchten
-seitdem mit mehreren Anträgen, das Gesetz zu einem Transparenzgesetz
-weiterzuentwickeln. Sie scheiterten an der rot-schwarzen Regierungskoalition.
-Die seit 2016 regierende rot-rot-grüne Landesregierung hat vereinbart, das
-Informationsfreiheitsgesetz in Richtung eines Transparenzgesetzes weiter zu
-entwickeln. Konkrete Vorschläge liegen noch nicht vor.
+Energieversorgung vor. Nachdem die rot-schwarze Regierungskoalition mehrere Anträge der Opposition für ein Transparenzgesetz ablehnte, scheiterte auch ein Anlauf der rot-rot-grünen Landesregierung 2022 am Widerstand der SPD. 
 
-Die jüngsten Änderungen traten 2016 in Kraft. Demnach müssen von den Behörden
-geführte Verzeichnisse auch im Internet veröffentlicht werden.
-
-Berlin liegt insgesamt auf Platz 4. Positiv hervorzuheben sind vor allem die
-umfassenden Auskunftspflichten, von denen nur wenige Ausnahmen gemacht werden.
-Verbesserungsbedarf besteht bei den Informationsrechten. Hier erreicht Berlin
-nur 11 von 28 Punkten.
+Im Jahr 2026 entkernte die schwarz-rote Koalition das IFG in einem Hauruckverfahren. Obwohl CDU und SPD ein Transparenzgesetz versprochen hatten, beschlossen sie kurz vor der Abgeordnetenhauswahl neue weitreichende Bereichsausnahmen und Ausnahmetatbestände. Berlin fällt damit im Transparenzranking von Platz 4 in den hinteren Teil des Rankings.
