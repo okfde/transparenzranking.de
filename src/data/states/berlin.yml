@@ -6,7 +6,7 @@ type: ifg
 fdsId: 4
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
-    points: 4
+    points: 3
     citation: '§ 17 IFG'
     limitation:
       Kataster, Messungen, besondere Verträge (§ 7a), Aktenpläne – bisher
@@ -27,7 +27,7 @@ criteria:
     points: 0
     citation: 'keine Erwähnung'
   - title: IFG und UIG zusammengefasst und harmonisiert
-    points: 2
+    points: 1
     citation: '§ 18 a IFG'
   - title: Recht auf Kopien
     points: 1
@@ -58,11 +58,11 @@ criteria:
     points: 2
     citation: 'keine Erwähnung'
   - title: Rechnungshof
-    points: 2
-    citation: 'keine Erwähnung'
+    points: 1
+    citation: 'möglicherweise Bereichsausnahme über Katastrophenschutzgesetz'
   - title: Sparkassen und Landesbank
-    points: 2
-    citation: 'keine Erwähnung'
+    points: 1
+    citation: 'möglicherweise Bereichsausnahme über Katastrophenschutzgesetz'
   - title: Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden
     points: 1
     citation: '§ 2 (1) IFG'
@@ -80,13 +80,13 @@ criteria:
     points: 2
     citation: 'ja'
   - title: Klare Begriffsbestimmungen
-    points: 1
-    citation: '§ 3 (2) IFG'
+    points: 0
+    citation: 'Verweis aufs Katastrophenschutzgesetz unklar'
   - title: per E-Mail möglich
     points: 3
     citation: '§ 13 (1) IFG'
   - title: anonym möglich
-    points: 2
+    points: 1
     citation: 'keine Erwähnung'
   - title: praktische Antragsassistenz
     points: 0
