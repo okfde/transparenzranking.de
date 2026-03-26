@@ -6,4 +6,4 @@ Veröffentlichungspflichten von Grundversorgungsbetreibern bei der
 Wasserversorgung, der Abwasserentsorgung, dem öffentlichen Nahverkehr und der
 Energieversorgung vor. Nachdem die rot-schwarze Regierungskoalition mehrere Anträge der Opposition für ein Transparenzgesetz ablehnte, scheiterte auch ein Anlauf der rot-rot-grünen Landesregierung 2022 am Widerstand der SPD. 
 
-Im Jahr 2026 entkernte die schwarz-rote Koalition das IFG in einem Hauruckverfahren. Obwohl CDU und SPD ein Transparenzgesetz versprochen hatten, beschlossen sie kurz vor der Abgeordnetenhauswahl neue weitreichende Bereichsausnahmen und Ausnahmetatbestände. Berlin fällt damit im Transparenzranking von Platz 4 in den hinteren Teil des Rankings.
+Im Jahr 2026 entkernte die schwarz-rote Koalition das IFG in einem Hauruckverfahren. Obwohl CDU und SPD ein Transparenzgesetz versprochen hatten, beschlossen sie kurz vor der Abgeordnetenhauswahl neue weitreichende Bereichsausnahmen und Ausnahmetatbestände. Berlin fällt damit im Transparenzranking von Platz 4 auf Platz 6.
