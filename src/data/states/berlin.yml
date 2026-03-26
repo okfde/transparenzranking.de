@@ -1,12 +1,12 @@
 name: Berlin
 short: BE
 year: 1998
-updated: 2016
+updated: 2026
 type: ifg
 fdsId: 4
 criteria:
   - title: proaktive Veröffentlichung und Transparenzregister
-    points: 3
+    points: 2
     citation: '§ 17 IFG'
     limitation:
       Kataster, Messungen, besondere Verträge (§ 7a), Aktenpläne – bisher
